@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Personagem Tormenta20</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css" rel="stylesheet" >
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="mb-4">Gerador de Personagem Tormenta20</h1>
+
+    <!-- Nav Tabs -->
+    <ul class="nav nav-tabs" id="mainTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="personagem-tab" data-bs-toggle="tab" href="#personagem" role="tab"
+          aria-controls="personagem" aria-selected="true">
+          <i class="fas fa-circle-user"></i> Personagem
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pericias-tab" data-bs-toggle="tab" href="#pericias" role="tab" aria-controls="pericias"
+          aria-selected="false">
+          <i class="fa-solid fa-dice-d20"></i> Perícias
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="ataques-tab" data-bs-toggle="tab" href="#ataques" role="tab" aria-controls="ataques"
+          aria-selected="false">
+          <i class="fa-solid fa-burst"></i> Ataques
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="habilidades-tab" data-bs-toggle="tab" href="#habilidades" role="tab"
+          aria-controls="habilidades" aria-selected="false">
+          <i class="fas fa-star"></i> Habilidades / Poderes
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="magias-tab" data-bs-toggle="tab" href="#magias" role="tab" aria-controls="magias"
+          aria-selected="false">
+          <i class="fas fa-fire"></i> Magias
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="exportar-tab" data-bs-toggle="tab" href="#exportar" role="tab" aria-controls="exportar"
+          aria-selected="false">
+          <i class="fas fa-code"></i> Exportar
+        </a>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content" id="mainTabsContent">
+      <!-- Personagem Tab -->
+      <div class="tab-pane fade show active" id="personagem" role="tabpanel" aria-labelledby="personagem-tab">
+        <div class="form-section">
+
+          <!-- Dados pessoais -->
+          <div class="row g-2 mb-3">
+            <div class="col-md">
+              <label class="form-label">Nome</label>
+              <input id="playername" class="form-control">
+            </div>
+            <div class="col-md">
+              <label class="form-label">Raça</label>
+              <select id="trace" class="form-select"></select>
+            </div>
+            <div class="col-md">
+              <label class="form-label">Origem</label>
+              <select id="torigin" class="form-select"></select>
+            </div>
+            <div class="col-md">
+              <label class="form-label">Classe</label>
+              <select id="tlevel" class="form-select"></select>
+            </div>
+            <div class="col-md">
+              <label class="form-label">Nível</label>
+              <input id="charnivel" type="number" class="form-control" value="1">
+            </div>
+            <div class="col-md">
+              <label class="form-label">Divindade</label>
+              <select id="divindade" class="form-select"></select>
+            </div>
+          </div>
+
+          <!-- Atributos -->
+          <div class="row pb-2 g-2 attribute-group">
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-dumbbell attribute-icon"></i>Força</label>
+              <input id="for" type="number" class="form-control" value="0">
+              <div class="d-flex justify-content-between mt-1 gap-1">
+                <div class="position-relative">
+                  <input id="for_race" type="number" class="form-control" value="0" disabled>
+                  <input type="checkbox" attr="for" id="for_race_checkbox"
+                    class="race_attr_checkbox position-absolute top-50 end-0 translate-middle-y me-2 d-none">
+                </div>
+                <input id="for_point" type="number" class="form-control" value="0">
+              </div>
+            </div>
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-bolt attribute-icon"></i>Destreza</label>
+              <input id="des" type="number" class="form-control" value="0">
+              <div class="d-flex justify-content-between mt-1 gap-1">
+                <div class="position-relative">
+                  <input id="des_race" type="number" class="form-control" value="0" disabled>
+                  <input type="checkbox" attr="des" id="des_race_checkbox"
+                    class="race_attr_checkbox position-absolute top-50 end-0 translate-middle-y me-2 d-none">
+                </div>
+                <input id="des_point" type="number" class="form-control" value="0">
+              </div>
+            </div>
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-heartbeat attribute-icon"></i>Constituição</label>
+              <input id="con" type="number" class="form-control" value="0">
+              <div class="d-flex justify-content-between mt-1 gap-1">
+                <div class="position-relative">
+                  <input id="con_race" type="number" class="form-control" value="0" disabled>
+                  <input type="checkbox" attr="con" id="con_race_checkbox"
+                    class="race_attr_checkbox position-absolute top-50 end-0 translate-middle-y me-2 d-none">
+                </div>
+                <input id="con_point" type="number" class="form-control" value="0">
+              </div>
+            </div>
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-brain attribute-icon"></i>Inteligência</label>
+              <input id="int" type="number" class="form-control" value="0">
+              <div class="d-flex justify-content-between mt-1 gap-1">
+                <div class="position-relative">
+                  <input id="int_race" type="number" class="form-control" value="0" disabled>
+                  <input type="checkbox" attr="int" id="int_race_checkbox"
+                    class="race_attr_checkbox position-absolute top-50 end-0 translate-middle-y me-2 d-none">
+                </div>
+                <input id="int_point" type="number" class="form-control" value="0">
+              </div>
+            </div>
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-eye attribute-icon"></i>Sabedoria</label>
+              <input id="sab" type="number" class="form-control" value="0">
+              <div class="d-flex justify-content-between mt-1 gap-1">
+                <div class="position-relative">
+                  <input id="sab_race" type="number" class="form-control" value="0" disabled>
+                  <input type="checkbox" attr="sab" id="sab_race_checkbox"
+                    class="race_attr_checkbox position-absolute top-50 end-0 translate-middle-y me-2 d-none">
+                </div>
+                <input id="sab_point" type="number" class="form-control" value="0">
+              </div>
+            </div>
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-users attribute-icon"></i>Carisma</label>
+              <input id="car" type="number" class="form-control" value="0">
+              <div class="d-flex justify-content-between mt-1 gap-1">
+                <div class="position-relative">
+                  <input id="car_race" type="number" class="form-control" value="0" disabled>
+                  <input type="checkbox" attr="car" id="car_race_checkbox"
+                    class="race_attr_checkbox position-absolute top-50 end-0 translate-middle-y me-2 d-none">
+                </div>
+                <input id="car_point" type="number" class="form-control" value="0">
+              </div>
+            </div>
+
+            <div class="col-md-1">
+                <label class="form-label">Pontos</label>
+                <select id="pointbuy_rule" class="form-select">
+                  <option value="5">5 Pontos</option>
+                  <option value="10" selected>10 Pontos</option>
+                  <option value="15">15 Pontos</option>
+                  <option value="any">Personalizado</option>
+                </select>
+                <input id="pointbuy_count" type="number" class="form-control mt-1" value="10" disabled>
+            </div>
+
+          </div>
+
+          <!-- Geral -->
+          <div class="row g-2 mt-3">
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-heart"></i> Vida Total</label>
+              <input id="vidatotal" type="number" class="form-control" value="0">
+            </div>
+
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-tint"></i> Mana Total</label>
+              <input id="manatotal" type="number" class="form-control" value="0">
+            </div>
+
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-shield-alt"></i> Defesa (atributo)</label>
+              <input id="defesaatributo" type="number" class="form-control" value="10">
+            </div>
+
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-shield"></i> Defesa (outros)</label>
+              <input id="defesaoutros" type="number" class="form-control" value="0">
+            </div>
+
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-ruler-combined"></i> Tamanho</label>
+              <select id="tamanho" class="form-select">
+                <option value="-1">Minúsculo</option>
+                <option value="0">Pequeno</option>
+                <option value="1" selected>Médio</option>
+                <option value="2">Grande</option>
+                <option value="3">Enorme</option>
+                <option value="4">Colossal</option>
+              </select>
+            </div>
+
+            <div class="col-md">
+              <label class="form-label"><i class="fas fa-shoe-prints"></i> Deslocamento</label>
+              <input id="deslocamento" type="text" class="form-control">
+            </div>
+
+          </div>
+
+          <div class="mt-4">
+            <label class="form-label">Anotações</label>
+            <textarea id="charnotes" class="form-control" rows="3"></textarea>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Perícias Tab -->
+      <div class="tab-pane fade" id="pericias" role="tabpanel" aria-labelledby="pericias-tab">
+        <div class="form-section">
+          <div class="table-responsive col-md-6">
+            <table class="table table-sm text-center">
+              <thead class="table-light">
+                <tr>
+                  <th class="text-start">Perícia</th>
+                  <th>Treinada?</th>
+                  <th>Atributo</th>
+                  <th>Outros</th>
+                </tr>
+              </thead>
+              <tbody id="periciasTable">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ataques Tab -->
+      <div class="tab-pane fade" id="ataques" role="tabpanel" aria-labelledby="ataques-tab">
+        <div class="form-section">
+          <button onclick="addAttack()" class="btn btn-secondary mt-2">
+            <i class="fas fa-plus"></i> Add Ataque
+          </button>
+          <div id="attacksContainer" class="dynamic-list accordion">
+          </div>
+        </div>
+      </div>
+
+      <!-- Habilidades / Poderes Tab -->
+      <div class="tab-pane fade" id="habilidades" role="tabpanel" aria-labelledby="habilidades-tab">
+        <div class="form-section">
+          <button onclick="addAbility()" class="btn btn-secondary mt-2">
+            <i class="fas fa-plus"></i> Add Habilidade / Poder
+          </button>
+          <div id="abilitiesContainer" class="dynamic-list">
+          </div>
+        </div>
+      </div>
+
+      <!-- Magias Tab -->
+      <div class="tab-pane fade" id="magias" role="tabpanel" aria-labelledby="magias-tab">
+        <div class="form-section">
+
+          <div class="dynamic-list accordion mb-3">
+            <div class="d-flex align-items-center mb-2 border-bottom-red">
+              <h5><i class="fas fa-fire"></i> 1º Círculo</h5>
+              <button onclick="addSpell('spells1')" class="btn btn-sm btn-outline-primary mb-2 mx-2"><i
+                  class="fas fa-plus"></i></button>
+              <button class="btn btn-sm mb-2 ms-2 ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#spells1" aria-expanded="true" aria-controls="spells1">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+            <div class="collapse show" id="spells1"></div>
+          </div>
+
+          <div class="dynamic-list accordion mb-3">
+            <div class="d-flex align-items-center mb-2 border-bottom-red">
+              <h5><i class="fas fa-fire"></i> 2º Círculo</h5>
+              <button onclick="addSpell('spells2')" class="btn btn-sm btn-outline-primary mb-2 mx-2"><i
+                  class="fas fa-plus"></i></button>
+              <button class="btn btn-sm mb-2 ms-2 ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#spells2" aria-expanded="true" aria-controls="spells2">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+            <div class="collapse show" id="spells2"></div>
+          </div>
+
+          <div class="dynamic-list accordion mb-3">
+            <div class="d-flex align-items-center mb-2 border-bottom-red">
+              <h5><i class="fas fa-fire"></i> 3º Círculo</h5>
+              <button onclick="addSpell('spells3')" class="btn btn-sm btn-outline-primary mb-2 mx-2"><i
+                  class="fas fa-plus"></i></button>
+              <button class="btn btn-sm mb-2 ms-2 ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#spells3" aria-expanded="true" aria-controls="spells3">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+            <div class="collapse show" id="spells3"></div>
+          </div>
+
+          <div class="dynamic-list accordion mb-3">
+            <div class="d-flex align-items-center mb-2 border-bottom-red">
+              <h5><i class="fas fa-fire"></i> 4º Círculo</h5>
+              <button onclick="addSpell('spells4')" class="btn btn-sm btn-outline-primary mb-2 mx-2"><i
+                  class="fas fa-plus"></i></button>
+              <button class="btn btn-sm mb-2 ms-2 ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#spells4" aria-expanded="true" aria-controls="spells4">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+            <div class="collapse show" id="spells4"></div>
+          </div>
+
+          <div class="dynamic-list accordion mb-3">
+            <div class="d-flex align-items-center mb-2 border-bottom-red">
+              <h5><i class="fas fa-fire"></i> 5º Círculo</h5>
+              <button onclick="addSpell('spells5')" class="btn btn-sm btn-outline-primary mb-2 mx-2"><i
+                  class="fas fa-plus"></i></button>
+              <button class="btn btn-sm mb-2 ms-2 ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#spells5" aria-expanded="true" aria-controls="spells5">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+            <div class="collapse show" id="spells5"></div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Exportar Tab -->
+      <div class="tab-pane fade" id="exportar" role="tabpanel" aria-labelledby="exportar-tab">
+        <div class="form-section">
+          <button onclick="gerarJSON()" class="btn btn-secondary mt-2">
+            <i class="fas fa-code"></i> Gerar JSON
+          </button>
+          <h2>Resultado</h2>
+          <pre id="jsonOutput"></pre>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Classes racas origens divindades -->
+  <script>
+    async function fetchData(fileName) {
+      const response = await fetch(`data/${fileName}`);
+      if (!response.ok) {
+        throw new Error(`Erro ao carregar o arquivo ${fileName}: ${response.statusText}`);
+      }
+      return response.json();
+    }
+
+    async function populateSelects() {
+      try {
+        const racesData = await fetchData('races.json');
+        const originsData = await fetchData('origins.json');
+        const classesData = await fetchData('classes.json');
+        const deitiesData = await fetchData('deities.json');
+
+        populateSelect('trace', racesData.items);
+        populateSelect('torigin', originsData.items);
+        populateSelect('tlevel', classesData.items);
+        populateSelect('divindade', deitiesData.items);
+      } catch (error) {
+        console.error('Erro ao carregar os dados:', error);
+      }
+    }
+
+    function populateSelect(id, data) {
+      const select = document.getElementById(id);
+      select.innerHTML = '<option value="">Selecione...</option>';
+      data.forEach(item => {
+        const option = document.createElement('option');
+        option.value = item.nome;
+        option.textContent = item.nome;
+        select.appendChild(option);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', populateSelects);
+  </script>
+
+  <!-- pericias -->
+  <script>
+    function carregarTabelaPericias() {
+      fetch('./data/skills.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`Erro ao carregar o arquivo JSON: ${response.statusText}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          const pericias = data.items;
+          criarTabelaPericias(pericias);
+        })
+        .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
+    }
+
+    function criarTabelaPericias(pericias) {
+      const tbody = document.getElementById("periciasTable");
+      tbody.innerHTML = "";
+      pericias.forEach((pericia, index) => {
+        const linha = document.createElement("tr");
+        linha.innerHTML = `
+          <td class="text-start">${pericia.nome}</td>
+          <td><input type="checkbox" id="${pericia.id}_treinada"></td>
+          <td>
+            <select id="${pericia.id}_atributo" class="form-select form-select-sm">
+              <option value="FOR" ${pericia.atributo === "FOR" ? "selected" : ""}>FOR</option>
+              <option value="DES" ${pericia.atributo === "DES" ? "selected" : ""}>DES</option>
+              <option value="CON" ${pericia.atributo === "CON" ? "selected" : ""}>CON</option>
+              <option value="INT" ${pericia.atributo === "INT" ? "selected" : ""}>INT</option>
+              <option value="SAB" ${pericia.atributo === "SAB" ? "selected" : ""}>SAB</option>
+              <option value="CAR" ${pericia.atributo === "CAR" ? "selected" : ""}>CAR</option>
+            </select>
+          </td>
+          <td><input type="number" id="${pericia.id}_outros" class="form-control form-control-sm" value="0"></td>
+        `;
+        tbody.appendChild(linha);
+      });
+    }
+
+    window.onload = () => {
+      carregarTabelaPericias();
+    };
+  </script>
+
+  <!-- ataques -->
+  <script>
+    let contadorAtaques = 0;
+
+    function addAttack() {
+      const container = document.getElementById("attacksContainer");
+
+      const ataqueId = `ataque-${contadorAtaques++}`;
+      const ataqueHTML = `
+      <div class="card attack-block mb-2 shadow-sm p-3 rounded accordion" id="${ataqueId}">
+
+        <div class="row g-2">
+          <div class="col-md-4">
+            <label class="form-label">Nome do Ataque</label>
+            <input type="text" class="form-control" name="attackname">
+          </div>
+          <div class="col-md-2">
+            <label class="form-label">Bônus Ataque</label>
+            <input type="number" class="form-control" name="attackbonus" value="0">
+          </div>
+          <div class="col-md-2">
+            <label class="form-label">Dano</label>
+            <input type="text" class="form-control" name="attackdano" placeholder="ex: 1d6">
+          </div>
+          <div class="col-md-1">
+            <label class="form-label">Dano Extra</label>
+            <input type="number" class="form-control" name="attackdanoextra" value="0">
+          </div>
+          <div class="col-md-2">
+            <label class="form-label">Crítico</label>
+            <div class="input-group mb-3">
+              <input type="number" class="form-control" name="attackcritico" value="20">
+              <span class="input-group-text fw-bold">/x</span>
+              <input type="number" class="form-control" name="attackmultiplicador" value="2">
+            </div>
+          </div>
+          <div class="col-md-1 d-flex align-items-center pt-3">
+            <button class="btn btn-outline-danger mx-2" onclick="removeAttack('${ataqueId}')">
+              <i class="fas fa-trash"></i>
+            </button>
+            <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-${ataqueId}" aria-expanded="true" aria-controls="collapse-${ataqueId}">
+              <i class="fas fa-chevron-down"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="collapse show" id="collapse-${ataqueId}">
+          <div class="row g-2">
+            <div class="col-md-2">
+              <label class="form-label">Dados Extra</label>
+              <input type="number" class="form-control" name="attackdadosextra" value="0">
+            </div>
+            <div class="col-md-2">
+              <label class="form-label">Perícia Utilizada</label>
+              <select class="form-select" name="attackpericiaUsada">
+                <option value="@{atuacaototal}+@{condicaomodataquecc}+@{condicaomodataque}">Atuação</option>
+                <option value="@{lutatotal}+@{condicaomodataquecc}+@{condicaomodataque}" selected="">Luta</option>
+                <option value="@{pontariatotal}+@{condicaomodataquedis}+@{condicaomodataque}">Pontaria</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Tipo de Dano</label>
+              <input type="text" class="form-control" name="attacktipoDano" placeholder="ex: perfuração">
+            </div>
+            <div class="col-md-2">
+              <label class="form-label">Alcance</label>
+              <input type="text" class="form-control" name="attackalcance">
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Atributo no Dano</label>
+              <select class="form-select" name="attackatributodano">
+                <option value="@for_mod">Força</option>
+                <option value="@des_mod">Destreza</option>
+                <option value="@con_mod">Constituição</option>
+                <option value="@int_mod">Inteligência</option>
+                <option value="@sab_mod">Sabedoria</option>
+                <option value="@car_mod">Carisma</option>
+                <option value="0">Nenhum</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mt-3">
+            <label class="form-label">Descrição</label>
+            <textarea class="form-control" rows="2" name="attackdesc"></textarea>
+          </div>
+        </div>
+
+      </div>
+    `;
+
+      container.insertAdjacentHTML("beforeend", ataqueHTML);
+    }
+
+    function removeAttack(id) {
+      if (!confirm("Tem certeza que deseja remover este item?")) return;
+
+      const ataque = document.getElementById(id);
+      if (ataque) ataque.remove();
+    }
+  </script>
+
+  <!-- habilidades -->
+  <script>
+    let contadorHabilidades = 0;
+
+    function addAbility() {
+      const container = document.getElementById("abilitiesContainer");
+
+      const habilidadeId = `habilidade-${contadorHabilidades++}`;
+      const habilidadeHTML = `
+        <div class="card ability-block mb-2 shadow-sm p-3 rounded accordion" id="${habilidadeId}">
+          <div class="d-flex align-items-center mb-2">
+              <input type="text" class="form-control" name="abilityname" placeholder="Nome da Habilidade">
+              <button class="btn btn-outline-danger mx-2" onclick="removeAbility('${habilidadeId}')">
+                <i class="fas fa-trash"></i>
+              </button>
+              <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-${habilidadeId}" aria-expanded="true" aria-controls="collapse-${habilidadeId}">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+          </div>
+
+          <div class="collapse show" id="collapse-${habilidadeId}">
+            <div class="mt-12">
+              <label class="form-label">Descrição</label>
+              <textarea class="form-control" rows="2" name="abilitydesc"></textarea>
+            </div>
+          </div>
+
+        </div>
+      `;
+
+      container.insertAdjacentHTML("beforeend", habilidadeHTML);
+    }
+
+    function removeAbility(id) {
+      if (!confirm("Tem certeza que deseja remover este item?")) return;
+
+      const habilidade = document.getElementById(id);
+      if (habilidade) habilidade.remove();
+    }
+  </script>
+
+  <!-- magias -->
+  <script>
+    let contadorMagias = 0;
+
+    function addSpell(containerId) {
+      const container = document.getElementById(containerId);
+
+      const magiaId = `magia-${contadorMagias++}`;
+      const magiaHTML = `
+        <div class="card spell-block mb-2 shadow-sm p-3 rounded accordion" id="${magiaId}">
+
+          <div class="d-flex align-items-center mb-2">
+            <input type="text" class="form-control" name="namespell" placeholder="Nome da Magia">
+            <button class="btn btn-outline-danger mx-2" onclick="removeSpell('${magiaId}')">
+              <i class="fas fa-trash"></i>
+            </button>
+            <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-${magiaId}" aria-expanded="true" aria-controls="collapse-${magiaId}">
+              <i class="fas fa-chevron-down"></i>
+            </button>
+          </div>
+
+          <div class="collapse show" id="collapse-${magiaId}">
+            <div class="row mb-2">
+              <div class="col-md-3">
+                <label class="form-label">Tipo</label>
+                <select class="form-select" name="spelltipo">
+                  <option value="">Selecione...</option>
+                  <option value="Universal">Universal</option>
+                  <option value="Arcana">Arcana</option>
+                  <option value="Divina">Divina</option>
+                </select>
+              </div>
+
+              <div class="col-md-3">
+                <label class="form-label">Escola</label>
+                <select class="form-select" name="spellescola">
+                  <option value="">Selecione...</option>
+                  <option value="Abjuração">Abjuração</option>
+                  <option value="Adivinhação">Adivinhação</option>
+                  <option value="Convocação">Convocação</option>
+                  <option value="Encantamento">Encantamento</option>
+                  <option value="Evocação">Evocação</option>
+                  <option value="Ilusão">Ilusão</option>
+                  <option value="Necromancia">Necromancia</option>
+                  <option value="Transmutação">Transmutação</option>
+                </select>
+              </div>
+
+              <div class="col-md-3">
+                <label class="form-label">Execução</label>
+                <input type="text" class="form-control" name="spellexecucao">
+              </div>
+              <div class="col-md-3">
+                <label class="form-label">Alcance</label>
+                <input type="text" class="form-control" name="spellalcance">
+              </div>
+              <div class="col-md-3">
+                <label class="form-label">Duração</label>
+                <input type="text" class="form-control" name="spellduracao">
+              </div>
+              <div class="col-md-3">
+                <label class="form-label">Alvo/Área/Efeito</label>
+                <input type="text" class="form-control" name="spellalvoarea">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Resistência</label>
+                <input type="text" class="form-control" name="spellresistencia">
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col-md-12">
+                <label class="form-label">Descrição</label>
+                <textarea class="form-control" name="spelldescription" rows="2"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      container.insertAdjacentHTML("beforeend", magiaHTML);
+    }
+
+    function removeSpell(id) {
+      if (!confirm("Tem certeza que deseja remover este item?")) return;
+
+      const magia = document.getElementById(id);
+      if (magia) magia.remove();
+    }
+  </script>
+
+  <!-- <script>
+    const collapseBtn = document.querySelector('[data-bs-toggle="collapse"]');
+    const collapseIcon = document.getElementById('collapseIcon');
+  
+    collapseBtn.addEventListener('click', () => {
+      const collapseElement = document.getElementById('collapsePericias');
+      setTimeout(() => {
+        if (collapseElement.classList.contains('show')) {
+          collapseIcon.classList.remove('fa-chevron-down');
+          collapseIcon.classList.add('fa-chevron-up');
+        } else {
+          collapseIcon.classList.remove('fa-chevron-up');
+          collapseIcon.classList.add('fa-chevron-down');
+        }
+      }, 300); // tempo do colapso animado do bootstrap
+    });
+  </script> -->
+
+
+
+  <!-- JSON generator -->
+  <script>
+    function gerarJSON() {
+      const personagem = {
+        isJDA: true,
+        playername: document.getElementById("playername").value,
+        charname: document.getElementById("playername").value,
+        trace: document.getElementById("trace").value,
+        torigin: document.getElementById("torigin").value,
+        tlevel: document.getElementById("tlevel").value,
+        charnivel: document.getElementById("charnivel").value,
+        divindade: document.getElementById("divindade").value,
+
+        for: document.getElementById("for").value,
+        des: document.getElementById("des").value,
+        con: document.getElementById("con").value,
+        int: document.getElementById("int").value,
+        sab: document.getElementById("sab").value,
+        car: document.getElementById("car").value,
+
+        vidatotal: document.getElementById("vidatotal").value,
+        vida: document.getElementById("vidatotal").value,
+        manatotal: document.getElementById("manatotal").value,
+        mana: document.getElementById("manatotal").value,
+        defesaatributo: document.getElementById("defesaatributo").value,
+        defesaoutros: document.getElementById("defesaoutros").value,
+
+        tamanho: document.getElementById("tamanho").value,
+        deslocamento: document.getElementById("deslocamento").value,
+
+        charnotes: document.getElementById("charnotes").value,
+
+        attacks: [],
+        abilities: [],
+        powers: [],
+
+        spells1: [],
+        spells2: [],
+        spells3: [],
+        spells4: [],
+        spells5: [],
+      };
+
+      fetch('./data/skills.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`Erro ao carregar o arquivo JSON: ${response.statusText}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          data.items.forEach((pericia, index) => {
+            personagem[`${pericia.id}_treinada`] = document.getElementById(`${pericia.id}_treinada`).checked ? 1 : 0;
+            personagem[`${pericia.id}_outros`] = parseInt(document.getElementById(`${pericia.id}_outros`).value || 0);
+            //personagem[`${pericia.id}_atributo`] = document.getElementById(`${pericia.id}_atributo`).value; 
+          });
+        })
+        .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
+
+      // Ataques
+      document.querySelectorAll("#attacksContainer .attack-block").forEach(div => {
+        const get = sel => div.querySelector(sel)?.value || "";
+        personagem.attacks.push({
+          nomeataque: get("input[name='attackname']"),
+          bonusataque: get("input[name='attackbonus']"),
+          danoataque: get("input[name='attackdano']"),
+          danoextraataque: get("input[name='attackdanoextra']"),
+          dadoextraataque: get("input[name='attackdadosextra']"),
+          margemcriticoataque: get("input[name='attackcritico']"),
+          multiplicadorcriticoataque: get("input[name='attackmultiplicador']"),
+          ataquedescricao: get("textarea[name='attackdesc']"),
+          ataquepericia: get("input[name='attackpericia']"), // "ataquepericia": "@{lutatotal}+@{condicaomodataquecc}+@{condicaomodataque}",
+          ataquetipodedano: get("input[name='attacktipodedano']"),
+          ataquealcance: get("input[name='attackalcance']"),
+          modatributodano: get("input[name='attackatributodano']"),
+        });
+      });
+
+
+      // "nameability": "Elemento Interior",
+      // "abilitydescription": ""
+
+      // "namepower": "Empatia Selvagem",
+      // "powerdescription": ""
+
+      // Habilidades
+      document.querySelectorAll("#abilitiesContainer .ability-block").forEach(div => {
+        personagem.abilities.push({
+          nameability: div.querySelector("input[name='abilityname']")?.value || "",
+          abilitydescription: div.querySelector("textarea[name='abilitydesc']")?.value || ""
+        });
+      });
+
+      // Magias
+      for (let i = 1; i <= 5; i++) {
+        document.querySelectorAll(`#spells${i} .spell-block`).forEach(div => {
+          const get = sel => div.querySelector(sel)?.value || "";
+          personagem[`spells${i}`].push({
+            namespell: get("input[name='namespell']"),
+            spelltipo: `${get("select[name='spelltipo']")} ${i} (${get("select[name='spellescola']")})`,
+            spellexecucao: get("input[name='spellexecucao']"),
+            spellalcance: get("input[name='spellalcance']"),
+            spellduracao: get("input[name='spellduracao']"),
+            spellalvoarea: get("input[name='spellalvoarea']"),
+            spellresistencia: get("input[name='spellresistencia']"),
+            spelldescription: get("textarea[name='spelldescription']")
+          });
+        });
+      }
+
+      // Mostrar JSON
+      const jsonStr = JSON.stringify(personagem, null, 2);
+      document.getElementById("jsonOutput").innerText = jsonStr;
+
+      // Download do JSON
+      // const blob = new Blob([jsonStr], { type: "application/json" });
+      // const url = URL.createObjectURL(blob);
+      // const a = document.createElement("a");
+      // a.href = url;
+      // a.download = `${personagem.playername || 'personagem'}.json`;
+      // a.click();
+      // URL.revokeObjectURL(url);
+    }
+
+  </script>
+
+  <!-- Pointbuy -->
+  <script>
+    const pointbuyTable = [
+      { habilidade: -2, custo: -1, rolagem: "7 ou menos", min: null, max: 7 },
+      { habilidade: -1, custo: -1, rolagem: "8-9", min: 8, max: 9 },
+      { habilidade: 0, custo: 0, rolagem: "10-11", min: 10, max: 11 },
+      { habilidade: 1, custo: 1, rolagem: "12-13", min: 12, max: 13 },
+      { habilidade: 2, custo: 2, rolagem: "14-15", min: 14, max: 15 },
+      { habilidade: 3, custo: 4, rolagem: "16-17", min: 16, max: 17 },
+      { habilidade: 4, custo: 7, rolagem: "18-19", min: 18, max: 19 },
+      { habilidade: 5, custo: 10, rolagem: "20 ou mais", min: 20, max: null }
+    ];
+
+    document.getElementById('pointbuy_rule').addEventListener('change', function() {
+      const selectedValue = this.value;
+      const pointbuyInput = document.getElementById('pointbuy_count');
+
+      if (selectedValue === 'any') {
+        pointbuyInput.disabled = false;
+      } else {
+        pointbuyInput.disabled = true;
+        pointbuyInput.value = selectedValue;
+      }
+    });
+
+    const inputs = [
+      { id: "for_point" },
+      { id: "des_point" },
+      { id: "con_point" },
+      { id: "int_point" },
+      { id: "sab_point" },
+      { id: "car_point" }
+    ];
+
+    inputs.forEach(input => {
+      document.getElementById(input.id).addEventListener("change", updatePointbuyCount);
+    });
+
+    function updatePointbuyCount() {
+      let pointbuyCount = parseInt(document.getElementById("pointbuy_count").value);
+      let pontos = 10
+      inputs.forEach(input => {
+        const ponto = parseInt(document.getElementById(input.id).value);
+        const custo = getPointbuyCost(ponto);
+        pointbuyCount = pontos - custo;
+      });
+      document.getElementById("pointbuy_count").value = pointbuyCount;
+    }
+
+    function getPointbuyCost(ponto) {
+      const pointbuyEntry = pointbuyTable.find(entry => entry.habilidade === ponto);
+      return pointbuyEntry ? pointbuyEntry.custo : 0;
+    }
+
+  </script>
+
+  <!-- Atualizar atributos da raça -->
+  <script>
+    var selectedCheckboxes = 0;
+    var anySingleCount = 0;
+
+    async function updateRaceAttributes(raceName) {
+      try {
+        const response = await fetch('data/races.json');
+        if (!response.ok) {
+          throw new Error(`Erro ao carregar o arquivo races.json: ${response.statusText}`);
+        }
+        const data = await response.json();
+        const races = data.items.find(item => item.nome === raceName);
+        if (races && races.modificadores) {
+
+          const attributes = ['for', 'des', 'con', 'int', 'sab', 'car'];
+          const modifiers = { for: 0, des: 0, con: 0, int: 0, sab: 0, car: 0 };
+          const exceptions = { for: false, des: false, con: false, int: false, sab: false, car: false };
+
+          anySingleCount = 0;
+          selectedCheckboxes = 0;
+
+          races.modificadores.forEach(item => {
+            if (attributes.includes(item.attr)) {
+              modifiers[item.attr] = item.mod;
+              exceptions[item.attr] = true;
+            } else if (item.attr === 'any-single') {
+              anySingleCount++;
+              if (item.except) {
+                exceptions[item.except] = true;
+              }
+            }
+          });
+
+          $('.race_attr_checkbox').each(function () {
+            this.checked = false;
+            this.classList.add('d-none');
+          });
+
+          if (anySingleCount > 0) {
+            attributes.forEach(attr => {
+              const checkbox = document.getElementById(`${attr}_race_checkbox`);
+              checkbox.classList.remove('d-none');
+              if (exceptions[attr]) {
+                checkbox.classList.add('d-none');
+              }
+            });
+          }
+
+          // Atualizar os valores dos inputs de atributos da raça
+          attributes.forEach(attr => {
+            document.getElementById(`${attr}_race`).value = modifiers[attr] || 0;
+          });
+
+        }
+      } catch (error) {
+        console.error('Erro ao buscar atributos da raça:', error);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const raceSelect = document.getElementById('trace');
+      raceSelect.addEventListener('change', () => {
+        const selectedRace = raceSelect.value;
+        if (selectedRace) {
+          updateRaceAttributes(selectedRace);
+        }
+      });
+      $('.race_attr_checkbox').each(function () {
+        this.checked = false;
+        this.classList.add('d-none');
+        this.addEventListener('change', () => {
+          const attr = this.getAttribute('attr');
+          const input = document.getElementById(`${attr}_race`)
+          if (this.checked) {
+            if (selectedCheckboxes < anySingleCount) {
+              input.value = 1;
+              selectedCheckboxes++;
+            } else {
+              this.checked = false;
+              alert(`Você só pode selecionar até ${anySingleCount} atributo(s).`);
+            }
+          } else {
+            input.value = 0;
+            selectedCheckboxes--;
+          }
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
