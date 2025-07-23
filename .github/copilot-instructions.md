@@ -1,0 +1,2 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+Este é um projeto para facilitar a criação de fichas de personagens para RPG utilizando o sistema Tormenta20. Utilize boas práticas de componentes, hooks e estados para organizar funcionalidades.
