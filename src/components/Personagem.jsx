@@ -7,31 +7,17 @@ import classesData from '../assets/data/classes.js';
 import deitiesData from '../assets/data/deities.js';
 
 function Personagem() {
-  const { personagem, setPersonagem } = usePersonagem();
+  const { 
+    personagem, setPersonagem, 
+    attributes, setAttributes, 
+    anyAttribute, setAnyAttribute, 
+    pointbuy, setPointbuy 
+  } = usePersonagem();
+
   const [races, setRaces] = useState([]);
   const [origins, setOrigins] = useState([]);
   const [classes, setClasses] = useState([]);
   const [deities, setDeities] = useState([]);
-
-  const [attributes, setAttributes] = useState({
-    for: { name: 'for', mod: 0, any: false, except: false, points: 0, icon:"fas fa-dumbbell" },
-    des: { name: 'des', mod: 0, any: false, except: false, points: 0, icon:"fas fa-bolt" },
-    con: { name: 'con', mod: 0, any: false, except: false, points: 0, icon:"fas fa-heartbeat" },
-    int: { name: 'int', mod: 0, any: false, except: false, points: 0, icon:"fas fa-brain" },
-    sab: { name: 'sab', mod: 0, any: false, except: false, points: 0, icon:"fas fa-eye" },
-    car: { name: 'car', mod: 0, any: false, except: false, points: 0, icon:"fas fa-users" },
-  });
-
-  const [anyAttribute, setAnyAttribute] = useState({
-    avaliable: 0,
-    selected: 0
-  });
-
-  const [pointbuy, setPointbuy] = useState({
-    limit: 10,
-    spent: 0,
-    available: 10
-  });
 
   useEffect(() => {
     setRaces(racesData.races || racesData);

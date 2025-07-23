@@ -46,14 +46,26 @@ export function PersonagemProvider({ children }) {
     spells5: [],
 
     pericias: {},
-    // ataques: [],
-    // habilidades: [],
-    // magias: { 1: [], 2: [], 3: [], 4: [], 5: [] }
   });
 
-  const value = { personagem, setPersonagem };
+  const [attributes, setAttributes] = useState({
+    for: { name: 'for', mod: 0, any: false, except: false, points: 0, icon:"fas fa-dumbbell" },
+    des: { name: 'des', mod: 0, any: false, except: false, points: 0, icon:"fas fa-bolt" },
+    con: { name: 'con', mod: 0, any: false, except: false, points: 0, icon:"fas fa-heartbeat" },
+    int: { name: 'int', mod: 0, any: false, except: false, points: 0, icon:"fas fa-brain" },
+    sab: { name: 'sab', mod: 0, any: false, except: false, points: 0, icon:"fas fa-eye" },
+    car: { name: 'car', mod: 0, any: false, except: false, points: 0, icon:"fas fa-users" },
+  });
+  const [anyAttribute, setAnyAttribute] = useState({ avaliable: 0, selected: 0 });
+  const [pointbuy, setPointbuy] = useState({ limit: 10, spent: 0, available: 10 });
+
   return (
-    <PersonagemContext.Provider value={value}>
+    <PersonagemContext.Provider value={{
+      personagem, setPersonagem,
+      attributes, setAttributes,
+      anyAttribute, setAnyAttribute,
+      pointbuy, setPointbuy
+    }}>
       {children}
     </PersonagemContext.Provider>
   );
