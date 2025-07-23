@@ -1,9 +1,9 @@
 {
   "name": "char-maker-t20",
+  "homepage": "https://jefersonblc.github.io/CharMakerT20",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jefersonblc.github.io/CharMakerT20",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
