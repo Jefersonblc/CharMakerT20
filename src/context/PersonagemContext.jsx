@@ -15,11 +15,7 @@ export function PersonagemProvider({ children }) {
     tlevel: '',
     charnivel: 1,
     divindade: '',
-    atributos: {
-      forRace: 0, desRace: 0, conRace: 0, intRace: 0, sabRace: 0, carRace: 0,
-      forPoint: 0, desPoint: 0, conPoint: 0, intPoint: 0, sabPoint: 0, carPoint: 0,
-      pointbuyRule: '10', pointbuyCount: 10
-    },
+
     for:0,
     des:0,
     con:0,
