@@ -7,11 +7,11 @@ import classesData from '../assets/data/classes.js';
 import deitiesData from '../assets/data/deities.js';
 
 function Personagem() {
-  const { 
-    personagem, setPersonagem, 
-    attributes, setAttributes, 
-    anyAttribute, setAnyAttribute, 
-    pointbuy, setPointbuy 
+  const {
+    personagem, setPersonagem,
+    attributes, setAttributes,
+    anyAttribute, setAnyAttribute,
+    pointbuy, setPointbuy
   } = usePersonagem();
 
   const [races, setRaces] = useState([]);
@@ -37,6 +37,26 @@ function Personagem() {
     { habilidade: 5, custo: 10, rolagem: "20 ou mais", min: 20, max: null }
   ];
 
+  const opcoesTamanho = [
+    { value: '-1', label: 'Minúsculo' },
+    { value: '0', label: 'Pequeno' },
+    { value: '1', label: 'Médio' },
+    { value: '2', label: 'Grande' },
+    { value: '3', label: 'Enorme' },
+    { value: '4', label: 'Colossal' },
+  ];
+
+  useEffect(() => {
+    const updated = {};
+
+    Object.entries(attributes).forEach(([key, attr]) => {
+      updated[key] = (attr.mod || 0) + (attr.points || 0);
+    });
+
+    setPersonagem(prev => ({ ...prev, ...updated }));
+  }, [attributes]);
+
+
   function calculatePointbuy() {
     const totalSpent = Object.values(attributes).reduce((sum, attr) => sum + getPointbuyCost(attr.points), 0);
     const totalAvailable = pointbuy.limit - totalSpent;
@@ -57,15 +77,21 @@ function Personagem() {
     }));
   };
 
+  function handleSizeChange(e) {
+    const { value } = e;
+    setPersonagem(prev => ({ ...prev, tamanho: value }));
+  };
+
   // Atualiza atributos e exceções da raça ao selecionar
   function updateRaceAttributes(selectedRaceName) {
     const selectedRace = races.find(r => r.nome === selectedRaceName);
     if (!selectedRace || !selectedRace.modificadores) {
       Object.keys(attributes).forEach(attr => {
-        attributes[attr].mod = 0;
-        attributes[attr].any = false;
-        attributes[attr].except = false;
-        personagem[attr] = 0;
+        setAttributes(prev => ({
+          ...prev,
+          [attr]: { ...prev[attr], mod: 0, any: false, except: false }
+        }));
+        //personagem[attr] = 0;
       });
       setAnyAttribute({ avaliable: 0, selected: 0 });
       return;
@@ -76,14 +102,26 @@ function Personagem() {
 
     Object.keys(attributes).forEach(attr => {
       const raceModifier = selectedRace.modificadores.find(item => item.attr === attr);
-      attributes[attr].mod = raceModifier?.mod || 0;
-      attributes[attr].any = anyAttributeCount > 0;
-      attributes[attr].except = false; 
-      personagem[attr] = 0;
+      setAttributes(prev => ({
+        ...prev,
+        [attr]: {
+          ...prev[attr],
+          mod: raceModifier?.mod || 0,
+          any: anyAttributeCount > 0,
+          except: false
+        }
+      }));
+      //personagem[attr] = 0;
     });
 
-    if(selectedRace.modException) {
-      attributes[selectedRace.modException].except = true;
+    if (selectedRace.modException) {
+      setAttributes(prev => ({
+        ...prev,
+        [selectedRace.modException]: {
+          ...prev[selectedRace.modException],
+          except: true
+        }
+      }));
     }
   }
 
@@ -92,7 +130,7 @@ function Personagem() {
     const cost = getPointbuyCost(value);
     const diference = value - attributes[attr].points;
 
-    if(value < -2 || value > 5) return
+    if (value < -2 || value > 5) return
 
     attributes[attr].points = value;
     setAttributes(prev => ({
@@ -102,7 +140,7 @@ function Personagem() {
 
     calculatePointbuy();
   }
-  
+
   function handleAttrCheckboxChange(attr, e) {
     const checked = e.target.checked;
     console.log(`anyAttribute ${anyAttribute.selected} anyAttribute: ${anyAttribute.avaliable}`);
@@ -125,7 +163,6 @@ function Personagem() {
 
   function handlePointbuyChange(e) {
     const value = parseInt(e.target.value) || 0;
-    // setPointbuy({ limit: value, available: value, spent: 0 });
     setPointbuy({ ...pointbuy, limit: value, available: value - pointbuy.spent });
   }
 
@@ -137,9 +174,15 @@ function Personagem() {
   };
 
   function onClassChange(option) {
+    const className = option ? option.value : '';
+    const selectedClass = classes.find(r => r.nome === className);
+
     setPersonagem(prev => ({
       ...prev,
-      tlevel: option ? option.value : ''
+      tlevel: className,
+      vidaclassinit: selectedClass ? selectedClass.pv : 0,
+      vidaclasslv: selectedClass ? selectedClass.pv_per_level : 0,
+      manaclasslv: selectedClass ? selectedClass.pm : 0,
     }));
   };
 
@@ -152,6 +195,7 @@ function Personagem() {
 
   function onLevelChange(e) {
     const { value } = e.target;
+    if (isNaN(value) || value < 1 || value > 20) return;
     setPersonagem(prev => ({
       ...prev,
       charnivel: parseInt(value)
@@ -165,12 +209,16 @@ function Personagem() {
     }));
   };
 
-  function handleSelectChange(field, option) {
-    setPersonagem(prev => ({ ...prev, [field]: option ? option.value : '' }));
+  function getLifeTotal() {
+    return personagem.vidaclassinit +
+      (Math.max(personagem.con, 0) * personagem.charnivel) +
+      (personagem.vidaclasslv * (personagem.charnivel - 1)) +
+      personagem.vidaextra;
   }
 
-  function resultAttributes(attr) {
-    return (attributes[attr]?.mod || 0) + (attributes[attr]?.points || 0);
+  function getManaTotal() {
+    return (personagem.manaclasslv * (personagem.charnivel)) +
+      personagem.manaextra;
   }
 
   return (
@@ -237,10 +285,10 @@ function Personagem() {
         {Object.keys(attributes).map(attr => (
           <div className="col-md" key={attr}>
             <label className="form-label"><i className={attributes[attr].icon + " attribute-icon"} ></i>{attributes[attr].name.toUpperCase()}</label>
-            <input type="number" name={attr} className="form-control text-center" value={resultAttributes(attr)} disabled/>
+            <input type="number" name={attr} className="form-control text-center" value={personagem[attr]} disabled />
             <div className="d-flex justify-content-between mt-1 gap-1">
               <div className="position-relative">
-                <input type="number" name={attr + "_race"} className="form-control" value={attributes[attr].mod} disabled/>
+                <input type="number" name={attr + "_race"} className="form-control" value={attributes[attr].mod} disabled />
                 <input type="checkbox" name={attr + "_race_checkbox"} className="position-absolute top-50 end-0 translate-middle-y me-2"
                   onChange={e => handleAttrCheckboxChange(attr, e)}
                   checked={attributes[attr].mod === 1}
@@ -253,21 +301,21 @@ function Personagem() {
 
         {/* Point buy session */}
         <div className="col-md-1">
-            <label className="form-label">Pontos</label>
-            <select name="pointbuy_rule" className="form-select" value={pointbuy.limit} onChange={handlePointbuyChange}>
-              <option value="5">5 Pontos</option>
-              <option value="10">10 Pontos</option>
-              <option value="15">15 Pontos</option>
-              {/* <option value="any">Personalizado</option> */}
-            </select>
-            <div className="position-relative">
-              <input name="pointbuy_count" type="number" className="form-control mt-1" value={pointbuy.available}  disabled/>
-              {pointbuy.available < 0 && (
-                <span className="position-absolute top-50 end-0 translate-middle-y me-2" title="Pontos negativos">
-                  <i className="fas fa-exclamation-triangle" style={{ color: 'red', fontSize: '1.2em' }}></i>
-                </span>
-              )}
-            </div>
+          <label className="form-label">Pontos</label>
+          <select name="pointbuy_rule" className="form-select" value={pointbuy.limit} onChange={handlePointbuyChange}>
+            <option value="5">5 Pontos</option>
+            <option value="10">10 Pontos</option>
+            <option value="15">15 Pontos</option>
+            {/* <option value="any">Personalizado</option> */}
+          </select>
+          <div className="position-relative">
+            <input name="pointbuy_count" type="number" className="form-control mt-1" value={pointbuy.available} disabled />
+            {pointbuy.available < 0 && (
+              <span className="position-absolute top-50 end-0 translate-middle-y me-2" title="Pontos negativos">
+                <i className="fas fa-exclamation-triangle" style={{ color: 'red', fontSize: '1.2em' }}></i>
+              </span>
+            )}
+          </div>
         </div>
       </div>
 
@@ -275,12 +323,12 @@ function Personagem() {
       <div className="row g-2 mt-3">
         <div className="col-md">
           <label className="form-label"><i className="fas fa-heart"></i> Vida Total</label>
-          <input type="number" name="vidatotal" className="form-control" value={personagem.vidatotal} onChange={handleChange} />
+          <input type="number" name="vidatotal" className="form-control" value={getLifeTotal()} onChange={handleChange} disabled />
         </div>
 
         <div className="col-md">
           <label className="form-label"><i className="fas fa-tint"></i> Mana Total</label>
-          <input type="number" name="manatotal" className="form-control" value={personagem.manatotal} onChange={handleChange} />
+          <input type="number" name="manatotal" className="form-control" value={getManaTotal()} onChange={handleChange} disabled />
         </div>
 
         <div className="col-md">
@@ -295,19 +343,17 @@ function Personagem() {
 
         <div className="col-md">
           <label className="form-label"><i className="fas fa-ruler-combined"></i> Tamanho</label>
-          <select name="tamanho" className="form-select" value={personagem.tamanho} onChange={handleChange}>
-            <option value="-1">Minúsculo</option>
-            <option value="0">Pequeno</option>
-            <option value="1">Médio</option>
-            <option value="2">Grande</option>
-            <option value="3">Enorme</option>
-            <option value="4">Colossal</option>
-          </select>
+          <Select name="tamanho"
+            options={opcoesTamanho}
+            value={opcoesTamanho.find(t => t.value === personagem.tamanho)}
+            onChange={handleSizeChange}
+            classNamePrefix="react-select"
+          />
         </div>
 
         <div className="col-md">
           <label className="form-label"><i className="fas fa-shoe-prints"></i> Deslocamento</label>
-          <input type="text" name="deslocamento" className="form-control" value={personagem.deslocamento} onChange={handleChange}/>
+          <input type="text" name="deslocamento" className="form-control" value={personagem.deslocamento} onChange={handleChange} />
         </div>
 
       </div>

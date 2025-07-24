@@ -123,9 +123,7 @@ pre {
   color: var(--t20-dark);
   background-color: var(--t20-light);
   border: 2px solid var(--t20-red);
-  /* border-radius: 8px; */
   font-size: 1.5rem;
-  /* padding: 0.75rem 1.5rem; */
 }
 
 .nav-tabs .nav-link.active {
@@ -166,15 +164,18 @@ pre {
   color: var(--t20-dark);
 }
 
+.form-select option,
 .react-select__option {
   color: var(--t20-dark);
 }
 
+.form-select option:hover,
 .react-select__option--is-focused {
   background-color: var(--t20-accent) !important;
   color: black !important;
 }
 
+.form-select option:checked,
 .react-select__option--is-selected {
   background-color: var(--t20-red) !important;
   color: white !important;

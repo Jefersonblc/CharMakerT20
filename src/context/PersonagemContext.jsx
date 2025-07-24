@@ -23,8 +23,15 @@ export function PersonagemProvider({ children }) {
     sab:0,
     car:0,
 
+    vidaclassinit: 0,
+    vidaclasslv: 0,
+    vidaextra: 0,
     vidatotal: 0,
+
+    manaclasslv: 0,
+    manaextra: 0,
     manatotal: 0,
+
     defesaatributo: 10,
     defesaoutros: 0,
     tamanho: '1',
@@ -52,7 +59,9 @@ export function PersonagemProvider({ children }) {
     sab: { name: 'sab', mod: 0, any: false, except: false, points: 0, icon:"fas fa-eye" },
     car: { name: 'car', mod: 0, any: false, except: false, points: 0, icon:"fas fa-users" },
   });
+
   const [anyAttribute, setAnyAttribute] = useState({ avaliable: 0, selected: 0 });
+
   const [pointbuy, setPointbuy] = useState({ limit: 10, spent: 0, available: 10 });
 
   return (
