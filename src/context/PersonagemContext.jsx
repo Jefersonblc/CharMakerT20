@@ -26,10 +26,12 @@ export function PersonagemProvider({ children }) {
     vidaclassinit: 0,
     vidaclasslv: 0,
     vidaextra: 0,
+    vidaextralv: 0,
     vidatotal: 0,
 
     manaclasslv: 0,
     manaextra: 0,
+    manaextralv: 0,
     manatotal: 0,
 
     defesaatributo: 10,

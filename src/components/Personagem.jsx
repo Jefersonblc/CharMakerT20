@@ -213,11 +213,13 @@ function Personagem() {
     return personagem.vidaclassinit +
       (Math.max(personagem.con, 0) * personagem.charnivel) +
       (personagem.vidaclasslv * (personagem.charnivel - 1)) +
+      (personagem.vidaextralv * personagem.charnivel) +
       personagem.vidaextra;
   }
 
   function getManaTotal() {
     return (personagem.manaclasslv * (personagem.charnivel)) +
+      (personagem.manaextralv * personagem.charnivel) +
       personagem.manaextra;
   }
 
@@ -326,12 +328,22 @@ function Personagem() {
       <div className="row g-2 mt-3">
         <div className="col-md">
           <label className="form-label"><i className="fas fa-heart"></i> Vida Total</label>
-          <input type="number" name="vidatotal" className="form-control" value={getLifeTotal()} onChange={handleChange} disabled />
+          <div className="input-group">
+            <input type="number" name="vidaextra" class="form-control" title="Vida extra" value={personagem.vidaextra} onChange={handleChange} />
+            <input type="number" name="vidaextralv" class="form-control" title="Vida extra por nível" value={personagem.vidaextralv} onChange={handleChange} />
+            <input type="number" name="vidatotal" className="form-control" title="Vida total (classe, con, nivel, extras...)" value={getLifeTotal()} onChange={handleChange} disabled />
+          </div>
         </div>
+
+
 
         <div className="col-md">
           <label className="form-label"><i className="fas fa-tint"></i> Mana Total</label>
-          <input type="number" name="manatotal" className="form-control" value={getManaTotal()} onChange={handleChange} disabled />
+          <div className="input-group">
+            <input type="number" name="manaextra" class="form-control" title="Mana extra" value={personagem.manaextra} onChange={handleChange} />
+            <input type="number" name="manaextralv" class="form-control" title="Mana extra por nível" value={personagem.manaextralv} onChange={handleChange} />
+            <input type="number" name="manatotal" className="form-control" title="Mana total (classe, nivel, extras...)" value={getManaTotal()} onChange={handleChange} disabled />
+          </div>
         </div>
 
         <div className="col-md">
