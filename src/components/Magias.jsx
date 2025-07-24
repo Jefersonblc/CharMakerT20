@@ -1,8 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import CreatableSelect from 'react-select/creatable';
 import { usePersonagem } from '../context/PersonagemContext';
+import spells1Data from '../assets/data/spells/spells1.js';
+import spells2Data from '../assets/data/spells/spells2.js';
+import spells3Data from '../assets/data/spells/spells3.js';
+import spells4Data from '../assets/data/spells/spells4.js';
+import spells5Data from '../assets/data/spells/spells5.js';
 
 function Magias() {
   const { personagem, setPersonagem } = usePersonagem();
+
+  const [spells, setSpells] = useState({
+    circle1: [],
+    circle2: [],
+    circle3: [],
+    circle4: [],
+    circle5: [],
+  });
+  
+  useEffect(() => {
+    setSpells({
+      circle1: spells1Data.spells1 || spells1Data,
+      circle2: spells2Data.spells2 || spells2Data,
+      circle3: spells3Data.spells3 || spells3Data,
+      circle4: spells4Data.spells4 || spells4Data,
+      circle5: spells5Data.spells5 || spells5Data,
+    });
+  }, []);
+
 
   function addSpell(circle) {
     setPersonagem(prev => ({
@@ -34,6 +59,32 @@ function Magias() {
     }
   }
 
+  function handleSpellChange(circle, id, value) {
+    var spell = spells[`circle${circle}`].find(s => s.name === value);
+    if(spell) {
+      setPersonagem(prev => ({
+        ...prev,
+        [`spells${circle}`]: prev[`spells${circle}`].map(s => s.id === id ? { ...s, 
+          namespell: value,
+          spelltipo: spell.type?.split(' ')?.at(0),
+          spellescola: spell.type?.split(' ')?.at(-1)?.replace(/[()]/g, ""),
+          spellexecucao: spell.execution,
+          spellalcance: spell.range,
+          spellduracao: spell.duration,
+          spellalvoarea: spell.target + spell.effect,
+          spellresistencia: spell.resistance,
+          spelldescription: spell.description + '\n\n' + spell.implements.map(item => `${item.cost}: ${item.description}`).join('\n\n')
+        } : s)
+      }));
+      return;
+    }
+
+    setPersonagem(prev => ({
+      ...prev,
+      [`spells${circle}`]: prev[`spells${circle}`].map(s => s.id === id ? { ...s, namespell: value } : s)
+    }));
+  }
+
   function handleChange(circle, id, field, value) {
     setPersonagem(prev => ({
       ...prev,
@@ -56,7 +107,19 @@ function Magias() {
             {personagem[`spells${circle}`].map(spell => (
               <div className="card spell-block mb-2 shadow-sm p-3 rounded" key={spell.id}>
                 <div className="d-flex align-items-center mb-2">
-                  <input type="text" className="form-control" placeholder="Nome da Magia" value={spell.namespell} onChange={e => handleChange(circle, spell.id, 'namespell', e.target.value)} />
+                  <CreatableSelect
+                    options={spells[`circle${circle}`].filter(s => 
+                        (spell.spelltipo == '' || s.type.includes(spell.spelltipo)) && 
+                        (spell.spellescola == '' || s.type.includes(spell.spellescola))
+                      ).map(s => ({ value: s.name, label: s.name }))}
+                    value={spell ? { value: spell.namespell, label: spell.namespell } : null}
+                    onChange={e => handleSpellChange(circle, spell.id, e?.value || '')}
+                    isClearable
+                    placeholder="Selecione..."
+                    className="flex-grow-1"
+                    classNamePrefix="react-select"
+                    formatCreateLabel={(inputValue) => `Novo item: "${inputValue}"`}
+                  />
                   <button className="btn btn-outline-danger mx-2" onClick={() => removeSpell(circle, spell.id)}>
                     <i className="fas fa-trash"></i>
                   </button>
@@ -98,7 +161,7 @@ function Magias() {
                 <div className="row mb-2">
                   <div className="col-md-12">
                     <label className="form-label">Descrição</label>
-                    <textarea className="form-control" rows={2} value={spell.spelldescription} onChange={e => handleChange(circle, spell.id, 'spelldescription', e.target.value)} />
+                    <textarea className="form-control" rows={3} value={spell.spelldescription} onChange={e => handleChange(circle, spell.id, 'spelldescription', e.target.value)} />
                   </div>
                 </div>
               </div>
