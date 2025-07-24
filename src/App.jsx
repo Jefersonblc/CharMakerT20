@@ -8,12 +8,12 @@ import Magias from './components/Magias';
 import Exportar from './components/Exportar';
 
 const tabs = [
-  { name: 'Personagem', icon:"fas fa-circle-user", component: <Personagem /> },
-  { name: 'Perícias', icon:"fa-solid fa-dice-d20", component: <Pericias /> },
-  { name: 'Ataques', icon:"fas fa-star", component: <Ataques /> },
-  { name: 'Habilidades', icon:"fas fa-fire", component: <Habilidades /> },
-  { name: 'Magias', icon:"fas fa-fire", component: <Magias /> },
-  { name: 'Exportar', icon:"fas fa-code", component: <Exportar /> },
+  { name: 'Personagem', icon:"fas fa-circle-user fa-beat", component: <Personagem /> },
+  { name: 'Perícias', icon:"fa-solid fa-dice-d20 fa-shake", component: <Pericias /> },
+  { name: 'Ataques', icon:"fa-solid fa-burst fa-spin-pulse", component: <Ataques /> },
+  { name: 'Habilidades', icon:"fas fa-star fa-bounce", component: <Habilidades /> },
+  { name: 'Magias', icon:"fas fa-fire fa-beat-fade", component: <Magias /> },
+  { name: 'Exportar', icon:"fas fa-code fa-flip", component: <Exportar /> },
 ];
 
 function App() {

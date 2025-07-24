@@ -81,6 +81,12 @@ button:hover {
   background-color: #aa0000;
 }
 
+.btn:hover {
+  color: var(--t20-light);
+  background-color: var(--t20-dark);
+  border-color: var(--t20-red);
+}
+
 .btn-outline-primary {
   color: var(--t20-red);
   border-color: var(--t20-red);
@@ -187,5 +193,42 @@ pre {
 
 .react-select__placeholder {
   color: #888 !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--t20-red);
+  border-color: var(--t20-dark);
+}
+
+.form-check-input:focus {
+  border-color: var(--t20-dark);
+  outline: 1px;
+  box-shadow: 0 0 0 0.2rem rgba(210, 175, 55, 0.25);
+}
+
+.form-check-input {
+  border-color: #dfdfdf;
+  border: 1px solid var(--t20-dark);
+}
+
+.btn-select{
+  color: #888;
+  border: 0;
+}
+
+.btn-check+.btn:hover {
+  color: var(--t20-red);
+  border-color: #af8b26;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  color: var(--t20-red);
+  border: 1px solid var(--t20-dark);
+  text-shadow: 0px 0px 2px #fff823c7;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  color: var(--t20-light);
+  background-color: var(--t20-red);
 }
 

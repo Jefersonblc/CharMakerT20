@@ -44,7 +44,9 @@ function Magias() {
             spellduracao: '',
             spellalvoarea: '',
             spellresistencia: '',
-            spelldescription: ''
+            spelldescription: '',
+            filterType: false,
+            filterSchool: false,
           }
       ]
     }));
@@ -109,8 +111,8 @@ function Magias() {
                 <div className="d-flex align-items-center mb-2">
                   <CreatableSelect
                     options={spells[`circle${circle}`].filter(s => 
-                        (spell.spelltipo == '' || s.type.includes(spell.spelltipo)) && 
-                        (spell.spellescola == '' || s.type.includes(spell.spellescola))
+                        (spell.filterType ? spell.spelltipo == '' || s.type.includes(spell.spelltipo) : true) && 
+                        (spell.filterSchool ? spell.spellescola == '' || s.type.includes(spell.spellescola) : true)
                       ).map(s => ({ value: s.name, label: s.name }))}
                     value={spell ? { value: spell.namespell, label: spell.namespell } : null}
                     onChange={e => handleSpellChange(circle, spell.id, e?.value || '')}
@@ -126,13 +128,25 @@ function Magias() {
                 </div>
                 <div className="row mb-2">
                   <div className="col-md-3">
-                    <label className="form-label">Tipo</label>
+                    <div className="d-flex align-items-center justify-content-between">
+                        <label className="form-label">Tipo</label>
+                        <div>
+                          <input type="checkbox" className="btn-check" id={`filter-type-${spell.id}`} checked={spell.filterType} onChange={e => handleChange(circle, spell.id, 'filterType', e.target.checked)} />
+                          <label className="btn btn-outline-primary btn-sm mb-1" htmlFor={`filter-type-${spell.id}`}>Usar na Busca? <i className="fa-solid fa-magnifying-glass"></i></label>
+                        </div>
+                    </div>
                     <select className="form-select" value={spell.spelltipo} onChange={e => handleChange(circle, spell.id, 'spelltipo', e.target.value)}>
                       {tipos.map(tipo => <option key={tipo} value={tipo}>{tipo || 'Selecione...'}</option>)}
                     </select>
                   </div>
                   <div className="col-md-3">
-                    <label className="form-label">Escola</label>
+                    <div className="d-flex align-items-center justify-content-between">
+                        <label className="form-label">Escola</label>
+                        <div>
+                          <input type="checkbox" className="btn-check" id={`filter-school-${spell.id}`} checked={spell.filterSchool} onChange={e => handleChange(circle, spell.id, 'filterSchool', e.target.checked)} />
+                          <label className="btn btn-outline-primary btn-sm mb-1" htmlFor={`filter-school-${spell.id}`}>Usar na Busca? <i className="fa-solid fa-magnifying-glass"></i></label>
+                        </div>
+                    </div>
                     <select className="form-select" value={spell.spellescola} onChange={e => handleChange(circle, spell.id, 'spellescola', e.target.value)}>
                       {escolas.map(escola => <option key={escola} value={escola}>{escola || 'Selecione...'}</option>)}
                     </select>
