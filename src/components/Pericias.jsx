@@ -4,24 +4,35 @@ import skillsData from '../assets/data/skills.js';
 
 function Pericias() {
   const { personagem, setPersonagem } = usePersonagem();
-  const [skills, setSkills] = useState([]);
-  
-
-  useEffect(() => {
-    setSkills(skillsData.skills || skillsData);
-  }, []);
 
   function handleSkillChange(id, field, value) {
     setPersonagem(prev => ({
       ...prev,
-      pericias: {
+      pericias:{
         ...prev.pericias,
-        [id]: {
-          ...prev.pericias[id],
-          [field]: field === 'treinada' ? value : value
-        }
+        [id]: { 
+          ...prev.pericias[id], 
+          [field]: value 
+        } 
       }
     }));
+  }
+
+  function bonusPericiaTreinada(nivel) {
+    if (nivel >= 15) return 6;
+    if (nivel >= 7) return 4;
+    return 2;
+  }
+
+  function totalSkill(id) {
+    const skill = personagem.pericias[id];
+    if (!skill) return 0;
+
+    const treinada = skill.treinada || false;
+    const atributo = skill.atributo;
+    const outros = skill.outros || 0;
+    const bonusTreinado = treinada ? bonusPericiaTreinada(personagem.charnivel) : 0;
+    return bonusTreinado + personagem[atributo] + outros + Math.floor(personagem.charnivel/2);
   }
 
   return (
@@ -34,10 +45,11 @@ function Pericias() {
               <th>Treinada?</th>
               <th>Atributo</th>
               <th>Outros</th>
+              <th>Total</th>
             </tr>
           </thead>
           <tbody>
-            {skills.map(skill => (
+            {Object.values(personagem.pericias).map(skill => (
               <tr key={skill.id}>
                 <td className="text-start">{skill.nome}</td>
                 <td>
@@ -54,12 +66,12 @@ function Pericias() {
                     value={personagem.pericias[skill.id]?.atributo || skill.atributo}
                     onChange={e => handleSkillChange(skill.id, 'atributo', e.target.value)}
                   >
-                    <option value="FOR">FOR</option>
-                    <option value="DES">DES</option>
-                    <option value="CON">CON</option>
-                    <option value="INT">INT</option>
-                    <option value="SAB">SAB</option>
-                    <option value="CAR">CAR</option>
+                    <option value="for">FOR</option>
+                    <option value="des">DES</option>
+                    <option value="con">CON</option>
+                    <option value="int">INT</option>
+                    <option value="sab">SAB</option>
+                    <option value="car">CAR</option>
                   </select>
                 </td>
                 <td>
@@ -68,6 +80,14 @@ function Pericias() {
                     className="form-control form-control-sm"
                     value={personagem.pericias[skill.id]?.outros || 0}
                     onChange={e => handleSkillChange(skill.id, 'outros', Number(e.target.value))}
+                  />
+                </td>
+                <td className="">
+                  <input
+                    type="number"
+                    className="form-control form-control-sm fw-bold"
+                    value={totalSkill(skill.id)}
+                    disabled
                   />
                 </td>
               </tr>

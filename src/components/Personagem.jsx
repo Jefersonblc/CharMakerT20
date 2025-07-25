@@ -143,7 +143,6 @@ function Personagem() {
 
   function handleAttrCheckboxChange(attr, e) {
     const checked = e.target.checked;
-    console.log(`anyAttribute ${anyAttribute.selected} anyAttribute: ${anyAttribute.avaliable}`);
     if (checked && anyAttribute.selected >= anyAttribute.avaliable) {
       return;
     }

@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
+import skills from '../assets/data/skills.js';
 
 const PersonagemContext = createContext();
 
@@ -50,7 +51,7 @@ export function PersonagemProvider({ children }) {
     spells4: [],
     spells5: [],
 
-    pericias: {},
+    pericias: skills.reduce((map, skill) => (map[skill.id] = { ...skill, treinada: false }, map), {})
   });
 
   const [attributes, setAttributes] = useState({

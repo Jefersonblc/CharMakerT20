@@ -1,147 +1,147 @@
 export const skills = [
     {
         nome: "Acrobacia",
-        atributo: "DES",
+        atributo: "des",
         id: "acrobacia"
     },
     {
         nome: "Adestramento",
-        atributo: "CAR",
+        atributo: "car",
         id: "adestramento"
     },
     {
         nome: "Atletismo",
-        atributo: "FOR",
+        atributo: "for",
         id: "atletismo"
     },
     {
         nome: "Atuação",
-        atributo: "CAR",
+        atributo: "car",
         id: "atuacao"
     },
     {
         nome: "Cavalgar",
-        atributo: "DES",
+        atributo: "des",
         id: "cavalgar"
     },
     {
         nome: "Conhecimento",
-        atributo: "INT",
+        atributo: "int",
         id: "conhecimento"
     },
     {
         nome: "Cura",
-        atributo: "SAB",
+        atributo: "sab",
         id: "cura"
     },
     {
         nome: "Diplomacia",
-        atributo: "CAR",
+        atributo: "car",
         id: "diplomacia"
     },
     {
         nome: "Enganação",
-        atributo: "CAR",
+        atributo: "car",
         id: "enganacao"
     },
     {
         nome: "Fortitude",
-        atributo: "CON",
+        atributo: "con",
         id: "fortitude"
     },
     {
         nome: "Furtividade",
-        atributo: "DES",
+        atributo: "des",
         id: "furtividade"
     },
     {
         nome: "Guerra",
-        atributo: "INT",
+        atributo: "int",
         id: "guerra"
     },
     {
         nome: "Iniciativa",
-        atributo: "DES",
+        atributo: "des",
         id: "iniciativa"
     },
     {
         nome: "Intimidação",
-        atributo: "CAR",
+        atributo: "car",
         id: "intimidacao"
     },
     {
         nome: "Intuição",
-        atributo: "SAB",
+        atributo: "sab",
         id: "intuicao"
     },
     {
         nome: "Investigação",
-        atributo: "INT",
+        atributo: "int",
         id: "investigacao"
     },
     {
         nome: "Jogatina",
-        atributo: "CAR",
+        atributo: "car",
         id: "jogatina"
     },
     {
         nome: "Ladinagem",
-        atributo: "DES",
+        atributo: "des",
         id: "ladinagem"
     },
     {
         nome: "Luta",
-        atributo: "FOR",
+        atributo: "for",
         id: "luta"
     },
     {
         nome: "Misticismo",
-        atributo: "INT",
+        atributo: "int",
         id: "misticismo"
     },
     {
         nome: "Nobreza",
-        atributo: "INT",
+        atributo: "int",
         id: "nobreza"
     },
     {
         nome: "Ofício",
-        atributo: "INT",
+        atributo: "int",
         id: "oficio"
     },
     {
         nome: "Percepção",
-        atributo: "SAB",
+        atributo: "sab",
         id: "percepcao"
     },
     {
         nome: "Pilotagem",
-        atributo: "DES",
+        atributo: "des",
         id: "pilotagem"
     },
     {
         nome: "Pontaria",
-        atributo: "DES",
+        atributo: "des",
         id: "pontaria"
     },
     {
         nome: "Reflexos",
-        atributo: "DES",
+        atributo: "des",
         id: "reflexos"
     },
     {
         nome: "Religião",
-        atributo: "INT",
+        atributo: "int",
         id: "religiao"
     },
     {
         nome: "Sobrevivência",
-        atributo: "SAB",
+        atributo: "sab",
         id: "sobrevivencia"
     },
     {
         nome: "Vontade",
-        atributo: "SAB",
+        atributo: "sab",
         id: "vontade"
     }
 ];
