@@ -43,6 +43,7 @@ function Pericias() {
                 <td>
                   <input
                     type="checkbox"
+                    className="form-check-input"
                     checked={personagem.pericias[skill.id]?.treinada || false}
                     onChange={e => handleSkillChange(skill.id, 'treinada', e.target.checked)}
                   />
