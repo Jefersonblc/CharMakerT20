@@ -83,7 +83,18 @@ function Magias() {
 
     setPersonagem(prev => ({
       ...prev,
-      [`spells${circle}`]: prev[`spells${circle}`].map(s => s.id === id ? { ...s, namespell: value } : s)
+      [`spells${circle}`]: prev[`spells${circle}`].map(s => s.id === id ? {
+         ...s, 
+         namespell: value,
+         spelltipo: '',
+         spellescola: '',
+         spellexecucao: '',
+         spellalcance: '',
+         spellduracao: '',
+         spellalvoarea: '',
+         spellresistencia: '',
+         spelldescription: '',
+        } : s)
     }));
   }
 
@@ -132,7 +143,7 @@ function Magias() {
                         <label className="form-label">Tipo</label>
                         <div>
                           <input type="checkbox" className="btn-check" id={`filter-type-${spell.id}`} checked={spell.filterType} onChange={e => handleChange(circle, spell.id, 'filterType', e.target.checked)} />
-                          <label className="btn btn-outline-primary btn-sm mb-1" htmlFor={`filter-type-${spell.id}`}>Usar na Busca? <i className="fa-solid fa-magnifying-glass"></i></label>
+                          <label className="btn btn-outline-primary btn-sm mb-1" htmlFor={`filter-type-${spell.id}`}>Usar na Busca? <i className={spell.filterType ? 'fa-solid fa-check' : 'fa-solid fa-magnifying-glass'}></i></label>
                         </div>
                     </div>
                     <select className="form-select" value={spell.spelltipo} onChange={e => handleChange(circle, spell.id, 'spelltipo', e.target.value)}>
@@ -144,7 +155,7 @@ function Magias() {
                         <label className="form-label">Escola</label>
                         <div>
                           <input type="checkbox" className="btn-check" id={`filter-school-${spell.id}`} checked={spell.filterSchool} onChange={e => handleChange(circle, spell.id, 'filterSchool', e.target.checked)} />
-                          <label className="btn btn-outline-primary btn-sm mb-1" htmlFor={`filter-school-${spell.id}`}>Usar na Busca? <i className="fa-solid fa-magnifying-glass"></i></label>
+                          <label className="btn btn-outline-primary btn-sm mb-1" htmlFor={`filter-school-${spell.id}`}>Usar na Busca? <i className={spell.filterSchool ? 'fa-solid fa-check' : 'fa-solid fa-magnifying-glass'}></i></label>
                         </div>
                     </div>
                     <select className="form-select" value={spell.spellescola} onChange={e => handleChange(circle, spell.id, 'spellescola', e.target.value)}>
