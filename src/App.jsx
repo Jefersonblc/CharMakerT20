@@ -8,16 +8,17 @@ import Magias from './components/Magias';
 import Exportar from './components/Exportar';
 
 const tabs = [
-  { name: 'Personagem', icon:"fas fa-circle-user fa-beat", component: <Personagem /> },
-  { name: 'Perícias', icon:"fa-solid fa-dice-d20 fa-shake", component: <Pericias /> },
-  { name: 'Ataques', icon:"fa-solid fa-burst fa-spin-pulse", component: <Ataques /> },
-  { name: 'Habilidades', icon:"fas fa-star fa-bounce", component: <Habilidades /> },
-  { name: 'Magias', icon:"fas fa-fire fa-beat-fade", component: <Magias /> },
-  { name: 'Exportar', icon:"fas fa-code fa-flip", component: <Exportar /> },
+  { name: 'Personagem', icon:"fas fa-circle-user", animation: "fa-beat", component: <Personagem /> },
+  { name: 'Perícias', icon:"fa-solid fa-dice-d20", animation: "fa-shake", component: <Pericias /> },
+  { name: 'Ataques', icon:"fa-solid fa-burst", animation: "fa-spin-pulse", component: <Ataques /> },
+  { name: 'Habilidades', icon:"fas fa-star", animation: "fa-bounce", component: <Habilidades /> },
+  { name: 'Magias', icon:"fas fa-fire", animation: "fa-beat-fade", component: <Magias /> },
+  { name: 'Exportar', icon:"fas fa-code", animation: "fa-flip", component: <Exportar /> },
 ];
 
 function App() {
   const [activeTab, setActiveTab] = useState(0);
+  const [animateTab, setAnimateTab] = useState(-1);
 
   return (
     <div className="container">
@@ -29,9 +30,11 @@ function App() {
             <button
               className={`nav-link ${activeTab === idx ? 'active' : ''}`}
               onClick={() => setActiveTab(idx)}
+              onMouseOver={() => setAnimateTab(idx)}
+              onMouseLeave={() => setAnimateTab(-1)}
               type="button"
             >
-              <i className={tab.icon}></i> {tab.name}
+              <i className={tab.icon + (animateTab === idx ? ` ${tab.animation}` : "")}></i> {tab.name}
             </button>
           </li>
         ))}
