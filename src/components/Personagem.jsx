@@ -175,13 +175,23 @@ function Personagem() {
   function onClassChange(option) {
     const className = option ? option.value : '';
     const selectedClass = classes.find(r => r.nome === className);
+    
+    Object.values(personagem.pericias).forEach((pericia) => {
+      personagem.pericias[pericia.id].treinada = selectedClass.pericias.treinadas.includes(pericia.nome);
+    })
 
     setPersonagem(prev => ({
       ...prev,
       tlevel: className,
-      vidaclassinit: selectedClass ? selectedClass.pv : 0,
-      vidaclasslv: selectedClass ? selectedClass.pv_per_level : 0,
-      manaclasslv: selectedClass ? selectedClass.pm : 0,
+      vidaclassinit: selectedClass?.pv || 0,
+      vidaclasslv: selectedClass?.pv_per_level || 0,
+      manaclasslv: selectedClass?.pm || 0,
+      class_skill: {
+        treinadas: selectedClass?.pericias?.treinadas || [],
+        treinadas_opt: selectedClass?.pericias?.treinadas_opt || [],
+        option: selectedClass?.pericias?.opcoes || [],
+        quantity: selectedClass?.pericias?.quantidade || 0
+      },
     }));
   };
 

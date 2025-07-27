@@ -6,7 +6,12 @@ export const classes = [
         pv: 8,
         pv_per_level: 2,
         pm: 6,
-        pericias: "Misticismo e Vontade, mais 2"
+        pericias: {
+            treinadas: ["Misticismo","Vontade"],
+            treinadas_opt: [],
+            opcoes: ["Conhecimento", "Diplomacia", "Enganação", "Guerra", "Iniciativa", "Intimidação", "Intuição", "Investigação", "Nobreza", "Ofício", "Percepção"],
+            quantidade: 2
+        }
     },
     {
         nome: "Bárbaro",
@@ -15,7 +20,12 @@ export const classes = [
         pv: 24,
         pv_per_level: 6,
         pm: 3,
-        pericias: "Fortitude e Luta, mais 4"
+        pericias: {
+            treinadas: ["Fortitude", "Luta"],
+            treinadas_opt: [],
+            opcoes: ["Adestramento", "Atletismo", "Cavalgar ", "Iniciativa", "Intimidação", "Ofício", "Percepção", "Pontaria", "Sobrevivência", "Vontade"],
+            quantidade: 4
+        }
     },
     {
         nome: "Bardo",
@@ -24,7 +34,12 @@ export const classes = [
         pv: 12,
         pv_per_level: 3,
         pm: 4,
-        pericias: "Atuação e Reflexos, mais 6"
+        pericias: {
+            treinadas: ["Atuação", "Reflexos"],
+            treinadas_opt: [],
+            opcoes: ["Acrobacia", "Cavalgar", "Conhecimento", "Diplomacia", "Enganação", "Furtividade", "Iniciativa", "Intuição", "Investigação", "Jogatina", "Ladinagem", "Luta", "Misticismo", "Nobreza", "Percepção", "Pontaria", "Vontade"],
+            quantidade: 6
+        }
     },
     {
         nome: "Bucaneiro",
@@ -33,7 +48,12 @@ export const classes = [
         pv: 16,
         pv_per_level: 4,
         pm: 3,
-        pericias: "Luta ou Pontaria, Reflexos, mais 4"
+        pericias: {
+            treinadas: ["Reflexos"],
+            treinadas_opt: ["Luta", "Pontaria"],
+            opcoes: ["Acrobacia", "Atletismo", "Atuação", "Enganação", "Fortitude", "Furtividade", "Iniciativa", "Intimidação", "Jogatina", "Luta", "Ofício", "Percepção", "Pilotagem", "Pontaria"],
+            quantidade: 4
+        }
     },
     {
         nome: "Caçador",
@@ -42,7 +62,12 @@ export const classes = [
         pv: 16,
         pv_per_level: 4,
         pm: 4,
-        pericias: "Luta ou Pontaria, Sobrevivência, mais 4"
+        pericias: {
+            treinadas: ["Sobrevivência"],
+            treinadas_opt: ["Luta", "Pontaria"],
+            opcoes: ["Adestramento", "Atletismo", "Cavalgar ", "Cura", "Fortitude", "Furtividade", "Iniciativa", "Investigação", "Luta", "Ofício", "Percepção", "Pontaria", "Reflexos "],
+            quantidade: 4
+        }
     },
     {
         nome: "Cavaleiro",
@@ -51,7 +76,12 @@ export const classes = [
         pv: 20,
         pv_per_level: 5,
         pm: 3,
-        pericias: "Fortitude e Luta, mais 2"
+        pericias: {
+            treinadas: ["Fortitude", "Luta"],
+            treinadas_opt: [],
+            opcoes: ["Adestramento", "Atletismo", "Cavalgar", "Diplomacia", "Guerra", "Iniciativa", "Intimidação", "Nobreza", "Percepção", "Vontade"],
+            quantidade: 2
+        }
     },
     {
         nome: "Clérigo",
@@ -60,7 +90,12 @@ export const classes = [
         pv: 16,
         pv_per_level: 4,
         pm: 5,
-        pericias: "Religião e Vontade, mais 2"
+        pericias: {
+            treinadas: ["Religião", "Vontade"],
+            treinadas_opt: [],
+            opcoes: ["Conhecimento", "Cura", "Diplomacia", "Fortitude", "Iniciativa", "Intuição", "Luta", "Misticismo", "Nobreza", "Ofício", "Percepção"],
+            quantidade: 2
+        }
     },
     {
         nome: "Druida",
@@ -69,7 +104,12 @@ export const classes = [
         pv: 16,
         pv_per_level: 4,
         pm: 4,
-        pericias: "Sobrevivência e Vontade, mais 4"
+        pericias: {
+            treinadas: ["Sobrevivência", "Vontade"],
+            treinadas_opt: [],
+            opcoes: ["Adestramento", "Atletismo", "Cavalgar", "Conhecimento", "Cura", "Fortitude", "Iniciativa", "Intuição", "Luta", "Misticismo", "Ofício", "Percepção", "Religião"],
+            quantidade: 4
+        }
     },
     {
         nome: "Guerreiro",
@@ -78,7 +118,12 @@ export const classes = [
         pv: 20,
         pv_per_level: 5,
         pm: 3,
-        pericias: "Luta ou Pontaria, Fortitude, mais 2"
+        pericias: {
+            treinadas: ["Fortitude"],
+            treinadas_opt: ["Luta", "Pontaria"],
+            opcoes: ["Adestramento", "Atletismo", "Cavalgar ", "Guerra", "Iniciativa", "Intimidação", "Luta", "Ofício", "Percepção", "Pontaria", "Reflexos"],
+            quantidade: 2
+        }
     },
     {
         nome: "Inventor",
@@ -87,7 +132,12 @@ export const classes = [
         pv: 12,
         pv_per_level: 3,
         pm: 4,
-        pericias: "Ofício e Vontade, mais 4"
+        pericias: {
+            treinadas: ["Ofício", "Vontade"],
+            treinadas_opt: [],
+            opcoes: ["Conhecimento", "Cura", "Diplomacia", "Fortitude", "Iniciativa", "Investigação", "Luta", "Misticismo", "Ofício", "Pilotagem", "Percepção", "Pontaria"],
+            quantidade: 4
+        }
     },
     {
         nome: "Ladino",
@@ -96,7 +146,12 @@ export const classes = [
         pv: 12,
         pv_per_level: 4,
         pm: 4,
-        pericias: "Ladinagem e Reflexos, mais 8"
+        pericias: {
+            treinadas: ["Ladinagem", "Reflexos"],
+            treinadas_opt: [],
+            opcoes: ["Acrobacia", "Atletismo", "Atuação", "Cavalgar ", "Conhecimento", "Diplomacia", "Enganação", "Furtividade", "Iniciativa", "Intimidação", "Intuição", "Investigação", "Jogatina", "Luta", "Ofício", "Percepção", "Pilotagem", "Pontaria"],
+            quantidade: 8
+        }
     },
     {
         nome: "Lutador",
@@ -105,7 +160,12 @@ export const classes = [
         pv: 20,
         pv_per_level: 5,
         pm: 3,
-        pericias: "Fortitude e Luta, mais 4"
+        pericias: {
+            treinadas: ["Fortitude", "Luta"],
+            treinadas_opt: [],
+            opcoes: ["Acrobacia", "Adestramento", "Atletismo", "Enganação", "Furtividade", "Iniciativa", "Intimidação", "Ofício", "Percepção", "Pontaria", "Reflexos"],
+            quantidade: 4
+        }
     },
     {
         nome: "Nobre",
@@ -114,7 +174,12 @@ export const classes = [
         pv: 16,
         pv_per_level: 4,
         pm: 4,
-        pericias: "Diplomacia ou Intimidação, Vontade, mais 4"
+        pericias: {
+            treinadas: ["Vontade"],
+            treinadas_opt: ["Diplomacia", "Intimidação"],
+            opcoes: ["Adestramento", "Atuação", "Cavalgar", "Conhecimento", "Diplomacia", "Enganação", "Fortitude", "Guerra", "Iniciativa", "Intimidação", "Intuição", "Investigação", "Jogatina", "Luta", "Nobreza", "Ofício", "Percepção", "Pontaria"],
+            quantidade: 4
+        }
     },
     {
         nome: "Paladino",
@@ -123,7 +188,12 @@ export const classes = [
         pv: 20,
         pv_per_level: 3,
         pm: 3,
-        pericias: "Luta e Vontade, mais 2"
+        pericias: {
+            treinadas: ["Luta", "Vontade"],
+            treinadas_opt: [],
+            opcoes: ["Adestramento", "Atletismo", "Cavalgar", "Cura", "Diplomacia", "Fortitude", "Guerra", "Iniciativa", "Intuição", "Nobreza", "Percepção", "Religião"],
+            quantidade: 2
+        }
     }
 ];
 

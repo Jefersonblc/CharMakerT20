@@ -37,25 +37,26 @@ function Pericias() {
 
   return (
     <div className="form-section">
-      <div className="table-responsive col-md-6">
+      <div className="table-responsive-sm col-lg-8 col-md-12">
         <table className="table table-sm text-center">
           <thead className="table-light">
             <tr>
               <th className="text-start">Perícia</th>
-              <th>Treinada?</th>
+              <th>Treinada (INT: {personagem.int})</th>
               <th>Atributo</th>
               <th>Outros</th>
               <th>Total</th>
+              <th>Opção de Classe ({personagem?.class_skill?.quantity || 0})</th>
             </tr>
           </thead>
           <tbody>
             {Object.values(personagem.pericias).map(skill => (
               <tr key={skill.id}>
                 <td className="text-start">{skill.nome}</td>
-                <td>
+                <td className="position-relative">
                   <input
                     type="checkbox"
-                    className="form-check-input"
+                    className={`form-check-input ${personagem.class_skill.treinadas_opt.includes(skill.nome) ? 'question-box' : ''}`}
                     checked={personagem.pericias[skill.id]?.treinada || false}
                     onChange={e => handleSkillChange(skill.id, 'treinada', e.target.checked)}
                   />
@@ -74,7 +75,7 @@ function Pericias() {
                     <option value="car">CAR</option>
                   </select>
                 </td>
-                <td>
+                <td style={{ width: '15%' }}>
                   <input
                     type="number"
                     className="form-control form-control-sm"
@@ -82,13 +83,18 @@ function Pericias() {
                     onChange={e => handleSkillChange(skill.id, 'outros', Number(e.target.value))}
                   />
                 </td>
-                <td className="">
+                <td style={{ width: '15%' }}>
                   <input
                     type="number"
                     className="form-control form-control-sm fw-bold"
                     value={totalSkill(skill.id)}
                     disabled
                   />
+                </td>
+                <td className="text-start">
+                  {personagem.class_skill.option.includes(skill.nome) ? <i className="fa-solid fa-circle-left"></i> : ''}
+                  {personagem.class_skill.treinadas_opt.includes(skill.nome) ? ' Escolher pelo menos 1' : ''}
+                  {personagem.class_skill.treinadas.includes(skill.nome) ? <span><i className="fa-solid fa-circle-left"></i> Padrão de Classe</span> : ''}
                 </td>
               </tr>
             ))}
