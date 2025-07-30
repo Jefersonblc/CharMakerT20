@@ -232,6 +232,12 @@ function Personagem() {
       personagem.manaextra;
   }
 
+  function getDefesaTotal() {
+    const defesaAtributo = personagem.defesaatributo !== '' ? personagem[personagem.defesaatributo] : 0;
+    return personagem.defesatotal + personagem.defesaoutros + 
+      personagem.defesaarmadura + personagem.defesaescudo + defesaAtributo
+  }
+
   return (
     <div className="form-section">
 
@@ -240,6 +246,13 @@ function Personagem() {
           <label className="form-label">Nome</label>
           <input className="form-control" name="playername" value={personagem.playername} onChange={handleChange} />
         </div>
+        <div className="col-md-2">
+          <label className="form-label">Nível</label>
+          <input type="number" className="form-control" name="charnivel" value={personagem.charnivel} onChange={onLevelChange} />
+        </div>
+      </div>
+
+      <div className="row g-2 mb-3">
         <div className="col-md">
           <label className="form-label">Raça</label>
           <Select
@@ -251,17 +264,7 @@ function Personagem() {
             classNamePrefix="react-select"
           />
         </div>
-        <div className="col-md">
-          <label className="form-label">Origem</label>
-          <Select
-            options={origins.map(o => ({ value: o.nome, label: o.nome }))}
-            value={origins.find(o => o.nome === personagem.torigin) ? { value: personagem.torigin, label: personagem.torigin } : null}
-            onChange={onOriginChange}
-            isClearable
-            placeholder="Selecione..."
-            classNamePrefix="react-select"
-          />
-        </div>
+
         <div className="col-md">
           <label className="form-label">Classe</label>
           <Select
@@ -273,10 +276,19 @@ function Personagem() {
             classNamePrefix="react-select"
           />
         </div>
+
         <div className="col-md">
-          <label className="form-label">Nível</label>
-          <input type="number" className="form-control" name="charnivel" value={personagem.charnivel} onChange={onLevelChange} />
+          <label className="form-label">Origem</label>
+          <Select
+            options={origins.map(o => ({ value: o.nome, label: o.nome }))}
+            value={origins.find(o => o.nome === personagem.torigin) ? { value: personagem.torigin, label: personagem.torigin } : null}
+            onChange={onOriginChange}
+            isClearable
+            placeholder="Selecione..."
+            classNamePrefix="react-select"
+          />
         </div>
+
         <div className="col-md">
           <label className="form-label">Divindade</label>
           <Select
@@ -289,7 +301,6 @@ function Personagem() {
           />
         </div>
       </div>
-
 
       {/* Atributos */}
       <div className="row pb-2 g-2 attribute-group">
@@ -333,38 +344,67 @@ function Personagem() {
         </div>
       </div>
 
-      {/* Secundários */}
+      {/* PM / PV */}
+
       <div className="row g-2 mt-3">
         <div className="col-md">
           <label className="form-label"><i className="fas fa-heart"></i> Vida Total</label>
-          <div className="input-group">
-            <input type="number" name="vidaextra" className="form-control" title="Vida extra" value={personagem.vidaextra} onChange={handleChange} />
+          <input type="number" name="vidatotal" className="form-control" title="Vida total (classe, con, nivel, extras...)" value={getLifeTotal()} onChange={handleChange} disabled />
+          <div className="input-group mt-1 gap-1">
             <input type="number" name="vidaextralv" className="form-control" title="Vida extra por nível" value={personagem.vidaextralv} onChange={handleChange} />
-            <input type="number" name="vidatotal" className="form-control" title="Vida total (classe, con, nivel, extras...)" value={getLifeTotal()} onChange={handleChange} disabled />
+            <input type="number" name="vidaextra" className="form-control" title="Vida extra" value={personagem.vidaextra} onChange={handleChange} /> 
           </div>
         </div>
 
-
-
         <div className="col-md">
-          <label className="form-label"><i className="fas fa-tint"></i> Mana Total</label>
-          <div className="input-group">
-            <input type="number" name="manaextra" className="form-control" title="Mana extra" value={personagem.manaextra} onChange={handleChange} />
+          <label className="form-label"><i className="fa-solid fa-flask"></i> Mana Total</label>
+          <input type="number" name="manatotal" className="form-control" title="Mana total (classe, nivel, extras...)" value={getManaTotal()} onChange={handleChange} disabled />
+          <div className="input-group mt-1 gap-1">
             <input type="number" name="manaextralv" className="form-control" title="Mana extra por nível" value={personagem.manaextralv} onChange={handleChange} />
-            <input type="number" name="manatotal" className="form-control" title="Mana total (classe, nivel, extras...)" value={getManaTotal()} onChange={handleChange} disabled />
+            <input type="number" name="manaextra" className="form-control" title="Mana extra" value={personagem.manaextra} onChange={handleChange} /> 
           </div>
         </div>
+        
 
-        <div className="col-md">
-          <label className="form-label"><i className="fas fa-shield-alt"></i> Defesa (atributo)</label>
-          <input type="number" name="defesaatributo" className="form-control" value={personagem.defesaatributo} onChange={handleChange} />
+
+    {/* DEFESA */}
+
+
+
+        <div className="col-md-6">
+          <label className="form-label"><i className="fas fa-shield"></i> Defesa</label>
+
+          <div className="d-flex justify-content-between gap-1">
+            <input type="number" name="defesatotal" className="form-control" value={getDefesaTotal()} disabled/>
+            
+            <select name="defesaatributo" className="form-select" value={personagem.defesaatributo} onChange={handleChange}>
+              <option value="">Nenhum</option>
+              <option value="des">DES</option>
+              <option value="for">FOR</option>
+              <option value="con">CON</option>
+              <option value="int">INT</option>
+              <option value="sab">SAB</option>
+              <option value="car">CAR</option>
+            </select>
+
+            <input type="number" name="defesaoutros" className="form-control" value={personagem.defesaoutros} onChange={handleChange} />
+          </div>
+
+          <div className="input-group mt-1 gap-1 align-items-baseline">
+            <label className="form-label w-25">Armadura</label>
+            <input type="number" name="defesaarmadura" className="form-control" value={personagem.defesaarmadura} onChange={handleChange} />
+            <input type="number" name="penalidadearmadura" className="form-control" value={personagem.penalidadearmadura} onChange={handleChange} />
+          </div>
+
+          <div className="input-group mt-1 gap-1 align-items-baseline">
+            <label className="form-label w-25">Escudo</label>
+            <input type="number" name="defesaescudo" className="form-control" value={personagem.defesaescudo} onChange={handleChange} />
+            <input type="number" name="penalidadeescudo" className="form-control" value={personagem.penalidadeescudo} onChange={handleChange} />
+          </div>
         </div>
+      </div>
 
-        <div className="col-md">
-          <label className="form-label"><i className="fas fa-shield"></i> Defesa (outros)</label>
-          <input type="number" name="defesaoutros" className="form-control" value={personagem.defesaoutros} onChange={handleChange} />
-        </div>
-
+      <div className='row g-2 mt-3'>
         <div className="col-md">
           <label className="form-label"><i className="fas fa-ruler-combined"></i> Tamanho</label>
           <Select name="tamanho"
