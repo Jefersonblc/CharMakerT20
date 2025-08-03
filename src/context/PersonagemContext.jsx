@@ -56,8 +56,12 @@ export function PersonagemProvider({ children }) {
     spells4: [],
     spells5: [],
 
-    pericias: skills.reduce((map, skill) => (map[skill.id] = { ...skill, treinada: false }, map), {}),
-    class_skill: { treinadas: [], treinadas_opt: [], option: [], quantity: 0 },
+    pericias: skills.reduce((map, skill) => (map[skill.id] = { ...skill, treined: false }, map), {}),
+    
+    treinedSkills: [], 
+    treinedSkillsOr: [], 
+    skills: [], 
+    extraSkills: 0,
   });
 
   const [attributes, setAttributes] = useState({

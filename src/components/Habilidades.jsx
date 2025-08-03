@@ -4,24 +4,36 @@ import CreatableSelect from 'react-select/creatable';
 import { usePersonagem } from '../context/PersonagemContext';
 import powersData from '../assets/data/powers.js';
 import { VirtualizedMenuList } from './VirtualizedMenuList';
+import racesData from '../assets/data/races.json';
+import classesData from '../assets/data/classes.js';
 
 function Habilidades() {
   const { personagem, setPersonagem } = usePersonagem();
   
   const [powers, setPowers] = useState([]);
+  const [races, setRaces] = useState([]);
+  const [classes, setClasses] = useState([]);
 
   useEffect(() => {
     setPowers(powersData.powers || powersData);
+    setRaces(racesData.races || racesData);
+    setClasses(classesData.classes || classesData);
   }, []);
 
-  const powersOptions = useMemo(() => powers.map(power => ({ 
+  const raceAbilities = races.flatMap(r => r.abilities.map(a => ({...a, type: 'Padrão Racial'})) || []);
+  const classAbilities = classes.flatMap(c => c.abilities.map(a => ({...a, type: `${c.nome}`})) || []);
+
+
+  const powersOptions = useMemo(() => [...powers, ...raceAbilities, ...classAbilities].map(power => ({ 
     value: power.name, 
-    label: `${power.name} (${power.type})`,
-    type: power.type,
-    description: power.description
+    label: `${power.name} (${power?.type})`,
+    type: power?.type,
+    description: power?.description
   })), [powers]);
 
-  const powersTypes = [...new Set(powersOptions.map(p=>p.type))].map(type => ({ value: type, label: type }));
+  const powersTypes = [
+    ...[...new Set(powersOptions.map(p=>p.type))].map(type => ({ value: type, label: type }))
+  ]
 
   function addAbility() {
     setPersonagem(prev => ({
@@ -29,10 +41,10 @@ function Habilidades() {
       abilities: [
         ...prev.abilities,
         {
-          id: Date.now(),
+          id: crypto.randomUUID(),
           name: '',
           type: '',
-          description: ''
+          description: '',
         }
       ]
     }));
@@ -48,13 +60,13 @@ function Habilidades() {
   }
 
   function handleAbilityChange(id, value) {
-    var power = powers.find(s => s.name === value);
+    var power = powersOptions.find(s => s.value === value);
     if(power) {
       setPersonagem(prev => ({
         ...prev,
         abilities: prev.abilities.map(a => a.id === id ? { 
           ...a, 
-          name: power.name,
+          name: power.value,
           type: power.type,
           description: power.description
         } : a)
@@ -96,7 +108,7 @@ function Habilidades() {
                 components={{ MenuList: VirtualizedMenuList }}
                 isClearable
                 placeholder="Nome da Habilidade"
-                className="flex-grow-1"
+                className="flex-grow-1 fw-bold"
                 classNamePrefix="react-select"
                 formatCreateLabel={(inputValue) => `Novo item: "${inputValue}"`}
               />
@@ -113,9 +125,8 @@ function Habilidades() {
                 <i className="fas fa-trash"></i>
               </button>
             </div>
-            <div className="mt-3">
-              <label className="form-label">Descrição</label>
-              <textarea className="form-control" rows={2} placeholder="Descrição" value={ability.description} onChange={e => handleChange(ability.id, 'description', e.target.value)} />
+            <div className="mt-1">
+              <textarea id={`ability-description-${ability.id}`}  className="form-control fst-italic" placeholder="Descrição" rows="4" value={ability.description} onChange={e => handleChange(ability.id, 'description', e.target.value)} />
             </div>
           </div>
         ))}

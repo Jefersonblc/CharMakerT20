@@ -1,0 +1,2586 @@
+[
+  {
+    "name": "Anão",
+    "displacement": 6,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "sab",
+        "mod": 1
+      },
+      {
+        "attr": "des",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Conhecimento das Rochas",
+        "description": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo."
+      },
+      {
+        "name": "Devagar e Sempre",
+        "description": "Seu deslocamento é 6m (em vez de 9m). Porém, seu deslocamento não é reduzido por uso de armadura ou excesso de carga."
+      },
+      {
+        "name": "Duro como Pedra",
+        "description": "Você recebe +3 pontos de vida no 1º nível e +1 por nível seguinte."
+      },
+      {
+        "name": "Tradição de Heredrimm",
+        "description": "Você é perito nas armas tradicionais anãs, seja por ter treinado com elas, seja por usá-las como ferramentas de ofício. Para você, todos os machados, martelos, marretas e picaretas são armas simples. Você recebe +2 em ataques com essas armas."
+      }
+    ]
+  },
+  {
+    "name": "Bugbear",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Empunhadura Poderosa",
+        "description": "Ao usar uma arma feita para uma categoria de tamanho maior que a sua (por exemplo, uma arma aumentada para uma criatura Pequena ou Média), a penalidade que você sofre nos testes de ataque diminui para –2. Caso receba esta habilidade novamente, a penalidade diminui para 0 e você pode também usar armas de até duas categorias de tamanho maiores que a sua com uma penalidade de –5 nos testes de ataque."
+      },
+      {
+        "name": "Saborear Pavor",
+        "description": "Você pode usar Força como atributo-chave de Intimidação (em vez de Carisma). Além disso, se estiver em alcance curto de outra criatura abalada ou apavorada, você recebe um bônus em testes de ataque igual à penalidade causada pela condição."
+      },
+      {
+        "name": "Sentidos de Predador",
+        "description": "Você recebe faro e visão no escuro."
+      }
+    ]
+  },
+  {
+    "name": "Centauro",
+    "displacement": 12,
+    "size": "Grande",
+    "attributes": [
+      {
+        "attr": "sab",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Cascos",
+        "description": "Você possui uma arma natural de cascos (dano 1d8, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os cascos."
+      },
+      {
+        "name": "Ginete Natural",
+        "description": "Você é considerado montado para efeito de fazer investidas e para benefícios das armas que empunha, e pode escolher o poder Carga de Cavalaria mesmo sem cumprir seus pré-requisitos. Entretanto, não pode se beneficiar de uma montaria e, se estiver carregando um cavaleiro, sofre –2 em testes (além das penalidades de sobrecarga, se houver) e é considerado em condição ruim para lançar magias."
+      },
+      {
+        "name": "Medo de Altura",
+        "description": "Se estiver adjacente a uma queda de 3m ou mais (como um buraco ou penhasco), você fica abalado."
+      }
+    ]
+  },
+  {
+    "name": "Ceratops",
+    "displacement": 9,
+    "size": "Grande",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "des",
+        "mod": -1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chifres",
+        "description": "Você possui uma arma natural de chifres (dano 1d8, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres."
+      },
+      {
+        "name": "Papel Tribal",
+        "description": "Você é treinado em uma perícia a sua escolha entre Cura, Intimidação, Ofício ou Sobrevivência."
+      },
+      {
+        "name": "Paquidérmico",
+        "description": "Seu tamanho é Grande. Você recebe +1 na Defesa e pode usar Força como atributo-chave de Intimidação (em vez de Carisma)."
+      },
+      {
+        "name": "Medo de Altura",
+        "description": "Se estiver adjacente a uma queda de 3m ou mais (como um buraco ou penhasco), você fica abalado."
+      }
+    ]
+  },
+  {
+    "name": "Dahllan",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "sab",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Amiga das Plantas",
+        "description": "Você pode lançar a magia Controlar Plantas (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+      },
+      {
+        "name": "Armadura de Allihanna",
+        "description": "Você pode gastar uma ação de movimento e 1 PM para transformar sua pele em casca de árvore, recebendo +2 na Defesa até o fim da cena."
+      },
+      {
+        "name": "Empatia Selvagem",
+        "description": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento para mudar atitude e persuasão com animais (veja Diplomacia, na página 118). Caso receba esta habilidade novamente, recebe +2 em Adestramento."
+      }
+    ]
+  },
+  {
+    "name": "Duende",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Passo 1: Natureza",
+        "description": "Você é uma criatura do tipo espírito. Além disso, escolha se você será animal, vegetal ou mineral.\n1) Animal. Você é feito de carne e osso. Seu corpo é humanoide, mas sua aparência varia: pode ser algo similar a um elfo ou sílfide, um animal que anda sobre duas patas ou uma mistura dessas possibilidades. Você recebe +1 em um atributo a sua escolha.\n2) Vegetal. Você é feito de folhas, vinhas, cortiça ou madeira. Você recebe as habilidades Natureza Vegetal (é imune a atordoamento e metamorfose, mas é afetado por efeitos que afetam plantas monstruosas — se o efeito não tiver um teste de resistência, você tem direito a um teste de Fortitude) e Florescer Feérico (uma vez por rodada, pode gastar uma quantidade de PM limitada pela sua Constituição para curar 2d8 PV por PM gasto no início do seu próximo turno).\n3) Mineral. Você é feito de material inorgânico, como argila, rocha, cristal ou vidro. Você recebe imunidade a efeitos de metabolismo e redução de corte, fogo e perfuração 5, mas não se beneficia de itens da categoria alimentação."
+      },
+      {
+        "name": "Passo 2: Tamanho",
+        "description": "Escolha seu tamanho, entre Minúsculo, Pequeno, Médio ou Grande.\n1) Minúsculo. Você é miudinho e fofinho. Pode ser uma caneca falante, um gato de monóculo ou um corvo com cara de velho (é, talvez não seja tão fofo assim). Você é Minúsculo (+5 em testes de Furtividade, –5 em testes de manobras de combate, usa armas reduzidas), possui deslocamento base 6m e sofre –1 em Força.\n2) Pequeno. Você tem o tamanho de um hynne, de uma criança, de um cachorro ou de um barril. Talvez você seja um barril! Você é Pequeno (+2 em testes de Furtividade, –2 em testes de manobra) e possui deslocamento base 6m.\n3) Médio. Você é Médio (sem modificadores por tamanho) e possui deslocamento base 9m. Blé!\n4) Grande. Agora sim! Meta medo em qualquer um que achar que fadas são fracotes. Você é Grande (–2 em testes de Furtividade, +2 em testes de manobra, usa armas aumentadas), possui deslocamento base 9m e sofre –1 em Destreza."
+      },
+      {
+        "name": "Passo 3: Dons",
+        "description": "Escolha dois atributos diferentes. Você recebe +1 em cada atributo escolhido. Não, não pode ser +2 em um único atributo. Xô, larga disso! Porém, se você for animal, pode adicionar um desses +1 no mesmo atributo que aumentou pela natureza.\nSe você estiver criando seu duende de forma aleatória, a rolagem de 2d6 determina os atributos nos quais você receberá +1, sendo uma rolagem 1 = Força, 2 = Destreza, 3 = Constituição e assim por diante."
+      },
+      {
+        "name": "Passo 4: Presentes de Magia e de Caos",
+        "description": "Duendes não só são esquisitos: eles também conseguem fazer coisas esquisitas. Escolha três poderes da lista abaixo. Todos eles são mágicos. No caso de habilidades que permitam teste de resistência, a CD é Car, a menos que especificado em contrário. Uma vez por patamar, você pode escolher um presente no lugar de um poder de classe.\n\n1) Afinidade Elemental. Você possui ligação com um tipo de elemento do mundo natural, entre água, fogo ou vegetação (escolha uma quando adquirir este presente). Seu atributo-chave para as magias a seguir é Carisma. Caso aprenda novamente qualquer uma delas, seu custo diminui em –1 PM.\n• Água. Você é ligado a lagos e rios. Provavelmente tem a pele e/ou os cabelos azulados. Você recebe deslocamento de natação igual ao seu deslocamento base e pode lançar as magias Criar Elementos (apenas água) e Névoa.\n• Fogo. Você é ligado a calor e chamas. Provavelmente tem a pele e/ou os cabelos avermelhados. Você recebe redução de fogo 5 e pode lançar as magias Criar Elementos (apenas fogo) e Explosão de Chamas.\n• Vegetação. Você é ligado a bosques e florestas. Provavelmente tem a pele e/ou os cabelos esverdeados. Você pode atravessar terrenos difíceis naturais sem sofrer redução em seu deslocamento e pode lançar as magias Armamento da Natureza e Controlar Plantas.\n\n2) Encantar Objetos. Você pode gastar uma ação de movimento e 3 PM para tocar um item e colocar nele um encanto pertinente a sua escolha (por exemplo, se tocar uma arma, pode colocar um encanto de arma nela). O encanto não pode ter pré-requisitos e dura até o fim da cena ou até você usar este poder novamente.\n\n3) Enfeitiçar. Suas feições feéricas podem deslumbrar outros seres. Você pode lançar Enfeitiçar e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um arcanista de seu nível.\n\n4) Invisibilidade. Um poder comum entre duendes e responsável por boa parte do folclore confuso sobre eles (“Como assim você não viu aquela tartaruga alada falante que estava aqui agora há pouco?”). Você pode lançar Invisibilidade e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um arcanista de seu nível.\n\n5) Língua da Natureza. Você recebe +2 em Adestramento e Sobrevivência, e pode falar com animais e plantas (como o efeito da magia Voz Divina).\n\n6) Maldição. Nem todos os poderes feéricos são fofos ou engraçados… Você pode gastar uma ação padrão e 3 PM para amaldiçoar uma criatura em alcance curto. A criatura tem direito a um teste de resistência. Se falhar, sofre o efeito da maldição. Se passar, fica imune a este presente por um dia. Para construir sua maldição, escolha qual resistência ela permite (entre Fortitude ou Vontade) e seu efeito (da lista abaixo). Uma vez feitas, essas escolhas não podem ser mudadas.\nA maldição é permanente, mas você pode cancelá-la como uma ação livre, e ela pode ser curada por Purificação com o aprimoramento de +7 PM. Além disso, você só pode manter uma maldição por vez (se quiser amaldiçoar uma nova criatura, precisa cancelar a maldição anterior). Com a permissão do mestre, você pode criar uma maldição personalizada, usando os efeitos abaixo como referência.\n• Apatia Profunda. A criatura fica alquebrada e frustrada.\n• Coração de Geleia. A criatura fica abalada e, na primeira vez que tentar fazer uma ação hostil em cada cena, deve repetir o teste de resistência. Se falhar, não consegue e perde sua ação.\n• Envelhecimento Súbito. A criatura fica fraca e lenta.\n• Loucura do Verão. No início de cada cena, a criatura deve repetir o teste de resistência. Se falhar, fica confusa.\n• Mil Verrugas. A vítima sofre –2 em Carisma e, na primeira vez em cada cena que outra criatura inicie seu turno em alcance curto dela, essa segunda criatura deve fazer um teste de Vontade. Se falhar, a atitude dela em relação à criatura amaldiçoada piora em uma categoria. Ser feio pode matar!\n• Ruína do Corpo. A criatura fica fatigada e vulnerável.\n\n7) Mais Lá do que Aqui. Você pode gastar uma ação padrão e 2 PM para fazer seu corpo, exceto por uma parte (como a cabeça ou uma cauda), desaparecer pela cena. Nesse estado, recebe camuflagem leve e +5 em Furtividade.\n\n8) Metamorfose Animal. Você pode se transformar em um tipo de animal. Escolha uma forma selvagem do druida, como ágil ou veloz (veja Tormenta20, p. 63). Você pode gastar uma ação completa e 3 PM para assumir essa forma, recebendo todos seus modificadores. Ao contrário de um druida, você pode falar e lançar magias mesmo em sua forma selvagem. Porém, você pode assumir apenas a forma escolhida, e apenas em sua versão básica.\n\n9) Sonhos Proféticos. Uma vez por cena, você pode gastar 3 PM para ter uma visão que, graças a sua natureza feérica, provavelmente se concretizará. Role 1d20. Até o fim da cena, você pode substituir o resultado do d20 de um teste realizado por uma criatura em alcance curto pelo resultado do dado que você rolou ao usar este presente.\n\n10) Velocidade do Pensamento. Em seu primeiro turno em cada cena, você pode gastar 2 PM para realizar uma ação padrão adicional. Se fizer isso, você pula seu turno na segunda rodada.\n\n11) Visão Feérica. Você recebe visão na penumbra e está permanentemente sob efeito da magia Visão Mística com o aprimoramento de enxergar criaturas e objetos invisíveis.\n\n12) Voo. Você possui asas ou alguma fonte de voo mágico. Consegue flutuar 1,5m acima do nível do chão com deslocamento igual ao seu deslocamento base +3m, o que permite que ignore terreno difícil e torna-o imune a dano por queda (a menos que esteja inconsciente). Você também pode voar, mas isso é cansativo: você gasta 1 PM por rodada para voar com deslocamento igual ao seu deslocamento base +6m."
+      },
+      {
+        "name": "Passo 5: Limitações",
+        "description": "A natureza mágica e caótica dos duendes faz com que eles sejam poderosos — mas também lhes impõe várias limitações. Você recebe as habilidades a seguir.\nAversão a Ferro. Um material rígido e inflexível, o ferro é nocivo a duendes. Você sofre 1 ponto de dano adicional por dado de dano de ataques com armas de ferro e sofre 1d6 pontos de dano por rodada se estiver empunhando ou vestindo um item de ferro. Isso também se aplica a aço, que inclui ferro em sua composição. Na prática, duendes usam apenas armas de madeira ou de materiais especiais, como mitral.\nAversão a Sinos. O badalar de um sino representa ordem e devoção, algo que faz mal a duendes. Se você escutar esse som, fica alquebrado e esmorecido até o fim da cena. No início de qualquer cena em um ambiente urbano no qual haja uma ou mais igrejas ou templos (o que inclui praticamente todas as aldeias e cidades do Reinado!), role 1d6. Em um resultado 1, você escutará um sino badalando em algum lugar.\nTabu. Você possui um tabu — algo que nunca pode fazer (ou deixar de fazer). Crie seu tabu junto com o mestre. Em termos de regras, a esquisitice de seu tabu impõe uma penalidade de –5 em Diplomacia, Iniciativa, Luta ou Percepção, a sua escolha (um tabu que afete seu comportamento, por exemplo, impõe –5 em Diplomacia). Se você desrespeitar seu tabu, fica fatigado por um dia (mesmo que seja imune a essa condição). Nenhum efeito pode curar essa condição. Se no dia seguinte continuar desrespeitando o tabu, você fica exausto. Se no terceiro dia não mudar seu comportamento, você morre."
+      }
+    ]
+  },
+  {
+    "name": "Eiradaan",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "sab",
+        "mod": 2
+      },
+      {
+        "attr": "car",
+        "mod": 1
+      },
+      {
+        "attr": "for",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Essência Feérica",
+        "description": "Você é uma criatura do tipo espírito, recebe visão na penumbra e pode falar com animais livremente."
+      },
+      {
+        "name": "Magia Instintiva",
+        "description": "Você pode usar Sabedoria no lugar de seu atributo-chave de magias arcanas e Misticismo. Além disso, quando lança uma magia, você recebe +1 PM para gastar em seus aprimoramentos (não cumulativo com outros efeitos que fornecem PM para aprimoramentos, como bolsa de pó; Tormenta20, p. 159)."
+      },
+      {
+        "name": "Sentidos Místicos",
+        "description": "Você está sempre sob o efeito básico da magia Visão Mística."
+      },
+      {
+        "name": "Canção da Melancolia",
+        "description": "Quando faz um teste de Vontade contra efeitos mentais, você rola dois dados e usa o pior resultado."
+      }
+    ]
+  },
+  {
+    "name": "Elfo-do-Mar",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Arsenal do Oceano",
+        "description": "Você recebe proficiência em arpão, rede e tridente e +2 em testes de ataque com essas armas. Se receber proficiência em uma dessas armas novamente, pode considerá-la uma arma leve."
+      },
+      {
+        "name": "Cria das Águas",
+        "description": "Você possui deslocamento de natação igual a seu deslocamento em terra e visão na penumbra. Quando dentro d’água, você recebe percepção às cegas e +2 na Defesa e, em Furtividade e Sobrevivência."
+      },
+      {
+        "name": "Dependência de Água",
+        "description": "Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho!)."
+      }
+    ]
+  },
+  {
+    "name": "Elfo",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "int",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "con",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Graça de Glórienn",
+        "description": "Seu deslocamento é 12m (em vez de 9m)."
+      },
+      {
+        "name": "Herança Feérica",
+        "description": "Você recebe +1 ponto de mana por nível."
+      },
+      {
+        "name": "Sentidos Élficos",
+        "description": "Você recebe visão na penumbra e +2 em Misticismo e Percepção."
+      }
+    ]
+  },
+  {
+    "name": "Finntroll",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "int",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "for",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Corpo Vegetal",
+        "description": "Você é uma criatura do tipo monstro e recebe natureza vegetal e visão no escuro."
+      },
+      {
+        "name": "Presença Arcana",
+        "description": "Você recebe +2 em Misticismo e resistência a magia +2."
+      },
+      {
+        "name": "Regeneração Vegetal",
+        "description": "Uma vez por rodada, você pode gastar 1 PM para recuperar 5 PV. Esta habilidade não cura dano de ácido ou fogo."
+      },
+      {
+        "name": "Intolerância a Luz",
+        "description": "Você recebe sensibilidade a luz e, quando exposto à luz do sol ou similar, não consegue ativar sua Regeneração Vegetal."
+      }
+    ]
+  },
+  {
+    "name": "Galokk",
+    "displacement": 9,
+    "size": "Grande",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Força dos Titãs",
+        "description": "Quando acerta um ataque corpo a corpo ou de arremesso, você pode gastar 1 PM. Se fizer isso, sempre que rolar o resultado máximo em um dado de dano da arma, role um dado extra, até um limite de dados extras igual à sua Força."
+      },
+      {
+        "name": "Meio-Gigante",
+        "description": "Você é uma criatura do tipo humanoide (gigante). Seu tamanho é Grande e você pode usar Força como atributo-chave de Intimidação."
+      },
+      {
+        "name": "Infância entre os Pequenos",
+        "description": "Você se torna treinado em uma perícia a sua escolha."
+      }
+    ]
+  },
+  {
+    "name": "Gnoll",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "sab",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "name": "Mordida",
+        "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "name": "Oportunista",
+        "description": "Você recebe +2 nas rolagens de dano contra criaturas que tenham sofrido dano de outras criaturas desde seu último turno."
+      },
+      {
+        "name": "Rendição",
+        "description": "Quando um inimigo se rende, você recebe 1d4 PM temporários cumulativos. Da mesma forma, quando é reduzido a um quarto de seus PV ou menos, seu instinto é se render. Caso continue lutando, fica alquebrado."
+      }
+    ]
+  },
+  {
+    "name": "Goblin",
+    "displacement": 9,
+    "size": "Pequeno",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "int",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Engenhoso",
+        "description": "Você não sofre penalidades em testes de perícia por não usar ferramentas. Se usar a ferramenta necessária, recebe +2 no teste de perícia."
+      },
+      {
+        "name": "Espelunqueiro",
+        "description": "Você recebe visão no escuro e deslocamento de escalada igual ao seu deslocamento terrestre."
+      },
+      {
+        "name": "Peste Esguia",
+        "description": "Seu tamanho é Pequeno (veja a página 106), mas seu deslocamento se mantém 9m. Apesar de pequenos, goblins são rápidos."
+      },
+      {
+        "name": "Rato das Ruas",
+        "description": "Você recebe +2 em Fortitude e sua recuperação de PV e PM nunca é inferior ao seu nível."
+      }
+    ]
+  },
+  {
+    "name": "Golem de Barro",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi de Barro",
+        "description": "Seu deslocamento não é afetado por terreno difícil e você passa automaticamente em testes de Acrobacia para passar por espaços apertados. Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Golem de Bronze",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi de Bronze",
+        "description": "Seu deslocamento não é reduzido por armaduras pesadas ou excesso de carga. Sua armadura não é acoplada ao seu corpo; você pode removê-la e colocá-la no tempo normal, mas ela conta em seu limite de itens vestidos."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Golem de Carne",
+    "displacement": 6,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "car",
+        "mod": -2
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi de Carne",
+        "description": "Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe imunidade a metamorfose e trevas, mas não pode escolher elemental (água ou fogo) ou vapor como sua fonte de energia, e dano mágico de fogo e frio o deixa lento por 1d4 rodadas."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Golem de Espelhos",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": 1
+      },
+      {
+        "attr": "sab",
+        "mod": 1
+      },
+      {
+        "attr": "con",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi de Espelhos",
+        "description": "Quando uma criatura em alcance curto usa uma habilidade de classe que você possa ver, você pode gastar 1 PM para copiar essa habilidade. Até o fim do seu próximo turno, você pode usá-la como uma habilidade de raça (se ela usar um atributo para algo, use seu Carisma). Se copiar outra habilidade, você perde a anterior."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Golem de Ferro",
+    "displacement": 6,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi de Ferro",
+        "description": "Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe +2 na Defesa, mas possui penalidade de armadura –2."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Golem de Gelo Eterno",
+    "displacement": 6,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi de Gelo Eterno",
+        "description": "Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe imunidade a frio e redução de fogo 10, mas não pode escolher elemental (fogo) ou vapor como sua fonte de energia (veja Golem de Nor na página 348)."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Golem de Pedra",
+    "displacement": 6,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi de Pedra",
+        "description": "Você não pode correr e seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe redução de corte, fogo e perfuração 5."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Golem de Sucata",
+    "displacement": 6,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi de Sucata",
+        "description": "Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Quando recebe cuidados prolongados com a perícia Ofício (artesão), sua recuperação de PV aumenta em +2 por nível nesse dia (em vez de +1)."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Golem Inevitável",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "car",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi Dourado",
+        "description": "Você pode gastar 1 PM para marcar uma criatura em alcance curto como culpada. Até o fim da cena, ou até você usar esta habilidade em outra criatura, você sempre sabe onde a criatura culpada está e, uma vez por rodada, um de seus ataques contra essa criatura causa +1d6 pontos de dano de luz."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Golem",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi",
+        "description": "Seu corpo artificial é resistente, mas rígido. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe +2 na Defesa, mas possui penalidade de armadura –2. Você leva um dia para vestir ou remover uma armadura (pois precisa acoplar as peças dela a seu chassi). Por ser acoplada, sua armadura não conta no limite de itens que você pode usar (mas você continua só podendo usar uma armadura)."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia da lista abaixo. \n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM. \n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano. \n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1° círculo. \n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      }
+    ]
+  },
+  {
+    "name": "Harpia",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "car",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Asas de Abutre",
+        "description": "Você possui asas no lugar dos braços e das mãos. Você pode pairar a 1,5m do chão com deslocamento 12m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m."
+      },
+      {
+        "name": "Cria de Masmorra",
+        "description": "Você é uma criatura do tipo monstro e recebe visão no escuro e +2 em Intimidação e Sobrevivência."
+      },
+      {
+        "name": "Grito Aterrorizante",
+        "description": "Você pode gastar uma ação padrão e 1 PM para emitir um grito estridente. Criaturas em alcance curto ficam abaladas (Von CD Car evita)."
+      },
+      {
+        "name": "Pés Rapinantes",
+        "description": "Seus pés podem ser usados como mãos ou como duas armas naturais de garras (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras."
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Arte da Guerra",
+        "description": "Você é treinado em Guerra e recebe proficiência em armas marciais. Se receber essa proficiência novamente, recebe +2 em rolagens de dano com essas armas."
+      },
+      {
+        "name": "Metalurgia Hobgoblin",
+        "description": "Você recebe +2 em Ofício (armeiro) e, se for treinado nesta perícia, pode fabricar armas e armaduras superiores com uma melhoria. Se aprender a fabricar itens superiores desses tipos por outra habilidade, gasta apenas 1/4 do preço das melhorias que aplica nesses itens (em vez de 1/3)."
+      },
+      {
+        "name": "Táticas de Guerrilha",
+        "description": "Você recebe visão no escuro e +2 em Furtividade."
+      }
+    ]
+  },
+  {
+    "name": "Humano",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Versátil",
+        "description": "Você se torna treinado em duas perícias a sua escolha (não precisam ser da sua classe). Você pode trocar uma dessas perícias por um poder geral a sua escolha."
+      }
+    ]
+  },
+  {
+    "name": "Hynne",
+    "displacement": 6,
+    "size": "Pequeno",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "car",
+        "mod": 1
+      },
+      {
+        "attr": "for",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Arremessador",
+        "description": "Quando faz um ataque à distância com uma funda ou uma arma de arremesso, seu dano aumenta em um passo."
+      },
+      {
+        "name": "Pequeno e Rechonchudo",
+        "description": "Seu tamanho é Pequeno (veja a página 106) e seu deslocamento é 6m. Você recebe +2 em Enganação e pode usar Destreza como atributo-chave de Atletismo (em vez de Força)."
+      },
+      {
+        "name": "Sorte Salvadora",
+        "description": "Quando faz um teste de resistência, você pode gastar 1 PM para rolar este teste novamente."
+      }
+    ]
+  },
+  {
+    "name": "Kaijin",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -2
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Couraça Rubra",
+        "description": "Você recebe redução de dano 2. Sua couraça conta como um poder da Tormenta, exceto para perda de Carisma."
+      },
+      {
+        "name": "Cria da Tormenta",
+        "description": "Você é uma criatura do tipo monstro e recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta. Além disso, efeitos da Tormenta que não afetem lefou também não afetam você."
+      },
+      {
+        "name": "Disforme",
+        "description": "Por sua anatomia anômala, você não pode empunhar nem vestir itens, a menos que sejam mágicos ou especialmente adaptados para você (o que demora um dia e custa 50% do preço do item, sem contar melhorias). Seus itens iniciais, e aqueles recebidos por sua origem ou habilidades, são adaptados para você. Esta habilidade conta como um poder da Tormenta, exceto para perda de Carisma."
+      },
+      {
+        "name": "Terror Vivo",
+        "description": "Você pode usar Força como atributo-chave de Intimidação (em vez de Carisma) e recebe um poder da Tormenta a sua escolha, que não conta para perda de Carisma."
+      }
+    ]
+  },
+  {
+    "name": "Kallyanach",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "any",
+        "mod": 2
+      },
+      {
+        "attr": "or",
+        "mod": 0
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Herança Dracônica",
+        "description": "Você é uma criatura do tipo monstro e recebe redução 5 contra um tipo de dano a sua escolha entre ácido, eletricidade, fogo, frio, luz ou trevas."
+      },
+      {
+        "name": "Bênção de Kallyadranoch",
+        "description": "Escolha dois dos poderes que estão na página 151 do livro Ameaças de Arton. Uma vez por patamar, você pode escolher uma bênção no lugar de um poder de classe."
+      },
+      {
+        "name": "Armamento Kallyanach",
+        "description": "Você possui uma arma natural (dano 1d6, crítico x2) escolhida entre cauda (impacto), chifres (perfuração) ou mordida (perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma."
+      },
+      {
+        "name": "Asas Dracônicas",
+        "description": "Você pode gastar 1 PM por rodada para voar com deslocamento de 9m. Enquanto estiver voando desta forma, você fica vulnerável."
+      },
+      {
+        "name": "Escamas Elementais",
+        "description": "Sua pele é recoberta de escamas resistentes e brilhantes, que fornecem +2 na Defesa e aumentam a RD de sua Herança Dracônica para 10."
+      },
+      {
+        "name": "Prática Arcana",
+        "description": "Escolha uma magia arcana de 1º círculo que cause dano do mesmo tipo de sua Herança Dracônica. Você pode lançar essa magia (atributo-chave Inteligência). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Você pode escolher esta bênção mais de uma vez para outras magias."
+      },
+      {
+        "name": "Sentidos Dracônicos",
+        "description": "Seus sentidos são impregnados com poder dracônico. Você recebe faro e visão no escuro."
+      },
+      {
+        "name": "Sopro de Dragão",
+        "description": "Você pode gastar uma ação padrão e 1 PM para soprar um cone de 6m que causa 1d12 pontos de dano do tipo de sua Herança Dracônica (Ref CD Constituição reduz à metade). A cada quatro níveis após o 1º, você pode gastar +1 PM para aumentar o dano do sopro em +1d12."
+      }
+    ]
+  },
+  {
+    "name": "Kappa",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Alma da Água",
+        "description": "Você é uma criatura do tipo espírito e tem deslocamento de natação igual ao seu deslocamento terrestre."
+      },
+      {
+        "name": "Carapaça Kappa",
+        "description": "Você não pode ser flanqueado e recebe cobertura leve se estiver submerso ou caído. Você soma sua Constituição na Defesa, limitado pelo seu nível, mas apenas se não estiver usando armaduras pesadas (se já faz isso, como pela habilidade Casca Grossa, em vez disso você recebe +2 na Defesa)."
+      },
+      {
+        "name": "Cura das Águas",
+        "description": "Você pode lançar a magia Curar Ferimentos (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Você não pode usar esta habilidade se a água de sua cabeça estiver derramada."
+      },
+      {
+        "name": "Tigela D'água",
+        "description": "Sempre que falhar por 5 ou mais em um teste para evitar ser agarrado, derrubado ou empurrado, você derrama a água de sua cabeça. Você fica enjoado até encher a tigela novamente (o que exige uma fonte de água e uma ação padrão)."
+      }
+    ]
+  },
+  {
+    "name": "Kliren",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "int",
+        "mod": 2
+      },
+      {
+        "attr": "car",
+        "mod": 1
+      },
+      {
+        "attr": "for",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Híbrido",
+        "description": "Sua natureza multifacetada fez com que você aprendesse conhecimentos variados. Você se torna treinado em uma perícia a sua escolha (não precisa ser da sua classe)."
+      },
+      {
+        "name": "Engenhosidade",
+        "description": "Quando faz um teste de perícia, você pode gastar 2 PM para somar sua Inteligência no teste. Você não pode usar esta habilidade em testes de ataque. Caso receba esta habilidade novamente, seu custo é reduzido em –1 PM."
+      },
+      {
+        "name": "Ossos Frágeis",
+        "description": "Você sofre 1 ponto de dano adicional por dado de dano de impacto. Por exemplo, se for atingido por uma clava (dano 1d6), sofre 1d6+1 pontos de dano. Se cair de 3m de altura (dano 2d6), sofre 2d6+2 pontos de dano."
+      },
+      {
+        "name": "Vanguardista",
+        "description": "Você recebe proficiência em armas de fogo e +2 em Ofício (um qualquer, a sua escolha)."
+      }
+    ]
+  },
+  {
+    "name": "Kobolds",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Ajuntamento Escamoso",
+        "description": "Embora sejam um grupo de kobolds, para todos os efeitos vocês são uma única criatura Média com dois braços. Entretanto, contam como Pequenos para efeitos dos espaços por onde podem passar e, quando fazem um teste de resistência contra um efeito que afeta apenas uma criatura e não causa dano, rolam dois dados e usam o melhor resultado. Por fim, têm vulnerabilidade a dano de área."
+      },
+      {
+        "name": "Praga Monstruosa",
+        "description": "Vocês são criaturas do tipo monstro e recebem visão no escuro e +2 em Sobrevivência."
+      },
+      {
+        "name": "Sensibilidade a Luz",
+        "description": "Quando expostos à luz do sol ou similar, vocês ficam ofuscados."
+      },
+      {
+        "name": "Talentos do Bando",
+        "description": "Escolham dois dos poderes que estão na página 183 do livro Ameaças de Arton. Uma vez por patamar, vocês podem escolher outro desses poderes no lugar de um poder de classe."
+      },
+      {
+        "name": "Amontoados",
+        "description": "Vocês são considerados uma criatura Grande para efeitos de espaço ocupado e modificadores de manobras de combate. Além disso, podem se organizar em qualquer forma equivalente a quatro cubos de 1,5m, desde cada um tenha pelo menos um lado adjacente a outro. Efeitos que aumentem seu tamanho se acumulam com este poder, e permitem que vocês se organizem em mais cubos (9 cubos de 1,5m para Enorme e 9 cubos de 3m para Colossal). Vocês podem mudar de configuração sempre que fizerem uma ação de movimento para se deslocar."
+      },
+      {
+        "name": "Armadilha Terrível",
+        "description": "Escolham uma magia de 1º círculo que tenha como alvo uma criatura ou que tenha um efeito em área e que cause dano ou um efeito negativo (como uma condição ou penalidade). Vocês possuem uma armadilha portátil que contém essa magia. Sua armadilha usa as mesmas regras de engenhocas (veja Tormenta20, p. 70), mas é acionada com Sobrevivência e tem Sabedoria como atributo- -chave. Vocês podem escolher esta habilidade mais de uma vez para magias diferentes."
+      },
+      {
+        "name": "Diferentão",
+        "description": "Escolham um poder de outra classe cujos requisitos vocês cumpram (como um poder de bardo da lista de Poderes de Bardo). Vocês recebem o poder escolhido; para efeitos de nível na classe desse poder, considere seu nível de personagem -4."
+      },
+      {
+        "name": "Ex-Familiar",
+        "description": "Vocês recebem +2 PM e os benefícios de um tipo de familiar, escolhidos entre os familiares básicos de arcanista (veja Tormenta20, p. 38). Se não tiverem um atributo-chave para conjuração, para efeitos desta habilidade vocês usam Carisma."
+      },
+      {
+        "name": "O Ousado",
+        "description": "Uma vez por cena, vocês podem gastar 1 PM e uma ação de movimento para que um membro do bando se afaste e aja sozinho. Ele age a partir da sua próxima rodada, tem deslocamento 9m e pode gastar uma ação padrão para causar 2d4 pontos de dano de corte em uma criatura adjacente (a cada patamar além de iniciante, cada dado desse dano aumenta em um passo). Ele é Pequeno, tem as mesmas características do restante do bando, 1 PV, e retorna ao bando quando “morto” ou ao fim da cena. Usos criativos para o ousado ficam a critério do mestre."
+      },
+      {
+        "name": "Os do Fundo",
+        "description": "Vocês conseguem formar o equivalente a um terceiro braço, que pode empunhar um objeto (mas não concede ações extras). Se usarem-no para empunhar uma arma leve, uma vez por rodada, quando usam a ação agredir para atacar com outra arma, podem gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma. Pré-requisito: Organizadinhos."
+      },
+      {
+        "name": "Organizadinhos",
+        "description": "Vocês podem usar Destreza para estabelecer seu limite de carga (em vez de Força) e podem se beneficiar de um item vestido adicional."
+      },
+      {
+        "name": "Pestes Oportunistas",
+        "description": "Uma vez por rodada, quando causam dano em uma criatura que já sofreu dano nessa rodada, vocês causam +1d6 pontos de dano do mesmo tipo. A cada patamar além de iniciante, esse dano extra aumenta em um passo."
+      },
+      {
+        "name": "Somos Explosivos",
+        "description": "Vocês podem gastar uma ação completa, 1 PM e uma quantidade de PV (limitado pelo seu nível) para arremessar um kobold explosivo em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 1d6 pontos de dano de impacto por PV gasto (Ref CD Des reduz à metade). Sempre que rolar o valor máximo em um dos dados de dano, o dano aumenta em +1d6."
+      },
+      {
+        "name": "Tática de Enxame",
+        "description": "Vocês podem gastar 2 PM para assumir uma forma de enxame com duração sustentada. Nessa forma, vocês podem ocupar o espaço de criaturas inimigas, tornam-se imunes a manobras de combate e sofrem apenas metade do dano de armas. Entretanto, não podem fazer nenhuma ação que exija coordenação e concentração (como usar a perícia Furtividade ou lançar magias). Criaturas dentro do espaço que vocês ocupam são consideradas em condição ruim para lançar magias. Pré-requisito: Amontoados."
+      }
+    ]
+  },
+  {
+    "name": "Lefou",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "attributeException": "car",
+    "abilities": [
+      {
+        "name": "Cria da Tormenta",
+        "description": "Você é uma criatura do tipo monstro e recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta."
+      },
+      {
+        "name": "Deformidade",
+        "description": "Todo lefou possui defeitos físicos que, embora desagradáveis, conferem certas vantagens. Você recebe +2 em duas perícias a sua escolha. Cada um desses bônus conta como um poder da Tormenta (exceto para perda de Carisma). Você pode trocar um desses bônus por um poder da Tormenta a sua escolha (ele também não conta para perda de Carisma)."
+      }
+    ]
+  },
+  {
+    "name": "Mashin",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi",
+        "description": "Você se torna treinado em duas perícias a sua escolha e pode substituir uma dessas perícias por uma maravilha mecânica. Entretanto, você é sempre Médio."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia entre: Alquímica, Elemental, Sagrada ou Vapor. Veja a página 135 do livro Ameaças de Arton para visualizar as fontes de energia disponíveis."
+      },
+      {
+        "name": "Maravilha Mecânica",
+        "description": "Se escolher uma maravilha mecânica, você recebe um dos poderes que estão na página 160 do livro Ameaças de Arton. Uma vez por patamar, você pode escolher uma maravilha mecânica no lugar de um poder de classe."
+      },
+      {
+        "name": "Adaptação Elemental",
+        "description": "Quando sofre dano de ácido, eletricidade, fogo, frio, luz ou trevas, você pode gastar 2 PM para receber redução 10 contra esse tipo de dano até o fim da cena."
+      },
+      {
+        "name": "Arma Acoplada",
+        "description": "Você possui uma arma acoplada ao seu corpo. Ela fica recolhida em um compartimento e não pode ser desarmada, e você conta como se tivesse Saque Rápido para usá-la. Um personagem treinado em Ofício (artesão) pode substituir essa arma com uma hora de trabalho e o gasto de T$ 100."
+      },
+      {
+        "name": "Arma Elemental",
+        "description": "Você pode gastar uma ação de movimento e 2 PM para fazer uma arma que esteja empunhando causar +1d6 pontos de dano do tipo de sua fonte elemental até o fim da cena. Pré-requisito: Fonte de Energia (elemental)."
+      },
+      {
+        "name": "Auxílio de Mira",
+        "description": "Quando faz um ataque à distância, você pode pagar 1 PM para aumentar em +2 a margem de ameaça desse ataque."
+      },
+      {
+        "name": "Caminho da Perfeição",
+        "description": "Escolha uma de suas perícias treinadas. Você recebe +2 nessa perícia."
+      },
+      {
+        "name": "Canalizar Reparos",
+        "description": "Como uma ação completa, você pode gastar pontos de mana para recuperar pontos de vida, à taxa de 5 PV por PM."
+      },
+      {
+        "name": "Canhão Energético",
+        "description": "Se sua arma acoplada for uma arma de fogo, você pode gastar uma ação de movimento e 1 PM para energizá-la. Até o fim da cena, seu próximo ataque com ela causa +1 dado de dano do mesmo tipo. Múltiplos usos deste poder são cumulativos (limitado por sua Constituição). Pré-requisito: Arma Acoplada."
+      },
+      {
+        "name": "Dínamo de Mana",
+        "description": "Escolha uma de suas habilidades com um custo em PM. Você pode gastar uma ação de movimento para canalizar seu mana. Quando faz isso, até o fim do seu turno, o custo do próximo uso da habilidade escolhida é reduzido em –1 PM. Um personagem treinado em Ofício (artesão) pode substituir essa habilidade com uma hora de trabalho e o gasto de T$ 100."
+      },
+      {
+        "name": "Pernas Aprimoradas",
+        "description": "Você pode gastar 2 PM para receber +6m em seu deslocamento e +5 em Atletismo até o fim da cena."
+      },
+      {
+        "name": "Reservatório Alquímico",
+        "description": "Você possui um reservatório em seu corpo que pode armazenar até duas doses de preparados alquímicos. Uma vez por rodada, você pode usar um desses preparados ou pode consumi-lo para sua fonte de energia. Carregar seu reservatório exige uma ação completa e o gasto dos itens com os quais você quiser carregá-lo. Pré-requisito: Fonte de Energia (alquímica)."
+      }
+    ]
+  },
+  {
+    "name": "Medusa",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "car",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Cria de Megalokk",
+        "description": "Você é uma criatura do tipo monstro e recebe visão no escuro."
+      },
+      {
+        "name": "Natureza Venenosa",
+        "description": "Você recebe resistência a veneno +5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja usando. A arma causa perda de 1d12 pontos de vida. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro). Veneno."
+      },
+      {
+        "name": "Olhar Atordoante",
+        "description": "Você pode gastar uma ação de movimento e 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica atordoada por uma rodada (apenas uma vez por cena)."
+      }
+    ]
+  },
+  {
+    "name": "Meio-Elfo",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "int",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Ambição Herdada",
+        "description": "Você recebe um poder geral ou poder único de origem (Tormenta20, p. 85) a sua escolha."
+      },
+      {
+        "name": "Entre Dois Mundos",
+        "description": "Você recebe +1 em perícias baseadas em Carisma."
+      },
+      {
+        "name": "Sangue Élfico",
+        "description": "Você recebe visão na penumbra e +1 ponto de mana a cada nível ímpar (incluindo o 1º). Além disso, é considerado um elfo para efeitos relacionados a raça."
+      }
+    ]
+  },
+  {
+    "name": "Meio-Orc",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "attributeException": "car",
+    "abilities": [
+      {
+        "name": "Adaptável",
+        "description": "Você recebe +2 em Intimidação e se torna treinado em uma perícia a sua escolha."
+      },
+      {
+        "name": "Criatura das Profundezas",
+        "description": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo."
+      },
+      {
+        "name": "Sangue Orc",
+        "description": "Você recebe +1 em rolagens de dano com armas corpo a corpo e de arremesso e é considerado um orc para efeitos relacionados a raça."
+      }
+    ]
+  },
+  {
+    "name": "Minauro",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "name": "Mente Aberta",
+        "description": "Você recebe +2 em Diplomacia e Investigação."
+      },
+      {
+        "name": "Plurivalente",
+        "description": "Você recebe um poder geral a sua escolha."
+      }
+    ]
+  },
+  {
+    "name": "Minotauro",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "sab",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chifres",
+        "description": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres."
+      },
+      {
+        "name": "Couro Rígido",
+        "description": "Sua pele é dura como a de um touro. Você recebe +1 na Defesa."
+      },
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa perceber, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "name": "Medo de Altura",
+        "description": "Se estiver adjacente a uma queda de 3m ou mais de altura (como um buraco ou penhasco), você fica abalado."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Búfalo",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chifres",
+        "description": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres."
+      },
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "name": "Marrada Impressionante",
+        "description": "Você recebe +2 em ataques em investida e em testes para empurrar, e pode usar Força como atributo-chave de Intimidação (em vez de Carisma)."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Coelho",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Patas Ligeiras",
+        "description": "Seu deslocamento é 12m e, quando faz uma investida ou um teste de Atletismo para correr, você não precisa percorrer uma linha reta."
+      },
+      {
+        "name": "Pé de Coelho",
+        "description": "Quando faz um teste de uma perícia baseada em Destreza (exceto testes de ataque), você pode gastar 1 PM para rolar dois dados e usar o melhor resultado."
+      },
+      {
+        "name": "Senso de Preservação",
+        "description": "Você recebe visão na penumbra e +2 em Percepção e Reflexos."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Coruja",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "sab",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Espreitador",
+        "description": "Você recebe visão no escuro e +2 em Percepção e Vontade."
+      },
+      {
+        "name": "Garras",
+        "description": "Você tem duas armas naturais de garra (dano 1d6, crítico x2, corte), uma em cada mão. Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras."
+      },
+      {
+        "name": "Sapiência",
+        "description": "Você pode lançar uma magia de 1º círculo de adivinhação a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Crocodilo",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Mordida Poderosa",
+        "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração), com a qual recebe +2 em testes de agarrar. Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "name": "Predador Aquático",
+        "description": "Você tem deslocamento de natação 6m e recebe +1 na Defesa e +2 em Furtividade."
+      },
+      {
+        "name": "Surto Reptiliano",
+        "description": "Uma vez por cena, você pode gastar 1 PM para realizar uma ação de movimento adicional em seu turno."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Gato",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "car",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "As Muitas Vidas de um Gato",
+        "description": "Você soma seu Carisma em testes de Constituição para estabilizar sangramento e em Acrobacia e, se estiver consciente em uma queda, reduz o dano dela em 3d6."
+      },
+      {
+        "name": "Garras",
+        "description": "Você tem duas armas naturais de garra (dano 1d6, crítico x2, corte), uma em cada mão. Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras."
+      },
+      {
+        "name": "Sentidos Felinos",
+        "description": "Você recebe visão na penumbra e +2 em Furtividade e Percepção."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Hiena",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "sab",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Destemor",
+        "description": "Você recebe +2 em rolagens de dano e em testes de resistência contra criaturas maiores que você."
+      },
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "name": "Mordida",
+        "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Leão",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Mordida",
+        "description": "Você possui uma arma natural de mordida (dano 1d8, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "name": "Rugido Imponente",
+        "description": "Você pode gastar uma ação de movimento e 1 PM para emitir um rugido assustador. Todos os inimigos em alcance curto sofrem -2 em rolagens de dano por 1 rodada. Medo."
+      },
+      {
+        "name": "Sentidos da Realeza",
+        "description": "Você recebe visão na penumbra e +2 em Intimidação e Percepção."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Lobo",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "car",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "name": "Mordida",
+        "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "name": "Táticas de Matilha",
+        "description": "Você recebe +2 nas rolagens de dano e na margem de ameaça em ataques contra oponentes que esteja flanqueando."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Morcego",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Asas",
+        "description": "Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Você precisa de espaço para abrir suas asas; quando paira ou voa, ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua."
+      },
+      {
+        "name": "Criatura da Noite",
+        "description": "Você recebe visão no escuro e +2 em Furtividade e Percepção."
+      },
+      {
+        "name": "Ecolocalização",
+        "description": "Você pode gastar 1 PM para receber percepção às cegas em alcance médio por 1 rodada."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Raposa",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "int",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Agarra-me Se Puderes",
+        "description": "Seu deslocamento é 12m (em vez de 9m) e você tem visão na penumbra."
+      },
+      {
+        "name": "Esperteza Vulpina",
+        "description": "Você recebe +2 em duas perícias originalmente baseadas em Inteligência ou Carisma, a sua escolha."
+      },
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Serpente",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "int",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Arborícola",
+        "description": "Você recebe deslocamento de escalada 6m e +2 em Furtividade."
+      },
+      {
+        "name": "Constritor",
+        "description": "Você recebe +2 em testes para agarrar e em rolagens de dano contra criaturas que estiver agarrando."
+      },
+      {
+        "name": "Instintos Traiçoeiros",
+        "description": "Você recebe visão no escuro e +2 em Diplomacia e na CD de seus efeitos mentais."
+      }
+    ]
+  },
+  {
+    "name": "Moreau Urso",
+    "displacement": 9,
+    "size": "Grande",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Abraço de Urso",
+        "description": "Você é Grande e pode usar Constituição como atributo-chave de Intimidação (em vez de Carisma)."
+      },
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "name": "Mordida",
+        "description": "Você possui uma arma natural de mordida (dano 1d8, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      }
+    ]
+  },
+  {
+    "name": "Nagah",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Cauda",
+        "description": "Você possui uma arma natural de cauda (dano 1d6, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a cauda."
+      },
+      {
+        "name": "Inocência Dissimulada",
+        "description": "Você recebe +2 em Enganação e pode gastar 2 PM para substituir um teste de perícia originalmente baseada em Inteligência, Sabedoria ou Carisma por Enganação."
+      },
+      {
+        "name": "Presentes de Sszzaas",
+        "description": "Você recebe visão na penumbra, +1 na Defesa e resistência a veneno +5."
+      },
+      {
+        "name": "Fraquezas Ofídicas",
+        "description": "Você sofre 1 ponto de dano adicional para cada dado de dano de frio e –5 em testes de resistência contra Músicas de bardo."
+      }
+    ]
+  },
+  {
+    "name": "Nezumi",
+    "displacement": 9,
+    "size": "Pequeno",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Empunhadura Poderosa",
+        "description": "Ao usar uma arma feita para uma categoria de tamanho maior que a sua (por exemplo, uma arma aumentada para uma criatura Pequena ou Média), a penalidade que você sofre nos testes de ataque diminui para –2. Caso receba esta habilidade novamente, a penalidade diminui para 0."
+      },
+      {
+        "name": "Pequeno, Mas Não Metade",
+        "description": "Seu tamanho é Pequeno, mas seu deslocamento se mantém 9m e você recebe resistência a medo +5 contra criaturas maiores que você e +2 em Intimidação."
+      },
+      {
+        "name": "Roedor",
+        "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Além disso, quando faz um acerto crítico com sua mordida, você deixa a armadura da vítima avariada ou, se ela estiver sem armadura, aumenta em +1 o multiplicador desse crítico."
+      },
+      {
+        "name": "Sentidos Murídeos",
+        "description": "Você recebe faro e visão na penumbra."
+      }
+    ]
+  },
+  {
+    "name": "Ogro",
+    "displacement": 9,
+    "size": "Grande",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 3
+      },
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Quanto Maior o Tamanho…",
+        "description": "Você é um humanoide do subtipo gigante; seu tamanho é Grande e você recebe visão na penumbra."
+      },
+      {
+        "name": "…Maior a Porrada!",
+        "description": "Quando acerta um ataque corpo a corpo, você pode gastar 1 PM para causar +1d8 pontos de dano do mesmo tipo."
+      },
+      {
+        "name": "Camada de Ingenuidade",
+        "description": "Você sofre –5 em Intuição e Vontade."
+      }
+    ]
+  },
+  {
+    "name": "Orc",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Feroz",
+        "description": "Você recebe +2 em rolagens de dano com armas corpo a corpo e de arremesso. Quando sofre dano de um inimigo, esse bônus se torna +4 até o fim de seu próximo turno."
+      },
+      {
+        "name": "Habitante das Cavernas",
+        "description": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo. Entretanto, recebe sensibilidade a luz."
+      },
+      {
+        "name": "Vigor Brutal",
+        "description": "Você recebe +2 em Fortitude e soma sua Força em seu total de pontos de vida."
+      }
+    ]
+  },
+  {
+    "name": "Osteon",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "con",
+        "mod": -1
+      }
+    ],
+    "attributeException": "con",
+    "abilities": [
+      {
+        "name": "Armadura Óssea",
+        "description": "Você recebe redução de corte, frio e perfuração 5."
+      },
+      {
+        "name": "Memória Póstuma",
+        "description": "Você se torna treinado em uma perícia (não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um osteon de outra raça humanoide que não humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho."
+      },
+      {
+        "name": "Natureza Esquelética",
+        "description": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos, de trevas e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, efeitos mágicos de cura de luz causam dano a você e você não se beneficia de itens da categoria alimentação, mas dano de trevas recupera seus PV."
+      },
+      {
+        "name": "Preço da Não Vida",
+        "description": "Você precisa passar oito horas sob a luz de estrelas ou no subterrâneo. Se fizer isso, recupera PV e PM por descanso em condições normais (osteon não são afetados por condições boas ou ruins de descanso). Caso contrário, sofre os efeitos de fome."
+      }
+    ]
+  },
+  {
+    "name": "Pteros",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "sab",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Ligação Natural",
+        "description": "Você possui uma ligação mental com uma criatura inteligente (Int –3 ou mais). Vocês podem se comunicar mentalmente em alcance longo e sempre sabem em que direção e distância podem encontrar o outro. Você pode trocar a criatura com a qual mantém o vínculo no início de cada aventura."
+      },
+      {
+        "name": "Mãos Rudimentares",
+        "description": "Suas mãos não permitem que você empunhe itens, a menos que sejam mágicos ou especialmente adaptados para você (o que demora um dia e custa 50% do preço do item, sem contar melhorias). Seus itens iniciais, e aqueles recebidos por sua origem ou habilidades, são adaptados para você."
+      },
+      {
+        "name": "Pés Rapinantes",
+        "description": "Seus pés são duas armas naturais de garras (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras."
+      },
+      {
+        "name": "Senhor dos Céus",
+        "description": "Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Quando abre suas asas para pairar ou voar, você ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua."
+      },
+      {
+        "name": "Sentidos Rapinantes",
+        "description": "Você recebe visão na penumbra e +2 em Percepção e Sobrevivência."
+      }
+    ]
+  },
+  {
+    "name": "Qareen",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "car",
+        "mod": 2
+      },
+      {
+        "attr": "int",
+        "mod": 1
+      },
+      {
+        "attr": "sab",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Desejos",
+        "description": "Se lançar uma magia que alguém tenha pedido desde seu último turno, o custo da magia diminui em –1 PM. Fazer um desejo ao qareen é uma ação livre."
+      },
+      {
+        "name": "Resistência Elemental",
+        "description": "Conforme sua ascendência, você recebe redução 10 a um tipo de dano. Escolha uma: frio (qareen da água), eletricidade (do ar), fogo (do fogo), ácido (da terra), luz (da luz) ou trevas (qareen das trevas)."
+      },
+      {
+        "name": "Tatuagem Mística",
+        "description": "Você pode lançar uma magia de 1º círculo a sua escolha (atributo-chave Carisma). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+      }
+    ]
+  },
+  {
+    "name": "Sereia/Tritão",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Canção dos Mares",
+        "description": "Você pode lançar duas das magias a seguir: Amedrontar, Comando, Despedaçar, Enfeitiçar, Hipnotismo ou Sono (atributo-chave Carisma). Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM."
+      },
+      {
+        "name": "Mestre do Tridente",
+        "description": "Para você, o tridente é uma arma simples. Além disso, você recebe +2 em rolagens de dano com azagaias, lanças e tridentes."
+      },
+      {
+        "name": "Transformação Anfíbia",
+        "description": "Você pode respirar debaixo d’água e possui uma cauda que fornece deslocamento de natação 12m. Quando fora d’água, sua cauda desaparece e dá lugar a pernas (deslocamento 9m). Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho!)."
+      }
+    ]
+  },
+  {
+    "name": "Soterrado",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "con",
+        "mod": -1
+      }
+    ],
+    "attributeException": "con",
+    "abilities": [
+      {
+        "name": "Abraço Gélido",
+        "description": "Você recebe +2 em testes para agarrar. Além disso, seus ataques desarmados e com armas naturais causam 2 pontos de dano de frio extras."
+      },
+      {
+        "name": "Esquife de Gelo",
+        "description": "Você recebe redução de corte e perfuração 5 e redução de frio 10. Entretanto, sofre 1 ponto de dano adicional por dado de dano de fogo."
+      },
+      {
+        "name": "Natureza Esquelética",
+        "description": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos, de trevas e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, efeitos mágicos de cura de luz causam dano a você e você não se beneficia de itens da categoria alimentação, mas dano de trevas recupera seus PV."
+      },
+      {
+        "name": "Preço da Não Vida",
+        "description": "Você precisa passar oito horas sob a luz de estrelas ou no subterrâneo. Se fizer isso, recupera PV e PM por descanso em condições normais (osteon não são afetados por condições boas ou ruins de descanso). Caso contrário, sofre os efeitos de fome."
+      }
+    ]
+  },
+  {
+    "name": "Aggelus",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "sab",
+        "mod": 2
+      },
+      {
+        "attr": "car",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Herança Divina",
+        "description": "Você é uma criatura do tipo espírito e recebe visão no escuro."
+      },
+      {
+        "name": "Luz Sagrada (Aggelus)",
+        "description": "Você recebe +2 em Diplomacia e Intuição. Além disso, pode lançar Luz (como uma magia divina; atributo-chave Carisma). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+      }
+    ]
+  },
+  {
+    "name": "Sulfure",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "int",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Herança Divina",
+        "description": "Você é uma criatura do tipo espírito e recebe visão no escuro."
+      },
+      {
+        "name": "Sombras Profanas (Sulfure)",
+        "description": "Você recebe +2 em Enganação e Furtividade. Além disso, pode lançar Escuridão (como uma magia divina; atributo-chave Inteligência). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+      }
+    ]
+  },
+  {
+    "name": "Sátiro",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "car",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "sab",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Festeiro Feérico",
+        "description": "Você é uma criatura do tipo espírito, recebe visão na penumbra e +2 em Atuação e Fortitude."
+      },
+      {
+        "name": "Instrumentista Mágico",
+        "description": "Se estiver empunhando um instrumento musical, você pode lançar as magias Amedrontar, Enfeitiçar, Hipnotismo e Sono (atributo-chave Carisma). Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM."
+      },
+      {
+        "name": "Marrada",
+        "description": "Você possui uma arma natural de marrada (dano 1d6, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a marrada."
+      },
+      {
+        "name": "Pernas Caprinas",
+        "description": "Seu deslocamento é 12m e você pode usar Destreza como atributo-chave de Atletismo (em vez de Força)."
+      }
+    ]
+  },
+  {
+    "name": "Sílfide",
+    "displacement": 9,
+    "size": "Minúsculo",
+    "attributes": [
+      {
+        "attr": "car",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "for",
+        "mod": -2
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Asas de Borboleta",
+        "description": "Seu tamanho é Minúsculo. Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento de 12m."
+      },
+      {
+        "name": "Espírito da Natureza",
+        "description": "Você é uma criatura do tipo espírito, recebe visão na penumbra e pode falar com animais livremente."
+      },
+      {
+        "name": "Magia das Fadas",
+        "description": "Você pode lançar duas das magias a seguir (atributo-chave Carisma): Criar Ilusão, Enfeitiçar, Luz (como uma magia arcana) e Sono. Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM."
+      }
+    ]
+  },
+  {
+    "name": "Tabrachi",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Batráquio",
+        "description": "Você recebe visão na penumbra e deslocamento de natação igual ao seu deslocamento terrestre."
+      },
+      {
+        "name": "Linguarudo",
+        "description": "Sua língua é uma arma natural que pode atacar inimigos a até 3m (dano 1d4, crítico x2, impacto). Ela é uma arma versátil, fornecendo +2 em testes para desarmar e derrubar. Uma vez por rodada, quando usa a ação agredir com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a língua."
+      },
+      {
+        "name": "Saltador",
+        "description": "Você recebe +10 em testes de Atletismo para saltar."
+      }
+    ]
+  },
+  {
+    "name": "Tengu",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "int",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Asas Desorientadoras",
+        "description": "Quando estão livres, suas asas podem ser usadas para distrair seus oponentes. Se não estiver usando-as para voar, você recebe os benefícios de Finta Aprimorada. Se tiver esse poder, em vez disso o bônus em Enganação para fintar aumenta para +5."
+      },
+      {
+        "name": "Caminhante do Céu",
+        "description": "Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Você precisa de espaço para abrir suas asas; quando paira ou voa, ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua."
+      },
+      {
+        "name": "Espírito Corvino",
+        "description": "Você é uma criatura do tipo espírito e recebe visão no escuro e +2 em Percepção."
+      }
+    ]
+  },
+  {
+    "name": "Trog Anão",
+    "displacement": 6,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      },
+      {
+        "attr": "des",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Mau Cheiro",
+        "description": "Você pode gastar uma ação padrão e 2 PM para expelir um gás fétido. Todas as criaturas (exceto trogs) em alcance curto devem passar em um teste de Fortitude contra veneno (CD Con) ou ficarão enjoadas durante 1d6 rodadas. Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia."
+      },
+      {
+        "name": "Mordida",
+        "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "name": "Quase Anão",
+        "description": "Você é uma criatura do tipo monstro e recebe visão no escuro e +1 PV por nível. Além disso, seu deslocamento é 6m (em vez de 9m), mas não é reduzido por uso de armadura ou excesso de carga."
+      },
+      {
+        "name": "Sangue Frio",
+        "description": "Você sofre 1 ponto de dano adicional por dado de dano de frio."
+      }
+    ]
+  },
+  {
+    "name": "Trog",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Mau Cheiro",
+        "description": "Você pode gastar uma ação padrão e 2 PM para expelir um gás fétido. Todas as criaturas (exceto trogs) em alcance curto devem passar em um teste de Fortitude contra veneno (CD Con) ou ficarão enjoadas durante 1d6 rodadas. Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia."
+      },
+      {
+        "name": "Mordida",
+        "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "name": "Reptiliano",
+        "description": "Você é uma criatura do tipo monstro e recebe visão no escuro, +1 na Defesa e, se estiver sem armadura ou roupas pesadas, +5 em Furtividade."
+      },
+      {
+        "name": "Sangue Frio",
+        "description": "Você sofre 1 ponto de dano adicional por dado de dano de frio."
+      }
+    ]
+  },
+  {
+    "name": "Velocis",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "sab",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Através de Espinheiros",
+        "description": "Você recebe redução de corte e perfuração 2 e não sofre redução em seu deslocamento por terreno difícil natural."
+      },
+      {
+        "name": "Sentidos Selvagens",
+        "description": "Você recebe +2 em Sobrevivência, visão na penumbra e faro (contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha)."
+      },
+      {
+        "name": "Velocista da Planície",
+        "description": "Seu deslocamento é 12m. Você pode usar Destreza como atributo-chave de Atletismo (em vez de Força) e, quando faz testes de Atletismo para correr ou saltar, pode rolar dois dados e usar o melhor resultado."
+      }
+    ]
+  },
+  {
+    "name": "Voracis",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Garras",
+        "description": "Suas mãos são duas armas naturais de garras (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras."
+      },
+      {
+        "name": "Rainha da Selva",
+        "description": "Você recebe deslocamento de escalada 9m, +2 em Atletismo e recupera +1 PV por nível quando descansa."
+      },
+      {
+        "name": "Sentidos Selvagens",
+        "description": "Você recebe +2 em Sobrevivência, visão na penumbra e faro (contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha)."
+      }
+    ]
+  },
+  {
+    "name": "Yidishan",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -2
+      }
+    ],
+    "attributeException": "con",
+    "abilities": [
+      {
+        "name": "Híbrido Mecânico",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a cansaço, efeitos metabólicos e veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de itens da categoria alimentação e efeitos de cura mundana são reduzidos pela metade em você. Você precisa ficar inerte por 8 horas por dia para recarregar suas forças. Se fizer isso, recupera PV e PM por descanso em condições normais (yidishan não são afetados por condições boas ou ruins de descanso)."
+      },
+      {
+        "name": "Natureza Orgânica",
+        "description": "Você se torna treinado em uma perícia (que não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um yidishan de outra raça humanoide além de humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho."
+      },
+      {
+        "name": "Peças Metálicas",
+        "description": "As partes mecânicas que complementam seu corpo fornecem +2 na Defesa, mas impõem uma penalidade de armadura de –2."
+      }
+    ]
+  }
+]

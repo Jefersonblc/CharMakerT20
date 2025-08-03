@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { usePersonagem } from '../context/PersonagemContext';
-import skillsData from '../assets/data/skills.js';
+// import skillsData from '../assets/data/skills.js';
 
 function Pericias() {
   const { personagem, setPersonagem } = usePersonagem();
@@ -28,24 +28,22 @@ function Pericias() {
     const skill = personagem.pericias[id];
     if (!skill) return 0;
 
-    const treinada = skill.treinada || false;
+    const treined = skill.treined || false;
     const atributo = skill.atributo;
     const outros = skill.outros || 0;
-    const bonusTreinado = treinada ? bonusPericiaTreinada(personagem.charnivel) : 0;
+    const bonusTreinado = treined ? bonusPericiaTreinada(personagem.charnivel) : 0;
     return bonusTreinado + personagem[atributo] + outros + Math.floor(personagem.charnivel/2);
   }
 
   function mustSelectSkill(skillName) {
-    var pericias_opt = personagem?.class_skill?.treinadas_opt;
-    var hasSelectedOption= Object.values(personagem.pericias).some(pericia => pericias_opt?.includes(pericia.nome) && pericia.treinada == true);
-    return pericias_opt?.includes(skillName) && !hasSelectedOption;
+    var treinedSkillsOr = personagem?.treinedSkillsOr;
+    var hasSelectedOption= Object.values(personagem.pericias).some(pericia => treinedSkillsOr?.includes(pericia.nome) && pericia.treined == true);
+    return treinedSkillsOr?.includes(skillName) && !hasSelectedOption;
   }
 
   function numeroPericiasTreinadas() {
-    return Object.values(personagem.pericias).filter(skill => skill.treinada).length;
-    var padrao = personagem?.class_skill?.treinadas;
-    var padrao_opt = personagem?.class_skill?.treinadas_opt;
-    //&& !(padrao?.includes(skill.nome) || padrao_opt?.filter(item => item == skill.nome).length > 0)
+    return Object.values(personagem.pericias).filter(skill => skill.treined).length;
+    //&& !(personagem?.treinedSkills?.includes(skill.nome) || personagem?.treinedSkillsOr?.filter(item => item == skill.nome).length > 0)
   }
 
   return (
@@ -55,11 +53,11 @@ function Pericias() {
           <thead className="table-light">
             <tr>
               <th className="text-start">Perícia</th>
-              <th>Treinada (INT: {personagem.int}) <br/> ({numeroPericiasTreinadas()})</th>
+              <th>Treinada({numeroPericiasTreinadas()}) <br/> (INT:{personagem.int}) </th>
               <th>Atributo</th>
               <th>Outros</th>
               <th>Total</th>
-              <th>Opção de Classe (2 + {personagem?.class_skill?.quantity || 0})</th>
+              <th>Opção de Classe (2 + {personagem?.extraSkills || 0} = {(personagem?.extraSkills || 0) + 2})</th>
             </tr>
           </thead>
           <tbody>
@@ -70,9 +68,9 @@ function Pericias() {
                   <input
                     type="checkbox"
                     className={`form-check-input ${mustSelectSkill(skill.nome) ? 'question-box' : ''}`}
-                    checked={personagem.pericias[skill.id]?.treinada || false}
-                    onChange={e => handleSkillChange(skill.id, 'treinada', e.target.checked)}
-                    disabled={personagem.class_skill.treinadas.includes(skill.nome)}
+                    checked={personagem.pericias[skill.id]?.treined || false}
+                    onChange={e => handleSkillChange(skill.id, 'treined', e.target.checked)}
+                    disabled={personagem.treinedSkills.includes(skill.nome)}
                   />
                 </td>
                 <td>
@@ -106,9 +104,9 @@ function Pericias() {
                   />
                 </td>
                 <td className="text-start">
-                  {personagem.class_skill.option.includes(skill.nome) ? <i className="fa-solid fa-circle-left"></i> : ''}
+                  {personagem.skills.includes(skill.nome) ? <i className="fa-solid fa-circle-left"></i> : ''}
                   {mustSelectSkill(skill.nome) ? ' Escolher 1' : ''}
-                  {personagem.class_skill.treinadas.includes(skill.nome) ? <span><i className="fa-solid fa-circle-left"></i> Padrão de Classe</span> : ''}
+                  {personagem.treinedSkills.includes(skill.nome) ? <span><i className="fa-solid fa-circle-left"></i> Padrão de Classe</span> : ''}
                 </td>
               </tr>
             ))}

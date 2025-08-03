@@ -67,6 +67,10 @@ h1 {
   box-shadow: 0 0 0 0.2rem rgba(210, 175, 55, 0.25);
 }
 
+.input-group-text {
+  border: 2px solid #000000;
+}
+
 .border-bottom-red {
   padding-bottom: 5px;
   border-bottom: 3px solid var(--t20-red);

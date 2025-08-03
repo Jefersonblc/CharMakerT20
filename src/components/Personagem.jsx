@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Select from 'react-select';
 import { usePersonagem } from '../context/PersonagemContext';
-import racesData from '../assets/data/races.js';
+import racesData from '../assets/data/races.json';
 import originsData from '../assets/data/origins.js';
 import classesData from '../assets/data/classes.js';
 import deitiesData from '../assets/data/deities.js';
@@ -84,24 +84,28 @@ function Personagem() {
 
   // Atualiza atributos e exceções da raça ao selecionar
   function updateRaceAttributes(selectedRaceName) {
-    const selectedRace = races.find(r => r.nome === selectedRaceName);
-    if (!selectedRace || !selectedRace.modificadores) {
+    const selectedRace = races.find(r => r.name === selectedRaceName);
+    if (!selectedRace || !selectedRace.attributes) {
       Object.keys(attributes).forEach(attr => {
         setAttributes(prev => ({
           ...prev,
           [attr]: { ...prev[attr], mod: 0, any: false, except: false }
         }));
-        //personagem[attr] = 0;
       });
       setAnyAttribute({ avaliable: 0, selected: 0 });
+      setPersonagem(prev => ({
+        ...prev,
+        abilities: prev.abilities.filter(a => a.type !== "Padrão Racial")
+      }));
       return;
     }
 
-    const anyAttributeCount = selectedRace.modificadores.filter(item => item.attr === 'any').length;
+    const anyAttributeCount = selectedRace.attributes.filter(item => item.attr === 'any').length;
     setAnyAttribute({ avaliable: anyAttributeCount, selected: 0 });
 
+
     Object.keys(attributes).forEach(attr => {
-      const raceModifier = selectedRace.modificadores.find(item => item.attr === attr);
+      const raceModifier = selectedRace.attributes.find(item => item.attr === attr);
       setAttributes(prev => ({
         ...prev,
         [attr]: {
@@ -111,18 +115,33 @@ function Personagem() {
           except: false
         }
       }));
-      //personagem[attr] = 0;
     });
 
-    if (selectedRace.modException) {
+    if (selectedRace.attributeException) {
       setAttributes(prev => ({
         ...prev,
-        [selectedRace.modException]: {
-          ...prev[selectedRace.modException],
+        [selectedRace.attributeException]: {
+          ...prev[selectedRace.attributeException],
           except: true
         }
       }));
     }
+
+    setPersonagem(prev => ({ 
+      ...prev, 
+      tamanho: opcoesTamanho.find(item => item.value === selectedRace.size)?.label || prev.tamanho,
+      deslocamento: selectedRace.displacement + " Metros" || prev.deslocamento,
+      abilities: [
+        ...prev.abilities.filter(a => !a.raceDefault), 
+        ...selectedRace.abilities.map(ability => ({       
+          id: crypto.randomUUID(),
+          name: ability.name,
+          type: "Padrão Racial",
+          description: ability.description,
+          raceDefault: true
+        }))
+      ]
+    }));
   }
 
   function handleChangeAttribute(attr, e) {
@@ -174,40 +193,79 @@ function Personagem() {
 
   function onClassChange(option) {
     const className = option ? option.value : '';
-    const selectedClass = classes.find(r => r.nome === className);
+    const {selectedClass, isSubclass} = getClassByName(className);
     
-    Object.values(personagem.pericias).forEach((pericia) => {
-      personagem.pericias[pericia.id].treinada = selectedClass.pericias.treinadas.includes(pericia.nome);
-    })
+    if(selectedClass && isSubclass){
+      const { nome, ...variante } = selectedClass.variante;
+      Object.assign(selectedClass, variante);
+    }
 
+    Object.values(personagem.pericias).forEach((pericia) => {
+      personagem.pericias[pericia.id].treined = selectedClass?.treinedSkills?.includes(pericia.nome) || false;
+    })
+    
     setPersonagem(prev => ({
       ...prev,
       tlevel: className,
       vidaclassinit: selectedClass?.pv || 0,
       vidaclasslv: selectedClass?.pv_per_level || 0,
       manaclasslv: selectedClass?.pm || 0,
-      class_skill: {
-        treinadas: selectedClass?.pericias?.treinadas || [],
-        treinadas_opt: selectedClass?.pericias?.treinadas_opt || [],
-        option: selectedClass?.pericias?.opcoes || [],
-        quantity: selectedClass?.pericias?.quantidade || 0
-      },
+      treinedSkills: selectedClass?.treinedSkills || [],
+      treinedSkillsOr: selectedClass?.treinedSkillsOr || [],
+      skills: selectedClass?.skills || [],
+      extraSkills: selectedClass?.extraSkills || 0
     }));
+
+    if(selectedClass){
+      updateClassAbilities(selectedClass, isSubclass, personagem.charnivel);
+    }
+  };
+
+  function getClassByName(name) {
+    let selectedClass = classes.find(r => r.nome === name);
+    let isSubclass = false;
+    
+    if(!selectedClass) {
+      selectedClass = classes.find(r => r.variante.nome === name);
+      isSubclass = selectedClass ? true : false;
+    }
+    
+    return { selectedClass, isSubclass };
+  }
+
+  function updateClassAbilities(selectedClass, isSubclass, charnivel) {
+    setPersonagem(prev => ({
+      ...prev,
+      abilities: [
+        ...selectedClass.abilities.filter(a => a.default && (isSubclass ? a.subclassOnly : a.mainclassOnly ) && a.nivel <= charnivel ).map(ability => ({       
+          id: crypto.randomUUID(),
+          name: ability.name,
+          type: selectedClass.nome,
+          description: ability.description,
+          classDefault: true
+        })),
+        ...prev.abilities.filter(a => !a.classDefault),
+      ]
+    }));
+  }
+
+  function onLevelChange(e) {
+    const { value } = e.target;
+    if (isNaN(value) || value < 1 || value > 20) return;
+    const charnivel = parseInt(value);
+    setPersonagem(prev => ({
+      ...prev,
+      charnivel: charnivel
+    }));
+
+    const {selectedClass, isSubclass} = getClassByName(personagem.tlevel);
+    updateClassAbilities(selectedClass, isSubclass, charnivel);
   };
 
   function onOriginChange(option) {
     setPersonagem(prev => ({
       ...prev,
       torigin: option ? option.value : ''
-    }));
-  };
-
-  function onLevelChange(e) {
-    const { value } = e.target;
-    if (isNaN(value) || value < 1 || value > 20) return;
-    setPersonagem(prev => ({
-      ...prev,
-      charnivel: parseInt(value)
     }));
   };
 
@@ -256,8 +314,8 @@ function Personagem() {
         <div className="col-md">
           <label className="form-label">Raça</label>
           <Select
-            options={races.map(r => ({ value: r.nome, label: r.nome }))}
-            value={races.find(r => r.nome === personagem.trace) ? { value: personagem.trace, label: personagem.trace } : null}
+            options={races.map(r => ({ value: r.name, label: r.name }))}
+            value={races.find(r => r.name === personagem.trace) ? { value: personagem.trace, label: personagem.trace } : null}
             onChange={onRaceChange}
             isClearable
             placeholder="Selecione..."
@@ -268,8 +326,8 @@ function Personagem() {
         <div className="col-md">
           <label className="form-label">Classe</label>
           <Select
-            options={classes.map(c => ({ value: c.nome, label: c.nome }))}
-            value={classes.find(c => c.nome === personagem.tlevel) ? { value: personagem.tlevel, label: personagem.tlevel } : null}
+            options={classes.flatMap(c => [c.nome, c.variante?.nome]).filter(Boolean).map(c => ({ value: c, label: c }))}
+            value={classes.find(c => c.nome === personagem.tlevel || c.variante?.nome === personagem.tlevel) ? { value: personagem.tlevel, label: personagem.tlevel } : null}
             onChange={onClassChange}
             isClearable
             placeholder="Selecione..."
@@ -391,13 +449,13 @@ function Personagem() {
           </div>
 
           <div className="input-group mt-1 gap-1 align-items-baseline">
-            <label className="form-label w-25">Armadura</label>
+            <span className="input-group-text w-25">Armadura</span>
             <input type="number" name="defesaarmadura" className="form-control" value={personagem.defesaarmadura} onChange={handleChange} />
             <input type="number" name="penalidadearmadura" className="form-control" value={personagem.penalidadearmadura} onChange={handleChange} />
           </div>
 
           <div className="input-group mt-1 gap-1 align-items-baseline">
-            <label className="form-label w-25">Escudo</label>
+            <span className="input-group-text w-25">Escudo</span>
             <input type="number" name="defesaescudo" className="form-control" value={personagem.defesaescudo} onChange={handleChange} />
             <input type="number" name="penalidadeescudo" className="form-control" value={personagem.penalidadeescudo} onChange={handleChange} />
           </div>
