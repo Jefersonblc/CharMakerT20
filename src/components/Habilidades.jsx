@@ -39,13 +39,14 @@ function Habilidades() {
     setPersonagem(prev => ({
       ...prev,
       abilities: [
-        ...prev.abilities,
         {
           id: crypto.randomUUID(),
           name: '',
           type: '',
           description: '',
-        }
+          open: true
+        },
+        ...prev.abilities,
       ]
     }));
   }
@@ -58,6 +59,16 @@ function Habilidades() {
       }));
     }
   }
+  
+  function openAbility(id) {
+    setPersonagem(prev => ({
+      ...prev,
+      abilities: prev.abilities.map(a => a.id === id ? { 
+        ...a, 
+        open: !a.open
+      } : a)
+    }));
+  }
 
   function handleAbilityChange(id, value) {
     var power = powersOptions.find(s => s.value === value);
@@ -68,7 +79,7 @@ function Habilidades() {
           ...a, 
           name: power.value,
           type: power.type,
-          description: power.description
+          description: power.description,
         } : a)
       }));
       return;
@@ -80,7 +91,7 @@ function Habilidades() {
         ...a, 
         name: value,
         type: '',
-        description: ''
+        description: '',
       } : a)
     }));
   }
@@ -99,15 +110,15 @@ function Habilidades() {
       </button>
       <div className="dynamic-list mt-3">
         {personagem.abilities.map(ability => (
-          <div className="card ability-block mb-2 shadow-sm p-3 rounded" key={ability.id}>
-            <div className="d-flex align-items-center mb-2 gap-2">
+          <div className="card ability-block mb-2 shadow-sm p-2 rounded" key={ability.id}>
+            <div className="d-flex align-items-center gap-2">
               <CreatableSelect
                 options={powersOptions.filter(p => ability.type !== '' ? p.type === ability.type : true)}
                 value={ability.name ? { value: ability.name, label: ability.name } : null}
                 onChange={e => handleAbilityChange(ability.id, e?.value || '')}
                 components={{ MenuList: VirtualizedMenuList }}
                 isClearable
-                placeholder="Nome da Habilidade"
+                placeholder="Nome da Habilidade..."
                 className="flex-grow-1 fw-bold"
                 classNamePrefix="react-select"
                 formatCreateLabel={(inputValue) => `Novo item: "${inputValue}"`}
@@ -124,9 +135,12 @@ function Habilidades() {
               <button className="btn btn-outline-danger mr-2" onClick={() => removeAbility(ability.id)}>
                 <i className="fas fa-trash"></i>
               </button>
+              <button className="btn btn-outline-secondary mr-2" onClick={() => openAbility(ability.id)}>
+                <i class={`fa-solid fa-caret-up ${ability.open ? '' : 'fa-flip-vertical'}`}></i>
+              </button>
             </div>
-            <div className="mt-1">
-              <textarea id={`ability-description-${ability.id}`}  className="form-control fst-italic" placeholder="Descrição" rows="4" value={ability.description} onChange={e => handleChange(ability.id, 'description', e.target.value)} />
+            <div className="mt-2" hidden={!ability.open}>
+              <textarea id={`ability-description-${ability.id}`}  className="form-control fst-italic" placeholder="Descrição" rows="3" value={ability.description} onChange={e => handleChange(ability.id, 'description', e.target.value)} />
             </div>
           </div>
         ))}

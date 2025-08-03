@@ -33,7 +33,6 @@ function Magias() {
     setPersonagem(prev => ({
       ...prev,
       [`spells${circle}`]:  [
-          ...prev[`spells${circle}`],
           {
             id: Date.now(),
             namespell: '',
@@ -47,7 +46,9 @@ function Magias() {
             spelldescription: '',
             filterType: false,
             filterSchool: false,
-          }
+            open: true,
+          },
+          ...prev[`spells${circle}`],
       ]
     }));
   }
@@ -61,12 +62,23 @@ function Magias() {
     }
   }
 
+  function openSpell(circle, id) {
+    setPersonagem(prev => ({
+      ...prev,
+      [`spells${circle}`]: prev[`spells${circle}`].map(s => s.id === id ? { 
+        ...s, 
+        open: !s.open,
+      } : s)
+    }));
+  }
+
   function handleSpellChange(circle, id, value) {
     var spell = spells[`circle${circle}`].find(s => s.name === value);
     if(spell) {
       setPersonagem(prev => ({
         ...prev,
-        [`spells${circle}`]: prev[`spells${circle}`].map(s => s.id === id ? { ...s, 
+        [`spells${circle}`]: prev[`spells${circle}`].map(s => s.id === id ? { 
+          ...s, 
           namespell: value,
           spelltipo: spell.type?.split(' ')?.at(0),
           spellescola: spell.type?.split(' ')?.at(-1)?.replace(/[()]/g, ""),
@@ -118,8 +130,8 @@ function Magias() {
           </div>
           <div>
             {personagem[`spells${circle}`].map(spell => (
-              <div className="card spell-block mb-2 shadow-sm p-3 rounded" key={spell.id}>
-                <div className="d-flex align-items-center mb-2">
+              <div className="card spell-block mb-2 shadow-sm p-2 rounded" key={spell.id}>
+                <div className="d-flex align-items-center gap-2">
                   <CreatableSelect
                     options={spells[`circle${circle}`].filter(s => 
                         (spell.filterType ? spell.spelltipo == '' || s.type.includes(spell.spelltipo) : true) && 
@@ -128,65 +140,69 @@ function Magias() {
                     value={spell ? { value: spell.namespell, label: spell.namespell } : null}
                     onChange={e => handleSpellChange(circle, spell.id, e?.value || '')}
                     isClearable
-                    placeholder="Selecione..."
-                    className="flex-grow-1"
+                    placeholder="Nome da Magia..."
+                    className="flex-grow-1 fw-bold"
                     classNamePrefix="react-select"
                     formatCreateLabel={(inputValue) => `Novo item: "${inputValue}"`}
                   />
-                  <button className="btn btn-outline-danger mx-2" onClick={() => removeSpell(circle, spell.id)}>
+                  <button className="btn btn-outline-danger mr-2" onClick={() => removeSpell(circle, spell.id)}>
                     <i className="fas fa-trash"></i>
                   </button>
+                  <button className="btn btn-outline-secondary mr-2" onClick={() => openSpell(circle, spell.id)}>
+                    <i class={`fa-solid fa-caret-up ${spell.open ? '' : 'fa-flip-vertical'}`}></i>
+                  </button>
                 </div>
-                <div className="row mb-2">
-                  <div className="col-md-3">
-                    <div className="d-flex align-items-center justify-content-between">
-                        <label className="form-label">Tipo</label>
-                        <div>
-                          <input type="checkbox" className="btn-check" id={`filter-type-${spell.id}`} checked={spell.filterType} onChange={e => handleChange(circle, spell.id, 'filterType', e.target.checked)} />
-                          <label className="btn btn-outline-primary btn-sm mb-1" htmlFor={`filter-type-${spell.id}`}>Usar na Busca? <i className={spell.filterType ? 'fa-solid fa-check' : 'fa-solid fa-magnifying-glass'}></i></label>
-                        </div>
+                <div className="mt-1" hidden={!spell.open}>
+                  <div className="row mb-2">
+                    <div className="col-md-3">
+                      <div className="d-flex align-items-center justify-content-between">
+                          <label className="form-label">Tipo</label>
+                          <div>
+                            <input type="checkbox" className="btn-check" id={`filter-type-${spell.id}`} checked={spell.filterType} onChange={e => handleChange(circle, spell.id, 'filterType', e.target.checked)} />
+                            <label className="btn btn-outline-primary btn-sm mb-1 ms-2" htmlFor={`filter-type-${spell.id}`}>Usar na Busca? <i className={spell.filterType ? 'fa-solid fa-check' : 'fa-solid fa-magnifying-glass'}></i></label>
+                          </div>
+                      </div>
+                      <select className="form-select" value={spell.spelltipo} onChange={e => handleChange(circle, spell.id, 'spelltipo', e.target.value)}>
+                        {tipos.map(tipo => <option key={tipo} value={tipo}>{tipo || 'Selecione...'}</option>)}
+                      </select>
                     </div>
-                    <select className="form-select" value={spell.spelltipo} onChange={e => handleChange(circle, spell.id, 'spelltipo', e.target.value)}>
-                      {tipos.map(tipo => <option key={tipo} value={tipo}>{tipo || 'Selecione...'}</option>)}
-                    </select>
-                  </div>
-                  <div className="col-md-3">
-                    <div className="d-flex align-items-center justify-content-between">
-                        <label className="form-label">Escola</label>
-                        <div>
-                          <input type="checkbox" className="btn-check" id={`filter-school-${spell.id}`} checked={spell.filterSchool} onChange={e => handleChange(circle, spell.id, 'filterSchool', e.target.checked)} />
-                          <label className="btn btn-outline-primary btn-sm mb-1" htmlFor={`filter-school-${spell.id}`}>Usar na Busca? <i className={spell.filterSchool ? 'fa-solid fa-check' : 'fa-solid fa-magnifying-glass'}></i></label>
-                        </div>
+                    <div className="col-md-3">
+                      <div className="d-flex align-items-center justify-content-between">
+                          <label className="form-label">Escola</label>
+                          <div>
+                            <input type="checkbox" className="btn-check" id={`filter-school-${spell.id}`} checked={spell.filterSchool} onChange={e => handleChange(circle, spell.id, 'filterSchool', e.target.checked)} />
+                            <label className="btn btn-outline-primary btn-sm mb-1 ms-2" htmlFor={`filter-school-${spell.id}`}>Usar na Busca? <i className={spell.filterSchool ? 'fa-solid fa-check' : 'fa-solid fa-magnifying-glass'}></i></label>
+                          </div>
+                      </div>
+                      <select className="form-select" value={spell.spellescola} onChange={e => handleChange(circle, spell.id, 'spellescola', e.target.value)}>
+                        {escolas.map(escola => <option key={escola} value={escola}>{escola || 'Selecione...'}</option>)}
+                      </select>
                     </div>
-                    <select className="form-select" value={spell.spellescola} onChange={e => handleChange(circle, spell.id, 'spellescola', e.target.value)}>
-                      {escolas.map(escola => <option key={escola} value={escola}>{escola || 'Selecione...'}</option>)}
-                    </select>
+                    <div className="col-md-3">
+                      <label className="form-label">Execução</label>
+                      <input type="text" className="form-control" value={spell.spellexecucao} onChange={e => handleChange(circle, spell.id, 'spellexecucao', e.target.value)} />
+                    </div>
+                    <div className="col-md-3">
+                      <label className="form-label">Alcance</label>
+                      <input type="text" className="form-control" value={spell.spellalcance} onChange={e => handleChange(circle, spell.id, 'spellalcance', e.target.value)} />
+                    </div>
+                    <div className="col-md-3">
+                      <label className="form-label">Duração</label>
+                      <input type="text" className="form-control" value={spell.spellduracao} onChange={e => handleChange(circle, spell.id, 'spellduracao', e.target.value)} />
+                    </div>
+                    <div className="col-md-3">
+                      <label className="form-label">Alvo/Área/Efeito</label>
+                      <input type="text" className="form-control" value={spell.spellalvoarea} onChange={e => handleChange(circle, spell.id, 'spellalvoarea', e.target.value)} />
+                    </div>
+                    <div className="col-md-6">
+                      <label className="form-label">Resistência</label>
+                      <input type="text" className="form-control" value={spell.spellresistencia} onChange={e => handleChange(circle, spell.id, 'spellresistencia', e.target.value)} />
+                    </div>
                   </div>
-                  <div className="col-md-3">
-                    <label className="form-label">Execução</label>
-                    <input type="text" className="form-control" value={spell.spellexecucao} onChange={e => handleChange(circle, spell.id, 'spellexecucao', e.target.value)} />
-                  </div>
-                  <div className="col-md-3">
-                    <label className="form-label">Alcance</label>
-                    <input type="text" className="form-control" value={spell.spellalcance} onChange={e => handleChange(circle, spell.id, 'spellalcance', e.target.value)} />
-                  </div>
-                  <div className="col-md-3">
-                    <label className="form-label">Duração</label>
-                    <input type="text" className="form-control" value={spell.spellduracao} onChange={e => handleChange(circle, spell.id, 'spellduracao', e.target.value)} />
-                  </div>
-                  <div className="col-md-3">
-                    <label className="form-label">Alvo/Área/Efeito</label>
-                    <input type="text" className="form-control" value={spell.spellalvoarea} onChange={e => handleChange(circle, spell.id, 'spellalvoarea', e.target.value)} />
-                  </div>
-                  <div className="col-md-6">
-                    <label className="form-label">Resistência</label>
-                    <input type="text" className="form-control" value={spell.spellresistencia} onChange={e => handleChange(circle, spell.id, 'spellresistencia', e.target.value)} />
-                  </div>
-                </div>
-                <div className="row mb-2">
-                  <div className="col-md-12">
-                    <label className="form-label">Descrição</label>
-                    <textarea className="form-control" rows={3} value={spell.spelldescription} onChange={e => handleChange(circle, spell.id, 'spelldescription', e.target.value)} />
+                  <div className="row mb-2 mt-3">
+                    <div className="col-md-12">
+                      <textarea className="form-control fst-italic" placeholder="Descrição" rows="3" value={spell.spelldescription} onChange={e => handleChange(circle, spell.id, 'spelldescription', e.target.value)} />
+                    </div>
                   </div>
                 </div>
               </div>
