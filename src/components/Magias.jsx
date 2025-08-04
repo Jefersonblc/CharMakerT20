@@ -149,7 +149,7 @@ function Magias() {
                     <i className="fas fa-trash"></i>
                   </button>
                   <button className="btn btn-outline-secondary mr-2" onClick={() => openSpell(circle, spell.id)}>
-                    <i class={`fa-solid fa-caret-up ${spell.open ? '' : 'fa-flip-vertical'}`}></i>
+                    <i class={`fa-solid ${spell.open ? 'fa-caret-up' : 'fa-caret-down'}`}></i>
                   </button>
                 </div>
                 <div className="mt-1" hidden={!spell.open}>

@@ -96,7 +96,7 @@ function Ataques() {
                   <i className="fas fa-trash"></i>
                 </button>
                 <button className="btn btn-outline-secondary mr-2" onClick={() => openAttack(attack.id)}>
-                  <i class={`fa-solid fa-caret-up ${attack.open ? '' : 'fa-flip-vertical'}`}></i>
+                  <i class={`fa-solid ${attack.open ? 'fa-caret-up' : 'fa-caret-down'}`}></i>
                 </button>
               </div>
             </div>
