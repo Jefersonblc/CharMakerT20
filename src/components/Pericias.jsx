@@ -63,7 +63,21 @@ function Pericias() {
           <tbody>
             {Object.values(personagem.pericias).map(skill => (
               <tr key={skill.id}>
-                <td className="text-start">{skill.nome}</td>
+                <td className="text-start">
+                  <div className="d-flex align-items-center">
+                    {
+                      (skill.id.startsWith('oficio')) 
+                      ? <input 
+                          type="text" 
+                          placeholder='Ofício' 
+                          className="form-control form-control-sm w-75" 
+                          value={personagem.pericias[skill.id]?.descricao || ''} 
+                          onChange={e => handleSkillChange(skill.id, 'descricao', e.target.value)}
+                        /> 
+                      : <span>{skill.nome}</span>
+                    }
+                  </div>
+                </td>
                 <td className="position-relative">
                   <input
                     type="checkbox"

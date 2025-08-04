@@ -20,7 +20,7 @@ function Ataques() {
           attackpericiaUsada: 'Luta',
           attacktipoDano: '',
           attackalcance: '',
-          attackatributodano: '@for_mod',
+          attackatributodano: '@{for_mod}',
           attackdesc: '',
           open: false
         },
@@ -125,12 +125,12 @@ function Ataques() {
                 <div className="col-md-3">
                   <label className="form-label">Atributo no Dano</label>
                   <select className="form-select" value={attack.attackatributodano} onChange={e => handleChange(attack.id, 'attackatributodano', e.target.value)}>
-                    <option value="@for_mod">Força</option>
-                    <option value="@des_mod">Destreza</option>
-                    <option value="@con_mod">Constituição</option>
-                    <option value="@int_mod">Inteligência</option>
-                    <option value="@sab_mod">Sabedoria</option>
-                    <option value="@car_mod">Carisma</option>
+                    <option value="@{for_mod}">Força</option>
+                    <option value="@{des_mod}">Destreza</option>
+                    <option value="@{con_mod}">Constituição</option>
+                    <option value="@{int_mod}">Inteligência</option>
+                    <option value="@{sab_mod}">Sabedoria</option>
+                    <option value="@{car_mod}">Carisma</option>
                     <option value="0">Nenhum</option>
                   </select>
                 </div>

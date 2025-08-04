@@ -44,6 +44,7 @@ export function PersonagemProvider({ children }) {
     penalidadeescudo: 0,
     tamanho: '1',
     deslocamento: '',
+    proficiencias: '',
     charnotes: '',
 
     attacks: [],
@@ -57,7 +58,7 @@ export function PersonagemProvider({ children }) {
     spells5: [],
 
     pericias: skills.reduce((map, skill) => (map[skill.id] = { ...skill, treined: false }, map), {}),
-    
+
     treinedSkills: [], 
     treinedSkillsOr: [], 
     skills: [], 

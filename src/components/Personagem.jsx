@@ -213,7 +213,8 @@ function Personagem() {
       treinedSkills: selectedClass?.treinedSkills || [],
       treinedSkillsOr: selectedClass?.treinedSkillsOr || [],
       skills: selectedClass?.skills || [],
-      extraSkills: selectedClass?.extraSkills || 0
+      extraSkills: selectedClass?.extraSkills || 0,
+      proficiencias: selectedClass?.proficiencies?.join(', ') || '',
     }));
 
     if(selectedClass){
@@ -277,17 +278,21 @@ function Personagem() {
   };
 
   function getLifeTotal() {
-    return personagem.vidaclassinit +
-      (Math.max(personagem.con, 0) * personagem.charnivel) +
-      (personagem.vidaclasslv * (personagem.charnivel - 1)) +
-      (personagem.vidaextralv * personagem.charnivel) +
-      personagem.vidaextra;
+    personagem.vidatotal = personagem.vidaclassinit +
+    (Math.max(personagem.con, 0) * personagem.charnivel) +
+    (personagem.vidaclasslv * (personagem.charnivel - 1)) +
+    (personagem.vidaextralv * personagem.charnivel) +
+    personagem.vidaextra;
+
+    return personagem.vidatotal;
   }
 
   function getManaTotal() {
-    return (personagem.manaclasslv * (personagem.charnivel)) +
-      (personagem.manaextralv * personagem.charnivel) +
-      personagem.manaextra;
+    personagem.manatotal = (personagem.manaclasslv * (personagem.charnivel)) +
+    (personagem.manaextralv * personagem.charnivel) +
+    personagem.manaextra;
+
+    return personagem.manatotal;
   }
 
   function getDefesaTotal() {

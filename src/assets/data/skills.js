@@ -107,7 +107,14 @@ export const skills = [
     {
         nome: "Ofício",
         atributo: "int",
-        id: "oficio"
+        id: "oficio",
+        descricao: ""
+    },
+    {
+        nome: "Ofício",
+        atributo: "int",
+        id: "oficio2",
+        descricao: ""
     },
     {
         nome: "Percepção",
