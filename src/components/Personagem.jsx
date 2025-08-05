@@ -38,12 +38,12 @@ function Personagem() {
   ];
 
   const opcoesTamanho = [
-    { value: '-1', label: 'Minúsculo' },
-    { value: '0', label: 'Pequeno' },
-    { value: '1', label: 'Médio' },
-    { value: '2', label: 'Grande' },
-    { value: '3', label: 'Enorme' },
-    { value: '4', label: 'Colossal' },
+    { value: '5', label: 'Minúsculo' },
+    { value: '2', label: 'Pequeno' },
+    { value: '0', label: 'Médio' },
+    { value: '-2', label: 'Grande' },
+    { value: '-5', label: 'Enorme' },
+    { value: '-10', label: 'Colossal' },
   ];
 
   useEffect(() => {
@@ -129,7 +129,7 @@ function Personagem() {
 
     setPersonagem(prev => ({ 
       ...prev, 
-      tamanho: opcoesTamanho.find(item => item.value === selectedRace.size)?.label || prev.tamanho,
+      tamanho: opcoesTamanho.find(item => item.label === selectedRace.size)?.value || prev.tamanho,
       deslocamento: selectedRace.displacement + " Metros" || prev.deslocamento,
       abilities: [
         ...prev.abilities.filter(a => !a.raceDefault), 
@@ -369,12 +369,11 @@ function Personagem() {
       <div className="row pb-2 g-2 attribute-group">
         {Object.keys(attributes).map(attr => (
           <div className="col-md" key={attr}>
-            <label className="form-label"><i className={attributes[attr].icon + " attribute-icon"} ></i>{attributes[attr].name.toUpperCase()}</label>
-            <input type="number" name={attr} className="form-control text-center" value={personagem[attr]} disabled />
+            <label className="form-label fs-5"><i className={attributes[attr].icon + " attribute-icon"} ></i>{attributes[attr].name.toUpperCase()}</label>
+            <input name={attr} className="form-control form-control-lg fs-3 fw-bold text-center" value={personagem[attr]} disabled />
             <div className="d-flex justify-content-between mt-1 gap-1">
               <div className="position-relative">
-                <input type="number" name={attr + "_race"} className="form-control" value={attributes[attr].mod} disabled />
-
+                <input name={attr + "_race"} className="form-control" value={attributes[attr].mod} disabled />
                 <div className="position-absolute top-50 end-0 translate-middle-y" hidden={!attributes[attr].any || attributes[attr].except} >
                   <input type="checkbox" className="btn-check" id={`btn-check-${attr}`} 
                     onChange={e => handleAttrCheckboxChange(attr, e)}
@@ -389,7 +388,7 @@ function Personagem() {
 
         {/* Point buy session */}
         <div className="col-md-1">
-          <label className="form-label">Pontos</label>
+          <label className="form-label fs-5">Pontos</label>
           <select name="pointbuy_rule" className="form-select" value={pointbuy.limit} onChange={handlePointbuyChange}>
             <option value="5">5 Pontos</option>
             <option value="10">10 Pontos</option>
@@ -397,10 +396,10 @@ function Personagem() {
             {/* <option value="any">Personalizado</option> */}
           </select>
           <div className="position-relative">
-            <input name="pointbuy_count" type="number" className="form-control mt-1" value={pointbuy.available} disabled />
+            <input name="pointbuy_count" className="form-control form-control-lg mt-1 fs-3" value={pointbuy.available} disabled />
             {pointbuy.available < 0 && (
               <span className="position-absolute top-50 end-0 translate-middle-y me-2" title="Pontos negativos">
-                <i className="fas fa-exclamation-triangle" style={{ color: 'red', fontSize: '1.2em' }}></i>
+                <i className="fa-solid fa-triangle-exclamation fa-beat-fade fa-xl" style={{ color: '#bd1414' }}></i>
               </span>
             )}
           </div>
@@ -428,12 +427,23 @@ function Personagem() {
           </div>
         </div>
         
+        <div className="col-md">
+          <label className="form-label"><i className="fas fa-ruler-combined"></i> Tamanho</label>
+          <Select name="tamanho"
+            options={opcoesTamanho}
+            value={opcoesTamanho.find(t => t.value === personagem.tamanho)}
+            onChange={handleSizeChange}
+            classNamePrefix="react-select"
+          />
+        </div>
 
+        <div className="col-md">
+          <label className="form-label"><i className="fas fa-shoe-prints"></i> Deslocamento</label>
+          <input type="text" name="deslocamento" className="form-control" value={personagem.deslocamento} onChange={handleChange} />
+        </div>
+      </div>
 
-    {/* DEFESA */}
-
-
-
+      <div className='row g-2 mt-3'>
         <div className="col-md-6">
           <label className="form-label"><i className="fas fa-shield"></i> Defesa</label>
 
@@ -465,29 +475,17 @@ function Personagem() {
             <input type="number" name="penalidadeescudo" className="form-control" value={personagem.penalidadeescudo} onChange={handleChange} />
           </div>
         </div>
-      </div>
-
-      <div className='row g-2 mt-3'>
-        <div className="col-md">
-          <label className="form-label"><i className="fas fa-ruler-combined"></i> Tamanho</label>
-          <Select name="tamanho"
-            options={opcoesTamanho}
-            value={opcoesTamanho.find(t => t.value === personagem.tamanho)}
-            onChange={handleSizeChange}
-            classNamePrefix="react-select"
-          />
-        </div>
 
         <div className="col-md">
-          <label className="form-label"><i className="fas fa-shoe-prints"></i> Deslocamento</label>
-          <input type="text" name="deslocamento" className="form-control" value={personagem.deslocamento} onChange={handleChange} />
+          <label className="form-label"><i className="fa-solid fa-bars"></i> Proficiências/Outros</label>
+          <textarea name="proficiencias" className="form-control fst-italic" rows="3" value={personagem.proficiencias} onChange={handleChange} />
         </div>
 
       </div>
 
       <div className="mt-4">
         <label className="form-label">Anotações</label>
-        <textarea name="charnotes" className="form-control" rows="3" value={personagem.anotacoes} onChange={handleChange} />
+        <textarea name="charnotes" className="form-control fst-italic" rows="6" value={personagem.anotacoes} onChange={handleChange} />
       </div>
 
     </div>

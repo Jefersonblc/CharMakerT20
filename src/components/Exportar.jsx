@@ -9,6 +9,7 @@ function Exportar() {
     const jsonExport = {
         isJDA: true,
         playername: personagem.playername,
+        menace_name: personagem.playername,
         trace: personagem.trace,
         torigin: personagem.torigin,
         tlevel: personagem.tlevel,
@@ -36,6 +37,12 @@ function Exportar() {
         defesaatributo: personagem.defesaatributo === "" ? "0" : "1",
         defesaoutros: personagem.defesaoutros,
         modatributodefesa: personagem.defesaatributo === "" ? "" : personagem.defesaatributo + "_mod",
+
+        armaduradefesa1: personagem.defesaarmadura, 
+        armadurapenalidade1: personagem.penalidadearmadura, 
+
+        armaduradefesa2: personagem.defesaescudo, 
+        armadurapenalidade2: personagem.penalidadeescudo, 
 
         abilities : personagem.abilities.map(ability => ({
           nameability: ability.name,
@@ -89,7 +96,19 @@ function Exportar() {
       }
     });
 
-    setJson(JSON.stringify(jsonExport, null, 2));
+    const personagemJson = JSON.stringify(jsonExport, null, 2)
+
+    setJson(personagemJson);
+
+    const blob = new Blob([personagemJson], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `t20-${personagem.playername || 'personagem'}-${crypto.randomUUID()}.json`;
+    link.click();
+
+    URL.revokeObjectURL(url); 
   }
 
   return (

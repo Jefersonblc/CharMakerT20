@@ -42,7 +42,7 @@ export function PersonagemProvider({ children }) {
     defesaescudo: 0,
     penalidadearmadura: 0,
     penalidadeescudo: 0,
-    tamanho: '1',
+    tamanho: '0',
     deslocamento: '',
     proficiencias: '',
     charnotes: '',

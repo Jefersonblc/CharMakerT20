@@ -136,7 +136,7 @@ function Habilidades() {
                 <i className="fas fa-trash"></i>
               </button>
               <button className="btn btn-outline-secondary mr-2" onClick={() => openAbility(ability.id)}>
-                <i class={`fa-solid ${ability.open ? 'fa-caret-up' : 'fa-caret-down'}`}></i>
+                <i className={`fa-solid ${ability.open ? 'fa-caret-up' : 'fa-caret-down'}`}></i>
               </button>
             </div>
             <div className="mt-2" hidden={!ability.open}>

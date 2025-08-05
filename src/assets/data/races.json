@@ -359,15 +359,15 @@
     "size": "Grande",
     "attributes": [
       {
+        "attr": "any",
+        "mod": 1
+      },
+      {
         "attr": "for",
         "mod": 1
       },
       {
         "attr": "con",
-        "mod": 1
-      },
-      {
-        "attr": "any",
         "mod": 1
       },
       {
