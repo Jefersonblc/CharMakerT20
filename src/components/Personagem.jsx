@@ -260,7 +260,9 @@ function Personagem() {
     }));
 
     const {selectedClass, isSubclass} = getClassByName(personagem.tlevel);
-    updateClassAbilities(selectedClass, isSubclass, charnivel);
+    if(selectedClass){
+      updateClassAbilities(selectedClass, isSubclass, charnivel);
+    }
   };
 
   function onOriginChange(option) {
