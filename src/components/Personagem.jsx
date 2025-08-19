@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Select from 'react-select';
 import { usePersonagem } from '../context/PersonagemContext';
 import racesData from '../assets/data/races.json';
-import originsData from '../assets/data/origins.js';
+import originsData from '../assets/data/origins.json';
 import classesData from '../assets/data/classes.js';
 import deitiesData from '../assets/data/deities.js';
 
@@ -345,8 +345,8 @@ function Personagem() {
         <div className="col-md">
           <label className="form-label">Origem</label>
           <Select
-            options={origins.map(o => ({ value: o.nome, label: o.nome }))}
-            value={origins.find(o => o.nome === personagem.torigin) ? { value: personagem.torigin, label: personagem.torigin } : null}
+            options={origins.map(o => ({ value: o.name, label: o.name }))}
+            value={origins.find(o => o.name === personagem.torigin) ? { value: personagem.torigin, label: personagem.torigin } : null}
             onChange={onOriginChange}
             isClearable
             placeholder="Selecione..."
