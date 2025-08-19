@@ -372,7 +372,7 @@ function Personagem() {
             placeholder="Selecione..."
             classNamePrefix="react-select"
           />
-          <Tooltip id='tooltip-origin' place='top' className="w-50">
+          <Tooltip id='tooltip-origin' style={{ maxWidth: '500px' }}>
             <div className="text-sm">
               <p><strong>Descrição:</strong> {personagem.originDescription}</p>
               <p><strong>Itens:</strong> {personagem.originItens}</p>
@@ -396,7 +396,7 @@ function Personagem() {
             placeholder="Selecione..."
             classNamePrefix="react-select"
           />
-          <Tooltip id='tooltip-divindade' place='top' className="w-50">
+          <Tooltip id='tooltip-divindade' style={{ maxWidth: '500px' }}>
             <div className="text-sm">
               <p><strong>Descrição:</strong> {personagem.divindadeDescricao}</p>
               <p><strong>Energia:</strong> {personagem.divindadeEnergia}</p>
