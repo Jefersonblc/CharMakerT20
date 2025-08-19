@@ -5,6 +5,8 @@ import racesData from '../assets/data/races.json';
 import originsData from '../assets/data/origins.json';
 import classesData from '../assets/data/classes.js';
 import deitiesData from '../assets/data/deities.js';
+import { OptionOriginTooltip } from './OptionOriginTooltip';
+import { Tooltip } from "react-tooltip";
 
 function Personagem() {
   const {
@@ -268,14 +270,26 @@ function Personagem() {
   function onOriginChange(option) {
     setPersonagem(prev => ({
       ...prev,
-      torigin: option ? option.value : ''
+      torigin: option ? option.value : '',
+      originDescription: option ? option.description : '',
+      originItens: option ? option.itens : '',
+      originBeneficios: option ? option.beneficios : ''
     }));
   };
 
   function onDeityChange(option) {
+    const { value, divindade } = option || {};
     setPersonagem(prev => ({
       ...prev,
-      divindade: option ? option.value : ''
+      divindade: value ? value : '',
+      divindadeDescricao: divindade ? divindade.descricao : '',
+      divindadeEnergia: divindade ? divindade.energia : '',
+      divindadeArma: divindade ? divindade.arma : '',
+      divindadeSimbolo: divindade ? divindade.simbolo : '',
+      divindadeObrigacoes: divindade ? divindade.obrigacoes : '',
+      divindadeObjetivos: divindade ? divindade.objetivos : '',
+      divindadeDevotos: divindade ? divindade.devotos : '',
+      divindadePoderes: divindade ? divindade.poderes : [],
     }));
   };
 
@@ -343,27 +357,57 @@ function Personagem() {
         </div>
 
         <div className="col-md">
-          <label className="form-label">Origem</label>
+          <div className="d-flex">
+            <label className="form-label">Origem</label>
+            {personagem.torigin && <span data-tooltip-id='tooltip-origin' className='ms-1'>
+              <i className="fa-solid fa-circle-info"></i>
+            </span>}      
+          </div>
           <Select
-            options={origins.map(o => ({ value: o.name, label: o.name }))}
+            options={origins.map(o => ({ value: o.name, label: o.name, description: o.description, itens: o.itens, beneficios: o.beneficios }))}
             value={origins.find(o => o.name === personagem.torigin) ? { value: personagem.torigin, label: personagem.torigin } : null}
+            components={{ Option: OptionOriginTooltip }}
             onChange={onOriginChange}
             isClearable
             placeholder="Selecione..."
             classNamePrefix="react-select"
           />
+          <Tooltip id='tooltip-origin' place='top' className="w-50">
+            <div className="text-sm">
+              <p><strong>Descrição:</strong> {personagem.originDescription}</p>
+              <p><strong>Itens:</strong> {personagem.originItens}</p>
+              <p><strong>Benefícios:</strong> {personagem.originBeneficios}</p>
+            </div>
+          </Tooltip>
         </div>
 
         <div className="col-md">
-          <label className="form-label">Divindade</label>
+          <div className="d-flex">
+            <label className="form-label">Divindade</label>
+            {personagem.divindade && <span data-tooltip-id='tooltip-divindade' className='ms-1'>
+              <i className="fa-solid fa-circle-info"></i>
+            </span>}      
+          </div>
           <Select
-            options={deities.map(d => ({ value: d.nome, label: d.nome }))}
+            options={deities.map(d => ({ value: d.nome, label: d.nome, divindade: d }))}
             value={deities.find(d => d.nome === personagem.divindade) ? { value: personagem.divindade, label: personagem.divindade } : null}
             onChange={onDeityChange}
             isClearable
             placeholder="Selecione..."
             classNamePrefix="react-select"
           />
+          <Tooltip id='tooltip-divindade' place='top' className="w-50">
+            <div className="text-sm">
+              <p><strong>Descrição:</strong> {personagem.divindadeDescricao}</p>
+              <p><strong>Energia:</strong> {personagem.divindadeEnergia}</p>
+              <p><strong>Objetivos:</strong> {personagem.divindadeObjetivos}</p>
+              <p><strong>Simbolo:</strong> {personagem.divindadeSimbolo}</p>
+              <p><strong>Arma Preferida:</strong> {personagem.divindadeArma}</p>
+              <p><strong>Obrigações & Restrições:</strong> {personagem.divindadeObrigacoes}</p>
+              <p><strong>Devotos:</strong> {personagem.divindadeDevotos}</p>
+              <p><strong>Poderes:</strong> {personagem.divindadePoderes?.join(', ')}</p>
+            </div>
+          </Tooltip>
         </div>
       </div>
 

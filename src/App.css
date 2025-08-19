@@ -250,3 +250,8 @@ pre {
   justify-content: center;
   pointer-events: none;
 }
+
+.react-tooltip {
+  background-color: black !important;
+  z-index: 1000 !important;
+}
