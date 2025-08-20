@@ -1,0 +1,5360 @@
+[
+  {
+    "nome": "Glop",
+    "nd": "1/4",
+    "categoria": "Masmorras",
+    "tipo": "Monstro",
+    "tamanho": "Pequeno",
+    "descricao": "Pequenas gosmas esverdeadas com formato de gota que perambulam pelos corredores de masmorras. Irracionais, seu único propósito parece ser alimentar-se, o que fazem saltando sobre matéria orgânica e dissolvendo-a com seus corpos ácidos.",
+    "defesa": 10,
+    "pv": 10,
+    "pm": 0,
+    "sentidos": [
+      "percepção às cegas"
+    ],
+    "pericias": [
+      "Iniciativa +0",
+      "Percepção +0",
+      "Fortude +0",
+      "Reflexos +2",
+      "Vontade -5"
+    ],
+    "resistencias": [
+      "imunidade a ácido"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 0,
+      "des": 0,
+      "con": 0,
+      "int": null,
+      "sab": -5,
+      "car": -5
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Pancada",
+        "bonus": "+7",
+        "dano": "1d4 mais 1d4 ácido"
+      }
+    ],
+    "magias": [],
+    "habilidades": [],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Rato Gigante",
+    "nd": "1/4",
+    "categoria": "Masmorras",
+    "tipo": "Animal",
+    "tamanho": "Pequeno",
+    "descricao": "Esse roedor de pelagem grossa, olhos vermelhos e presas amareladas atinge até um metro de comprimento. Ratos gigantes vivem em bandos e podem ser encontrados em quase qualquer lugar — pântanos ermos, esgotos de metrópoles e porões de tavernas não muito recomendadas...",
+    "defesa": 12,
+    "pv": 3,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +4",
+      "Fortude +0",
+      "Reflexos +3",
+      "Vontade -2"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "12m (8q)",
+      "escalar 6m (4q)"
+    ],
+    "atributos": {
+      "for": 0,
+      "des": 2,
+      "con": 1,
+      "int": -4,
+      "sab": 1,
+      "car": -3
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+7",
+        "dano": "1d4+3 mais doença"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Doença",
+        "descricao": "Uma criatura mordida por um rato gigante é exposta a doença infecção do esgoto (veja a página 318)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Orc combatente",
+    "nd": "1/2",
+    "categoria": "Masmorras",
+    "tipo": "Humanoide (orc)",
+    "tamanho": "Médio",
+    "descricao": "Estes humanoides monstruosos podem ser encontrados em muitos pontos de Arton, em pequenos bandos ou vastas tribos. Selvagens e violentos, lutam com brutalidade e sem estratégia, obedecendo a seus líderes apenas pela força. Seu maior ponto fraco é a sensibilidade a luz, levando-os a infestar masmorras e outros lugares subterrâneos, de onde lançam ataques noturnos contra povoados civilizados.",
+    "defesa": 14,
+    "pv": 8,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +1",
+      "Fortude +5",
+      "Reflexos +3",
+      "Vontade +0"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 1,
+      "con": 2,
+      "int": -1,
+      "sab": -1,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Maça",
+        "bonus": "+9",
+        "dano": "1d8+7"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Sensibilidade a Luz",
+        "descricao": "Quando exposto a luz do sol ou similar, o orc fica ofuscado."
+      }
+    ],
+    "equipamento": [
+      "Couro batido",
+      "maça."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Orc Chefe",
+    "nd": "2",
+    "categoria": "Masmorras",
+    "tipo": "Humanoide (orc)",
+    "tamanho": "Médio",
+    "descricao": "Estes humanoides monstruosos podem ser encontrados em muitos pontos de Arton, em pequenos bandos ou vastas tribos. Selvagens e violentos, lutam com brutalidade e sem estratégia, obedecendo a seus líderes apenas pela força. Seu maior ponto fraco é a sensibilidade a luz, levando-os a infestar masmorras e outros lugares subterrâneos, de onde lançam ataques noturnos contra povoados civilizados.",
+    "defesa": 19,
+    "pv": 66,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +3",
+      "Fortude +13",
+      "Reflexos +7",
+      "Vontade +2",
+      "Intimidação +4",
+      "Sobrevivência +5 (+7 em subterrâneos)."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 2,
+      "con": 4,
+      "int": 0,
+      "sab": 0,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Machado de batalha",
+        "bonus": "+11",
+        "dano": "1d8+12, x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Urro Selvagem (Movimento)",
+        "descricao": "O orc chefe recebe +2 em testes de ataque e rolagens de dano corpo a corpo até o final da cena, mas não pode fazer nenhuma ação que exija calma e concentração. Sensibilidade a Luz Quando exposto a luz do sol ou similar, o orc fica ofuscado."
+      }
+    ],
+    "equipamento": [
+      "Gibão de peles",
+      "machado de batalha."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Orc mutante",
+    "nd": "5",
+    "categoria": "Masmorras",
+    "tipo": "Humanoide (orc)",
+    "tamanho": "Médio",
+    "descricao": "Estes humanoides monstruosos podem ser encontrados em muitos pontos de Arton, em pequenos bandos ou vastas tribos. Selvagens e violentos, lutam com brutalidade e sem estratégia, obedecendo a seus líderes apenas pela força. Seu maior ponto fraco é a sensibilidade a luz, levando-os a infestar masmorras e outros lugares subterrâneos, de onde lançam ataques noturnos contra povoados civilizados.",
+    "defesa": 22,
+    "pv": 55,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +8",
+      "Percepção +5",
+      "Fortude +15",
+      "Reflexos +11",
+      "Vontade +7"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 2,
+      "con": 4,
+      "int": -2,
+      "sab": -2,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Machado de guerra",
+        "bonus": "+20",
+        "dano": "1d12+18, x3"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e mordida",
+        "bonus": "+20",
+        "dano": "1d6+18"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Terceiro Braço (Livre)",
+        "descricao": "Se o orc mutante acerta o ataque de machado de guerra e o ataque de mordida em uma mesma criatura na mesma rodada, ele rasga a vítima com seu terceiro braço degenerado, causando mais 1d6+9 pontos de dano de corte. Sensibilidade a Luz Quando exposto a luz do sol ou similar, o orc fica ofuscado."
+      }
+    ],
+    "equipamento": [
+      "Machado de guerra."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Aranha Gigante",
+    "nd": "2",
+    "categoria": "Masmorras",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "descricao": "Grandes como cavalos, estas aranhas capturam suas vítimas com teia, disparando-a ou tecendo uma armadilha em alguma passagem, para então paralisá-las com a picada venenosa.",
+    "defesa": 19,
+    "pv": 77,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +7",
+      "Percepção +3",
+      "Fortude +8",
+      "Reflexos +11",
+      "Vontade +3",
+      "Furtividade +9."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "12m (8q)",
+      "escalar 12m (8q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 4,
+      "con": 1,
+      "int": -5,
+      "sab": 0,
+      "car": -4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+12",
+        "dano": "2d6+8 mais veneno"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Teia (padrão)",
+        "descricao": "A aranha gigante dispara teia em um quadrado de 3m de lado em alcance curto. Criaturas na área ficam enredadas (Ref CD 18 evita). Uma criatura enredada pode se soltar com uma ação completa e um teste de Força ou Acrobacia (CD 20) ou cortando a teia (cada espaço de 1,5m de teia tem 5 PV e RD 5). Fogo queima a teia em duas rodadas (e liberta as criaturas), mas causa 1d6 pontos de dano de fogo por rodada a todas as criaturas nela. A aranha gigante também pode usar a teia para cobrir uma área quadrada com 6m de lado. Por sua semitransparência, a teia é difícil de ver (Percepção CD 20) até ser tarde demais. Uma criatura que entre na área fica enredada. A aranha pode andar na própria teia sem se enredar. Ela percebe automaticamente (como se tivesse percepção às cegas) qualquer criatura na teia. Veneno Condição fraco (Fort CD 18 evita)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "1d4 doses de veneno de aranha gigante (CD 17 para extrair, T$ 45 cada dose)."
+  },
+  {
+    "nome": "Gárgula",
+    "nd": "2",
+    "categoria": "Masmorras",
+    "tipo": "Construto",
+    "tamanho": "Médio",
+    "descricao": "Esses predadores furtivos se mantêm imóveis no alto de ruínas, castelos, catedrais e outros prédios, fingindo ser estátuas. Quando surge uma oportunidade de atacar, mergulham com suas garras.",
+    "defesa": 19,
+    "pv": 65,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +3",
+      "Percepção +3",
+      "Fortude +13",
+      "Reflexos +7",
+      "Vontade +2"
+    ],
+    "resistencias": [
+      "imunidade a condição petrificado",
+      "redução de dano 5"
+    ],
+    "deslocamento": [
+      "12m (8q)",
+      "voo 18m (12q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 2,
+      "con": 4,
+      "int": -2,
+      "sab": 1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "duas garras",
+        "bonus": "+12",
+        "dano": "1d6+6"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Imobilidade",
+        "descricao": "Uma gárgula pode permanecer completamente imóvel. Se ela estiver assim, um personagem deve passar num teste de Percepção (CD 35) para perceber que ela é uma criatura e não uma estátua."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Guerreiro de Chifres",
+    "nd": "3",
+    "categoria": "Masmorras",
+    "tipo": "Espírito (abissal)",
+    "tamanho": "Médio",
+    "descricao": "Numerosas entidades malignas invadem Arton para corromper, torturar ou destruir os mortais. De corpo humanoide e cabeça de bode, guerreiros de chifres estão entre os demônios mais fracos, mas ainda assim são inimigos perigosos. Podem ser encontrados vagando em masmorras, sozinhos ou em pequenos bandos — às vezes sob comando de um arcanista, responsável por sua convocação a este mundo.",
+    "defesa": 21,
+    "pv": 100,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +6",
+      "Percepção +3",
+      "Fortude +13",
+      "Reflexos +11",
+      "Vontade +9",
+      "Atletismo +8",
+      "Intimidação +4."
+    ],
+    "resistencias": [
+      "imunidade a ácido e venenos",
+      "redução de dano 5",
+      "redução de fogo e frio 10"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 3,
+      "con": 4,
+      "int": -2,
+      "sab": 1,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Machado de guerra",
+        "bonus": "+14",
+        "dano": "1d12+16, x3"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "ou chifres",
+        "bonus": "+14",
+        "dano": "2d6+10 impacto"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Marrada (Completa)",
+        "descricao": "O guerreiro de chifres faz uma investida e ataca com seu machado de guerra e seus chifres. Os dois ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo."
+      }
+    ],
+    "equipamento": [
+      "Machado de guerra cruel."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Mantícora",
+    "nd": "6",
+    "categoria": "Masmorras",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "descricao": "Monstro com corpo de leão, asas de dragão e rosto humano envelhecido, a mantícora está entre as criaturas mais perigosas em uma masmorra — muitas vezes adotando tais lugares como seu covil, ou encarregadas de sua proteção por um mestre ainda mais poderoso.",
+    "defesa": 26,
+    "pv": 240,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +7",
+      "Percepção +8",
+      "Fortude +18",
+      "Reflexos +7",
+      "Vontade +12"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)",
+      "voo 15m (10q)"
+    ],
+    "atributos": {
+      "for": 7,
+      "des": 2,
+      "con": 5,
+      "int": -2,
+      "sab": 1,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+18",
+        "dano": "1d10+12"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+18",
+        "dano": "1d8+12"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Espinhos (Movimento)",
+        "descricao": "A mantícora dispara 1d4 espinhos de sua cauda. Cada espinho atinge uma criatura em alcance médio, causando 1d8+7 pontos de dano de perfuração (Ref CD 22 reduz à metade). Recarga (movimento)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Padrão mais espinhos (CD 21 para extrair). Os espinhos contam como T$ 150 em matéria-prima para fabricar flechas superiores."
+  },
+  {
+    "nome": "Centopeia-dragão",
+    "nd": "7",
+    "categoria": "Masmorras",
+    "tipo": "Monstro",
+    "tamanho": "Enorme",
+    "descricao": "Com dez metros de comprimento, estes monstros incandescentes avançam devorando tudo que encontram. Embora também sejam encontrados em áreas abertas, são mais perigosos em masmorras, onde preenchem túneis estreitos com a bocarra imensa.",
+    "defesa": 27,
+    "pv": 275,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +10",
+      "Percepção +8",
+      "Fortude +20",
+      "Reflexos +14",
+      "Vontade +9"
+    ],
+    "resistencias": [
+      "imunidade a condição caído",
+      "redução de fogo 10"
+    ],
+    "deslocamento": [
+      "15m (10q)",
+      "escavar 6m (4q)"
+    ],
+    "atributos": {
+      "for": 11,
+      "des": 3,
+      "con": 9,
+      "int": -4,
+      "sab": 1,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+24",
+        "dano": "2d8+18 mais 2d6 fogo"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Quando a centopeia-dragão acerta um ataque de mordida, pode usar a manobra agarrar (teste +29)."
+      },
+      {
+        "nome": "Aura de Calor",
+        "descricao": "Quando enfurecida, esta criatura emana um calor intenso. No início de cada turno da centopeia-dragão, todas as criaturas em um raio de 9m sofrem 4d6+9 pontos de dano de fogo."
+      },
+      {
+        "nome": "Engolir (Padrão)",
+        "descricao": "Se a centopeia-dragão começar seu turno agarrando uma criatura Média ou menor, poderá fazer um teste de agarrar contra ela. Se vencer, engole a criatura. Uma criatura engolida continua agarrada e sofre 2d6+18 pontos de dano de impacto, mais 4d6+9 pontos de dano de fogo, no início de cada turno da centopeia-dragão. A centopeia-dragão só pode manter uma criatura engolida por vez. Uma criatura engolida pode escapar causando 20 pontos de dano ao estômago da centopeia-dragão (Defesa 10). Isso faz com que a criatura seja regurgitada e fique caída na frente do monstro."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "2d4 doses de essência abissal (CD 22 para extrair)."
+  },
+  {
+    "nome": "Golem de Ferro",
+    "nd": "10",
+    "categoria": "Masmorras",
+    "tipo": "Construto",
+    "tamanho": "Grande",
+    "descricao": "Ainda que existam golens inteligentes, também existem numerosos construtos antigos e sem inteligência real — deixados em ruínas ancestrais para proteger as propriedades de seus mestres, talvez há muito falecidos. Ao perseguir um tesouro antigo, um grupo de aventureiros pode acabar despertando um imenso e quase invulnerável golem de ferro, um dos oponentes mais perigosos de uma masmorra.",
+    "defesa": 36,
+    "pv": 400,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +9",
+      "Fortude +24",
+      "Reflexos +14",
+      "Vontade +11"
+    ],
+    "resistencias": [
+      "redução de dano 10"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 12,
+      "des": -1,
+      "con": 10,
+      "int": null,
+      "sab": 0,
+      "car": -5
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Duas pancadas",
+        "bonus": "+30",
+        "dano": "2d10+25"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Imunidade a Magia",
+        "descricao": "O golem de ferro é imune a efeitos mágicos, com as seguintes exceções. Efeitos mágicos de eletricidade deixam o golem de ferro lento por 1d6 rodadas. Efeitos mágicos de fogo removem a condição lento e curam 1 PV para cada 3 pontos de dano que causariam."
+      },
+      {
+        "nome": "Sopro (Movimento)",
+        "descricao": "O golem de ferro expele uma nuvem de gás venenoso que preenche um cubo de 3m de lado. Criaturas dentro da área perdem 6d12 pontos de vida e ficam enjoadas (Fort CD 30 reduz à metade e evita a condição enjoado). Recarga (movimento), veneno."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Bandido",
+    "nd": "1/4",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "",
+    "defesa": 13,
+    "pv": 6,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +1",
+      "Fortude +1",
+      "Reflexos +3",
+      "Vontade -1",
+      "Furtividade +5."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 1,
+      "des": 2,
+      "con": 1,
+      "int": 0,
+      "sab": -1,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Clava",
+        "bonus": "+7",
+        "dano": "1d6+3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [],
+    "equipamento": [
+      "Clava."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Chefe Bandido",
+    "nd": "1",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "",
+    "defesa": 16,
+    "pv": 30,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +2",
+      "Fortude +5",
+      "Reflexos +8",
+      "Vontade +3",
+      "Furtividade +7",
+      "Intimidação +6."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 2,
+      "con": 2,
+      "int": 0,
+      "sab": 0,
+      "car": 1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada curta",
+        "bonus": "+9",
+        "dano": "1d6+5, 19"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Adaga",
+        "bonus": "+7",
+        "dano": "1d4+3, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Ataque Furtivo",
+        "descricao": "Uma vez por rodada, o chefe bandido causa +2d6 pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que esteja flanqueando."
+      }
+    ],
+    "equipamento": [
+      "Adaga",
+      "espada curta."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Guarda de Cidade",
+    "nd": "1/2",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "",
+    "defesa": 15,
+    "pv": 8,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +3",
+      "Fortude +5",
+      "Reflexos +2",
+      "Vontade +1",
+      "Atletismo +5."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 2,
+      "des": 1,
+      "con": 2,
+      "int": 0,
+      "sab": 0,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Maça",
+        "bonus": "+7",
+        "dano": "1d8+5"
+      }
+    ],
+    "magias": [],
+    "habilidades": [],
+    "equipamento": [
+      "Apito",
+      "couro batido",
+      "maça."
+    ],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Sargento da Guarda",
+    "nd": "1",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "",
+    "defesa": 17,
+    "pv": 28,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +4",
+      "Fortude +9",
+      "Reflexos +4",
+      "Vontade +3",
+      "Atletismo +7",
+      "Intuição +4."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 1,
+      "con": 2,
+      "int": 0,
+      "sab": 0,
+      "car": 1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Maça",
+        "bonus": "+10",
+        "dano": "1d8+10"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Besta leve",
+        "bonus": "+9",
+        "dano": "1d8+5, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Ordens (Movimento)",
+        "descricao": "O sargento grita ordens para seus aliados em alcance médio. Eles recebem +2 em testes de perícia até o fim da cena."
+      }
+    ],
+    "equipamento": [
+      "Apito",
+      "besta leve",
+      "cota de malha",
+      "maça",
+      "virotes x20."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Lobo",
+    "nd": "1/2",
+    "categoria": "Ermos",
+    "tipo": "Animal",
+    "tamanho": "Médio",
+    "descricao": "Predadores primordiais, lobos vivem em alcateias lideradas pelo macho mais forte — o alfa, que conduz o bando nas caçadas. Podem ser encontrados em quase qualquer ambiente, especialmente planícies, florestas e regiões montanhosas. Lobos atacam mordendo as pernas da vítima para derrubá-la. Sua tática favorita é enviar alguns indivíduos para atacar pela frente, enquanto o resto circula e ataca por trás.",
+    "defesa": 14,
+    "pv": 14,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +6",
+      "Fortude +6",
+      "Reflexos +3",
+      "Vontade +1",
+      "Sobrevivência +6."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "15m (10q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 3,
+      "con": 3,
+      "int": -4,
+      "sab": 2,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+7",
+        "dano": "1d6+5"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Derrubar (livre)",
+        "descricao": "Se o lobo acerta um ataque de mordida, pode fazer a manobra derrubar (teste +7)."
+      },
+      {
+        "nome": "Táticas de Alcateia",
+        "descricao": "Quando flanqueia um inimigo, o lobo recebe +2 no teste de ataque e na rolagem de dano (além do bônus normal por flanquear, para um total de +4 no ataque e +2 no dano)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Centauro combatente",
+    "nd": "1",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (centauro)",
+    "tamanho": "Grande",
+    "descricao": "Este povo equino é recluso, desconfiado e territorial. Prestam reverência a Allihanna como caçadores das planícies, que percorrem em pequenos bandos, às vezes liderados por um xamã. Quando encontram viajantes, seu comportamento é imprevisível: podem se afastar com cautela, questioná-los com animosidade aberta ou mesmo atacar sem provocação.",
+    "defesa": 16,
+    "pv": 35,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +3",
+      "Percepção +3",
+      "Fortude +9",
+      "Reflexos +2",
+      "Vontade +5",
+      "Sobrevivência +5"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "12m (8q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 2,
+      "con": 3,
+      "int": -2,
+      "sab": 1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Tacape",
+        "bonus": "+9",
+        "dano": "1d12+5"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e cascos",
+        "bonus": "+9",
+        "dano": "1d8+5"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Arco longo",
+        "bonus": "+7",
+        "dano": "1d10+5, x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Investida Poderosa",
+        "descricao": "Quando faz uma investida com seu tacape, o centauro causa +1d12 pontos de dano."
+      },
+      {
+        "nome": "Medo de Altura",
+        "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura, o centauro fica abalado."
+      }
+    ],
+    "equipamento": [
+      "Arco longo aumentado",
+      "flechas x20",
+      "tacape aumentado."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Centauro Xamã",
+    "nd": "3",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (centauro)",
+    "tamanho": "Grande",
+    "descricao": "Este povo equino é recluso, desconfiado e territorial. Prestam reverência a Allihanna como caçadores das planícies, que percorrem em pequenos bandos, às vezes liderados por um xamã. Quando encontram viajantes, seu comportamento é imprevisível: podem se afastar com cautela, questioná-los com animosidade aberta ou mesmo atacar sem provocação.",
+    "defesa": 21,
+    "pv": 35,
+    "pm": 20,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +8",
+      "Fortude +9",
+      "Reflexos +4",
+      "Vontade +15",
+      "Religião +8",
+      "Sobrevivência +10."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "12m (8q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 1,
+      "con": 3,
+      "int": -1,
+      "sab": 4,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Bordão",
+        "bonus": "+11",
+        "dano": "1d8+4"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e cascos",
+        "bonus": "+11",
+        "dano": "1d8+4"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Armamento da Natureza (Movimento, 3 PM)",
+        "descricao": "Uma das armas do xamã se torna mágica e seu dano aumenta em um passo (de 1d8 para 1d10)."
+      },
+      {
+        "nome": "-Controlar Plantas (Padrão, 2 PM)",
+        "descricao": "Uma área quadrada de 9m de lado de vegetação em alcance curto se torna terreno difícil. Criaturas na área quando a magia é lançada ou no início de seus próprios turnos ficam enredadas e imóveis (Fortitude evita). Uma vítima pode se libertar com uma ação padrão e um teste de Acrobacia ou Atletismo."
+      },
+      {
+        "nome": "-Curar Ferimentos (Padrão, 3 PM)",
+        "descricao": "Uma criatura adjacente cura 4d8+4 PV. Medo de Altura Se estiver adjacente a uma queda de 3m ou mais de altura, o centauro fica abalado. Voz da Natureza O centauro está sempre sob efeito da magia Voz Divina, apenas para falar com animais. e"
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Magias",
+        "descricao": "O centauro xamã lança magias como um clérigo de Allihanna de 3º nível (CD 17)."
+      }
+    ],
+    "equipamento": [
+      "Bordão aumentado",
+      "símbolo sagrado de Allihanna."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Gnoll saqueador",
+    "nd": "1",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (gnoll)",
+    "tamanho": "Médio",
+    "descricao": "De todos os humanoides monstruosos, o estridente povo-hiena é o mais propenso a preparar emboscadas em beira de estrada. Preguiçosos e covardes, lutam apenas quando estão em vantagem, fugindo ou rendendo-se assim que a situação muda. Sua cultura considera a rendição um ato de honra e bravura; sempre aceitam a rendição de um inimigo, esperando o mesmo em retorno. Muitos são rústicos e primitivos, enquanto outros aprenderam os modos da civilização, mostrando grande apreço por armas de fogo.",
+    "defesa": 15,
+    "pv": 15,
+    "pm": 0,
+    "sentidos": [
+      "faro"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +4",
+      "Fortude +7",
+      "Reflexos +7",
+      "Vontade +1"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 2,
+      "con": 3,
+      "int": -2,
+      "sab": 1,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Lança",
+        "bonus": "+10",
+        "dano": "1d6+4"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e mordida",
+        "bonus": "+10",
+        "dano": "1d6+4"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Arco curto",
+        "bonus": "+9",
+        "dano": "1d6+3, x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [],
+    "equipamento": [
+      "Arco curto",
+      "flechas x20",
+      "lança."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Gnoll Filibusteiro",
+    "nd": "2",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (gnoll)",
+    "tamanho": "Médio",
+    "descricao": "De todos os humanoides monstruosos, o estridente povo-hiena é o mais propenso a preparar emboscadas em beira de estrada. Preguiçosos e covardes, lutam apenas quando estão em vantagem, fugindo ou rendendo-se assim que a situação muda. Sua cultura considera a rendição um ato de honra e bravura; sempre aceitam a rendição de um inimigo, esperando o mesmo em retorno. Muitos são rústicos e primitivos, enquanto outros aprenderam os modos da civilização, mostrando grande apreço por armas de fogo.",
+    "defesa": 19,
+    "pv": 60,
+    "pm": 0,
+    "sentidos": [
+      "faro"
+    ],
+    "pericias": [
+      "Iniciativa +9",
+      "Percepção +4",
+      "Fortude +7",
+      "Reflexos +11",
+      "Vontade +4"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 4,
+      "con": 3,
+      "int": -1,
+      "sab": 2,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada curta",
+        "bonus": "+11",
+        "dano": "1d6+4, 19"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e mordida",
+        "bonus": "+11",
+        "dano": "1d6+4"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Mosquete",
+        "bonus": "+12",
+        "dano": "2d8+9, 19/x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Recarga Rápida",
+        "descricao": "O gnoll filibusteiro pode recarregar seu mosquete como uma ação de movimento."
+      }
+    ],
+    "equipamento": [
+      "Balas x20",
+      "espada curta",
+      "mosquete."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Gorlogg",
+    "nd": "1",
+    "categoria": "Ermos",
+    "tipo": "Animal",
+    "tamanho": "Grande",
+    "descricao": "Estas feras primitivas lembram uma combinação de lobo e crocodilo, com mandíbulas capazes de destroçar ossos. Gorlogg existiam apenas no mundo perdido de Galrasia, até que começaram a ser capturados e trazidos para o Reinado, como temíveis bestas de guerra. Fugindo e retornando à vida selvagem, passaram a se reproduzir, formando bandos e ameaçando comunidades. Apesar da dificuldade para domá-los, são cobiçados como montarias por aventureiros valorosos (ou sem amor à vida). Estradas, bosques, vilas. Em Arton, o perigo Estradas, bosques, vilas. Em Arton, o perigo espreita em qualquer lugar espreita em qualquer lugar",
+    "defesa": 16,
+    "pv": 36,
+    "pm": 0,
+    "sentidos": [
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +3",
+      "Fortude +8",
+      "Reflexos +5",
+      "Vontade +3",
+      "Atletismo +9."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "12m (8q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 2,
+      "con": 5,
+      "int": -4,
+      "sab": 1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+9",
+        "dano": "2d6+8, x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (livre)",
+        "descricao": "Se o gorlogg acerta um ataque de mordida, pode usar a manobra agarrar (teste +13)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Trog",
+    "nd": "1",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (trog)",
+    "tamanho": "Médio",
+    "descricao": "Quando um destes homens-lagarto decide integrar um grupo de aventureiros, isso é exceção, não regra. Trogs são predadores cruéis, cheios de ódio por todos os outros seres, especialmente anões. Preferem atacar em bandos e agir na escuridão, à noite ou nos subterrâneos. Sua tática padrão é aguardar por vítimas em emboscadas, mantendo-se escondidos com seu poder camaleônico — então atacam à distância com azagaias antes de enfrentar os inimigos restantes corpo a corpo, enfraquecendo-os com seu gás fétido. São atraídos por armas e outros itens feitos de metal, que eles próprios não sabem forjar.",
+    "defesa": 16,
+    "pv": 11,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +3",
+      "Percepção +0",
+      "Fortude +10",
+      "Reflexos +5",
+      "Vontade +1",
+      "Furtividade +7."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 1,
+      "con": 3,
+      "int": -2,
+      "sab": 0,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Lança",
+        "bonus": "+11",
+        "dano": "1d6+5"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e mordida",
+        "bonus": "+11",
+        "dano": "1d6+5"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Azagaia",
+        "bonus": "+9",
+        "dano": "1d6+5"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Mau Cheiro (Padrão)",
+        "descricao": "O trog expele um gás fétido. Todas as criaturas (exceto trogs) em alcance curto ficam enjoadas por 1d6 rodadas (Fort CD 15 evita). Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia. Veneno."
+      },
+      {
+        "nome": "Sangue Frio",
+        "descricao": "O trog sofre 1 ponto de dano adicional por dado de dano de frio."
+      }
+    ],
+    "equipamento": [
+      "Azagaias x2",
+      "lança."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Lobo-das-Cavernas",
+    "nd": "2",
+    "categoria": "Ermos",
+    "tipo": "Animal",
+    "tamanho": "Grande",
+    "descricao": "Um ancestral pré-histórico do lobo comum, mas muito maior e com uma coluna de placas ósseas ao longo do dorso. Podem ser encontrados em vários pontos de Arton, sobretudo em Lamnor, onde são usados por goblinoides como bestas de guarda e montaria. As placas dorsais não são armas — estudiosos acreditam que sejam atrativo sexual (apenas os machos as possuem). Lobos-das-cavernas caçam como lobos comuns: quando em alcateia, parte do bando ataca pela frente, enquanto os demais circulam e atacam por trás com a poderosa mordida.",
+    "defesa": 19,
+    "pv": 73,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +7",
+      "Fortude +11",
+      "Reflexos +7",
+      "Vontade +6",
+      "Sobrevivência +11."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "15m (10q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 2,
+      "con": 5,
+      "int": -4,
+      "sab": 2,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+13",
+        "dano": "2d6+10"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Derrubar (Livre)",
+        "descricao": "Se o lobo-das-cavernas acerta um ataque de mordida, pode fazer a manobra derrubar (teste +15)."
+      },
+      {
+        "nome": "Táticas de Alcateia",
+        "descricao": "Quando flanqueia um inimigo, o lobo-das-cavernas recebe +2 no teste de ataque e na rolagem de dano (além do bônus normal por flanquear, para um total de +4 no ataque e +2 no dano)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Cão do Inferno",
+    "nd": "3",
+    "categoria": "Ermos",
+    "tipo": "Espírito",
+    "tamanho": "Grande",
+    "descricao": "Estas feras agressivas são enormes, fortes e musculosas, com pelagem castanho-avermelhada como ferrugem, presas, garras e língua negras como carvão, e olhos de um vermelho ameaçador. Cães do inferno são oriundos de planos divinos e trazidos com frequência para Arton por conjuradores malignos.",
+    "defesa": 21,
+    "pv": 95,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +6",
+      "Percepção +4",
+      "Fortude +11",
+      "Reflexos +9",
+      "Vontade +7",
+      "Atletismo +9."
+    ],
+    "resistencias": [
+      "imunidade a fogo",
+      "redução de dano 10/mágico",
+      "vulnerabilidade a frio"
+    ],
+    "deslocamento": [
+      "12m (8q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 3,
+      "con": 4,
+      "int": -2,
+      "sab": 1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+14",
+        "dano": "2d6+6 mais 2d6 fogo"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Sopro (padrão)",
+        "descricao": "O cão do inferno cospe fogo em um cone de 6m. Criaturas na área sofrem 4d6+4 pontos de dano de fogo (Ref CD 17 reduz à metade). Recarga (movimento)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "1d4 doses de essência abissal (CD 18 para extrair)."
+  },
+  {
+    "nome": "Grifo",
+    "nd": "3",
+    "categoria": "Ermos",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "descricao": "Grifos têm corpo e patas traseiras de leão, mas patas dianteiras, asas e cabeça de águia. Com 2,5 m de comprimento e envergadura de 7,5m, estão entre as criaturas mais majestosas de Arton. Também são alguns dos voadores mais rápidos que existem, superando até mesmo alguns dragões. Como as águias, habitam lugares altos, de onde mergulham guinchando para atacar suas presas. Em seu habitat natural, grifos vivem em bandos de um macho mais seu harém de 1d6 fêmeas. Quando criados desde filhotes, os grifos podem ser domesticados, servindo de montaria. Muitas tribos bárbaras das Montanhas Sanguinárias criam e cavalgam grifos. Um grifo domesticado será sempre fiel a seu tratador. Entretanto, eles adoram carne de cavalo, o que pode ser um problema quando são misturados com essas montarias mais comuns.",
+    "defesa": 19,
+    "pv": 110,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +9",
+      "Percepção +7",
+      "Fortude +9",
+      "Reflexos +15",
+      "Vontade +4"
+    ],
+    "resistencias": [
+      "imunidade a medo"
+    ],
+    "deslocamento": [
+      "12m",
+      "voo 24m"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 4,
+      "con": 3,
+      "int": -4,
+      "sab": 2,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+14",
+        "dano": "2d6+5"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+14",
+        "dano": "1d6+5"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Bote (Completa)",
+        "descricao": "O grifo faz uma investida e ataca com sua mordida e suas duas garras. Os três ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Um ninho de grifo tem 25% de chance de conter 1d4 ovos no valor de T$ 2.500 cada."
+  },
+  {
+    "nome": "Basilisco",
+    "nd": "4",
+    "categoria": "Ermos",
+    "tipo": "Monstro",
+    "tamanho": "Médio",
+    "descricao": "Lagartos venenosos com dois metros de comprimento, basiliscos possuem o terrível poder de transformar seres vivos em pedra com o olhar. Criaturas solitárias, vivem tanto em terra firme quanto na água.",
+    "defesa": 23,
+    "pv": 145,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +6",
+      "Percepção +5",
+      "Fortude +10",
+      "Reflexos +9",
+      "Vontade +9"
+    ],
+    "resistencias": [
+      "redução de dano 5"
+    ],
+    "deslocamento": [
+      "9m (6q)",
+      "natação 9m (6q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 2,
+      "con": 4,
+      "int": -4,
+      "sab": 1,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+16",
+        "dano": "2d8+12 mais veneno"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Olhar Petrificante",
+        "descricao": "No início de seu turno, cada personagem em alcance curto do basilisco deve fazer um teste de Reflexos (CD 18). Se passar, desvia o olhar. Se falhar, fica lento. Se já estiver lento, fica petrificado permanentemente. Um personagem pode fechar os olhos como uma reação para ficar imune a esta habilidade, mas sofrerá os efeitos de estar cego por uma rodada. Efeitos que removem paralisia revertem a petrificação. Metamorfose. Veneno Peçonha concentrada (perde 1d12 pontos de vida por rodada durante 3 rodadas, Fort CD 18 reduz a duração para uma rodada)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "1d4 doses de peçonha concentrada (CD 19 para extrair), couro de basilisco (CD 19 para extrair, conta como T$ 1.000 como matéria-prima para fabricar uma armadura superior)."
+  },
+  {
+    "nome": "Ogro",
+    "nd": "4",
+    "categoria": "Ermos",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Grande",
+    "descricao": "Estes gigantes primitivos são solitários e mal-humorados, quase nunca encontrados em bandos. No entanto, por sua estupidez, são frequentemente convencidos a acompanhar bandidos e gnolls, em troca de diversão ou guloseimas. Também é comum encontrá-los servindo a bruxos ou cultistas. Enganar um ogro não é tarefa difícil, sendo muito mais recomendado que tentar vencê-lo pela força bruta. Mesmo quando enfurecidos, podem cair em provocações e ser levados a cometer erros.",
+    "defesa": 23,
+    "pv": 130,
+    "pm": 0,
+    "sentidos": [
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +3",
+      "Percepção +1",
+      "Fortude +16",
+      "Reflexos +10",
+      "Vontade +0",
+      "Atletismo +12",
+      "Intuição -5."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 7,
+      "des": 0,
+      "con": 4,
+      "int": -3,
+      "sab": -2,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Tacape",
+        "bonus": "+16",
+        "dano": "1d12+18"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Burro Demais...",
+        "descricao": "O ogro sofre -5 em testes de Intuição e Vontade (já contabilizados na ficha)."
+      },
+      {
+        "nome": "...Para Morrer!",
+        "descricao": "Todo o dano de corte, impacto e perfuração que o ogro sofre é reduzido à metade."
+      }
+    ],
+    "equipamento": [
+      "Tacape aumentado."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Urso-Coruja",
+    "nd": "4",
+    "categoria": "Ermos",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "descricao": "Este estranho ser lembra um grande urso, mas coberto de penas e com a cabeça de uma enorme coruja. A cor varia do castanho ao marrom, com bico em tom marfim fosco. A teoria mais aceita entre os estudiosos do Reinado diz que foram criados por um mago insano. Após matar seu criador, teriam fugido da torre dele e se espalhado pelos ermos. Ursos-coruja habitam os ermos de Arton, fazendo de florestas e cavernas seus covis. São criaturas agressivas, atacando qualquer coisa que se mova. Rasgam e bicam, tentando agarrar a vítima e fazê-la em pedaços, para então devorá-la. Quem sobrevive a encontros com a fera pode atestar a selvageria em seus olhos vermelhos.",
+    "defesa": 23,
+    "pv": 145,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +7",
+      "Percepção +5",
+      "Fortude +16",
+      "Reflexos +10",
+      "Vontade +5"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "12m (8q)"
+    ],
+    "atributos": {
+      "for": 7,
+      "des": 3,
+      "con": 5,
+      "int": -4,
+      "sab": 1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+16",
+        "dano": "1d8+5"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+15",
+        "dano": "1d6+5"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Se o urso-coruja acerta um ataque de garra, pode fazer a manobra agarrar (teste +18)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Serpe",
+    "nd": "5",
+    "categoria": "Ermos",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "descricao": "Muitas vezes confundidos com dragões, estes monstros reptilianos alados são apenas feras com pouca inteligência e sem poderes mágicos. Ao contrário de dragões, não possuem braços — apenas as patas traseiras e asas, como pássaros. Ainda assim, são muito perigosos e agressivos, uma ameaça constante aos viajantes do Reinado e além. A ponta da longa cauda esconde um ferrão, contendo um dos venenos mais poderosos de que se tem notícia.",
+    "defesa": 24,
+    "pv": 200,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +7",
+      "Fortude +10",
+      "Reflexos +16",
+      "Vontade +5"
+    ],
+    "resistencias": [
+      "imunidade a paralisia"
+    ],
+    "deslocamento": [
+      "9m (6q)",
+      "voo 18m (12q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 1,
+      "con": 6,
+      "int": -2,
+      "sab": 1,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+17",
+        "dano": "2d6+12"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e ferrão",
+        "bonus": "+17",
+        "dano": "1d8+12 mais veneno"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Se a serpe acerta um ataque de mordida, pode fazer a manobra agarrar (teste +19)."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Peçonha concentrada (perde 1d12 pontos de vida por rodada durante 3 rodadas, Fort CD 20 reduz a duração para uma rodada)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "1d4 doses de peçonha concentrada (CD 20 para extrair)."
+  },
+  {
+    "nome": "Recruta Purista",
+    "nd": "1/2",
+    "categoria": "Puristas",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "A ralé do exército purista. São recrutados entre filhos de camponeses — ou entre órfãos, criminosos e outros “indesejados”. Recebem treinamento militar e equipamento abaixo dos padrões da Supremacia, mas ainda superior ao da maior parte do Reinado. São usados em missões menos importantes, como atacar aldeias com poucas defesas, proteger lugares não estratégicos e patrulhar estradas secundárias.",
+    "defesa": 16,
+    "pv": 10,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +3",
+      "Percepção +0",
+      "Fortude +6",
+      "Reflexos +2",
+      "Vontade +0"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 2,
+      "des": 1,
+      "con": 2,
+      "int": -1,
+      "sab": -1,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Alabarda",
+        "bonus": "+8",
+        "dano": "1d10+5, x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Lutar em Formação",
+        "descricao": "Se o recruta estiver adjacente a um aliado que também possua este poder, recebe +2 em testes de ataque e Defesa."
+      },
+      {
+        "nome": "Ódio Puro",
+        "descricao": "Puristas passam por um processo de doutrinação no qual aprendem a obedecer ordens sem questionar e a odiar todas as raças não humanas. Um purista recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos."
+      }
+    ],
+    "equipamento": [
+      "Alabarda",
+      "cota de malha."
+    ],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Soldado Purista",
+    "nd": "1",
+    "categoria": "Puristas",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "A base dos batalhões puristas. São recrutados entre crianças da Supremacia (normalmente entre 10 a 12 anos) e enviados a um dos vários campos militares do reino. Lá aprendem a seguir ordens, a usar o equipamento dos batalhões e a seguir a doutrina purista. É um treino brutal e eficaz. Muitos morrem. Os que sobrevivem se tornam jovens fortes e enrijecidos, repletos de cicatrizes no corpo e na alma. Quando estão chegando à maioridade (15 a 17 anos), são enviados à cidade militar de Warton (ou a outro quartel) para concluir seu treinamento e serem alocados a um batalhão. A etapa final de sua formação é na verdade uma lavagem cerebral que transforma os futuros soldados em máquinas de matar, sem qualquer traço de compaixão ou remorso. Os soldados puristas, tragicamente, possuem pouco de sua tão aclamada humanidade.",
+    "defesa": 20,
+    "pv": 20,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +1",
+      "Fortude +10",
+      "Reflexos +4",
+      "Vontade +1"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 1,
+      "con": 3,
+      "int": 0,
+      "sab": -1,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada bastarda",
+        "bonus": "+9",
+        "dano": "1d10+9, 19"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Besta pesada",
+        "bonus": "+7",
+        "dano": "1d12+4, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Lutar em Formação",
+        "descricao": "Se o soldado estiver adjacente a um aliado que também possua este poder, recebe +2 em testes de ataque e Defesa."
+      },
+      {
+        "nome": "Ódio Puro",
+        "descricao": "Puristas passam por um processo de doutrinação no qual aprendem a obedecer ordens sem questionar e a odiar todas as raças não humanas. Um purista recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos."
+      }
+    ],
+    "equipamento": [
+      "Besta pesada",
+      "escudo pesado",
+      "espada bastarda",
+      "meia armadura",
+      "virotes x10."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Sargento-mor",
+    "nd": "3",
+    "categoria": "Puristas",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "Sargentos da Supremacia são soldados veteranos e embrutecidos. Por já terem provado seu valor em batalha, recebem o comando de um batalhão, formado por cem soldados. Apesar da promoção, ainda são mais guerreiros do que comandantes e lideram pelo exemplo, avançando à frente de suas tropas (para um oficial estrategista, veja Capitão-Baluarte, a seguir). Seja enfrentando tropas inimigas, seja enfrentando heróis aventureiros, sargentos nunca se abalam; confiam em seu treinamento, em sua experiência e em sua força bruta.",
+    "defesa": 24,
+    "pv": 105,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +3",
+      "Fortude +14",
+      "Reflexos +9",
+      "Vontade +5"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 1,
+      "con": 4,
+      "int": 0,
+      "sab": 0,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada bastarda",
+        "bonus": "+14",
+        "dano": "1d12+15, 19"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Besta pesada",
+        "bonus": "+12",
+        "dano": "1d12+10, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Lutar em Formação",
+        "descricao": "Se o sargento-mor estiver adjacente a um aliado que também possua este poder, recebe +2 em testes de ataque e Defesa."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o sargento-mor faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      },
+      {
+        "nome": "Ódio Puro",
+        "descricao": "Puristas passam por um processo de doutrinação no qual aprendem a obedecer ordens sem questionar e a odiar todas as raças não humanas. Um purista recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos."
+      }
+    ],
+    "equipamento": [
+      "Armadura completa",
+      "besta pesada",
+      "escudo pesado",
+      "espada bastarda aumentada certeira",
+      "virotes x20."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Capelão de Guerra",
+    "nd": "4",
+    "categoria": "Puristas",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "Composto por adoradores fanáticos de Valkaria e Arsenal, o Templo da Pureza Divina prega que os humanos são a raça eleita e que os outros povos devem ser exterminados para “purificar” Arton. Os capelães são o braço armado do Templo e com frequência acompanham batalhões puristas em missão.",
+    "defesa": 21,
+    "pv": 105,
+    "pm": 25,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +7",
+      "Fortude +10",
+      "Reflexos +5",
+      "Vontade +16",
+      "Misticismo +5",
+      "Religião +7."
+    ],
+    "resistencias": [
+      "imunidade a medo"
+    ],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 0,
+      "con": 4,
+      "int": 1,
+      "sab": 3,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Martelo de guerra",
+        "bonus": "+14",
+        "dano": "1d8+15, x3"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Arma Mágica (Padrão, 5 PM)",
+        "descricao": "Uma arma do capelão se torna mágica, fornecendo +2 nos testes de ataque e rolagens de dano e +1d6 pontos de dano de fogo."
+      },
+      {
+        "nome": "-Bênção (Padrão, 3 PM)",
+        "descricao": "Aliados em alcance curto recebem +2 em testes de ataque e rolagens de dano até o fim da cena."
+      },
+      {
+        "nome": "-Curar Ferimentos (Padrão, 5 PM)",
+        "descricao": "Uma criatura adjacente cura 6d8+6 PV."
+      },
+      {
+        "nome": "-Soco de Arsenal (Padrão, 5 PM)",
+        "descricao": "Uma criatura em alcance médio sofre 5d6+5 pontos de dano de impacto e é empurrada 3m na direção oposta (Fortitude reduz o dano à metade e evita o empurrão)."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Ódio Puro",
+        "descricao": "Puristas passam por um processo de doutrinação no qual aprendem a obedecer ordens sem questionar e a odiar todas as raças não humanas. Um purista recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O capelão de guerra lança magias como um clérigo de 5º nível (CD 18)."
+      }
+    ],
+    "equipamento": [
+      "Armadura completa",
+      "escudo leve",
+      "martelo de guerra certeiro",
+      "símbolo sagrado."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Capitão-Baluarte",
+    "nd": "5",
+    "categoria": "Puristas",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "Esses oficiais de baixo escalão são escolhidos entre a jovem nobreza da Supremacia e treinados desde a infância para liderar. São combatentes hábeis, mas seu verdadeiro talento está em liderar as investidas de seus subordinados, não em atacar pessoalmente.",
+    "defesa": 33,
+    "pv": 115,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +5",
+      "Fortude +15",
+      "Reflexos +5",
+      "Vontade +13",
+      "Cavalgar +4",
+      "Guerra +7",
+      "Nobreza +7."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 0,
+      "con": 4,
+      "int": 3,
+      "sab": 1,
+      "car": 4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada longa",
+        "bonus": "+17",
+        "dano": "1d8+8, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Comandar (Padrão)",
+        "descricao": "Os aliados em alcance médio do capitão-baluarte recebem +4 em testes de ataque e rolagens de dano até o fim da rodada. Formação Invencível Os aliados em alcance curto do capitão-baluarte recebem +2 na Defesa."
+      },
+      {
+        "nome": "Ódio Puro",
+        "descricao": "Puristas passam por um processo de doutrinação no qual aprendem a obedecer ordens sem questionar e a odiar todas as raças não humanas. Um purista recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos."
+      }
+    ],
+    "equipamento": [
+      "Armadura completa reforçada",
+      "escudo pesado reforçado",
+      "espada longa certeira."
+    ],
+    "tesouro": "Dobro."
+  },
+  {
+    "nome": "Cavaleiro do Leopardo Sangrento",
+    "nd": "9",
+    "categoria": "Puristas",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "Considerados “puristas entre os puristas”, os cavaleiros da Ordem do Leopardo Sangrento são os mais fanáticos combatentes da Supremacia. A sinistra capa com o símbolo da ordem significa que passaram pelo terrível rito de iniciação — sacrificar um não humano com as próprias mãos. Além de atuar como guarda-costas para líderes puristas, os Leopardos também executam missões estratégicas de sabotagem e assassinato.",
+    "defesa": 36,
+    "pv": 270,
+    "pm": 58,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +17",
+      "Percepção +15",
+      "Fortude +21",
+      "Reflexos +11",
+      "Vontade +17",
+      "Furtividade +8",
+      "Intimidação +17",
+      "Misticismo +19."
+    ],
+    "resistencias": [
+      "imunidade a medo"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 2,
+      "con": 4,
+      "int": 4,
+      "sab": 0,
+      "car": 2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada bastarda",
+        "bonus": "+28",
+        "dano": "3d6+15, 19"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Concentração de Combate (Padrão, 3 PM)",
+        "descricao": "Até o final da cena, sempre que faz um ataque, o cavaleiro rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "-Dissipar Magia (Padrão, 3 PM)",
+        "descricao": "O cavaleiro escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o teste são dissipadas."
+      },
+      {
+        "nome": "-Pele de Pedra (Padrão, 6 PM)",
+        "descricao": "Recebe RD 5 até o final da cena."
+      },
+      {
+        "nome": "-Toque Chocante (Padrão, 9 PM)",
+        "descricao": "O cavaleiro faz um ataque corpo a corpo. Se acertar, além do dano normal, causa 8d8+8 pontos de dano de eletricidade."
+      },
+      {
+        "nome": "-Velocidade (Padrão, 3 PM, sustentada)",
+        "descricao": "O cavaleiro pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias. o"
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Cavaleiro Místico",
+        "descricao": "O cavaleiro lança magias como um mago de 9º nível (CD 28). Ele pode lançar magias arcanas de armadura sem precisar de testes de Misticismo. Uma vez por rodada, quando usa a ação agredir para fazer ataques corpo a corpo, pode lançar uma magia como ação livre (pagando seu custo normal em PM)."
+      },
+      {
+        "nome": "Ódio Puro",
+        "descricao": "Puristas passam por um processo de doutrinação no qual aprendem a obedecer ordens sem questionar e a odiar todas as raças não humanas. Um purista recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos."
+      }
+    ],
+    "equipamento": [
+      "Armadura completa reforçada",
+      "espada bastarda aumentada pungente de adamante."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Colosso Supremo",
+    "nd": "14",
+    "categoria": "Puristas",
+    "tipo": "Construto",
+    "tamanho": "Colossal",
+    "descricao": "Grandes como moinhos de vento, feitos de pedra e metal, estes engenhos infernais são forjados com técnicas que combinam magia e tecnologia goblin. Plataformas em seus ombros abrigam soldados operando balistas, bem como oficiais que supervisionam e comandam as tropas no solo. Em seu interior, escravos goblins são responsáveis pela operação e reparos em tempo real. Além de sua espada titânica e canhões que disparam jatos de chamas, o colosso possui chaminés que expelem uma fumaça escura e venenosa; os tripulantes humanos usam máscaras protetoras, enquanto os goblins são resistentes ao veneno (e também fáceis de substituir).",
+    "defesa": 46,
+    "pv": 675,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +8",
+      "Percepção +9",
+      "Fortude +31",
+      "Reflexos +19",
+      "Vontade +20"
+    ],
+    "resistencias": [
+      "cura acelerada 20",
+      "redução de dano 10",
+      "resistência a magia +5"
+    ],
+    "deslocamento": [
+      "12m (8q)"
+    ],
+    "atributos": {
+      "for": 15,
+      "des": -1,
+      "con": 10,
+      "int": null,
+      "sab": -5,
+      "car": -5
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada titânica",
+        "bonus": "+39",
+        "dano": "4d12+30, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Balistas (Livre)",
+        "descricao": "O colosso possui duas balistas, uma em cada ombro. Cada balista é tripulada por soldados que a carregam e a disparam em rodadas alternadas (ataque +39, 6d8 pontos de dano de perfuração, crítico 19, alcance médio). É possível atacar as tripulações para o avanço indetenível O avanço indetenível dos batalhões puristas dos batalhões puristas impedir os disparos. Cada tripulação possui Defesa 26, 50 PV e usa os testes de resistência do colosso."
+      },
+      {
+        "nome": "Fumos Tóxicos",
+        "descricao": "Uma criatura que comece seu turno em alcance curto do colosso perde 4d6 PV e fica enjoada (Fort CD 38 evita). Veneno."
+      },
+      {
+        "nome": "Goblins Consertadores",
+        "descricao": "Goblins especialmente pequenos rastejam por dentro dos dutos do colosso fazendo reparos, sendo a fonte da cura acelerada do construto. Por estarem dentro do colosso, os goblins são imunes a dano, mas ainda podem ser afetados por efeitos mentais. Eles possuem Vontade +3 (mas recebem a resistência a magia do colosso) e, se forem afetados por qualquer condição, a cura acelerada deixa de funcionar."
+      },
+      {
+        "nome": "Jato de Chamas (Movimento)",
+        "descricao": "O colosso dispara um jato de chamas que atinge um cone de 12m. Criaturas na área sofrem 8d8+10 pontos de dano de fogo (Ref CD 38 reduz à metade)."
+      },
+      {
+        "nome": "Passar por Cima (Completa)",
+        "descricao": "O colosso percorre até o dobro do seu deslocamento, passando por qualquer criatura Grande ou menor. Uma criatura atropelada sofre 6d8+15 pontos de dano de impacto (Ref CD 38 reduz à metade)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o colosso supremo faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "1d6 engrenagens (CD 29 para extrair; cada engrenagem conta como T$ 1.000 em matéria-prima para fabricar engenhocas)."
+  },
+  {
+    "nome": "Zumbi",
+    "nd": "1/4",
+    "categoria": "Reino dos Mortos",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "descricao": "O tipo mais comum e rudimentar de morto-vivo, pouco mais que um amontoado cambaleante de carne apodrecida. Podem ser conjurados e controlados ou ocorrer espontaneamente em lugares amaldiçoados. Sozinhos, zumbis são adversários fáceis até para plebeus bem armados ou heróis novatos — mas uma grande horda pode surpreender e sobrepujar até mesmo aventureiros experientes.",
+    "defesa": 11,
+    "pv": 20,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa -1",
+      "Percepção -1",
+      "Fortude +3",
+      "Reflexos -1",
+      "Vontade -1"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": -1,
+      "con": 2,
+      "int": null,
+      "sab": -1,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+7",
+        "dano": "1d6+6"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Fraqueza Zumbi",
+        "descricao": "O zumbi sofre o dobro de dano de acertos críticos ou de ataques feitos contra seu cérebro (Defesa 21)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Turba Zumbi",
+    "nd": "2",
+    "categoria": "Reino dos Mortos",
+    "tipo": "Morto-vivo (bando)",
+    "tamanho": "Grande",
+    "descricao": "O tipo mais comum e rudimentar de morto-vivo, pouco mais que um amontoado cambaleante de carne apodrecida. Podem ser conjurados e controlados ou ocorrer espontaneamente em lugares amaldiçoados. Sozinhos, zumbis são adversários fáceis até para plebeus bem armados ou heróis novatos — mas uma grande horda pode surpreender e sobrepujar até mesmo aventureiros experientes.",
+    "defesa": 11,
+    "pv": 100,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +1",
+      "Percepção +1",
+      "Fortude +5",
+      "Reflexos +1",
+      "Vontade +1"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": -1,
+      "con": 3,
+      "int": null,
+      "sab": -1,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+17",
+        "dano": "2d6+12"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Bando",
+        "descricao": "A turba é formada por um grupo de zumbis. Se um ataque da turba exceder a Defesa do inimigo por 10 ou mais, ele causa o dobro do dano. Se um ataque da turba errar, ele ainda assim causa metade do dano. A turba é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano, mas sofre 50% a mais de dano de efeitos de área, como Bola de Fogo. Um personagem com o poder Trespassar que acerte a turba pode usá-lo para fazer um ataque adicional contra ela (mas apenas uma vez por turno)."
+      },
+      {
+        "nome": "Fraqueza Zumbi",
+        "descricao": "A turba zumbi sofre o dobro de dano de acertos críticos ou de ataques feitos contra seus cérebros (Defesa 21)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Esqueleto",
+    "nd": "2",
+    "categoria": "Reino dos Mortos",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "descricao": "Basta um olhar atento para diferenciar um osteon destes mortos-vivos sem mente. Esqueletos se movem e lutam com agilidade, até empunhando armas, mas sem qualquer inteligência guiando seus atos — apenas seguem as ordens de seus criadores. Muitos necromantes, especialmente em Aslothia e Wynlla, usam esqueletos como servos e soldados. De fato, as temidas falanges — tropas de esqueletos de elite — são uma das principais linhas de defesa do Reino dos Mortos.",
+    "defesa": 19,
+    "pv": 14,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +7",
+      "Percepção +3",
+      "Fortude +3",
+      "Reflexos +7",
+      "Vontade +12"
+    ],
+    "resistencias": [
+      "redução de corte",
+      "frio e perfuração 5"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 3,
+      "con": 0,
+      "int": null,
+      "sab": 0,
+      "car": -5
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada longa",
+        "bonus": "+14",
+        "dano": "2d8+12, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [],
+    "equipamento": [
+      "Escudo pesado",
+      "espada longa."
+    ],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Esqueleto de elite",
+    "nd": "4",
+    "categoria": "Reino dos Mortos",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "descricao": "Basta um olhar atento para diferenciar um osteon destes mortos-vivos sem mente. Esqueletos se movem e lutam com agilidade, até empunhando armas, mas sem qualquer inteligência guiando seus atos — apenas seguem as ordens de seus criadores. Muitos necromantes, especialmente em Aslothia e Wynlla, usam esqueletos como servos e soldados. De fato, as temidas falanges — tropas de esqueletos de elite — são uma das principais linhas de defesa do Reino dos Mortos.",
+    "defesa": 25,
+    "pv": 60,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +10",
+      "Percepção +4",
+      "Fortude +4",
+      "Reflexos +10",
+      "Vontade +16"
+    ],
+    "resistencias": [
+      "redução de corte",
+      "frio e perfuração 5"
+    ],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 4,
+      "con": 2,
+      "int": null,
+      "sab": 0,
+      "car": -5
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada longa",
+        "bonus": "+18",
+        "dano": "2d8+15, 19, mais 2d8 trevas"
+      }
+    ],
+    "magias": [],
+    "habilidades": [],
+    "equipamento": [
+      "Escudo pesado",
+      "espada longa",
+      "meia armadura."
+    ],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Falange",
+    "nd": "8",
+    "categoria": "Reino dos Mortos",
+    "tipo": "Morto-vivo (bando)",
+    "tamanho": "Grande",
+    "descricao": "Basta um olhar atento para diferenciar um osteon destes mortos-vivos sem mente. Esqueletos se movem e lutam com agilidade, até empunhando armas, mas sem qualquer inteligência guiando seus atos — apenas seguem as ordens de seus criadores. Muitos necromantes, especialmente em Aslothia e Wynlla, usam esqueletos como servos e soldados. De fato, as temidas falanges — tropas de esqueletos de elite — são uma das principais linhas de defesa do Reino dos Mortos.",
+    "defesa": 25,
+    "pv": 300,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +12",
+      "Percepção +6",
+      "Fortude +6",
+      "Reflexos +12",
+      "Vontade +18"
+    ],
+    "resistencias": [
+      "redução de corte",
+      "frio e perfuração 5"
+    ],
+    "deslocamento": [
+      "6m"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 4,
+      "con": 2,
+      "int": null,
+      "sab": 0,
+      "car": -5
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada longa",
+        "bonus": "+28",
+        "dano": "4d8+30, 19, mais 4d8 trevas"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Bando",
+        "descricao": "A falange é formada por um grupo de esqueletos. Se um ataque da falange exceder a Defesa do inimigo por 10 ou mais, ele causa o dobro do dano. Se um ataque da falange errar, ele ainda assim causa metade do dano. A falange é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano, mas sofre 50% a mais de dano de efeitos de área, como Bola de Fogo. Um personagem com o poder Trespassar que acerte a falange pode usá-lo para fazer um ataque adicional contra ela (mas apenas uma vez por turno)."
+      }
+    ],
+    "equipamento": [
+      "Escudo pesado",
+      "espada longa",
+      "meia armadura (1d8 cada)."
+    ],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Aparição",
+    "nd": "5",
+    "categoria": "Reino dos Mortos",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "descricao": "Vistas à distância, estas criaturas feitas de pura sombra lembram vultos usando mantos esvoaçantes. Dizem que são sombras separadas de seus antigos “donos”, agora odiando os vivos e a própria luz. Apesar de sua extrema furtividade na escuridão, podem ser detectadas por animais e crianças. Em combate, usam o toque sombrio para drenar a vida de seus oponentes, concentrando-se em uma vítima por vez.",
+    "defesa": 23,
+    "pv": 110,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +10",
+      "Percepção +6",
+      "Fortude +5",
+      "Reflexos +17",
+      "Vontade +11",
+      "Furtividade +15."
+    ],
+    "resistencias": [
+      "incorpóreo"
+    ],
+    "deslocamento": [
+      "Voo 18m (12q)"
+    ],
+    "atributos": {
+      "for": null,
+      "des": 6,
+      "con": 0,
+      "int": 0,
+      "sab": 2,
+      "car": 2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Toque drenante",
+        "bonus": "+18",
+        "dano": "3d8+6 trevas"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Vulnerabilidade à Luz do Dia",
+        "descricao": "Uma aparição exposta a luz solar natural fica debilitada."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Necromante",
+    "nd": "7",
+    "categoria": "Reino dos Mortos",
+    "tipo": "Humanoide (elfo)",
+    "tamanho": "Médio",
+    "descricao": "Estes arcanistas especializados em magias de trevas e na conjuração de mortos-vivos nem sempre são vilões. Alguns, bem-intencionados, acreditam firmemente que os mortos são uma força de trabalho valiosa, deixando os vivos livres para se dedicar a disciplinas mentais. Outros, no entanto, utilizam esqueletos e zumbis apenas como recursos para atingir objetivos perversos. Muitos são figuras de autoridade em Aslothia. Um necromante raramente comete a imprudência de ser encontrado sozinho — quase sempre estará acompanhado por esqueletos. Em combate, tentará se manter protegido por seus servos, enquanto usa magias para fortificá-los e incapacitar oponentes.",
+    "defesa": 23,
+    "pv": 180,
+    "pm": 55,
+    "sentidos": [
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +9",
+      "Percepção +9",
+      "Fortude +7",
+      "Reflexos +14",
+      "Vontade +20",
+      "Conhecimento +14",
+      "Misticismo +16."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "12m (8q)"
+    ],
+    "atributos": {
+      "for": 0,
+      "des": 2,
+      "con": 1,
+      "int": 5,
+      "sab": 0,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Adaga",
+        "bonus": "+22",
+        "dano": "1d4, 19, mais 1d8 trevas"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Amedrontar* (Padrão, 7 PM)",
+        "descricao": "Animais e humanoides a escolha do necromante em alcance curto ficam apavorados por 1d4+1 rodadas e depois abalados (Vontade reduz para abalado)."
+      },
+      {
+        "nome": "-Armadura Arcana (Padrão, 7 PM)",
+        "descricao": "O necromante recebe +7 na Defesa por um dia."
+      },
+      {
+        "nome": "-Crânio Voador* (Padrão, 6 PM)",
+        "descricao": "Um crânio de energia negativa causa 6d8+6 pontos de dano de trevas em uma criatura em alcance médio e deixa todas as criaturas a 3m do alvo abaladas (Fortitude reduz à metade e evita a condição)."
+      },
+      {
+        "nome": "-Toque Vampírico* (Padrão, 6 PM)",
+        "descricao": "O necromante toca em uma criatura e causa 10d6 pontos de dano de trevas (Fortitude reduz à metade) e recupera pontos de vida iguais à metade do dano causado."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Ergam-se! (Completa, 5 PM)",
+        "descricao": "O necromante conjura seis mortos-vivos em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada do necromante, têm deslocamento 9m e podem gastar uma ação padrão para causar 2d8 pontos de dano de trevas em uma criatura adjacente. Os mortos-vivos têm For 3, Des 3, Defesa 25, 1 PV e as habilidades de mortos-vivos (veja página 284), falham automaticamente em qualquer teste oposto e desaparecem quando mortos ou ao fim da cena."
+      },
+      {
+        "nome": "Sacrificar Servo (Reação)",
+        "descricao": "Uma vez por rodada, quando sofre dano, o necromante sacrifica um de seus mortos-vivos conjurados para reduzir esse dano a 0."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O necromante lança magias como um mago de 7º nível (CD 26, 28 para necromancia*):"
+      }
+    ],
+    "equipamento": [
+      "Adaga",
+      "essência de mana."
+    ],
+    "tesouro": "Dobro."
+  },
+  {
+    "nome": "Vampiro",
+    "nd": "12",
+    "categoria": "Reino dos Mortos",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "descricao": "Tornar-se vampiro costuma ser o objetivo de muitos necromantes em busca de mais poder ou clérigos de Tenebra que querem melhor servir à deusa. Essa “dádiva” pode ser alcançada através de pactos, rituais ou maldições. Cada vampiro é único, mas todos partilham duas fraquezas principais: são vulneráveis à luz do sol e dependentes de sangue. Ainda que sejam temidos em todo o Reinado e além, muitos vampiros compõem a alta sociedade de Aslothia, onde são membros da nobreza (e cometem atrocidades impunemente).",
+    "defesa": 45,
+    "pv": 550,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +15",
+      "Percepção +13",
+      "Fortude +12",
+      "Reflexos +26",
+      "Vontade +20",
+      "Diplomacia +16",
+      "Enganação +16",
+      "Furtividade +25",
+      "Nobreza +13."
+    ],
+    "resistencias": [
+      "cura acelerada 10",
+      "redução de dano 10/luz."
+    ],
+    "deslocamento": [
+      "18m (12q)",
+      "escalar 18m (12q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 5,
+      "con": 5,
+      "int": 3,
+      "sab": 3,
+      "car": 6
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada longa x2",
+        "bonus": "+36",
+        "dano": "2d8+25, 17, mais 2d10 trevas"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e garra",
+        "bonus": "+36",
+        "dano": "2d6+25 mais 2d10 trevas"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Dominação Vampírica (Padrão)",
+        "descricao": "O vampiro sussurra palavras de controle para um humanoide em alcance curto. A vítima fica confusa, enfeitiçada ou fascinada até o final da cena ou perde suas memórias da última hora, a escolha do vampiro (Von CD 29 evita). Uma criatura só pode ser alvo desta habilidade uma vez por cena. e"
+      },
+      {
+        "nome": "Drenar Sangue (Padrão)",
+        "descricao": "O vampiro drena sangue de uma criatura viva que esteja agarrando; ele causa 6d6 pontos de dano de perfuração e recupera a mesma quantidade de PV. Uma criatura morta pelo vampiro desta forma se erguerá como um vampiro na próxima noite e deverá vencer um teste de Vontade oposto contra o vampiro ou ficará sob o controle dele até que ele a liberte ou seja destruído."
+      },
+      {
+        "nome": "Forma de Morcego (Padrão)",
+        "descricao": "O vampiro se transforma em um morcego. Ele se torna Minúsculo (+5 em Furtividade e -5 em testes de manobra) e recebe deslocamento de voo 12m. Seu equipamento é absorvido (retornando quando ele volta ao normal) e suas outras estatísticas não são alteradas. A transformação dura quanto tempo ele desejar, mas termina caso faça um ataque, lance uma magia ou sofra dano."
+      },
+      {
+        "nome": "Presença Majestosa (Reação)",
+        "descricao": "Quando uma criatura ataca o vampiro, deve passar em um teste de Vontade (CD 29) ou não conseguirá machucá-lo e perderá a ação. Uma criatura que passe no teste de Vontade não é mais afetada por esta habilidade até o fim da cena."
+      },
+      {
+        "nome": "Sensibilidade ao Sol",
+        "descricao": "Quando exposto a luz solar direta, o vampiro fica ofuscado e perde 6d6 PV por rodada."
+      }
+    ],
+    "equipamento": [
+      "Armadura completa delicada de mitral",
+      "espada longa precisa de mitral."
+    ],
+    "tesouro": "Dobro."
+  },
+  {
+    "nome": "Goblin Salteador",
+    "nd": "1/4",
+    "categoria": "Duyshidakk",
+    "tipo": "Humanoide (goblin)",
+    "tamanho": "Pequeno",
+    "descricao": "Quase sempre subestimados e considerados “fracos”, estes goblins possuem uma ferocidade caótica, sendo máquinas insanas de esfaquear e estripar. Um pequeno bando pode chacinar um povoado humano ou sobrepujar aventureiros novatos; em grandes números, atacando por todos os lados, conseguem derrubar até mesmo heróis experientes.",
+    "defesa": 13,
+    "pv": 4,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +1",
+      "Fortude +2",
+      "Reflexos +3",
+      "Vontade -1"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)",
+      "escalada 9m (6q)"
+    ],
+    "atributos": {
+      "for": 0,
+      "des": 3,
+      "con": 0,
+      "int": 0,
+      "sab": -1,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Duas adagas",
+        "bonus": "+7",
+        "dano": "1d4, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Frenesi",
+        "descricao": "O goblin salteador recebe +2 em testes de ataque e rolagens de dano para cada outro goblin salteador adjacente ao seu alvo."
+      }
+    ],
+    "equipamento": [
+      "Adagas x2."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Hobgoblin Soldado",
+    "nd": "2",
+    "categoria": "Duyshidakk",
+    "tipo": "Humanoide (hobgoblin)",
+    "tamanho": "Médio",
+    "descricao": "De estatura similar a humanos robustos, hobgoblins são os mais militaristas entre os duyshidakk. Contrariando o que se espera de “humanoides monstruosos”, suas armas e armaduras são de extrema qualidade, assim como suas estratégias de combate. Lutam de forma inteligente e organizada, dividindo suas forças entre infantaria na linha de frente (lutadores corpo a corpo em armaduras pesadas) e artilharia com arcos, bestas ou armas de pólvora dando apoio na retaguarda.",
+    "defesa": 19,
+    "pv": 18,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +1",
+      "Fortude +12",
+      "Reflexos +7",
+      "Vontade +3",
+      "Ofício (armeiro) +2."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 2,
+      "con": 1,
+      "int": 0,
+      "sab": 0,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada longa",
+        "bonus": "+15",
+        "dano": "1d8+15, 19"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Arco longo",
+        "bonus": "+11",
+        "dano": "1d8+6, x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [],
+    "equipamento": [
+      "Arco longo",
+      "cota de malha",
+      "escudo pesado",
+      "espada longa",
+      "flechas x20."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Goblin Engenhoqueiro",
+    "nd": "3",
+    "categoria": "Duyshidakk",
+    "tipo": "Humanoide (goblin)",
+    "tamanho": "Pequeno",
+    "descricao": "Tidos por muitos como pragas inúteis, os goblins cultivam uma longa “tradição” de transformar sucata em mecanismos e engenhocas de certa utilidade. Ainda que imprevisíveis, estes aparatos se tornaram a marca registrada da raça e encontraram um espaço entre as lanças e escudos das hordas goblinoides.",
+    "defesa": 19,
+    "pv": 74,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +2",
+      "Fortude +3",
+      "Reflexos +15",
+      "Vontade +9",
+      "Furtividade +7",
+      "Ofício (engenhoqueiro) +10."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)",
+      "escalada 9m (6q)"
+    ],
+    "atributos": {
+      "for": 0,
+      "des": 2,
+      "con": 2,
+      "int": 3,
+      "sab": -1,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Adaga",
+        "bonus": "+8",
+        "dano": "1d4+3, 19"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Besta leve",
+        "bonus": "+9",
+        "dano": "1d8+3, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Engenhocas (Padrão)",
+        "descricao": "O goblin engenhoqueiro faz um teste de Ofício (engenhoqueiro) contra CD 15 para ativar uma de suas engenhocas. Para cada engenhoca, a CD aumenta em +5 a cada nova ativação no mesmo dia. Se passar no teste, a engenhoca é ativada. Se falhar, ela enguiça e não pode mais ser usada nesta cena."
+      },
+      {
+        "nome": "Asa de Bambu",
+        "descricao": "O engenhoqueiro recebe deslocamento de voo 12m até o fim da cena."
+      },
+      {
+        "nome": "Cospe-chamas",
+        "descricao": "Produz um cone de chamas de 9m. Criaturas na área sofrem 6d6 pontos de dano de fogo e ficam em chamas (Reflexos CD 19 reduz o dano à metade e evita a condição)."
+      },
+      {
+        "nome": "Gritador",
+        "descricao": "Produz um ruído ensurdecedor. Todas as criaturas em alcance curto escolhidas pelo goblin engenhoqueiro sofrem −2 em testes de ataque e rolagens de dano até o fim da cena."
+      }
+    ],
+    "equipamento": [
+      "Adaga",
+      "besta leve",
+      "instrumentos de Ofício (engenhoqueiro)",
+      "virotes x20."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Arauto de Thwor",
+    "nd": "4",
+    "categoria": "Duyshidakk",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "Após conhecer a história de sofrimento e opressão dos duyshidakk, não é espantoso que outros povos experimentem afinidade com sua causa. Hoje Thwor não é servido apenas por goblinoides, mas também por humanos e outras raças! Aceitos como irmãos pelos duyshidakk e abraçando suas tradições, estes clérigos assumem a missão sagrada de criar O Mundo Como Deve Ser e transformar Arton na utopia selvagem pregada por seu deus.",
+    "defesa": 23,
+    "pv": 135,
+    "pm": 26,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +8",
+      "Fortude +10",
+      "Reflexos +4",
+      "Vontade +16",
+      "Intimidação +9",
+      "Religião +8."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 1,
+      "con": 3,
+      "int": 0,
+      "sab": 4,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Machado de guerra",
+        "bonus": "+16",
+        "dano": "3d6+12, x3"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Amedrontar (Padrão, 3 PM)",
+        "descricao": "Um animal ou humanoide em alcance curto fica apavorado por 1d4+1 rodadas e depois abalado (Vontade reduz para abalado apenas)."
+      },
+      {
+        "nome": "-Curar Ferimentos (Padrão, 4 PM)",
+        "descricao": "Uma criatura adjacente cura 5d8+5 PV."
+      },
+      {
+        "nome": "-Perdição (Padrão, 1 PM)",
+        "descricao": "Criaturas escolhidas em alcance curto sofrem -1 em testes de ataque e rolagens de dano até o fim da cena."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "O Mundo como Ele É (Reação)",
+        "descricao": "Quando erra um ataque, o arauto de Thwor pode repetir o teste de ataque. Ele pode usar esta habilidade uma vez contra cada oponente a cada cena."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O arauto lança magias como um clérigo de Thwor de 4º nível (CD 18)."
+      }
+    ],
+    "equipamento": [
+      "Machado de guerra",
+      "símbolo sagrado de Thwor."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Hobgoblin Mago de Batalha",
+    "nd": "5",
+    "categoria": "Duyshidakk",
+    "tipo": "Humanoide (hobgoblin)",
+    "tamanho": "Médio",
+    "descricao": "No passado remoto, durante a Infinita Guerra contra os elfos, todos os hobgoblins odiavam e desprezavam magia — justamente por ser “coisa de elfo”. Mais tarde, no entanto, integrar a Aliança Negra e derrotar Lenórienn trouxe uma atitude mais pragmática. Após pilharem os tomos arcanos élficos, muitos hobgoblins passariam a dominar conjurações com efeitos destrutivos.",
+    "defesa": 17,
+    "pv": 120,
+    "pm": 35,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +4",
+      "Fortude +11",
+      "Reflexos +5",
+      "Vontade +17",
+      "Guerra +9",
+      "Misticismo +9",
+      "Ofício (armeiro) +11."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 3,
+      "des": 1,
+      "con": 3,
+      "int": 4,
+      "sab": 0,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Espada longa",
+        "bonus": "+14",
+        "dano": "1d8+3, 19"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Amedrontar (Padrão, 3 PM)",
+        "descricao": "Um animal ou humanoide em alcance curto fica apavorado por 1d4+1 rodadas e depois abalado (Vontade reduz para abalado apenas)."
+      },
+      {
+        "nome": "-Armadura Arcana (Padrão, 5 PM)",
+        "descricao": "O hobgoblin recebe +6 na Defesa por um dia."
+      },
+      {
+        "nome": "-Bola de Fogo (Padrão, 5 PM)",
+        "descricao": "O hobgoblin cria uma poderosa explosão em alcance médio que causa 8d6+5 pontos de dano de fogo em todas as criaturas em um raio de 6m (Reflexos reduz à metade)."
+      },
+      {
+        "nome": "-Concentração de Combate (Livre, 1 PM)",
+        "descricao": "Quando faz um ataque, o hobgoblin rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "-Toque Vampírico (Padrão, 5 PM)",
+        "descricao": "O hobgoblin faz um ataque com sua espada longa. Se acertar, além do dano da arma ele causa 6d6+5 pontos de dano de trevas e recupera pontos de vida iguais à metade desse dano de trevas."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Arcano de Batalha",
+        "descricao": "O hobgoblin mago de batalha soma sua Inteligência (+4) nas rolagens de dano com magias."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O hobgoblin lança magias como um mago de 5º nível (CD 22)."
+      }
+    ],
+    "equipamento": [
+      "Espada longa",
+      "essência de mana."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Engenho de Guerra Goblin",
+    "nd": "6",
+    "categoria": "Duyshidakk",
+    "tipo": "Construto",
+    "tamanho": "Enorme",
+    "descricao": "Elevando a capacidade mecânica e inventiva dos goblins a novos patamares, o engenho de guerra goblin é uma geringonça de terror e imprevisibilidade. Polias, roldanas, engrenagens, fumaça e uma pitada de magia se misturam sob as mãos questionavelmente hábeis de engenhoqueiros goblins para produzir uma máquina de guerra capaz de mudar os rumos de uma batalha. Ou explodir tentando... Um engenho de guerra parece uma enorme carroça de madeira e ferro sem cavalos, com três pares de grandes rodas. Uma cúpula de metal na parte superior do veículo abriga o artilheiro que opera sua arma principal, um poderoso canhão de raios. Outras armas menores se projetam de suas laterais, operadas freneticamente pela tripulação goblin, que se reveza entre pilotar o aparelho e efetuar reparos. Um engenho de guerra pode ser um trunfo no campo de batalha ou apenas uma grande fonte de barulho e fumaça.",
+    "defesa": 25,
+    "pv": 246,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +3",
+      "Percepção +5",
+      "Fortude +18",
+      "Reflexos +6",
+      "Vontade +12"
+    ],
+    "resistencias": [
+      "redução de dano 10"
+    ],
+    "deslocamento": [
+      "12m (8q)"
+    ],
+    "atributos": {
+      "for": 10,
+      "des": 0,
+      "con": 7,
+      "int": null,
+      "sab": 0,
+      "car": -5
+    },
+    "ataques": [],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Arsenal de Engenhocas (Padrão)",
+        "descricao": "O engenho de guerra possui várias engenhocas operadas por sua frenética tripulação. Sempre que esta habilidade é usada, role 1d6 quatro vezes. O resultado de cada dado indica qual engenhoca é ativada. Resultados repetidos são desperdiçados — isso significa que mais de um goblin tentou usar uma mesma engenhoca, perdendo sua ação."
+      },
+      {
+        "nome": "1 - Canhão elétrico",
+        "descricao": "O engenho dispara um raio em uma linha com alcance médio. Criaturas na área sofrem 8d8 pontos de dano de eletricidade (Ref CD 22 reduz à metade)."
+      },
+      {
+        "nome": "2 - Balestra ácida",
+        "descricao": "O engenho dispara um virote de ácido em uma criatura em alcance médio. O alvo sofre 8d6 pontos de dano de ácido, mais 4d6 pontos de dano de ácido no início de seu próximo turno (Ref CD 22 reduz à metade e evita o dano subsequente)."
+      },
+      {
+        "nome": "3 - Foles",
+        "descricao": "O engenho dispara labaredas em um cone de alcance curto. Criaturas na área sofrem 6d6 pontos de dano de fogo e ficam em chamas (Ref CD 23 reduz à metade e evita as chamas)."
+      },
+      {
+        "nome": "4 - Lâmina giratória",
+        "descricao": "O engenho faz um ataque corpo a corpo em cada criatura adjacente (ataque +20, dano 4d6+10 corte, 19)."
+      },
+      {
+        "nome": "5 - Poça de óleo",
+        "descricao": "O engenho vaza óleo escorregadio e inflamável. Todas as criaturas em alcance curto ficam vulneráveis a fogo até se limparem (o que exige uma ação completa) e caídas (Ref CD 22 evita as duas condições)."
+      },
+      {
+        "nome": "6 - Reparos emergenciais",
+        "descricao": "O engenho recupera 20 PV."
+      },
+      {
+        "nome": "Tripulação",
+        "descricao": "Se o engenho for destruído, 1d6 goblins salteadores escapam de seus escombros e surgem no início da rodada seguinte."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Devorador de Medos",
+    "nd": "8",
+    "categoria": "Duyshidakk",
+    "tipo": "Humanoide (bugbear)",
+    "tamanho": "Médio",
+    "descricao": "Bugbears são crueldade e violência em forma de carne. Para estas criaturas, o maior prazer é aterrorizar e o segundo maior é matar (após aterrorizar). Entre estes seres assustadores, os mestres absolutos do pavor são os devoradores de medos. Devoradores de medos podem literalmente farejar o medo, algo tão intoxicante para eles quanto o álcool é para humanos. Isso os leva a acuar vítimas apavoradas, até o momento em que decidem desferir o golpe mortal. Não há prazer em golpear o guarda de milícia pelas costas, antes que ele perceba qualquer perigo; o devorador de medos prefere abalar a coragem da vítima aos poucos, rosnando ameaças nas sombras, fazendo-a procurar inutilmente em volta, até fugir em pânico. Então ele ataca. E mata.",
+    "defesa": 31,
+    "pv": 325,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +11",
+      "Percepção +9",
+      "Fortude +21",
+      "Reflexos +15",
+      "Vontade +8",
+      "Furtividade +13",
+      "Intimidação +14."
+    ],
+    "resistencias": [
+      "imunidade a medo"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 3,
+      "con": 3,
+      "int": 0,
+      "sab": 1,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Machado de guerra x2",
+        "bonus": "+26",
+        "dano": "1d12+20, x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Apavorar (Movimento)",
+        "descricao": "O devorador de medos faz um teste de Intimidação oposto pela Vontade de todas as criaturas a sua escolha em alcance médio. Criaturas que falhem ficam abaladas pela cena; criaturas que falhem por 10 ou mais ficam apavoradas por 1d4 rodadas e abaladas pela cena. O devorador não pode usar esta habilidade mais de uma vez na mesma criatura na mesma cena."
+      },
+      {
+        "nome": "Artesão do Medo",
+        "descricao": "Quando faz um teste de Intimidação, o devorador rola dois dados e usa o melhor resultado. Medo Inebriante O devorador sofre metade do dano de ataques e efeitos de criaturas abaladas ou apavoradas. Além disso, enquanto estiver em alcance médio de uma criatura abalada ou apavorada, ele recebe um bônus em testes de perícia e rolagens de dano corpo a corpo igual à penalidade causada pela condição. Quando acerta um ataque corpo a corpo em uma dessas criaturas, o devorador recebe uma quantidade de PV temporários igual a essa penalidade."
+      }
+    ],
+    "equipamento": [
+      "Machado de guerra cruel."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Sombra de Thwor",
+    "nd": "9",
+    "categoria": "Duyshidakk",
+    "tipo": "Humanoide (hobgoblin)",
+    "tamanho": "Médio",
+    "descricao": "Muitas vezes lembrados por sua força física e aparência brutal, hobgoblins são também humanoides ágeis e furtivos, capazes de agir confortavelmente nas sombras. Dentre estes, os sombras de Thwor são os mais habilidosos espiões e assassinos. Seja no comando astuto de forças goblinoides, seja em missões solo para eliminar alguma figura de destaque, eles seguem enganando e confundindo os humanos, que esperam enfrentar um monstro rosnador — e acabam apunhalados por um matador silencioso.",
+    "defesa": 33,
+    "pv": 295,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +17",
+      "Percepção +10",
+      "Fortude +15",
+      "Reflexos +21",
+      "Vontade +9",
+      "Acrobacia +15",
+      "Atletismo +13",
+      "Furtividade +18",
+      "Intimidação +9",
+      "Ladinagem +15",
+      "Ofício (armeiro) +12."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 5,
+      "con": 5,
+      "int": 2,
+      "sab": 2,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Duas machadinhas",
+        "bonus": "+27",
+        "dano": "1d6+12, x3, mais veneno"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Duas machadinhas",
+        "bonus": "+27",
+        "dano": "1d6+12, x3, mais veneno"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Assassinar (Movimento)",
+        "descricao": "O sombra de Thwor analisa uma criatura em alcance curto. Em seu primeiro Ataque Furtivo que causar dano a ela até o fim do seu próximo turno, ele dobra os dados de dano do Ataque Furtivo. Ataque Furtivo Uma vez por rodada, o sombra causa +7d6 pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que ele esteja flanqueando."
+      },
+      {
+        "nome": "Evasão Aprimorada",
+        "descricao": "Quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, o sombra não sofre dano algum se passar e sofre apenas metade do dano se falhar. Um com as Sombras O sombra nunca fica surpreendido ou flanqueado e não sofre penalidades por se mover com seu deslocamento normal enquanto usa Furtividade."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 2d12 pontos de vida por rodada durante 3 rodadas (Fort CD 26 reduz para uma rodada)."
+      }
+    ],
+    "equipamento": [
+      "Couro batido ajustado",
+      "machadinhas atrozes x4",
+      "peçonha potente x1d4."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Cascavel",
+    "nd": "1/4",
+    "categoria": "Sszzaazitas",
+    "tipo": "Animal",
+    "tamanho": "Minúsculo",
+    "descricao": "Cobras - Não apenas um animal sagrado para os sszzaazitas, mas o próprio símbolo de sua divindade, será praticamente certa a existência de serpentes variadas (especialmente as peçonhentas) em seus covis e esconderijos. São amplamente utilizadas como familiares, armadilhas e instrumentos de assassinato. E como precaver-se contra seus “aliados” nunca é demais, cultistas também guardam zelosamente frascos com antídoto.",
+    "defesa": 13,
+    "pv": 2,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +3",
+      "Fortude +2",
+      "Reflexos +5",
+      "Vontade -1",
+      "Furtividade +12."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)",
+      "escalar 6m (4q)",
+      "natação 9m (6q)"
+    ],
+    "atributos": {
+      "for": -2,
+      "des": 3,
+      "con": 0,
+      "int": -5,
+      "sab": 0,
+      "car": -4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+7",
+        "dano": "1d4 mais veneno"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 1d12 pontos de vida (Fort CD 16 evita)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "1 dose de peçonha comum (CD 15 para extrair)."
+  },
+  {
+    "nome": "Jiboia",
+    "nd": "1/2",
+    "categoria": "Sszzaazitas",
+    "tipo": "Animal",
+    "tamanho": "Médio",
+    "descricao": "Cobras - Não apenas um animal sagrado para os sszzaazitas, mas o próprio símbolo de sua divindade, será praticamente certa a existência de serpentes variadas (especialmente as peçonhentas) em seus covis e esconderijos. São amplamente utilizadas como familiares, armadilhas e instrumentos de assassinato. E como precaver-se contra seus “aliados” nunca é demais, cultistas também guardam zelosamente frascos com antídoto.",
+    "defesa": 14,
+    "pv": 14,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +3",
+      "Fortude +3",
+      "Reflexos +5",
+      "Vontade +0",
+      "Furtividade +7."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)",
+      "escalar 6m (4q)",
+      "natação 9m (6q)"
+    ],
+    "atributos": {
+      "for": 2,
+      "des": 3,
+      "con": 1,
+      "int": -5,
+      "sab": 1,
+      "car": -4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+9",
+        "dano": "1d6+4"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Se a jiboia acerta um ataque de mordida, pode fazer a manobra agarrar (teste +9)."
+      },
+      {
+        "nome": "Constrição (Livre)",
+        "descricao": "No início de cada um de seus turnos, a jiboia causa 2d6+4 pontos de dano de impacto na criatura que estiver agarrando."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Naja",
+    "nd": "1",
+    "categoria": "Sszzaazitas",
+    "tipo": "Animal",
+    "tamanho": "Pequeno",
+    "descricao": "Cobras - Não apenas um animal sagrado para os sszzaazitas, mas o próprio símbolo de sua divindade, será praticamente certa a existência de serpentes variadas (especialmente as peçonhentas) em seus covis e esconderijos. São amplamente utilizadas como familiares, armadilhas e instrumentos de assassinato. E como precaver-se contra seus “aliados” nunca é demais, cultistas também guardam zelosamente frascos com antídoto.",
+    "defesa": 17,
+    "pv": 13,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +8",
+      "Percepção +3",
+      "Fortude +5",
+      "Reflexos +10",
+      "Vontade +1",
+      "Furtividade +10."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)",
+      "escalar 6m (4q)",
+      "natação 6m (4q)"
+    ],
+    "atributos": {
+      "for": -1,
+      "des": 4,
+      "con": 1,
+      "int": -5,
+      "sab": 0,
+      "car": -4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+12",
+        "dano": "1d4 mais veneno"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 1d12 pontos de vida durante 3 rodadas (Fort CD 18 reduz para uma rodada)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "1 dose de peçonha concentrada (CD 16 para extrair)."
+  },
+  {
+    "nome": "Sucuri",
+    "nd": "3",
+    "categoria": "Sszzaazitas",
+    "tipo": "Animal",
+    "tamanho": "Grande",
+    "descricao": "Cobras - Não apenas um animal sagrado para os sszzaazitas, mas o próprio símbolo de sua divindade, será praticamente certa a existência de serpentes variadas (especialmente as peçonhentas) em seus covis e esconderijos. São amplamente utilizadas como familiares, armadilhas e instrumentos de assassinato. E como precaver-se contra seus “aliados” nunca é demais, cultistas também guardam zelosamente frascos com antídoto.",
+    "defesa": 19,
+    "pv": 88,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +5",
+      "Percepção +4",
+      "Fortude +9",
+      "Reflexos +15",
+      "Vontade +3",
+      "Furtividade +8."
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "6m (4q)",
+      "escalar 9m (6q)",
+      "natação 9m (6q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 2,
+      "con": 4,
+      "int": -5,
+      "sab": 1,
+      "car": -4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+18",
+        "dano": "2d6+14"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Se a sucuri acerta um ataque de mordida, pode fazer a manobra agarrar (teste +20)."
+      },
+      {
+        "nome": "Constrição (Livre)",
+        "descricao": "No início de cada um de seus turnos, a sucuri causa 4d6+14 pontos de dano de impacto na criatura que estiver agarrando."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Nagah Guardião",
+    "nd": "3",
+    "categoria": "Sszzaazitas",
+    "tipo": "Humanoide (nagah)",
+    "tamanho": "Médio",
+    "descricao": "Nagah - Estes seres de torso humanoide e corpo de serpente foram outrora considerados uma raça de devotos de Allihanna. Infelizmente, tudo não passou de um elaborado e duradouro disfarce, mantido enquanto Sszzaas estava afastado, tramando seu retorno. Hoje, quase todos os grupos sszzaazitas incluem algumas nagahs. Em sua sociedade, os machos quase sempre são guerreiros, enquanto as fêmeas são clérigas ou arcanistas, exercendo a liderança.",
+    "defesa": 21,
+    "pv": 45,
+    "pm": 0,
+    "sentidos": [
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +6",
+      "Percepção +3",
+      "Fortude +6",
+      "Reflexos +11",
+      "Vontade +9",
+      "Enganação +4",
+      "Furtividade +6."
+    ],
+    "resistencias": [
+      "resistência a veneno +5"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 3,
+      "con": 2,
+      "int": 0,
+      "sab": 0,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Duas cimitarras",
+        "bonus": "+14",
+        "dano": "1d6+6, 18"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e cauda",
+        "bonus": "+14",
+        "dano": "1d6+6"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Fraquezas Ofídias",
+        "descricao": "O nagah guardião sofre 1 ponto de dano adicional para cada dado de dano de frio e -5 em testes de resistência contra Músicas de Bardo."
+      }
+    ],
+    "equipamento": [
+      "Cimitarras x2."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Nagah Mística",
+    "nd": "6",
+    "categoria": "Sszzaazitas",
+    "tipo": "Humanoide (nagah)",
+    "tamanho": "Médio",
+    "descricao": "Nagah - Estes seres de torso humanoide e corpo de serpente foram outrora considerados uma raça de devotos de Allihanna. Infelizmente, tudo não passou de um elaborado e duradouro disfarce, mantido enquanto Sszzaas estava afastado, tramando seu retorno. Hoje, quase todos os grupos sszzaazitas incluem algumas nagahs. Em sua sociedade, os machos quase sempre são guerreiros, enquanto as fêmeas são clérigas ou arcanistas, exercendo a liderança.",
+    "defesa": 20,
+    "pv": 160,
+    "pm": 35,
+    "sentidos": [
+      "visão na penumbra"
+    ],
+    "pericias": [
+      "Iniciativa +8",
+      "Percepção +6",
+      "Fortude +6",
+      "Reflexos +12",
+      "Vontade +18",
+      "Conhecimento +10",
+      "Enganação +9",
+      "Furtividade +10",
+      "Intuição +9",
+      "Misticismo +10."
+    ],
+    "resistencias": [
+      "resistência a veneno +5"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 1,
+      "des": 3,
+      "con": 2,
+      "int": 4,
+      "sab": 2,
+      "car": 2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Adaga",
+        "bonus": "+18",
+        "dano": "1d6+6, 19"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e cauda",
+        "bonus": "+18",
+        "dano": "1d6+6"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Imagem Espelhada (Padrão, 5 PM)",
+        "descricao": "Cinco cópias ilusórias da nagah surgem ao seu redor, concedendo a ela +10 na Defesa. Cada vez que um ataque erra a nagah, uma das cópias desaparece e o bônus na Defesa diminui em 2."
+      },
+      {
+        "nome": "-Relâmpago (Padrão, 5 PM)",
+        "descricao": "A nagah causa 8d6 pontos de dano de eletricidade em todas as criaturas em uma linha com alcance médio (Reflexos reduz à metade)."
+      },
+      {
+        "nome": "-Velocidade (Padrão, 3 PM, sustentada)",
+        "descricao": "A nagah pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias. Fraquezas Ofídias Como o nagah guardião."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Magia Acelerada (Livre, 4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, a nagah mística muda a execução dela para livre."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "A nagah lança magias como uma maga de 8º nível (CD 24)."
+      }
+    ],
+    "equipamento": [
+      "Adaga",
+      "essência de mana."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Cultista de Sszzaas",
+    "nd": "7",
+    "categoria": "Sszzaazitas",
+    "tipo": "Monstro (medusa)",
+    "tamanho": "Médio",
+    "descricao": "Mesmo com sua religião sendo proibida no Reinado, todos já ouviram falar de algum grupo sszzaazita escondido nas sombras de mansões sinistras ou tavernas discretas, tecendo planos dentro de planos, cometendo crimes para seu patrono maléfico. Encabeçando tais cabalas sombrias, quase sempre haverá um devoto de Sszzaas, manipulando seus asseclas, prometendo poder e riquezas, quando na verdade apenas executa os ditames do Grande Corruptor.",
+    "defesa": 29,
+    "pv": 160,
+    "pm": 40,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +11",
+      "Percepção +12",
+      "Fortude +7",
+      "Reflexos +14",
+      "Vontade +20",
+      "Enganação +20",
+      "Intuição +20",
+      "Religião +17."
+    ],
+    "resistencias": [
+      "resistência a veneno +5"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 0,
+      "des": 2,
+      "con": 0,
+      "int": 4,
+      "sab": 4,
+      "car": 5
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Adaga",
+        "bonus": "+22",
+        "dano": "1d4+4, 19, mais veneno"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Arma Mágica (Padrão, 1 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Comando (Padrão, 1 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Curar Ferimentos (Padrão, 1 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Escuridão (Padrão, 1 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Enxame de Pestes (Padrão, 3 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Miasma Mefítico (Padrão, 3 PM)",
+        "descricao": "?"
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Ataque Furtivo",
+        "descricao": "Uma vez por rodada, a cultista de Sszzaas causa +5d6 pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que ela esteja flanqueando."
+      },
+      {
+        "nome": "Olhar Atordoante (Movimento)",
+        "descricao": "Uma criatura em alcance curto fica atordoada por uma rodada (apenas uma vez por cena; Fort CD 26 evita)."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 2d12 pontos de vida durante 3 rodadas (Fort CD 26 reduz para uma rodada)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "A cultista lança magias como uma clériga de Sszzaas de 7º nível (CD 26)."
+      }
+    ],
+    "equipamento": [
+      "Adaga certeira",
+      "couraça",
+      "escudo leve",
+      "símbolo sagrado de Sszzaas."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Hidra",
+    "nd": "11",
+    "categoria": "Sszzaazitas",
+    "tipo": "Monstro",
+    "tamanho": "Enorme",
+    "descricao": "Esta monstruosidade reptiliana tem a aparência de um lagarto imenso e obeso, coberto de escamas verdes ou marrons, com cinco cabeças encimando pescoços longos e flexíveis como serpentes. Hidras são criaturas solitárias e normalmente habitam pântanos, onde se escondem imersas em água ou lama, esperando por uma presa. Porém, às vezes são capturadas por sszzaazitas, sendo usadas como guardiãs de lugares importantes ou armas de guerra. Seja como for, a hidra é um monstro voraz, agressivo e difícil de matar; quando uma de suas cabeças é cortada, outras duas nascem no lugar!",
+    "defesa": 35,
+    "pv": 550,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +9",
+      "Percepção +9",
+      "Fortude +24",
+      "Reflexos +18",
+      "Vontade +9",
+      "Furtividade +4 (+14 em pântanos)."
+    ],
+    "resistencias": [
+      "cura acelerada 100"
+    ],
+    "deslocamento": [
+      "9m (6q)",
+      "natação 9m (6q)"
+    ],
+    "atributos": {
+      "for": 10,
+      "des": 0,
+      "con": 10,
+      "int": -4,
+      "sab": 0,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Cinco mordidas",
+        "bonus": "+34",
+        "dano": "3d6+16"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Cortar Cabeças",
+        "descricao": "As cabeças da hidra são seu ponto fraco e é possível atacá-las diretamente. Atacar uma cabeça impõe uma penalidade de -2 no teste de ataque. Se o ataque acertar e causar pelo menos 25 pontos de dano de corte, a cabeça é decepada e a hidra perde um ataque de mordida. Entretanto, 1d4 rodadas após a cabeça ser decepada, duas novas nascem em seu lugar (a hidra pode ter até dez cabeças). Para impedir o nascimento de novas cabeças é necessário cauterizar o pescoço. Isso exige causar 25 pontos de dano de ácido ou fogo na hidra. Se todas as cabeças da hidra forem decepadas e todos seus pescoços forem cauterizados, ela morre."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Lagash",
+    "nd": "13",
+    "categoria": "Sszzaazitas",
+    "tipo": "Monstro",
+    "tamanho": "Enorme",
+    "descricao": "Esta serpente gigantesca é considerada sagrada pelos sszzaazitas — embora isso não impeça cultistas do Deus da Traição de usarem-na para proteger tesouros valiosos. O corpo de um lagash é coberto de escamas negras, seus olhos brilham amarelos e a bocarra verte veneno... e cobras! Lagash são pouco conhecidos no Reinado — além de habitar apenas selvas profundas e subterrâneos, quem encontra um desses monstros normalmente não sobrevive para contar a história.",
+    "defesa": 41,
+    "pv": 660,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +19",
+      "Percepção +11",
+      "Fortude +26",
+      "Reflexos +20",
+      "Vontade +13",
+      "Furtividade +17."
+    ],
+    "resistencias": [
+      "imunidade a efeitos de movimento e veneno"
+    ],
+    "deslocamento": [
+      "12m (8q)",
+      "escalar 12m (8q)",
+      "natação 12m (8q)"
+    ],
+    "atributos": {
+      "for": 11,
+      "des": 4,
+      "con": 9,
+      "int": -3,
+      "sab": 2,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+37",
+        "dano": "4d12+28 mais veneno"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Se o lagash acerta um ataque de mordida, pode fazer a manobra agarrar (teste +42)."
+      },
+      {
+        "nome": "Constrição (Livre)",
+        "descricao": "No início de cada um de seus turnos, o lagash causa 6d12+28 pontos de dano de impacto na criatura que estiver agarrando."
+      },
+      {
+        "nome": "Crias de Sszzaas (Movimento)",
+        "descricao": "O lagash cospe 2d6 serpentes em espaços desocupados em alcance curto. Elas agem a partir da próxima rodada do lagash, têm deslocamento 9m (normal, de escalada e de natação) e podem gastar uma ação padrão para causar 1d6 pontos de dano de perfuração em uma criatura adjacente. As serpentes têm For -1, Des 2, Defesa nula (são acertadas automaticamente) e 1 PV, falham automaticamente em qualquer teste oposto e desaparecem quando mortas ou ao fim da cena. Recarga (movimento)."
+      },
+      {
+        "nome": "Cuspe Venenoso (Padrão)",
+        "descricao": "O lagash cospe veneno em um cone de 9m. Criaturas na área perdem 6d12 pontos de vida e ficam cegas por 1d4 rodadas (Fort CD 35 reduz à metade e evita a cegueira)."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 4d12 pontos de vida por rodada durante 5 rodadas (Fort CD 35 reduz para uma rodada)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Finntroll Caçador",
+    "nd": "2",
+    "categoria": "Trolls Nobres",
+    "tipo": "Monstro (finntroll)",
+    "tamanho": "Médio",
+    "descricao": "Caçadores são especialistas em caçar escravos, os mais vistos no Reinado. A população de aldeias inteiras já desapareceu na calada da noite após o ataque de um bando de caçadores.",
+    "defesa": 19,
+    "pv": 65,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +7",
+      "Percepção +7",
+      "Fortude +6",
+      "Reflexos +12",
+      "Vontade +4",
+      "Furtividade +8",
+      "Sobrevivência +7."
+    ],
+    "resistencias": [
+      "imunidade a atordoamento e metamorfose",
+      "resistência a magia +2"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 2,
+      "des": 3,
+      "con": 3,
+      "int": 2,
+      "sab": 2,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Duas cimitarras",
+        "bonus": "+12",
+        "dano": "1d6+5, 18"
+      },
+      {
+        "tipo": "À Distância",
+        "nome": "Besta pesada",
+        "bonus": "+12",
+        "dano": "1d12+4, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Marca da Presa (Movimento)",
+        "descricao": "O finntroll analisa uma criatura em alcance curto. Até o final da cena, recebe +1d8 em rolagens de dano contra essa criatura (ou +2d8, se a criatura for um anão, elfo ou humano)."
+      },
+      {
+        "nome": "Natureza Vegetal",
+        "descricao": "O finntroll é afetado por habilidades e magias que afetam plantas."
+      },
+      {
+        "nome": "Regeneração Vegetal (Movimento)",
+        "descricao": "O finntroll recupera 5 PV. Esta habilidade não cura dano de ácido e fogo e não pode ser usada quando o finntroll está exposto à luz do sol ou similar."
+      },
+      {
+        "nome": "Sensibilidade a Luz",
+        "descricao": "Quando exposto à luz do sol ou similar, o finntroll fica ofuscado."
+      }
+    ],
+    "equipamento": [
+      "Besta pesada",
+      "cimitarra x2",
+      "rede",
+      "virotes x20."
+    ],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Finntroll Feitor",
+    "nd": "6",
+    "categoria": "Trolls Nobres",
+    "tipo": "Monstro (finntroll)",
+    "tamanho": "Médio",
+    "descricao": "Feitores são ainda mais perigosos. Membros de uma casta elevada, raramente serão encontrados sozinhos — em geral, estarão no comando de escravos, trolls ou monstros ainda piores.",
+    "defesa": 20,
+    "pv": 155,
+    "pm": 35,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +9",
+      "Percepção +5",
+      "Fortude +8",
+      "Reflexos +12",
+      "Vontade +16",
+      "Intimidação +9",
+      "Misticismo +11."
+    ],
+    "resistencias": [
+      "imunidade a atordoamento e metamorfose",
+      "resistência a magia +2"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 0,
+      "des": 3,
+      "con": 3,
+      "int": 4,
+      "sab": 0,
+      "car": 2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Chicote",
+        "bonus": "+18",
+        "dano": "1d3+10, 19"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Adaga Mental* (Padrão, 1 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Armadura Arcana (Padrão, 1 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Enfeitiçar* (Padrão, 1 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Desespero Esmagador* (Padrão, 3 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Marca da Obediência* (Padrão, 3 PM)",
+        "descricao": "?"
+      },
+      {
+        "nome": "-Relâmpago (Padrão, 3 PM)",
+        "descricao": "?"
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Açoitar (Padrão)",
+        "descricao": "O finntroll usa de coerção e dor para motivar seus subalternos. No próximo turno de cada aliado do finntroll em alcance médio, esse aliado recebe uma ação de movimento extra e +2 em testes de ataque e rolagens de dano."
+      },
+      {
+        "nome": "Natureza Vegetal",
+        "descricao": "O finntroll é afetado por habilidades e magias que afetam plantas."
+      },
+      {
+        "nome": "Regeneração Vegetal (Movimento)",
+        "descricao": "O finntroll recupera 5 PV. Esta habilidade não cura dano de ácido e fogo e não pode ser usada quando o finntroll está exposto à luz do sol ou similar."
+      },
+      {
+        "nome": "Sensibilidade a Luz",
+        "descricao": "Quando exposto à luz do sol ou similar, o finntroll fica ofuscado."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O finntroll feitor lança magias como um mago de 7º nível (CD 26, 28 para encantamento*)."
+      }
+    ],
+    "equipamento": [
+      "Chicote cruel."
+    ],
+    "tesouro": "Dobro."
+  },
+  {
+    "nome": "Ganchador",
+    "nd": "5",
+    "categoria": "Trolls Nobres",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "descricao": "Esta criatura parece um besouro humanoide com quase três metros de altura. A cabeça lembra a de um urubu com um bico grande e é a única parte da criatura não coberta por um exoesqueleto duro e repleto de pontas afiadas. Mas são os braços que dão nome à criatura, pois terminam em ganchos pontudos de aparência cruel. Ganchadores vivem nos subterrâneos de Arton e estão entre as criaturas escravizadas pelos finntroll.",
+    "defesa": 26,
+    "pv": 210,
+    "pm": 0,
+    "sentidos": [
+      "percepção às cegas"
+    ],
+    "pericias": [
+      "Iniciativa +7",
+      "Percepção +5",
+      "Fortude +15",
+      "Reflexos +11",
+      "Vontade +7"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)",
+      "escalar 9m (6q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 3,
+      "con": 5,
+      "int": -2,
+      "sab": 1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+17",
+        "dano": "2d6+8"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+17",
+        "dano": "1d8+8, 19/x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Dilacerar",
+        "descricao": "Se o ganchador acerta os dois ataques de garra em uma mesma criatura na mesma rodada, causa mais 2d8+8 pontos de dano. Quebrar Tudo! O ganchador recebe +2 em testes de ataque para quebrar (teste total +21) e causa +1d8 pontos de dano contra objetos. Sensibilidade a Luz Quando exposto à luz do sol ou similar, o ganchador fica ofuscado."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Metade mais duas garras (CD 20 para extrair; cada garra conta como T$ 500 em matéria-prima para fabricar armas de corte superiores)."
+  },
+  {
+    "nome": "Troll",
+    "nd": "5",
+    "categoria": "Trolls Nobres",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "descricao": "Um troll é um monstro feito de matéria vegetal. Alto e magro como uma árvore, possui pele verde e verruguenta e braços longos que terminam em garras afiadas. Estes monstros vorazes não apenas servem aos finntroll como guardas e soldados, mas também são encontrados em diversos pontos de Arton, uma ameaça constante a viajantes e aventureiros. Alguns dizem que são uma versão primitiva dos finntroll, enquanto outros presumem que foram criados pelos trolls nobres através de experimentos perversos que envolvem transformar criaturas indefesas. \\nUm troll pode regenerar quase qualquer ferimento, até mesmo membros decepados. Essa capacidade exige quantidades fantásticas de comida, fazendo com que o monstro esteja sempre faminto — um troll vai tentar devorar qualquer coisa que se mova. Apenas dano causado por fogo ou ácido impede sua regeneração. \\nAs estatísticas a seguir representam a espécie de troll mais comum, que habita pântanos e charcos, mas existem outras (veja o quadro ao lado). \\nDos subterrâneos, os finntroll e seus Dos subterrâneos, os finntroll e seus monstros surgem para capturar e escravizar monstros surgem para capturar e escravizar \\nIndependentemente da espécie, trolls procuram viver em tocas ou ruínas próximas a trilhas ou estradas, onde têm constante acesso a presas. Seu apetite contínuo e macabro os leva a capturar todo tipo de criaturas — especialmente humanoides, cujo sabor apreciam — e usá-las como ingredientes em numerosas “receitas” diabólicas.",
+    "defesa": 23,
+    "pv": 165,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +3",
+      "Fortude +14",
+      "Reflexos +10",
+      "Vontade +6"
+    ],
+    "resistencias": [
+      "cura acelerada 15/ ácido ou fogo"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 2,
+      "con": 6,
+      "int": -2,
+      "sab": -1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+17",
+        "dano": "1d8+6"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+17",
+        "dano": "1d6+6"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Dilacerar",
+        "descricao": "Se o troll acerta os dois ataques de garra em uma mesma criatura na mesma rodada, causa mais 2d6+6 pontos de dano."
+      },
+      {
+        "nome": "Variantes (Ghillanin)",
+        "descricao": "Estes trolls subterrâneos têm a pele cinzenta, com textura de rocha. São muito usados pelos finntroll; vastas hordas deles atacaram o reino anão de Doherimm durante o Chamado às Armas.\\n Pele Dura: O ghillanin possui Defesa 25. \\n Sensibilidade a Luz: Quando exposto à luz do sol ou similar, o ghillanin fica ofuscado e sua cura acelerada não funciona."
+      },
+      {
+        "nome": "Variantes (Glacioll)",
+        "descricao": "Estes trolls do gelo são habitantes das Uivantes e outros lugares frios. De cor azulada, não apenas são imunes a frio, como também absorvem sua energia, ficando maiores! Um glacioll atingido por um ataque ou magia de frio se fortalece, em vez de sofrer dano.\\n Absorver Frio: Quando sofre dano de frio, o glacioll em vez disso recebe uma quantidade de PV temporários igual ao dano que sofreria. Para cada 10 PV temporários recebidos desta forma, o troll glacioll recebe +1 em testes de ataque e rolagens de dano até o fim da cena.\\n Vulnerabilidade a Fogo: O glacioll sofre +50% de dano de fogo."
+      },
+      {
+        "nome": "Variantes (Vrakoll)",
+        "descricao": "Estes trolls aquáticos são encontrados em água doce ou salgada. Podem respirar e se mover livremente debaixo d’água, mas têm dificuldade para lutar em terra firme. Levando em conta a dificuldade em atacá-los com fogo ou ácido quando sub­mer­sos, em seu ambiente eles são praticamente invencíveis!\\n Aquático: O vrakoll possui deslocamento de natação 9m e pode respirar debaixo d’água. Entretanto, sofre −2 em testes de ataque em terra firme."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Troll das Cavernas",
+    "nd": "9",
+    "categoria": "Trolls Nobres",
+    "tipo": "Monstro",
+    "tamanho": "Enorme",
+    "descricao": "Maiores e mais poderosos que trolls comuns, são empregados pelos finntrolls como armas pesadas. Possuem ombros imensos, braços largos como troncos de árvore e cabeça redonda e abrutalhada. Suas pernas poderosas terminam em pés sem dedos e sua pele cinzenta é tão áspera — e dura — quanto a rocha. Um grupo destas gigantescas criaturas pode desafiar até os mais poderosos heróis do Reinado!",
+    "defesa": 29,
+    "pv": 345,
+    "pm": 0,
+    "sentidos": [
+      "faro",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +7",
+      "Percepção +14",
+      "Fortude +21",
+      "Reflexos +15",
+      "Vontade +9"
+    ],
+    "resistencias": [
+      "cura acelerada 20/ ácido ou fogo"
+    ],
+    "deslocamento": [
+      "12m (8q)",
+      "escalar 9m (6q)"
+    ],
+    "atributos": {
+      "for": 9,
+      "des": 0,
+      "con": 11,
+      "int": -2,
+      "sab": -1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Tacape",
+        "bonus": "+26",
+        "dano": "3d6+27"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e mordida",
+        "bonus": "+26",
+        "dano": "2d6+27"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Golpe Avassalador (Livre)",
+        "descricao": "Quando acerta um ataque de tacape, o troll das cavernas arremessa a vítima 1d6 x 1,5m em uma direção à escolha dele (Fort CD 28 evita). A vítima fica caída e, se atingir algum obstáculo, sofre 1d6 pontos de dano de impacto para cada 1,5m que foi arremessada."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o troll das cavernas faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "equipamento": [
+      "Tacape gigante."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Enxame Kobold",
+    "nd": "2",
+    "categoria": "Dragões",
+    "tipo": "Monstro (kobold, enxame)",
+    "tamanho": "Médio",
+    "descricao": "Esses pequenos humanoides reptilianos são considerados uma praga — o que realmente são! Medindo 75cm de altura, parecem caricaturas de dragões, com cabeças grandes e desproporcionais, orelhas caninas e pequenos chifres, corpo magro e cauda fina, curta. \\nEmbora possam se reproduzir como seres normais, kobolds às vezes surgem espontaneamente onde existe ou existiu um dragão; diz-se que a própria energia dracônica faz seus ovos brotarem como fungos. Um kobold sozinho dificilmente representa ameaça. Infelizmente, eles normalmente surgem em grandes quantidades, atacando como enxames.",
+    "defesa": 17,
+    "pv": 60,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +6",
+      "Percepção +1",
+      "Fortude +7",
+      "Reflexos +13",
+      "Vontade +2"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q) I"
+    ],
+    "atributos": {
+      "for": 0,
+      "des": 3,
+      "con": 0,
+      "int": -1,
+      "sab": 0,
+      "car": -1
+    },
+    "ataques": [],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Caixa com Pregos (Padrão)",
+        "descricao": "Os kobolds arremessam uma caixa com pregos (ou outra coisa perigosa, como insetos peçonhentos) em uma criatura em alcance curto. A vítima sofre 2d6 pontos de dano de perfuração e fica atordoada por uma rodada (Ref CD 16 reduz o dano à metade e evita a condição atordoado)."
+      },
+      {
+        "nome": "Enxame",
+        "descricao": "O enxame kobold é um aglomerado de kobolds que agem em conjunto. Ele pode entrar no espaço ocupado por um personagem e, no fim de seu turno, causa 2d6 pontos de dano de perfuração a qualquer personagem em seu espaço, automaticamente. O enxame é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano, mas sofre 50% a mais de dano de efeitos de área, como Bola de Fogo. Além disso, sofre apenas metade do dano de ataques com armas. Estar dentro do enxame conta como condição ruim para lançar magias."
+      },
+      {
+        "nome": "Unidos Venceremos",
+        "descricao": "No início de cada rodada, novos kobolds se juntam ao enxame. O enxame ganha +10 PV (até um limite máximo de 100 PV). O enxame recebe +1 em rolagens de dano para cada 10 PV que possui."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Dragão Filhote",
+    "nd": "3",
+    "categoria": "Dragões",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Médio",
+    "descricao": "",
+    "defesa": 22,
+    "pv": 140,
+    "pm": 0,
+    "sentidos": [
+      "percepção às cegas",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +8",
+      "Percepção +5",
+      "Fortude +15",
+      "Reflexos +3",
+      "Vontade +9"
+    ],
+    "resistencias": [
+      "imunidade a fogo",
+      "resistência a magia +1",
+      "vulnerabilidade a frio"
+    ],
+    "deslocamento": [
+      "12m (8q)",
+      "voo 18m (12q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 3,
+      "con": 3,
+      "int": 0,
+      "sab": 0,
+      "car": 0
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+15",
+        "dano": "2d6+5"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+15",
+        "dano": "1d6+5"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 6m sofrem 2d12 pontos de dano de fogo e ficam em chamas (Ref CD 18 reduz o dano à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Dragões são imunes a efeitos de atordoamento, cansaço, dano do tipo de seu sopro, metamorfose e paralisia."
+      },
+      {
+        "nome": "Resistência a Magia",
+        "descricao": "Dragões filhotes têm resistência a magia +1."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Dragão Jovem",
+    "nd": "7",
+    "categoria": "Dragões",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Grande",
+    "descricao": "",
+    "defesa": 32,
+    "pv": 320,
+    "pm": 15,
+    "sentidos": [
+      "percepção às cegas",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +11",
+      "Percepção +11",
+      "Fortude +20",
+      "Reflexos +9",
+      "Vontade +12",
+      "Intimidação +11."
+    ],
+    "resistencias": [
+      "imunidade a fogo",
+      "redução de dano 5",
+      "resistência a magia +2",
+      "vulnerabilidade a frio"
+    ],
+    "deslocamento": [
+      "12m (8q)",
+      "voo 18m (12q)"
+    ],
+    "atributos": {
+      "for": 7,
+      "des": 2,
+      "con": 6,
+      "int": 2,
+      "sab": 2,
+      "car": 2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+25",
+        "dano": "2d6+14, 19"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+25",
+        "dano": "1d8+14, 19"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 9m sofrem 6d12 pontos de dano de fogo e ficam em chamas (Ref CD 25 reduz o dano à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o dragão faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Dragões são imunes a efeitos de atordoamento, cansaço, dano do tipo de seu sopro, metamorfose e paralisia."
+      },
+      {
+        "nome": "Metamorfose Dracônica (Completa)",
+        "descricao": "Dragões jovens ou mais velhos podem se transformar em outras criaturas, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Eles costumam usar esta habilidade para se infiltrar em sociedades humanoides, aprender sobre seus costumes ou apenas quando não querem ser reconhecidos. Um dragão morto reverte à sua forma original."
+      },
+      {
+        "nome": "Resistência a Magia",
+        "descricao": "Dragões Jovens têm resistência a magia +2."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Dobro e 2 peças de couro de dragão (CD 22 para extrair, veja o quadro na página 312)."
+  },
+  {
+    "nome": "Dragão Adulto",
+    "nd": "11",
+    "categoria": "Dragões",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Enorme",
+    "descricao": "",
+    "defesa": 42,
+    "pv": 600,
+    "pm": 70,
+    "sentidos": [
+      "percepção às cegas",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +12",
+      "Percepção +15",
+      "Fortude +24",
+      "Reflexos +11",
+      "Vontade +18",
+      "Enganação +15",
+      "Intimidação +15",
+      "Misticismo +15."
+    ],
+    "resistencias": [
+      "imunidade a fogo",
+      "redução de dano 10",
+      "resistência a magia +3",
+      "vulnerabilidade a frio"
+    ],
+    "deslocamento": [
+      "12m (8q)",
+      "voo 24m (16q)"
+    ],
+    "atributos": {
+      "for": 11,
+      "des": 1,
+      "con": 8,
+      "int": 4,
+      "sab": 4,
+      "car": 4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+35",
+        "dano": "4d10+25, 18"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+35",
+        "dano": "3d10+25, 18"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Campo de Força (Reação, 4 PM)",
+        "descricao": "Quando sofre dano, o dragão recebe redução de dano 30 contra este dano."
+      },
+      {
+        "nome": "-Curar Ferimentos (Padrão, 11 PM)",
+        "descricao": "Uma criatura adjacente cura 12d8+12 PV."
+      },
+      {
+        "nome": "-Dissipar Magia (Padrão, 3 PM)",
+        "descricao": "O dragão escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o resultado do teste são dissipadas."
+      },
+      {
+        "nome": "-Enfeitiçar (Padrão, 1 PM)",
+        "descricao": "Um humanoide em alcance curto fica enfeitiçado até o final da cena (Vontade evita)."
+      },
+      {
+        "nome": "-Globo de Invulnerabilidade (Padrão, 6 PM, sustentada)",
+        "descricao": "O dragão é envolto por uma esfera mágica com 3m de raio que detém qualquer magia de 2º círculo ou menor."
+      },
+      {
+        "nome": "-Velocidade (Padrão, 3 PM, sustentada)",
+        "descricao": "O dragão pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Aura Aterradora",
+        "descricao": "Uma criatura que comece seu turno em um raio de 90m do dragão fica apavorada (se tiver 4 níveis ou menos) ou abalada (se tiver 5 níveis ou mais) até o fim da cena (Vontade CD 31 evita). Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia."
+      },
+      {
+        "nome": "Magia Dracônica",
+        "descricao": "Dragões adultos ou mais velhos podem lançar magias sem palavras mágicas, gestos ou concentração."
+      },
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 12m sofrem 12d12 pontos de dano de fogo e ficam em chamas (Ref CD 32 reduz o dano à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o dragão faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Dragões são imunes a efeitos de atordoamento, cansaço, dano do tipo de seu sopro, metamorfose e paralisia."
+      },
+      {
+        "nome": "Metamorfose Dracônica (Completa)",
+        "descricao": "Dragões jovens ou mais velhos podem se transformar em outras criaturas, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Eles costumam usar esta habilidade para se infiltrar em sociedades humanoides, aprender sobre seus costumes ou apenas quando não querem ser reconhecidos. Um dragão morto reverte à sua forma original."
+      },
+      {
+        "nome": "Resistência a Magia",
+        "descricao": "Dragões Adultos têm resistência a magia +3."
+      },
+      {
+        "nome": "Habilidades Dracônicas",
+        "descricao": ""
+      },
+      {
+        "nome": "Magia",
+        "descricao": "O dragão adulto lança magias como um conjurador arcano de 11º nível (CD 32)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Dobro e 4 peças de couro de dragão (CD 26 para extrair, veja o quadro na página 312)."
+  },
+  {
+    "nome": "Dragão Venerável",
+    "nd": "15",
+    "categoria": "Dragões",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Enorme",
+    "descricao": "",
+    "defesa": 52,
+    "pv": 800,
+    "pm": 97,
+    "sentidos": [
+      "percepção às cegas",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +16",
+      "Percepção +22",
+      "Fortude +28",
+      "Reflexos +15",
+      "Vontade +22",
+      "Enganação +22",
+      "Intimidação +22",
+      "Intuição +22",
+      "Misticismo +22."
+    ],
+    "resistencias": [
+      "imunidade a fogo",
+      "redução de dano 15",
+      "resistência a magia +4",
+      "vulnerabilidade a frio"
+    ],
+    "deslocamento": [
+      "12m (8q)",
+      "voo 24m (16q)"
+    ],
+    "atributos": {
+      "for": 13,
+      "des": 1,
+      "con": 10,
+      "int": 6,
+      "sab": 6,
+      "car": 6
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+44",
+        "dano": "4d12+40, 17"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+44",
+        "dano": "3d12+40, 17"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Campo de Força (Reação, 7 PM)",
+        "descricao": "Quando sofre dano, o dragão recebe redução de dano 50 contra este dano."
+      },
+      {
+        "nome": "-Controlar a Gravidade (Padrão, 10 PM, sustentada)",
+        "descricao": "O dragão controla os efeitos da gravidade em um cubo de 12m de lado em alcance médio (veja página 186)."
+      },
+      {
+        "nome": "-Curar Ferimentos (Padrão, 15 PM)",
+        "descricao": "Uma criatura adjacente cura 16d8+16 PV."
+      },
+      {
+        "nome": "-Dissipar Magia (Padrão, 3 PM)",
+        "descricao": "O dragão escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o resultado do teste são dissipadas."
+      },
+      {
+        "nome": "-Enfeitiçar (Padrão, 1 PM)",
+        "descricao": "Um humanoide em alcance curto fica enfeitiçado até o final da cena (Vontade evita)."
+      },
+      {
+        "nome": "-Globo de Invulnerabilidade (Padrão, 10 PM, sustentada)",
+        "descricao": "O dragão é envolto por uma esfera mágica com 3m de raio que detém qualquer magia de 3º círculo ou menor."
+      },
+      {
+        "nome": "-Velocidade (Padrão, 3 PM, sustentada)",
+        "descricao": "O dragão pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Aura Aterradora",
+        "descricao": "Uma criatura que comece seu turno em um raio de 90m do dragão fica apavorada (se tiver 4 níveis ou menos) ou abalada (se tiver 5 níveis ou mais) até o fim da cena (Vontade CD 40 evita). Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia."
+      },
+      {
+        "nome": "Fluxo de Mana",
+        "descricao": "O dragão venerável pode manter duas magias sustentadas simultaneamente com apenas uma ação livre (mas pagando o custo de cada uma)."
+      },
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 15m sofrem 16d12 pontos de dano de fogo e ficam em chamas (Ref CD 40 reduz o dano à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o dragão faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Dragões são imunes a efeitos de atordoamento, cansaço, dano do tipo de seu sopro, metamorfose e paralisia."
+      },
+      {
+        "nome": "Metamorfose Dracônica (Completa)",
+        "descricao": "Dragões jovens ou mais velhos podem se transformar em outras criaturas, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Eles costumam usar esta habilidade para se infiltrar em sociedades humanoides, aprender sobre seus costumes ou apenas quando não querem ser reconhecidos. Um dragão morto reverte à sua forma original."
+      },
+      {
+        "nome": "Resistência a Magia",
+        "descricao": "Dragões Veneráveis têm resistência a magia +4."
+      },
+      {
+        "nome": "Magia Acelerada (livre, 4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o dragão muda a execução dela para livre."
+      },
+      {
+        "nome": "Magia Dracônica",
+        "descricao": "Dragões adultos ou mais velhos podem lançar magias sem palavras mágicas, gestos ou concentração."
+      },
+      {
+        "nome": "Magia",
+        "descricao": "O dragão venerável lança magias como um conjurador arcano de 15º nível (CD 40)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Dobro e 4 peças de couro de dragão (CD 30 para extrair, veja o quadro na página 312)."
+  },
+  {
+    "nome": "Dragão-Rei",
+    "nd": "20",
+    "categoria": "Dragões",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Colossal",
+    "descricao": "",
+    "defesa": 62,
+    "pv": 1400,
+    "pm": 128,
+    "sentidos": [
+      "percepção às cegas",
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +19",
+      "Percepção +27",
+      "Fortude +34",
+      "Reflexos +20",
+      "Vontade +28",
+      "Enganação +26",
+      "Intimidação +26",
+      "Intuição +26",
+      "Misticismo +26."
+    ],
+    "resistencias": [
+      "imunidade a fogo",
+      "redução de dano 20",
+      "resistência a magia +5",
+      "vulnerabilidade a frio"
+    ],
+    "deslocamento": [
+      "12m (8q)",
+      "voo 36m (24q)"
+    ],
+    "atributos": {
+      "for": 17,
+      "des": 0,
+      "con": 12,
+      "int": 7,
+      "sab": 7,
+      "car": 7
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Mordida",
+        "bonus": "+55",
+        "dano": "6d20+50, 16"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e duas garras",
+        "bonus": "+50",
+        "dano": "6d20+50, 16"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Campo de Força (Reação, 7 PM)",
+        "descricao": "Quando sofre dano, o dragão recebe redução de dano 50 contra este dano."
+      },
+      {
+        "nome": "-Controlar a Gravidade (Padrão, 10 PM, sustentada)",
+        "descricao": "O dragão controla os efeitos da gravidade em um cubo de 12m de lado em alcance médio (veja página 186)."
+      },
+      {
+        "nome": "-Controlar o Tempo (Padrão, 15 PM)",
+        "descricao": "O dragão controla o tempo ao seu redor (veja página 187)."
+      },
+      {
+        "nome": "-Dissipar Magia (Padrão, 3 PM)",
+        "descricao": "O dragão escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o resultado do teste são dissipadas."
+      },
+      {
+        "nome": "-Enfeitiçar (Padrão, 1 PM)",
+        "descricao": "Um humanoide em alcance curto fica enfeitiçado até o final da cena (Vontade evita)."
+      },
+      {
+        "nome": "-Globo de Invulnerabilidade (Padrão, 15 PM, sustentada)",
+        "descricao": "O dragão é envolto por uma esfera mágica com 3m de raio que detém qualquer magia de 4º círculo ou menor."
+      },
+      {
+        "nome": "-Segunda Chance (Padrão, 20 PM)",
+        "descricao": "Uma criatura adjacente cura 300 PV e condições (veja a página 205)."
+      },
+      {
+        "nome": "-Velocidade (Padrão, 10 PM, sustentada)",
+        "descricao": "O dragão pode executar uma ação padrão adicional por turno."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Aura Aterradora",
+        "descricao": "Uma criatura que comece seu turno em um raio de 90m do dragão fica apavorada (se tiver 4 níveis ou menos) ou abalada (se tiver 5 níveis ou mais) até o fim da cena (Vontade CD 50 evita). Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia."
+      },
+      {
+        "nome": "Escamas Supremas",
+        "descricao": "O Dragão-Rei sofre apenas metade do dano de fontes mundanas."
+      },
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 18m sofrem 20d12 pontos de dano de fogo e ficam em chamas (Ref CD 50 reduz o dano à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o dragão faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Dragões são imunes a efeitos de atordoamento, cansaço, dano do tipo de seu sopro, metamorfose e paralisia."
+      },
+      {
+        "nome": "Metamorfose Dracônica (Completa)",
+        "descricao": "Dragões jovens ou mais velhos podem se transformar em outras criaturas, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Eles costumam usar esta habilidade para se infiltrar em sociedades humanoides, aprender sobre seus costumes ou apenas quando não querem ser reconhecidos. Um dragão morto reverte à sua forma original."
+      },
+      {
+        "nome": "Resistência a Magia",
+        "descricao": "O Dragão-Rei têm resistência a magia +5."
+      },
+      {
+        "nome": "Fluxo de Mana",
+        "descricao": "O Dragão-Rei pode manter duas magias sustentadas simultaneamente com apenas uma ação livre (mas pagando o custo de cada uma)."
+      },
+      {
+        "nome": "Magia Acelerada (livre, 4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o Dragão-Rei muda a execução dela para livre."
+      },
+      {
+        "nome": "Magia Dracônica",
+        "descricao": "Dragões adultos ou mais velhos podem lançar magias sem palavras mágicas, gestos ou concentração."
+      },
+      {
+        "nome": "Magia",
+        "descricao": "O Dragão-Rei lança magias como um conjurador arcano de 20º nível (CD 50)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Dobro e 6 peças couro de dragão (CD 35 para extrair, veja o quadro na página 312)."
+  },
+  {
+    "nome": "Tirano do Terceiro",
+    "nd": "10",
+    "categoria": "Dragões",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "Poderosos servos de Kallya­dranoch, os tiranos são verdadeiros exércitos de uma só pessoa, cavalgando dragões e aterrorizando o mundo com seu poderio. Ambiciosos e cruéis como as feras que adoram, estão entre os maiores vilões de Arton.",
+    "defesa": 37,
+    "pv": 370,
+    "pm": 62,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +9",
+      "Percepção +10",
+      "Fortude +22",
+      "Reflexos +10",
+      "Vontade +16",
+      "Cavalgar +9",
+      "Intimidação +13",
+      "Misticismo +11."
+    ],
+    "resistencias": [
+      "imunidade a atordoamento e medo",
+      "redução de dano 5",
+      "resistência a magia +2"
+    ],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 6,
+      "des": 0,
+      "con": 6,
+      "int": 2,
+      "sab": 1,
+      "car": 4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Machado de batalha x2",
+        "bonus": "+29",
+        "dano": "2d8+14, x3"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e garra",
+        "bonus": "+29",
+        "dano": "1d8+14"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Bola de Fogo (Padrão, 9 PM)",
+        "descricao": "O tirano cria uma poderosa explosão em alcance médio que causa 12d6+5 pontos de dano de fogo em todas as criaturas em um raio de 6m (Reflexos reduz à metade)."
+      },
+      {
+        "nome": "-Concentração de Combate (Padrão, 8 PM)",
+        "descricao": "Até o fim da cena, quando faz um ataque, o tirano rola dois dados e usa o melhor resultado, e quando um oponente ataca o tirano, rola dois dados e usa o pior resultado."
+      },
+      {
+        "nome": "-Velocidade (Padrão, 3 PM, sustentada)",
+        "descricao": "O tirano pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Dádiva Dracônica",
+        "descricao": "O tirano do terceiro pode lançar magias arcanas cavalgando e/ou de armadura sem precisar de testes de Misticismo."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O tirano do terceiro lança magias como um mago de 10º nível (CD 30)."
+      }
+    ],
+    "equipamento": [
+      "Armadura completa de adamante",
+      "machado de batalha de adamante atroz."
+    ],
+    "tesouro": "Dobro."
+  },
+  {
+    "nome": "Maníaco Lefou",
+    "nd": "2",
+    "categoria": "A Tormenta",
+    "tipo": "Humanoide (lefou)",
+    "tamanho": "Médio",
+    "descricao": "Poucos meios-demônios da Tormenta têm a sorte de integrar um grupo de aventureiros. Temidos e hostilizados por todas as outras raças, quase todos abraçam a violência e a loucura. Tornam-se selvagens ensandecidos, solitários ou em pequenos grupos, atacando tudo que encontram. Mais de uma aldeia foi chacinada por maníacos lefou, buscando apenas um fim para o pesadelo sangrento que é sua existência.",
+    "defesa": 18,
+    "pv": 25,
+    "pm": 0,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +4",
+      "Percepção +2",
+      "Fortude +12",
+      "Reflexos +7",
+      "Vontade +3"
+    ],
+    "resistencias": [],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 1,
+      "con": 1,
+      "int": -1,
+      "sab": -1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Machado de guerra",
+        "bonus": "+16",
+        "dano": "1d12+15, x3"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Frenesi Insano",
+        "descricao": "Sempre que causa ou sofre dano, o maníaco lefou recebe um bônus cumulativo de +2 em testes de ataque e rolagens de dano até o fim da cena."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Lefeu são imunes a acertos críticos, ácido, cansaço, eletricidade, fogo, frio, luz, paralisia, metabolismo, metamorfose, trevas e veneno."
+      },
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "Uma criatura que veja um ou mais lefeu deve fazer um teste de Vontade contra o lefeu de maior ND. Se falhar, perde os PM indicados (+1 PM para cada lefeu além do primeiro). Se for reduzida a 0 PM, fica confusa. Uma criatura só é afetada por esta habilidade uma vez por dia."
+      },
+      {
+        "nome": "Percepção Temporal",
+        "descricao": "Um lefeu soma sua Sabedoria em testes de ataque, Defesa e Reflexos (já contabilizado na ficha)."
+      },
+      {
+        "nome": "Visão Ampla",
+        "descricao": "Um lefeu recebe +5 em Percepção e não pode ser flanqueado (já contabilizadas em suas fichas)."
+      }
+    ],
+    "equipamento": [
+      "Machado de guerra."
+    ],
+    "tesouro": "Metade."
+  },
+  {
+    "nome": "Uktril",
+    "nd": "3",
+    "categoria": "A Tormenta",
+    "tipo": "Monstro (lefeu)",
+    "tamanho": "Médio",
+    "descricao": "Mesmo o lefeu mais comum e mais fraco é uma abominação perversa, uma combinação impossível de humano e formiga, com garras cruéis que gotejam muco. Estes monstros rondam as fronteiras das áreas de Tormenta em pequenos grupos, não raras vezes infestando masmorras e regiões vizinhas. Também podem ser conjurados por magias profanas ou oferecidos por Aharadak como servos para cultistas.",
+    "defesa": 22,
+    "pv": 45,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +9",
+      "Percepção +10",
+      "Fortude +12",
+      "Reflexos +11",
+      "Vontade +6"
+    ],
+    "resistencias": [
+      "redução de dano 10"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": 4,
+      "con": 2,
+      "int": -1,
+      "sab": 2,
+      "car": -4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Pinça",
+        "bonus": "+16",
+        "dano": "2d6+6, 19"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e garra",
+        "bonus": "+16",
+        "dano": "1d6+6"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "1d6 PM (Von CD 17 evita)."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Lefeu são imunes a acertos críticos, ácido, cansaço, eletricidade, fogo, frio, luz, paralisia, metabolismo, metamorfose, trevas e veneno."
+      },
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "Uma criatura que veja um ou mais lefeu deve fazer um teste de Vontade contra o lefeu de maior ND. Se falhar, perde os PM indicados (+1 PM para cada lefeu além do primeiro). Se for reduzida a 0 PM, fica confusa. Uma criatura só é afetada por esta habilidade uma vez por dia."
+      },
+      {
+        "nome": "Percepção Temporal",
+        "descricao": "Um lefeu soma sua Sabedoria em testes de ataque, Defesa e Reflexos (já contabilizado na ficha)."
+      },
+      {
+        "nome": "Visão Ampla",
+        "descricao": "Um lefeu recebe +5 em Percepção e não pode ser flanqueado (já contabilizadas em suas fichas)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Geraktril",
+    "nd": "6",
+    "categoria": "A Tormenta",
+    "tipo": "Monstro (lefeu)",
+    "tamanho": "Médio",
+    "descricao": "Versão maior e mais avançada dos uktril, são abominações de três braços com pinças capazes de cortar homens ao meio. Podem ser encontrados liderando bandos uktril ou em pequenos grupos próprios. São também emissários sagrados de Aharadak, às vezes manifestando-se em cerimônias profanas para abater vítimas oferecidas em sacrifício.",
+    "defesa": 30,
+    "pv": 240,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +13",
+      "Percepção +16",
+      "Fortude +18",
+      "Reflexos +15",
+      "Vontade +6"
+    ],
+    "resistencias": [
+      "redução de dano 10"
+    ],
+    "deslocamento": [
+      "9m (6q)"
+    ],
+    "atributos": {
+      "for": 7,
+      "des": 5,
+      "con": 3,
+      "int": 1,
+      "sab": 3,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Duas pinças",
+        "bonus": "+23",
+        "dano": "3d6+10, 19"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e garra",
+        "bonus": "+23",
+        "dano": "1d8+10"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "2d4 PM (Von CD 22 evita)."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Lefeu são imunes a acertos críticos, ácido, cansaço, eletricidade, fogo, frio, luz, paralisia, metabolismo, metamorfose, trevas e veneno."
+      },
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "Uma criatura que veja um ou mais lefeu deve fazer um teste de Vontade contra o lefeu de maior ND. Se falhar, perde os PM indicados (+1 PM para cada lefeu além do primeiro). Se for reduzida a 0 PM, fica confusa. Uma criatura só é afetada por esta habilidade uma vez por dia."
+      },
+      {
+        "nome": "Percepção Temporal",
+        "descricao": "Um lefeu soma sua Sabedoria em testes de ataque, Defesa e Reflexos (já contabilizado na ficha)."
+      },
+      {
+        "nome": "Visão Ampla",
+        "descricao": "Um lefeu recebe +5 em Percepção e não pode ser flanqueado (já contabilizadas em suas fichas)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Reishid",
+    "nd": "8",
+    "categoria": "A Tormenta",
+    "tipo": "Monstro (lefeu)",
+    "tamanho": "Médio",
+    "descricao": "Mestres da espionagem e assassinato, estes lefeu estão entre os mais perigosos encontrados longe das áreas de Tormenta. Dobrando suas asas de barata como capuzes e mantos, conseguem passar despercebidos mesmo em grandes cidades. Nestes tempos de culto a Aharadak, muitas vezes também se tornam mestres de cerimônia em rituais profanos.",
+    "defesa": 37,
+    "pv": 295,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +17",
+      "Percepção +19",
+      "Fortude +19",
+      "Reflexos +21",
+      "Vontade +10",
+      "Furtividade +20."
+    ],
+    "resistencias": [
+      "redução de dano 10"
+    ],
+    "deslocamento": [
+      "9m (6q)",
+      "escalar 9m (6q)",
+      "voo 15m (10q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 7,
+      "con": 4,
+      "int": 4,
+      "sab": 4,
+      "car": 1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Adaga da Tormenta",
+        "bonus": "+30",
+        "dano": "1d4+18 mais 1d8 de trevas, 19"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "garra",
+        "bonus": "+30",
+        "dano": "1d6+18"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e mordida",
+        "bonus": "+30",
+        "dano": "1d6+18 mais veneno"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Ataque em Movimento",
+        "descricao": "O reishid pode se mover antes e depois de executar a ação agredir, desde que a distância total percorrida não seja maior que seu deslocamento."
+      },
+      {
+        "nome": "Ataque Reflexo (Reação)",
+        "descricao": "Uma vez por rodada, o reishid pode fazer um ataque corpo a corpo contra um alvo adjacente que esteja desprevenido ou que se mova para fora de seu alcance. Insanidade da Tormenta 2d6 PM (Von CD 26 evita)."
+      },
+      {
+        "nome": "Sombra Rubra",
+        "descricao": "Quando faz um teste de Iniciativa ou Furtividade, o reishid rola dois dados e usa o melhor resultado. Veneno Condição paralisado por 1d6 horas (Fort CD 26 reduz para lento por 1d6 rodadas)."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Lefeu são imunes a acertos críticos, ácido, cansaço, eletricidade, fogo, frio, luz, paralisia, metabolismo, metamorfose, trevas e veneno."
+      },
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "Uma criatura que veja um ou mais lefeu deve fazer um teste de Vontade contra o lefeu de maior ND. Se falhar, perde os PM indicados (+1 PM para cada lefeu além do primeiro). Se for reduzida a 0 PM, fica confusa. Uma criatura só é afetada por esta habilidade uma vez por dia."
+      },
+      {
+        "nome": "Percepção Temporal",
+        "descricao": "Um lefeu soma sua Sabedoria em testes de ataque, Defesa e Reflexos (já contabilizado na ficha)."
+      },
+      {
+        "nome": "Visão Ampla",
+        "descricao": "Um lefeu recebe +5 em Percepção e não pode ser flanqueado (já contabilizadas em suas fichas)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Padrão mais adaga da Tormenta. Esta é uma arma mágica específica que conta como uma adaga formidável tumular. Sua lâmina é longa e ondulada e seu cabo lembra uma carapaça. A adaga secreta muco adesivo pelo cabo, que mantém a arma firme na mão, fornecendo +5 em testes contra desarmar. Soltar uma adaga da Tormenta gasta uma ação de movimento."
+  },
+  {
+    "nome": "Thuwarokk",
+    "nd": "16",
+    "categoria": "A Tormenta",
+    "tipo": "Monstro (lefeu)",
+    "tamanho": "Colossal",
+    "descricao": "Este gigantesco lefeu lembra um besouro blindado, mas é quase tão grande quanto um castelo! Além de quatro pares de patas, possui três pares de “braços” menores e ágeis. Sua carapaça é espessa como uma muralha, recobrindo o dorso e mostrando poucas juntas vulneráveis. Lembrando mais imensas máquinas de guerra que seres vivos, os thuwarokk eram conhecidos como “colossos da Tormenta” — e são exatamente isso: feras colossais, monstros de destruição total, capazes de dizimar exércitos.",
+    "defesa": 50,
+    "pv": 900,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +11",
+      "Percepção +12",
+      "Fortude +30",
+      "Reflexos +24",
+      "Vontade +16"
+    ],
+    "resistencias": [
+      "redução de dano 10"
+    ],
+    "deslocamento": [
+      "12m (8q)"
+    ],
+    "atributos": {
+      "for": 17,
+      "des": -1,
+      "con": 10,
+      "int": -3,
+      "sab": 0,
+      "car": -4
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Quatro pancadas",
+        "bonus": "+48",
+        "dano": "4d12+24"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Carapaça",
+        "descricao": "A carapaça do thuwarokk reduz todo dano de corte, impacto e perfuração que ele sofre pela metade. Se o thuwarokk passar num teste de resistência contra magia que o tem como alvo, ela é revertida contra o conjurador. Apesar de resistente, a caparaça de um thuwarokk possui pontos fracos, que podem ser encontrados com uma ação de movimento e um teste de Percepção (CD 25). Um personagem que encontre um ponto fraco pode atacar a criatura com -5 no teste de ataque, mas, se acertar, ignora as proteções da carapaça. Insanidade da Tormenta 2d12 PM (Von CD 42 evita)."
+      },
+      {
+        "nome": "Jato de Ácido (Movimento)",
+        "descricao": "O thuwarokk dispara um jato corrosivo que atinge um cone de 30m. Criaturas na área sofrem 10d8+20 pontos de dano de ácido (Ref CD 42 reduz à metade). Recarga (movimento)."
+      },
+      {
+        "nome": "Passar por Cima (Completa)",
+        "descricao": "O thuwarokk percorre até o dobro do seu deslocamento, passando por qualquer criatura Enorme ou menor. Uma criatura atropelada sofre 10d12+50 pontos de dano (Ref CD 42 reduz à metade)."
+      },
+      {
+        "nome": "Imunidades",
+        "descricao": "Lefeu são imunes a acertos críticos, ácido, cansaço, eletricidade, fogo, frio, luz, paralisia, metabolismo, metamorfose, trevas e veneno."
+      },
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "Uma criatura que veja um ou mais lefeu deve fazer um teste de Vontade contra o lefeu de maior ND. Se falhar, perde os PM indicados (+1 PM para cada lefeu além do primeiro). Se for reduzida a 0 PM, fica confusa. Uma criatura só é afetada por esta habilidade uma vez por dia."
+      },
+      {
+        "nome": "Percepção Temporal",
+        "descricao": "Um lefeu soma sua Sabedoria em testes de ataque, Defesa e Reflexos (já contabilizado na ficha)."
+      },
+      {
+        "nome": "Visão Ampla",
+        "descricao": "Um lefeu recebe +5 em Percepção e não pode ser flanqueado (já contabilizadas em suas fichas)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Nenhum."
+  },
+  {
+    "nome": "Otyugh",
+    "nd": "5",
+    "categoria": "A Tormenta",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "descricao": "Este monstro disforme e repugnante surge em lugares maculados pela Tormenta — especialmente pântanos, esgotos e masmorras — sendo fruto da corrupção aberrante. O corpo pustulento de um otyugh possui três patas, bocarra descomunal e tentáculos espinhosos. Até onde se sabe, seu único propósito é devorar tudo em seu caminho.",
+    "defesa": 24,
+    "pv": 213,
+    "pm": 0,
+    "sentidos": [
+      "visão no escuro"
+    ],
+    "pericias": [
+      "Iniciativa +3",
+      "Percepção +10",
+      "Fortude +17",
+      "Reflexos +11",
+      "Vontade +5",
+      "Furtividade +3 (+13 em seu refúgio)."
+    ],
+    "resistencias": [
+      "imunidade a doenças e venenos",
+      "redução de dano 5"
+    ],
+    "deslocamento": [
+      "6m (4q)"
+    ],
+    "atributos": {
+      "for": 5,
+      "des": -1,
+      "con": 4,
+      "int": -2,
+      "sab": 1,
+      "car": -2
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Dois tentáculos",
+        "bonus": "+17",
+        "dano": "1d8+9, alcance 4,5m"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e mordida",
+        "bonus": "+17",
+        "dano": "1d6+9 mais doença"
+      }
+    ],
+    "magias": [],
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Se o otyugh acerta um ataque de tentáculo, pode fazer a manobra agarrar (teste +19)."
+      },
+      {
+        "nome": "Constrição (Livre)",
+        "descricao": "No início de cada um de seus turnos, o otyugh causa 1d8+9 pontos de dano de impacto em qualquer criatura que esteja agarrando."
+      },
+      {
+        "nome": "Doença",
+        "descricao": "Uma criatura mordida por um otyugh é exposta a doença infecção do esgoto (veja a página 318)."
+      }
+    ],
+    "equipamento": [],
+    "tesouro": "Padrão."
+  },
+  {
+    "nome": "Sacerdote de Aharadak",
+    "nd": "10",
+    "categoria": "A Tormenta",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "descricao": "Esses macabros devotos do Deus da Tormenta promovem a insanidade, a devassidão e a deturpação de tudo que é vivo. Desistindo da humanidade, esperando ser recompensados com poderes ainda maiores, cultistas perpetram os crimes mais horrendos para agradar seu patrono.",
+    "defesa": 38,
+    "pv": 315,
+    "pm": 56,
+    "sentidos": [],
+    "pericias": [
+      "Iniciativa +17",
+      "Percepção +15",
+      "Fortude +16",
+      "Reflexos +10",
+      "Vontade +22",
+      "Intimidação +9",
+      "Religião +16."
+    ],
+    "resistencias": [
+      "imunidade a confusão",
+      "redução de ácido",
+      "eletricidade",
+      "fogo",
+      "frio",
+      "luz e trevas 10",
+      "resistência a magia divina +5"
+    ],
+    "deslocamento": [
+      "9m (6q)",
+      "voo 15m (10q)"
+    ],
+    "atributos": {
+      "for": 4,
+      "des": 2,
+      "con": 4,
+      "int": 2,
+      "sab": 5,
+      "car": -1
+    },
+    "ataques": [
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "Duas correntes de espinhos aberrantes",
+        "bonus": "+30",
+        "dano": "4d6+12 mais 1d6 ácido"
+      },
+      {
+        "tipo": "Corpo a Corpo",
+        "nome": "e mordida",
+        "bonus": "+30",
+        "dano": "1d6+12"
+      }
+    ],
+    "magias": [
+      {
+        "nome": "-Curar Ferimentos (Padrão, 10 PM)",
+        "descricao": "Uma criatura adjacente cura 11d8+11 PV."
+      },
+      {
+        "nome": "-Perdição (Padrão, 5 PM)",
+        "descricao": "Criaturas escolhidas em alcance curto sofrem -3 em testes de ataque e rolagens de dano até o fim da cena."
+      },
+      {
+        "nome": "-Potência Divina (Padrão, 10 PM, sustentada)",
+        "descricao": "O sacerdote se transforma em uma criatura Grande. Ele recebe Força +5, redução de dano 10 e os dados de dano de seus ataques se tornam d8, mas ele não pode lançar magias."
+      },
+      {
+        "nome": "-Silêncio (Padrão, 4 PM, sustentada)",
+        "descricao": "O sacerdote cria uma esfera com 3m de raio ao seu redor. Criaturas nessa área ficam surdas e não podem lançar magias. Sangue Ácido Quando o sacerdote sofre dano por um ataque corpo a corpo, o atacante sofre 10 pontos de dano de ácido."
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Magia Acelerada (Livre, 4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o sacerdote de Aharadak muda a execução dela para livre."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O sacerdote lança magias como um clérigo de Aharadak de 10º nível (CD 30)."
+      }
+    ],
+    "equipamento": [
+      "Símbolo sagrado de Aharadak."
+    ],
+    "tesouro": "Padrão."
+  }
+]
