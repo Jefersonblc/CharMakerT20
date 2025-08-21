@@ -27,7 +27,6 @@ function Ameacas() {
         return isNaN(numA) || -1;
     };
 
-
     // Gera opções únicas para filtros
     const categorias = Array.from(new Set(ameacas.map(a => a.categoria))).filter(Boolean).sort();
     const tipos = Array.from(new Set(ameacas.map(a => a.tipo))).filter(Boolean).sort();
@@ -51,31 +50,30 @@ function Ameacas() {
 
     return (
         <div className="form-section">
-            <h4>Ameaças</h4>
             <div className="row mb-3">
                 <div className="col-md-3">
-                    <label>Categoria</label>
+                    <label className="form-label">Categoria</label>
                     <select className="form-select" value={filtroCategoria} onChange={e => setFiltroCategoria(e.target.value)}>
                         <option value="">Todos</option>
                         {categorias.map(tipo => <option key={tipo} value={tipo}>{tipo}</option>)}
                     </select>
                 </div>
                 <div className="col-md-3">
-                    <label>Tipo</label>
+                    <label className="form-label">Tipo</label>
                     <select className="form-select" value={filtroTipo} onChange={e => setFiltroTipo(e.target.value)}>
                         <option value="">Todos</option>
                         {tipos.map(tam => <option key={tam} value={tam}>{tam}</option>)}
                     </select>
                 </div>
                 <div className="col-md-3">
-                    <label>Tamanho</label>
+                    <label className="form-label">Tamanho</label>
                     <select className="form-select" value={filtroTamanho} onChange={e => setFiltroTamanho(e.target.value)}>
                         <option value="">Todos</option>
                         {tamanhos.map(tam => <option key={tam} value={tam}>{tam}</option>)}
                     </select>
                 </div>
                 <div className="col-md-3">
-                    <label>ND</label>
+                    <label className="form-label">ND</label>
                     <select className="form-select" value={filtroND} onChange={e => setFiltroND(e.target.value)}>
                         <option value="">Todos</option>
                         {nds.map(nd => <option key={nd} value={nd}>{nd}</option>)}
@@ -103,76 +101,81 @@ function Ameacas() {
                             <Tooltip id={`tooltip-desc-${index}`} style={{ maxWidth: '600px' }}>
                                 <div className="text-sm">
                                     <p><strong>Descrição:</strong></p>
-                                    <p className="p-2" style={{ whiteSpace: 'pre-wrap', fontStyle: 'italic' }}>{a.descricao}</p>
+                                    <p className="pre-wrap fw-italic p-2">{a.descricao}</p>
                                 </div>
                             </Tooltip>
 
                             <h4 className='my-4'>[ <strong>For:</strong> {a.atributos.for} | <strong>Des:</strong> {a.atributos.des} | <strong>Con:</strong> {a.atributos.con} | <strong>Int:</strong> {a.atributos.int} | <strong>Sab:</strong> {a.atributos.sab} | <strong>Car:</strong> {a.atributos.car} ]</h4>
 
-                            <p><strong>Defesa:</strong> {a.defesa}</p>
-                            
+                            <p><strong>Defesa:</strong> {a.defesa} <i className="fa-solid fa-shield-halved"></i></p>
                             {a.sentidos.length > 0 && (
-                                <p><strong>Sentidos:</strong> {a.sentidos.join(', ')}</p>
+                                <p><strong>Sentidos:</strong> {a.sentidos.join(', ')} <i className="fa-solid fa-eye"></i></p>
                             )}
 
                             {a.resistencias.length > 0 && (
-                                <p><strong>Resistencias:</strong> {a.resistencias.join(', ')}</p>
+                                <p><strong>Resistencias:</strong> {a.resistencias.join(', ')} <i className="fa-solid fa-user-shield"></i></p>
                             )}
 
                             <strong className='mb-1'>Pericias:</strong> 
                             <div className='d-flex align-content-around flex-wrap mb-2'>
                                 {a.pericias?.map((pericia) => (
-                                    <span className="badge bg-secondary m-1 p-2">
+                                    <span className="badge bg-primary m-1 p-2">
                                         {pericia}
                                     </span>
                                 ))}
                             </div>
 
-                            <p><strong>Deslocamento:</strong> {a.deslocamento.join(', ')}</p>
-                            <p><strong>PV:</strong> {a.pv}</p>
+                            <p><strong>Deslocamento:</strong> {a.deslocamento.join(', ')} <i className="fa-solid fa-person-running"></i></p> 
+                            <p><strong>PV:</strong> {a.pv} <i className="fas fa-heart"></i></p>
                             {a.pm > 0 && ( 
-                                <p><strong>PM:</strong> {a.pm}</p>
+                                <p><strong>PM:</strong> {a.pm} <i className="fa-solid fa-flask"></i></p>
                             )}
 
                             {a.ataques.length > 0 && (
-                                <div className='d-flex flex-column align-items-start mb-2 pb-3 border-bottom border-2 border-dark'>
-                                    <strong className='mb-1'>Ataques:</strong> 
+                                <div className='mb-2 pb-2'>
+                                    <h4>Ataques:</h4> 
                                     {a.ataques?.map((ataque) => (
-                                        <span className="badge bg-secondary m-1 p-2">
+                                        <span className="badge bg-primary m-1 p-2">
                                             <strong>{ataque.tipo}</strong> - {ataque.nome}: {ataque.bonus} ({ataque.dano})
                                         </span>
                                     ))}
+                                    <hr className="border border-1 border-dark"/>
                                 </div>
                             )}
 
                             {a.habilidades.length > 0 && (
-                                <div className='d-flex flex-column align-items-start mb-2 pb-3 border-bottom border-2 border-dark'>
-                                    <h4 className='mb-1'>Habilidades:</h4>
-                                    {a.habilidades?.map((habilidade) => (
-                                        <span className="m-1" style={{ whiteSpace: 'pre-wrap'}}>
-                                            <strong>- {habilidade.nome}:</strong> {habilidade.descricao}
-                                        </span>
-                                    ))}    
+                                <div className='pre-wrap mb-2 pb-2'>
+                                    <h4>Habilidades:</h4>
+                                    <ul className='pb-2'>
+                                        {a.habilidades?.map((habilidade) => (
+                                            <li>
+                                                <strong>{habilidade.nome}:</strong> {habilidade.descricao}
+                                            </li>
+                                        ))}    
+                                    </ul>
+                                    <hr className="border border-1 border-dark"/>
                                 </div>
                             )}
 
                             {a.magias.length > 0 && (
-                                <div className='d-flex flex-column align-items-start mb-2 pb-3 border-bottom border-2 border-dark'>
-                                    <h4 className='mb-1'>Magias:</h4>
-                                    {a.magias?.map((magia) => (
-                                        <span className="m-1" style={{ whiteSpace: 'pre-wrap'}}s>
-                                            <strong>- {magia.nome}:</strong> {magia.descricao}
-                                        </span>
-                                    ))}
+                                <div className='pre-wrap mb-2 pb-2'>
+                                    <h4>Magias:</h4>
+                                    <ul>
+                                        {a.magias?.map((magia) => (
+                                            <li>
+                                                <strong>{magia.nome}:</strong> {magia.descricao}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                    <hr className="border border-1 border-dark"/>
                                 </div>
-                                
                             )}
 
                             {a.equipamento && a.equipamento.length > 0 && ( 
-                                <p><strong>Equipamento:</strong> {a.equipamento.join(', ')}</p>
+                                <p><strong>Equipamento:</strong> {a.equipamento.join(', ')} <i className="fa-solid fa-user-gear"></i></p> 
                             )}
                             
-                            <p><strong>Tesouro:</strong> {a.tesouro}</p>
+                            <p><strong>Tesouro:</strong> {a.tesouro} <i className="fa-solid fa-gem"></i></p> 
                         </div>
                     </div>
                 ))}
@@ -181,8 +184,3 @@ function Ameacas() {
     );
 }
 export default Ameacas;
-
-// "tipo": "Corpo a Corpo",
-// "nome": "Dois socos pneumáticos",
-// "bonus": "+20",
-// "dano": "1d8+16 impacto, x3"

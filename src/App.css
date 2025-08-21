@@ -255,3 +255,12 @@ pre {
   background-color: black !important;
   z-index: 1000 !important;
 }
+
+.bg-primary {
+  background-color: var(--t20-red) !important;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
