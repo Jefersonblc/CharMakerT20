@@ -258,9 +258,19 @@ pre {
 
 .bg-primary {
   background-color: var(--t20-red) !important;
+  font-size: 0.8em;
 }
 
 .pre-wrap {
   white-space: pre-wrap;
   word-break: break-word;
+}
+
+.card {
+  border: 1px solid var(--t20-red);
+}
+
+.card-header {
+  background-color: var(--t20-red);
+  color: white;
 }

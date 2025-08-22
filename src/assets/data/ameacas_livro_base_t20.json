@@ -15,7 +15,7 @@
     "pericias": [
       "Iniciativa +0",
       "Percepção +0",
-      "Fortude +0",
+      "Fortitude +0",
       "Reflexos +2",
       "Vontade -5"
     ],
@@ -63,7 +63,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +4",
-      "Fortude +0",
+      "Fortitude +0",
       "Reflexos +3",
       "Vontade -2"
     ],
@@ -114,7 +114,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +1",
-      "Fortude +5",
+      "Fortitude +5",
       "Reflexos +3",
       "Vontade +0"
     ],
@@ -167,7 +167,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +3",
-      "Fortude +13",
+      "Fortitude +13",
       "Reflexos +7",
       "Vontade +2",
       "Intimidação +4",
@@ -222,7 +222,7 @@
     "pericias": [
       "Iniciativa +8",
       "Percepção +5",
-      "Fortude +15",
+      "Fortitude +15",
       "Reflexos +11",
       "Vontade +7"
     ],
@@ -280,7 +280,7 @@
     "pericias": [
       "Iniciativa +7",
       "Percepção +3",
-      "Fortude +8",
+      "Fortitude +8",
       "Reflexos +11",
       "Vontade +3",
       "Furtividade +9."
@@ -332,7 +332,7 @@
     "pericias": [
       "Iniciativa +3",
       "Percepção +3",
-      "Fortude +13",
+      "Fortitude +13",
       "Reflexos +7",
       "Vontade +2"
     ],
@@ -387,7 +387,7 @@
     "pericias": [
       "Iniciativa +6",
       "Percepção +3",
-      "Fortude +13",
+      "Fortitude +13",
       "Reflexos +11",
       "Vontade +9",
       "Atletismo +8",
@@ -452,7 +452,7 @@
     "pericias": [
       "Iniciativa +7",
       "Percepção +8",
-      "Fortude +18",
+      "Fortitude +18",
       "Reflexos +7",
       "Vontade +12"
     ],
@@ -509,7 +509,7 @@
     "pericias": [
       "Iniciativa +10",
       "Percepção +8",
-      "Fortude +20",
+      "Fortitude +20",
       "Reflexos +14",
       "Vontade +9"
     ],
@@ -571,7 +571,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +9",
-      "Fortude +24",
+      "Fortitude +24",
       "Reflexos +14",
       "Vontade +11"
     ],
@@ -625,7 +625,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +1",
-      "Fortude +1",
+      "Fortitude +1",
       "Reflexos +3",
       "Vontade -1",
       "Furtividade +5."
@@ -671,7 +671,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +2",
-      "Fortude +5",
+      "Fortitude +5",
       "Reflexos +8",
       "Vontade +3",
       "Furtividade +7",
@@ -730,7 +730,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +3",
-      "Fortude +5",
+      "Fortitude +5",
       "Reflexos +2",
       "Vontade +1",
       "Atletismo +5."
@@ -778,7 +778,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +4",
-      "Fortude +9",
+      "Fortitude +9",
       "Reflexos +4",
       "Vontade +3",
       "Atletismo +7",
@@ -843,7 +843,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +6",
-      "Fortude +6",
+      "Fortitude +6",
       "Reflexos +3",
       "Vontade +1",
       "Sobrevivência +6."
@@ -896,7 +896,7 @@
     "pericias": [
       "Iniciativa +3",
       "Percepção +3",
-      "Fortude +9",
+      "Fortitude +9",
       "Reflexos +2",
       "Vontade +5",
       "Sobrevivência +5"
@@ -965,7 +965,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +8",
-      "Fortude +9",
+      "Fortitude +9",
       "Reflexos +4",
       "Vontade +15",
       "Religião +8",
@@ -1039,7 +1039,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +4",
-      "Fortude +7",
+      "Fortitude +7",
       "Reflexos +7",
       "Vontade +1"
     ],
@@ -1100,7 +1100,7 @@
     "pericias": [
       "Iniciativa +9",
       "Percepção +4",
-      "Fortude +7",
+      "Fortitude +7",
       "Reflexos +11",
       "Vontade +4"
     ],
@@ -1166,7 +1166,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +3",
-      "Fortude +8",
+      "Fortitude +8",
       "Reflexos +5",
       "Vontade +3",
       "Atletismo +9."
@@ -1217,7 +1217,7 @@
     "pericias": [
       "Iniciativa +3",
       "Percepção +0",
-      "Fortude +10",
+      "Fortitude +10",
       "Reflexos +5",
       "Vontade +1",
       "Furtividade +7."
@@ -1288,7 +1288,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +7",
-      "Fortude +11",
+      "Fortitude +11",
       "Reflexos +7",
       "Vontade +6",
       "Sobrevivência +11."
@@ -1344,7 +1344,7 @@
     "pericias": [
       "Iniciativa +6",
       "Percepção +4",
-      "Fortude +11",
+      "Fortitude +11",
       "Reflexos +9",
       "Vontade +7",
       "Atletismo +9."
@@ -1399,7 +1399,7 @@
     "pericias": [
       "Iniciativa +9",
       "Percepção +7",
-      "Fortude +9",
+      "Fortitude +9",
       "Reflexos +15",
       "Vontade +4"
     ],
@@ -1458,7 +1458,7 @@
     "pericias": [
       "Iniciativa +6",
       "Percepção +5",
-      "Fortude +10",
+      "Fortitude +10",
       "Reflexos +9",
       "Vontade +9"
     ],
@@ -1511,7 +1511,7 @@
     "pericias": [
       "Iniciativa +3",
       "Percepção +1",
-      "Fortude +16",
+      "Fortitude +16",
       "Reflexos +10",
       "Vontade +0",
       "Atletismo +12",
@@ -1570,7 +1570,7 @@
     "pericias": [
       "Iniciativa +7",
       "Percepção +5",
-      "Fortude +16",
+      "Fortitude +16",
       "Reflexos +10",
       "Vontade +5"
     ],
@@ -1627,7 +1627,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +7",
-      "Fortude +10",
+      "Fortitude +10",
       "Reflexos +16",
       "Vontade +5"
     ],
@@ -1688,7 +1688,7 @@
     "pericias": [
       "Iniciativa +3",
       "Percepção +0",
-      "Fortude +6",
+      "Fortitude +6",
       "Reflexos +2",
       "Vontade +0"
     ],
@@ -1743,7 +1743,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +1",
-      "Fortude +10",
+      "Fortitude +10",
       "Reflexos +4",
       "Vontade +1"
     ],
@@ -1807,7 +1807,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +3",
-      "Fortude +14",
+      "Fortitude +14",
       "Reflexos +9",
       "Vontade +5"
     ],
@@ -1875,7 +1875,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +7",
-      "Fortude +10",
+      "Fortitude +10",
       "Reflexos +5",
       "Vontade +16",
       "Misticismo +5",
@@ -1953,7 +1953,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +5",
-      "Fortude +15",
+      "Fortitude +15",
       "Reflexos +5",
       "Vontade +13",
       "Cavalgar +4",
@@ -2012,7 +2012,7 @@
     "pericias": [
       "Iniciativa +17",
       "Percepção +15",
-      "Fortude +21",
+      "Fortitude +21",
       "Reflexos +11",
       "Vontade +17",
       "Furtividade +8",
@@ -2095,7 +2095,7 @@
     "pericias": [
       "Iniciativa +8",
       "Percepção +9",
-      "Fortude +31",
+      "Fortitude +31",
       "Reflexos +19",
       "Vontade +20"
     ],
@@ -2169,7 +2169,7 @@
     "pericias": [
       "Iniciativa -1",
       "Percepção -1",
-      "Fortude +3",
+      "Fortitude +3",
       "Reflexos -1",
       "Vontade -1"
     ],
@@ -2219,7 +2219,7 @@
     "pericias": [
       "Iniciativa +1",
       "Percepção +1",
-      "Fortude +5",
+      "Fortitude +5",
       "Reflexos +1",
       "Vontade +1"
     ],
@@ -2273,7 +2273,7 @@
     "pericias": [
       "Iniciativa +7",
       "Percepção +3",
-      "Fortude +3",
+      "Fortitude +3",
       "Reflexos +7",
       "Vontade +12"
     ],
@@ -2324,7 +2324,7 @@
     "pericias": [
       "Iniciativa +10",
       "Percepção +4",
-      "Fortude +4",
+      "Fortitude +4",
       "Reflexos +10",
       "Vontade +16"
     ],
@@ -2376,7 +2376,7 @@
     "pericias": [
       "Iniciativa +12",
       "Percepção +6",
-      "Fortude +6",
+      "Fortitude +6",
       "Reflexos +12",
       "Vontade +18"
     ],
@@ -2433,7 +2433,7 @@
     "pericias": [
       "Iniciativa +10",
       "Percepção +6",
-      "Fortude +5",
+      "Fortitude +5",
       "Reflexos +17",
       "Vontade +11",
       "Furtividade +15."
@@ -2486,7 +2486,7 @@
     "pericias": [
       "Iniciativa +9",
       "Percepção +9",
-      "Fortude +7",
+      "Fortitude +7",
       "Reflexos +14",
       "Vontade +20",
       "Conhecimento +14",
@@ -2566,7 +2566,7 @@
     "pericias": [
       "Iniciativa +15",
       "Percepção +13",
-      "Fortude +12",
+      "Fortitude +12",
       "Reflexos +26",
       "Vontade +20",
       "Diplomacia +16",
@@ -2649,7 +2649,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +1",
-      "Fortude +2",
+      "Fortitude +2",
       "Reflexos +3",
       "Vontade -1"
     ],
@@ -2702,7 +2702,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +1",
-      "Fortude +12",
+      "Fortitude +12",
       "Reflexos +7",
       "Vontade +3",
       "Ofício (armeiro) +2."
@@ -2760,7 +2760,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +2",
-      "Fortude +3",
+      "Fortitude +3",
       "Reflexos +15",
       "Vontade +9",
       "Furtividade +7",
@@ -2834,7 +2834,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +8",
-      "Fortude +10",
+      "Fortitude +10",
       "Reflexos +4",
       "Vontade +16",
       "Intimidação +9",
@@ -2906,7 +2906,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +4",
-      "Fortude +11",
+      "Fortitude +11",
       "Reflexos +5",
       "Vontade +17",
       "Guerra +9",
@@ -2987,7 +2987,7 @@
     "pericias": [
       "Iniciativa +3",
       "Percepção +5",
-      "Fortude +18",
+      "Fortitude +18",
       "Reflexos +6",
       "Vontade +12"
     ],
@@ -3061,7 +3061,7 @@
     "pericias": [
       "Iniciativa +11",
       "Percepção +9",
-      "Fortude +21",
+      "Fortitude +21",
       "Reflexos +15",
       "Vontade +8",
       "Furtividade +13",
@@ -3121,7 +3121,7 @@
     "pericias": [
       "Iniciativa +17",
       "Percepção +10",
-      "Fortude +15",
+      "Fortitude +15",
       "Reflexos +21",
       "Vontade +9",
       "Acrobacia +15",
@@ -3196,7 +3196,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +3",
-      "Fortude +2",
+      "Fortitude +2",
       "Reflexos +5",
       "Vontade -1",
       "Furtividade +12."
@@ -3250,7 +3250,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +3",
-      "Fortude +3",
+      "Fortitude +3",
       "Reflexos +5",
       "Vontade +0",
       "Furtividade +7."
@@ -3308,7 +3308,7 @@
     "pericias": [
       "Iniciativa +8",
       "Percepção +3",
-      "Fortude +5",
+      "Fortitude +5",
       "Reflexos +10",
       "Vontade +1",
       "Furtividade +10."
@@ -3362,7 +3362,7 @@
     "pericias": [
       "Iniciativa +5",
       "Percepção +4",
-      "Fortude +9",
+      "Fortitude +9",
       "Reflexos +15",
       "Vontade +3",
       "Furtividade +8."
@@ -3419,7 +3419,7 @@
     "pericias": [
       "Iniciativa +6",
       "Percepção +3",
-      "Fortude +6",
+      "Fortitude +6",
       "Reflexos +11",
       "Vontade +9",
       "Enganação +4",
@@ -3481,7 +3481,7 @@
     "pericias": [
       "Iniciativa +8",
       "Percepção +6",
-      "Fortude +6",
+      "Fortitude +6",
       "Reflexos +12",
       "Vontade +18",
       "Conhecimento +10",
@@ -3564,7 +3564,7 @@
     "pericias": [
       "Iniciativa +11",
       "Percepção +12",
-      "Fortude +7",
+      "Fortitude +7",
       "Reflexos +14",
       "Vontade +20",
       "Enganação +20",
@@ -3662,7 +3662,7 @@
     "pericias": [
       "Iniciativa +9",
       "Percepção +9",
-      "Fortude +24",
+      "Fortitude +24",
       "Reflexos +18",
       "Vontade +9",
       "Furtividade +4 (+14 em pântanos)."
@@ -3717,7 +3717,7 @@
     "pericias": [
       "Iniciativa +19",
       "Percepção +11",
-      "Fortude +26",
+      "Fortitude +26",
       "Reflexos +20",
       "Vontade +13",
       "Furtividade +17."
@@ -3788,7 +3788,7 @@
     "pericias": [
       "Iniciativa +7",
       "Percepção +7",
-      "Fortude +6",
+      "Fortitude +6",
       "Reflexos +12",
       "Vontade +4",
       "Furtividade +8",
@@ -3866,7 +3866,7 @@
     "pericias": [
       "Iniciativa +9",
       "Percepção +5",
-      "Fortude +8",
+      "Fortitude +8",
       "Reflexos +12",
       "Vontade +16",
       "Intimidação +9",
@@ -3964,7 +3964,7 @@
     "pericias": [
       "Iniciativa +7",
       "Percepção +5",
-      "Fortude +15",
+      "Fortitude +15",
       "Reflexos +11",
       "Vontade +7"
     ],
@@ -4021,7 +4021,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +3",
-      "Fortude +14",
+      "Fortitude +14",
       "Reflexos +10",
       "Vontade +6"
     ],
@@ -4092,7 +4092,7 @@
     "pericias": [
       "Iniciativa +7",
       "Percepção +14",
-      "Fortude +21",
+      "Fortitude +21",
       "Reflexos +15",
       "Vontade +9"
     ],
@@ -4157,7 +4157,7 @@
     "pericias": [
       "Iniciativa +6",
       "Percepção +1",
-      "Fortude +7",
+      "Fortitude +7",
       "Reflexos +13",
       "Vontade +2"
     ],
@@ -4209,7 +4209,7 @@
     "pericias": [
       "Iniciativa +8",
       "Percepção +5",
-      "Fortude +15",
+      "Fortitude +15",
       "Reflexos +3",
       "Vontade +9"
     ],
@@ -4279,7 +4279,7 @@
     "pericias": [
       "Iniciativa +11",
       "Percepção +11",
-      "Fortude +20",
+      "Fortitude +20",
       "Reflexos +9",
       "Vontade +12",
       "Intimidação +11."
@@ -4359,7 +4359,7 @@
     "pericias": [
       "Iniciativa +12",
       "Percepção +15",
-      "Fortude +24",
+      "Fortitude +24",
       "Reflexos +11",
       "Vontade +18",
       "Enganação +15",
@@ -4482,7 +4482,7 @@
     "pericias": [
       "Iniciativa +16",
       "Percepção +22",
-      "Fortude +28",
+      "Fortitude +28",
       "Reflexos +15",
       "Vontade +22",
       "Enganação +22",
@@ -4614,7 +4614,7 @@
     "pericias": [
       "Iniciativa +19",
       "Percepção +27",
-      "Fortude +34",
+      "Fortitude +34",
       "Reflexos +20",
       "Vontade +28",
       "Enganação +26",
@@ -4753,7 +4753,7 @@
     "pericias": [
       "Iniciativa +9",
       "Percepção +10",
-      "Fortude +22",
+      "Fortitude +22",
       "Reflexos +10",
       "Vontade +16",
       "Cavalgar +9",
@@ -4834,7 +4834,7 @@
     "pericias": [
       "Iniciativa +4",
       "Percepção +2",
-      "Fortude +12",
+      "Fortitude +12",
       "Reflexos +7",
       "Vontade +3"
     ],
@@ -4902,7 +4902,7 @@
     "pericias": [
       "Iniciativa +9",
       "Percepção +10",
-      "Fortude +12",
+      "Fortitude +12",
       "Reflexos +11",
       "Vontade +6"
     ],
@@ -4976,7 +4976,7 @@
     "pericias": [
       "Iniciativa +13",
       "Percepção +16",
-      "Fortude +18",
+      "Fortitude +18",
       "Reflexos +15",
       "Vontade +6"
     ],
@@ -5050,7 +5050,7 @@
     "pericias": [
       "Iniciativa +17",
       "Percepção +19",
-      "Fortude +19",
+      "Fortitude +19",
       "Reflexos +21",
       "Vontade +10",
       "Furtividade +20."
@@ -5141,7 +5141,7 @@
     "pericias": [
       "Iniciativa +11",
       "Percepção +12",
-      "Fortude +30",
+      "Fortitude +30",
       "Reflexos +24",
       "Vontade +16"
     ],
@@ -5217,7 +5217,7 @@
     "pericias": [
       "Iniciativa +3",
       "Percepção +10",
-      "Fortude +17",
+      "Fortitude +17",
       "Reflexos +11",
       "Vontade +5",
       "Furtividade +3 (+13 em seu refúgio)."
@@ -5283,7 +5283,7 @@
     "pericias": [
       "Iniciativa +17",
       "Percepção +15",
-      "Fortude +16",
+      "Fortitude +16",
       "Reflexos +10",
       "Vontade +22",
       "Intimidação +9",
