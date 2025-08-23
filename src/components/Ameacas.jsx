@@ -212,7 +212,7 @@ function Ameacas() {
                                             <strong className="text-uppercase">{atributo}</strong>
                                         </div>
                                         <div className="card-body py-2">
-                                            <strong className="card-text fs-3">{mod}</strong>
+                                            <strong className="card-text fs-3">{mod===null ? '-' : mod}</strong>
                                         </div>
                                     </div>
                                 ))}
