@@ -5,6 +5,7 @@ import ameacasBase from '../assets/data/ameacas_livro_base_t20.json';
 import { Tooltip } from "react-tooltip";
 import JSZip from 'jszip';
 import { saveAs } from 'file-saver';
+import skills from '../assets/data/skills.js';
 
 function Ameacas() {
     const [ameacas, setAmeacas] = useState([]);
@@ -58,13 +59,26 @@ function Ameacas() {
         setSelecionadas(opcoes ? opcoes.map(o => o.data) : []);
     }
 
+    function getPericiasOutros(periciaAmeaca) {
+        const splitPericia = periciaAmeaca.split(' ');
+        const pericia = skills.find(s => s.nome === splitPericia[0]);
+        const indexMod = pericia.id === 'oficio' ? 2 : 1;
+        return {
+            nome: pericia?.id,
+            mod: splitPericia[indexMod],
+            attr: pericia?.atributo,
+            obs: (splitPericia.length > indexMod+1) ? splitPericia.slice(indexMod+1).join(' ') : '',
+            oficio: indexMod === 2 ? splitPericia[1] : ''
+        }
+    }
+
     function convertAmeacas() {
         return selecionadas.map((ameaca, index) => ({
             id: index,
             playername: ameaca.nome,
             menace_name: ameaca.nome,
             trace: ameaca.tipo,
-            charnivel: ameaca.nd.startsWith("S") ? 20 : ameaca.nd,
+            charnivel: ameaca.nd.startsWith("S") ? 20 : (parseInt(ameaca.nd) || 1),
 
             for: ameaca.atributos.for,
             des: ameaca.atributos.des,
@@ -116,13 +130,27 @@ function Ameacas() {
                 namespell: magia.nome,
                 spelldescription: magia.descricao,
             })),
+            ...ameaca.pericias.reduce((acc, pericia) => {
+                const { nome, mod, attr, obs, oficio } = getPericiasOutros(pericia);
+                const nd = ameaca.nd.startsWith("S") ? 20 : (parseInt(ameaca.nd) || 1)
+                return {
+                    ...acc,
+                    ...{
+                        [`${nome}outros`]: mod - ameaca.atributos[attr] - Math.floor(nd/2),
+                        ...obs !== '' ? {[`${nome}obs`]: obs} : {},
+                        ...oficio !== '' ? { oficionome: oficio } : {}
+                    }
+                };
+            }, {}),
+            ...skills.reduce((acc, skill) => {
+                return { ...acc, ...{[`${skill.id}atributo2`]: `@{${skill.atributo}_mod}`} }
+            }, {}),
         }));
     }
 
     // Função para exportar ameaças
     async function exportarAmeacas() {
         const ameacas = convertAmeacas();
-        console.log(ameacas);
         if (ameacas.length === 0) return;
         if (ameacas.length === 1) {
             const blob = new Blob([
