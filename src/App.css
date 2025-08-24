@@ -8,7 +8,6 @@
 
 body {
   background: var(--t20-light);
-  padding: 2em;
   color: var(--t20-dark);
 }
 
@@ -273,4 +272,8 @@ pre {
 .card-header {
   background-color: var(--t20-red);
   color: white;
+}
+
+.card-atributo {  
+  min-width: 70px;
 }

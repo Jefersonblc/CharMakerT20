@@ -23,8 +23,8 @@ function App() {
   const [animateTab, setAnimateTab] = useState(-1);
 
   return (
-    <div className="container">
-      <h1 className="mb-4">Gerador Tormenta20</h1>
+    <div className="container-md">
+      <h1 className="my-4">Gerador Tormenta20</h1>
 
       <ul className="nav nav-tabs" id="mainTabs" role="tablist">
         {tabs.map((tab, idx) => (

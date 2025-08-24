@@ -205,9 +205,9 @@ function Ameacas() {
                                 </div>
                             </Tooltip>
 
-                            <div className='d-flex flex-nowrap justify-content-start my-2'>
+                            <div className='d-flex flex-nowrap overflow-auto align-items-start my-2'>
                                 {Object.entries(a.atributos)?.map(([atributo, mod]) => (
-                                    <div className="card mx-1 text-center text-nowrap">
+                                    <div className="card card-atributo text-center text-nowrap mx-1">
                                         <div className="card-header px-0">
                                             <strong className="text-uppercase">{atributo}</strong>
                                         </div>
@@ -252,16 +252,18 @@ function Ameacas() {
                             <hr className="border border-1 border-dark" />
 
                             {a.ataques.length > 0 && (
-                                <div className='mb-2 pb-2'>
+                                <div className='d-flex flex-column flex-nowrap overflow-auto align-items-start mb-2 pb-2'>
                                     <h4>Ataques:</h4>
                                     {a.ataques?.map((ataque) => (
                                         <span className="badge bg-primary m-1 p-2">
                                             <strong>{ataque.tipo}</strong> - {ataque.nome}: {ataque.bonus} ({ataque.dano})
                                         </span>
                                     ))}
-                                    <hr className="border border-1 border-dark" />
+                                    
                                 </div>
                             )}
+
+                            <hr className="border border-1 border-dark" />
 
                             {a.habilidades.length > 0 && (
                                 <div className='pre-wrap mb-2 pb-2'>
