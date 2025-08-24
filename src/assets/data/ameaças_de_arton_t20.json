@@ -254,7 +254,7 @@
       "Fortitude +15",
       "Reflexos +23",
       "Vontade +8",
-      "Furtividade +9."
+      "Furtividade +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -844,7 +844,7 @@
       "Guerra +41",
       "Intimidação +40",
       "Intuição +34",
-      "Misticismo +31."
+      "Misticismo +31"
     ],
     "resistencias": [
       "cura acelerada 50",
@@ -981,7 +981,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+2d6."
+        "descricao": "+2d6"
       }
     ],
     "magias": [],
@@ -1088,7 +1088,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+3d6."
+        "descricao": "+3d6"
       },
       {
         "nome": "Ordens (Movimento)",
@@ -1395,7 +1395,7 @@
       "Reflexos +15",
       "Vontade +9",
       "Atletismo +20",
-      "Intimidação +8."
+      "Intimidação +8"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -1461,7 +1461,7 @@
       "Reflexos +7",
       "Vontade +20",
       "Intimidação +9",
-      "Religião +13."
+      "Religião +13"
     ],
     "resistencias": [
       "resistência a veneno +5"
@@ -1540,7 +1540,7 @@
       "Reflexos +7",
       "Vontade +0",
       "Atletismo +10 (+20 para saltar)",
-      "Furtividade +7."
+      "Furtividade +7"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -1578,7 +1578,7 @@
       },
       {
         "nome": "Veneno",
-        "descricao": "Perde 1d12 PV e fica paralisado por 1 rodada, Fort CD 18 evita a paralisia e reduz a perda de vida para 1d6."
+        "descricao": "Perde 1d12 PV e fica paralisado por 1 rodada, Fort CD 18 evita a paralisia e reduz a perda de vida para 1d6"
       },
       {
         "nome": "Parceiro",
@@ -1609,7 +1609,7 @@
       "Reflexos +10",
       "Vontade +1",
       "Atletismo +8 (+18 para saltar)",
-      "Furtividade +4."
+      "Furtividade +4"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -1680,7 +1680,7 @@
       "Vontade +3",
       "Atletismo +13 (+23 para saltar)",
       "Cavalgar +5",
-      "Furtividade +6."
+      "Furtividade +6"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -1862,7 +1862,7 @@
     "magias": [],
     "equipamento": [
       "Arco longo",
-      "flechas x20."
+      "flechas x20"
     ],
     "tesouro": "Metade."
   },
@@ -1886,7 +1886,7 @@
       "Reflexos +11",
       "Vontade +4",
       "Furtividade +7",
-      "Intimidação +7."
+      "Intimidação +7"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -2257,7 +2257,7 @@
       "Fortitude +1",
       "Reflexos +3",
       "Vontade -1",
-      "Furtividade +5."
+      "Furtividade +5"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -2336,7 +2336,7 @@
     "equipamento": [
       "Clava",
       "funda",
-      "pedras x20."
+      "pedras x20"
     ],
     "tesouro": "Metade."
   },
@@ -2629,7 +2629,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+2d6."
+        "descricao": "+2d6"
       }
     ],
     "magias": [],
@@ -2690,7 +2690,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+2d6."
+        "descricao": "+2d6"
       },
       {
         "nome": "Ordens (Movimento)",
@@ -2756,7 +2756,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+3d6."
+        "descricao": "+3d6"
       },
       {
         "nome": "Ordens (Movimento)",
@@ -2797,7 +2797,7 @@
       "Vontade +12",
       "Enganação +7",
       "Ladinagem +10",
-      "Religião +6."
+      "Religião +6"
     ],
     "resistencias": [
       "imunidade a efeitos mentais"
@@ -3161,7 +3161,7 @@
     ],
     "resistencias": [],
     "deslocamento": [
-      "normal e reduz a penalidade por atacar e fazer outras ações chamativas para -10."
+      "normal e reduz a penalidade por atacar e fazer outras ações chamativas para -10"
     ],
     "atributos": {
       "for": 0,
@@ -3182,7 +3182,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+2d6."
+        "descricao": "+2d6"
       },
       {
         "nome": "Pancada na Cabeça",
@@ -3227,7 +3227,7 @@
       "resistência a efeitos de movimento +3"
     ],
     "deslocamento": [
-      "normal e reduz a penalidade por atacar e fazer outras ações chamativas para -10."
+      "normal e reduz a penalidade por atacar e fazer outras ações chamativas para -10"
     ],
     "atributos": {
       "for": 0,
@@ -3248,7 +3248,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+3d6."
+        "descricao": "+3d6"
       },
       {
         "nome": "Bomba de Fumaça (Padrão)",
@@ -3314,7 +3314,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+3d6."
+        "descricao": "+3d6"
       },
       {
         "nome": "Detectar Pensamentos",
@@ -3729,7 +3729,7 @@
       "Fortitude +19",
       "Reflexos +21",
       "Vontade +10",
-      "Furtividade +20."
+      "Furtividade +20"
     ],
     "resistencias": [
       "redução de dano 10"
@@ -3814,7 +3814,7 @@
       "Vontade +13",
       "Furtividade +27",
       "Intimidação +11",
-      "Religião +21."
+      "Religião +21"
     ],
     "resistencias": [
       "redução de dano 10"
@@ -3966,7 +3966,7 @@
       },
       {
         "nome": "Semente Rubra",
-        "descricao": "Encontrada apenas em áreas de Tormenta, esta baga de odor ocre é na verdade um alimento mágico. Consumir uma semente carmesim cura 10d8+10 PV e remove as condições enjoado, envenenado, exausto, fatigado e fraco. No entanto, também causa um choque temporário no organismo, deixando o personagem debilitado até o fim de seu próximo turno. Estas sementes raramente são encontradas à venda, e podem alcançar preços de até T$ 3.600."
+        "descricao": "Encontrada apenas em áreas de Tormenta, esta baga de odor ocre é na verdade um alimento mágico. Consumir uma semente carmesim cura 10d8+10 PV e remove as condições enjoado, envenenado, exausto, fatigado e fraco. No entanto, também causa um choque temporário no organismo, deixando o personagem debilitado até o fim de seu próximo turno. Estas sementes raramente são encontradas à venda, e podem alcançar preços de até T$ 3.600"
       }
     ],
     "magias": [
@@ -4087,7 +4087,7 @@
       },
       {
         "nome": "Semente Rubra",
-        "descricao": "Encontrada apenas em áreas de Tormenta, esta baga de odor ocre é na verdade um alimento mágico. Consumir uma semente carmesim cura 10d8+10 PV e remove as condições enjoado, envenenado, exausto, fatigado e fraco. No entanto, também causa um choque temporário no organismo, deixando o personagem debilitado até o fim de seu próximo turno. Estas sementes raramente são encontradas à venda, e podem alcançar preços de até T$ 3.600."
+        "descricao": "Encontrada apenas em áreas de Tormenta, esta baga de odor ocre é na verdade um alimento mágico. Consumir uma semente carmesim cura 10d8+10 PV e remove as condições enjoado, envenenado, exausto, fatigado e fraco. No entanto, também causa um choque temporário no organismo, deixando o personagem debilitado até o fim de seu próximo turno. Estas sementes raramente são encontradas à venda, e podem alcançar preços de até T$ 3.600"
       }
     ],
     "magias": [],
@@ -4158,7 +4158,7 @@
     "magias": [],
     "equipamento": [
       "Arco longo",
-      "flechas de matéria vermelha x20."
+      "flechas de matéria vermelha x20"
     ],
     "tesouro": "Nenhum."
   },
@@ -4263,7 +4263,7 @@
       "Fortitude +14",
       "Reflexos +3",
       "Vontade +10",
-      "Furtividade +7."
+      "Furtividade +7"
     ],
     "resistencias": [
       "imunidade a ácido",
@@ -4458,7 +4458,7 @@
       "Fortitude +20",
       "Reflexos +9",
       "Vontade +12",
-      "Diplomacia +11."
+      "Diplomacia +11"
     ],
     "resistencias": [
       "fortificação 25%",
@@ -4527,7 +4527,7 @@
       "Fortitude +20",
       "Reflexos +9",
       "Vontade +15",
-      "Intimidação +11."
+      "Intimidação +11"
     ],
     "resistencias": [
       "imunidade a frio",
@@ -4597,7 +4597,7 @@
       "Vontade +20",
       "Atletismo +32",
       "Intimidação +15",
-      "Misticismo +15."
+      "Misticismo +15"
     ],
     "resistencias": [
       "imunidade a dano de luz",
@@ -4702,7 +4702,7 @@
       "Enganação +17",
       "Intimidação +17",
       "Intuição +25",
-      "Misticismo +19."
+      "Misticismo +19"
     ],
     "resistencias": [
       "imunidade a trevas",
@@ -4818,7 +4818,7 @@
       "Enganação +22",
       "Intimidação +22",
       "Intuição +22",
-      "Misticismo +22."
+      "Misticismo +22"
     ],
     "resistencias": [
       "imunidade a dano de luz",
@@ -4934,7 +4934,7 @@
       "Atletismo +25",
       "Diplomacia +22",
       "Enganação +22",
-      "Intimidação +22."
+      "Intimidação +22"
     ],
     "resistencias": [
       "evasão aprimorada",
@@ -5137,7 +5137,7 @@
       "Vontade +20",
       "Enganação +16",
       "Intimidação +16",
-      "Misticismo +15."
+      "Misticismo +15"
     ],
     "resistencias": [
       "imunidade a ácido e eletricidade",
@@ -5213,7 +5213,7 @@
       "Intimidação +33",
       "Intuição +33",
       "Misticismo +33",
-      "Nobreza +33."
+      "Nobreza +33"
     ],
     "resistencias": [
       "imunidade a encantamento e fogo",
@@ -5870,7 +5870,7 @@
       "Vontade +6",
       "Acrobacia +5",
       "Furtividade +7",
-      "Ofício (armeiro) +7."
+      "Ofício (armeiro) +7"
     ],
     "resistencias": [
       "imunidade a ofuscado"
@@ -5944,7 +5944,7 @@
       "Vontade +17",
       "Cavalgar +27",
       "Guerra +29",
-      "Intimidação +26."
+      "Intimidação +26"
     ],
     "resistencias": [
       "imunidade a confusão",
@@ -6449,7 +6449,7 @@
       "Fortitude +5",
       "Reflexos +10",
       "Vontade +1",
-      "Ladinagem +7."
+      "Ladinagem +7"
     ],
     "resistencias": [
       "imunidade a acertos críticos",
@@ -6522,7 +6522,7 @@
       "Fortitude +12",
       "Reflexos +21",
       "Vontade +5",
-      "Furtividade +29."
+      "Furtividade +29"
     ],
     "resistencias": [
       "imunidade a acertos críticos",
@@ -6555,7 +6555,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+4d6."
+        "descricao": "+4d6"
       },
       {
         "nome": "Caçada Implacável (Padrão)",
@@ -7275,7 +7275,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O bulette é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 9m (escavação 6m) e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo. Veterano: o bônus em rolagens de dano muda para +1d10. Mestre: o Deslocamento de escavação muda para 12m e o bônus em rolagens de dano muda para +2d8."
+        "descricao": "O bulette é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 9m (escavação 6m) e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo. Veterano: o bônus em rolagens de dano muda para +1d10. Mestre: o Deslocamento de escavação muda para 12m e o bônus em rolagens de dano muda para +2d8"
       }
     ],
     "magias": [],
@@ -7537,7 +7537,7 @@
       "Vontade +15",
       "Furtividade +2 (+12 em florestas)",
       "Intuição +11",
-      "Sobrevivência +16."
+      "Sobrevivência +16"
     ],
     "resistencias": [
       "fortificação 25%",
@@ -7568,7 +7568,7 @@
     "habilidades": [
       {
         "nome": "Árvore Ancestral",
-        "descricao": "Cada ente possui uma habilidade entre as seguintes, que representa sua origem.\n Carvalho. Os ataques do ente causam 50% a mais de dano contra construtos e objetos.\n Jasmim. O ente emana uma nuvem de perfume em uma esfera de 9m ao seu redor. Qualquer criatura nessa área que tente fazer uma ação hostil contra o ente deve fazer um teste de Vontade (CD 26). Se falhar, perde sua ação. Se passar, fica imune a esta habilidade por uma cena. Metabolismo.\n Nogueira. O ente pode usar uma ação de movimento para arremessar uma noz em uma criatura em alcance curto. O alvo sofre 2d6+8 pontos de dano de impacto (Ref CD 26 evita). Recarga (movimento).\n Salgueiro. Quando acerta um ataque de pancada, o ente pode usar a manobra agarrar (teste +31) como uma ação livre. Uma criatura agarrada dessa forma é erguida 4,5m e cai dessa altura caso se solte.\n Sequoia. O dano da habilidade Atropelamento do ente aumenta para 4d8+8, e a CD para resistir a ela se torna 29."
+        "descricao": "Cada ente possui uma habilidade entre as seguintes, que representa sua origem.\n Carvalho. Os ataques do ente causam 50% a mais de dano contra construtos e objetos.\n Jasmim. O ente emana uma nuvem de perfume em uma esfera de 9m ao seu redor. Qualquer criatura nessa área que tente fazer uma ação hostil contra o ente deve fazer um teste de Vontade (CD 26). Se falhar, perde sua ação. Se passar, fica imune a esta habilidade por uma cena. Metabolismo.\n Nogueira. O ente pode usar uma ação de movimento para arremessar uma noz em uma criatura em alcance curto. O alvo sofre 2d6+8 pontos de dano de impacto (Ref CD 26 evita). Recarga (movimento).\n Salgueiro. Quando acerta um ataque de pancada, o ente pode usar a manobra agarrar (teste +31) como uma ação livre. Uma criatura agarrada dessa forma é erguida 4,5m e cai dessa altura caso se solte.\n Sequoia. O dano da habilidade Atropelamento do ente aumenta para 4d8+8, e a CD para resistir a ela se torna 29"
       },
       {
         "nome": "Atropelamento (Completa)",
@@ -7958,7 +7958,7 @@
       "Reflexos +12",
       "Vontade +3",
       "Atletismo +11",
-      "Furtividade +7."
+      "Furtividade +7"
     ],
     "resistencias": [
       "redução de fogo 5",
@@ -8055,7 +8055,7 @@
       },
       {
         "nome": "Engolir (Padrão)",
-        "descricao": "No início de cada um dos turnos do tendrículo, a criatura engolida sofre 2d10+5 pontos de dano de impacto mais 2d10+5 pontos de dano de ácido. Ela pode escapar causando um total de 20 pontos de dano a ele (Defesa 10). Enquanto tiver uma criatura engolida, o tendrículo ganha cura acelerada 20."
+        "descricao": "No início de cada um dos turnos do tendrículo, a criatura engolida sofre 2d10+5 pontos de dano de impacto mais 2d10+5 pontos de dano de ácido. Ela pode escapar causando um total de 20 pontos de dano a ele (Defesa 10). Enquanto tiver uma criatura engolida, o tendrículo ganha cura acelerada 20"
       },
       {
         "nome": "Veneno",
@@ -8244,7 +8244,7 @@
       "besta leve precisa",
       "couro batido",
       "espada longa",
-      "virotes x20."
+      "virotes x20"
     ],
     "tesouro": "Padrão."
   },
@@ -8267,7 +8267,7 @@
       "Fortitude +5",
       "Reflexos +3",
       "Vontade +0",
-      "Sobrevivência +5."
+      "Sobrevivência +5"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -8785,7 +8785,7 @@
       "Reflexos +6",
       "Vontade +1",
       "Furtividade +5 (+10 em colinas e planícies)",
-      "Sobrevivência +6."
+      "Sobrevivência +6"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -8846,7 +8846,7 @@
       "Reflexos +7",
       "Vontade +3",
       "Furtividade +6 (+11 em colinas e planícies)",
-      "Sobrevivência +7."
+      "Sobrevivência +7"
     ],
     "resistencias": [
       "resistência a medo +5"
@@ -8909,7 +8909,7 @@
       "Reflexos +9",
       "Vontade +4",
       "Furtividade +3 (+8 em colinas e planícies)",
-      "Sobrevivência +6."
+      "Sobrevivência +6"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -9090,7 +9090,7 @@
     ],
     "magias": [],
     "equipamento": [
-      "Tacape aumentado x2."
+      "Tacape aumentado x2"
     ],
     "tesouro": "Padrão."
   },
@@ -9817,7 +9817,7 @@
     "equipamento": [
       "Besta pesada",
       "lança",
-      "virotes x20."
+      "virotes x20"
     ],
     "tesouro": "Pilha de sucata (vale T$ 100 para fabricar engenhocas)."
   },
@@ -10421,7 +10421,7 @@
       },
       {
         "nome": "Zona de Perigo (Movimento)",
-        "descricao": "O Kishinauros aumenta sua sobrecarga em 1."
+        "descricao": "O Kishinauros aumenta sua sobrecarga em 1"
       }
     ],
     "magias": [
@@ -10831,7 +10831,7 @@
       "Fortitude +11",
       "Reflexos +9",
       "Vontade +2",
-      "Atletismo +7."
+      "Atletismo +7"
     ],
     "resistencias": [
       "imunidade a fogo"
@@ -10959,7 +10959,7 @@
     "equipamento": [
       "Pergaminho de armadura arcana",
       "pergaminho de explosão de chamas",
-      "pergaminho de bola de fogo ×2."
+      "pergaminho de bola de fogo ×2"
     ],
     "tesouro": "Metade."
   },
@@ -11236,7 +11236,7 @@
       "Intimidação +30",
       "Intuição +30",
       "Misticismo +30",
-      "Religião +35."
+      "Religião +35"
     ],
     "resistencias": [
       "imunidade a ácido",
@@ -11556,7 +11556,7 @@
       "Fortitude +17",
       "Reflexos +12",
       "Vontade +7",
-      "Intimidação +10."
+      "Intimidação +10"
     ],
     "resistencias": [
       "fortificação 50%",
@@ -11610,7 +11610,7 @@
       "Reflexos +12",
       "Vontade +17",
       "Atletismo +21",
-      "Intimidação +21."
+      "Intimidação +21"
     ],
     "resistencias": [
       "fortificação 50%",
@@ -11725,7 +11725,7 @@
       },
       {
         "nome": "Sombra",
-        "descricao": "O kaijin não sofre penalidade em testes de Furtividade por se mover ao seu Deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para -10."
+        "descricao": "O kaijin não sofre penalidade em testes de Furtividade por se mover ao seu Deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para -10"
       },
       {
         "nome": "Truques Ninjas",
@@ -11920,7 +11920,7 @@
       "Acrobacia +7",
       "Atletismo +6",
       "Cura +6",
-      "Religião +6."
+      "Religião +6"
     ],
     "resistencias": [
       "evasão",
@@ -11963,7 +11963,7 @@
     ],
     "magias": [],
     "equipamento": [
-      "Adaga x3."
+      "Adaga x3"
     ],
     "tesouro": "Nenhum."
   },
@@ -11988,7 +11988,7 @@
       "Vontade +13",
       "Atletismo +8",
       "Nobreza +5",
-      "Religião +5."
+      "Religião +5"
     ],
     "resistencias": [
       "imunidade a fogo"
@@ -12054,7 +12054,7 @@
       "Reflexos +5",
       "Vontade +1",
       "Atletismo +4 (+6 para escalar)",
-      "Intimidação +3."
+      "Intimidação +3"
     ],
     "resistencias": [
       "resistência a medo de criaturas maiores +5"
@@ -12099,7 +12099,7 @@
     "magias": [],
     "equipamento": [
       "Azagaia",
-      "neko-te x2."
+      "neko-te x2"
     ],
     "tesouro": "Metade."
   },
@@ -12166,7 +12166,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+2d6."
+        "descricao": "+2d6"
       },
       {
         "nome": "Bomba de Fumaça (Padrão)",
@@ -12181,7 +12181,7 @@
     "equipamento": [
       "Bomba de fumaça x3",
       "espada curta x2",
-      "shuriken x6."
+      "shuriken x6"
     ],
     "tesouro": "Metade."
   },
@@ -12206,7 +12206,7 @@
       "Reflexos +10",
       "Vontade +4",
       "Atletismo +7",
-      "Intimidação +5."
+      "Intimidação +5"
     ],
     "resistencias": [
       "resistência a medo de criaturas maiores +5"
@@ -12274,7 +12274,7 @@
       "Reflexos +11",
       "Vontade +5",
       "Atletismo +9",
-      "Intimidação +7."
+      "Intimidação +7"
     ],
     "resistencias": [
       "imunidade a doenças",
@@ -12347,7 +12347,7 @@
       "Reflexos +16",
       "Vontade +9",
       "Atletismo +15",
-      "Intimidação +11."
+      "Intimidação +11"
     ],
     "resistencias": [
       "redução de dano 10"
@@ -12423,7 +12423,7 @@
       "Vontade +5",
       "Acrobacia +9",
       "Enganação +6",
-      "Sobrevivência +5."
+      "Sobrevivência +5"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -12488,7 +12488,7 @@
       "Acrobacia +14",
       "Enganação +10",
       "Misticismo +14",
-      "Sobrevivência +9."
+      "Sobrevivência +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -12544,7 +12544,7 @@
       }
     ],
     "equipamento": [
-      "Katana ×2."
+      "Katana ×2"
     ],
     "tesouro": "Padrão."
   },
@@ -12572,7 +12572,7 @@
       "Diplomacia +15",
       "Intuição +16",
       "Misticismo +15",
-      "Religião +16."
+      "Religião +16"
     ],
     "resistencias": [
       "imunidade a eletricidade",
@@ -12631,7 +12631,7 @@
       },
       {
         "nome": "Curar Ferimentos (Padrão, 10 PM)",
-        "descricao": "Uma criatura adjacente cura 11d8+11 PV ou criaturas escolhidas em alcance curto curam 6d8+6."
+        "descricao": "Uma criatura adjacente cura 11d8+11 PV ou criaturas escolhidas em alcance curto curam 6d8+6"
       },
       {
         "nome": "Dissipar Magia (Padrão, 3 PM)",
@@ -12673,7 +12673,7 @@
       "Diplomacia +22",
       "Intuição +23",
       "Misticismo +22",
-      "Religião +23."
+      "Religião +23"
     ],
     "resistencias": [
       "imunidade a eletricidade",
@@ -12744,7 +12744,7 @@
       },
       {
         "nome": "Curar Ferimentos (Padrão, 15 PM)",
-        "descricao": "Uma criatura adjacente cura 16d8+16 PV ou criaturas escolhidas em alcance curto curam 11d8+11."
+        "descricao": "Uma criatura adjacente cura 16d8+16 PV ou criaturas escolhidas em alcance curto curam 11d8+11"
       },
       {
         "nome": "Dissipar Magia (Padrão, 3 PM)",
@@ -12789,7 +12789,7 @@
       "Conhecimento +25",
       "Diplomacia +27",
       "Intuição +29 Misticismo +25",
-      "Religião +29."
+      "Religião +29"
     ],
     "resistencias": [
       "imunidade a eletricidade",
@@ -12868,7 +12868,7 @@
       },
       {
         "nome": "Curar Ferimentos (Padrão, 15 PM)",
-        "descricao": "Uma criatura adjacente cura 16d8+16 PV ou criaturas escolhidas em alcance curto curam 11d8+11."
+        "descricao": "Uma criatura adjacente cura 16d8+16 PV ou criaturas escolhidas em alcance curto curam 11d8+11"
       },
       {
         "nome": "Dissipar Magia (Padrão, 3 PM)",
@@ -12960,7 +12960,7 @@
     "equipamento": [
       "Arco longo",
       "couraça",
-      "flechas x20."
+      "flechas x20"
     ],
     "tesouro": "Nenhum."
   },
@@ -13105,7 +13105,7 @@
       },
       {
         "nome": "É Proibido Morrer",
-        "descricao": "Aliados em alcance médio do centurião recebem RD 5."
+        "descricao": "Aliados em alcance médio do centurião recebem RD 5"
       },
       {
         "nome": "Falange (Movimento)",
@@ -13671,7 +13671,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+3d6."
+        "descricao": "+3d6"
       },
       {
         "nome": "Bombardeiro Veloz (Padrão)",
@@ -13683,7 +13683,7 @@
       },
       {
         "nome": "Mãos Leves",
-        "descricao": "O minauro ladino faz testes de Ladinagem como uma ação livre. Além disso, ele não sofre penalidade em testes de Furtividade por se mover ao seu Deslocamento normal e reduz a penalidade por atacar e fazer outras ações chamativas para -10."
+        "descricao": "O minauro ladino faz testes de Ladinagem como uma ação livre. Além disso, ele não sofre penalidade em testes de Furtividade por se mover ao seu Deslocamento normal e reduz a penalidade por atacar e fazer outras ações chamativas para -10"
       },
       {
         "nome": "Pirueta Defensiva (Reação)",
@@ -13957,7 +13957,7 @@
     "equipamento": [
       "Funda",
       "lança",
-      "pedras x20."
+      "pedras x20"
     ],
     "tesouro": "Metade."
   },
@@ -14023,7 +14023,7 @@
       "Armadura de couro",
       "funda",
       "lança",
-      "pedras x20."
+      "pedras x20"
     ],
     "tesouro": "Metade."
   },
@@ -14107,7 +14107,7 @@
       "Fortitude +16",
       "Reflexos +10",
       "Vontade +2",
-      "Atletismo +10."
+      "Atletismo +10"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -14205,7 +14205,7 @@
     "equipamento": [
       "Funda",
       "lança",
-      "pedras x20."
+      "pedras x20"
     ],
     "tesouro": "Metade."
   },
@@ -14359,7 +14359,7 @@
       },
       {
         "nome": "Protejam a Mamãe (Reação)",
-        "descricao": "Uma vez por rodada, quando a kobold-mãe sofre dano, um kobold em alcance curto se sacrifica por ela. O kobold morre, mas o dano que a mãe sofreria é reduzido a 0."
+        "descricao": "Uma vez por rodada, quando a kobold-mãe sofre dano, um kobold em alcance curto se sacrifica por ela. O kobold morre, mas o dano que a mãe sofreria é reduzido a 0"
       },
       {
         "nome": "Queridinho da Mamãe (Padrão)",
@@ -14391,7 +14391,7 @@
       "Vontade +2",
       "natureza vegetal",
       "Furtividade +9",
-      "Sobrevivência +7."
+      "Sobrevivência +7"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -14529,7 +14529,7 @@
     "habilidades": [
       {
         "nome": "Parceiro",
-        "descricao": "O fofo é um parceiro especial (guardião) que fornece os benefícios a seguir. Iniciante: você recebe redução de dano 1. Veterano: a RD aumenta para 2 e você pode vestir um item que ocupe 1 espaço ou menos sem contar em seu limite de itens vestidos. Mestre: a RD aumenta para 3."
+        "descricao": "O fofo é um parceiro especial (guardião) que fornece os benefícios a seguir. Iniciante: você recebe redução de dano 1. Veterano: a RD aumenta para 2 e você pode vestir um item que ocupe 1 espaço ou menos sem contar em seu limite de itens vestidos. Mestre: a RD aumenta para 3"
       }
     ],
     "magias": [],
@@ -14612,7 +14612,7 @@
       "Reflexos +5",
       "Vontade +3",
       "Furtividade +9",
-      "Ladinagem +6."
+      "Ladinagem +6"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -14734,7 +14734,7 @@
       "Fortitude +3",
       "Reflexos +7",
       "Vontade +0",
-      "Furtividade +14."
+      "Furtividade +14"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -14799,7 +14799,7 @@
       "Fortitude +7",
       "Reflexos +14",
       "Vontade +3",
-      "Furtividade +10."
+      "Furtividade +10"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -14864,7 +14864,7 @@
       "Fortitude +0",
       "Reflexos +3",
       "Vontade +5",
-      "Intuição +10."
+      "Intuição +10"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -14893,7 +14893,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "(apenas devotos de Khalmyr) O verilêmur é um parceiro especial (vigilante) que fornece os benefícios a seguir. Iniciante: você pode lançar a magia Círculo da Justiça (atributo-chave Sabedoria); se aprender essa magia, seu custo diminui em -1 PM. Veterano: quando falha em um teste de resistência contra uma magia, você pode gastar 2 PM para rolar novamente esse teste (apenas uma vez por teste). Mestre: a CD para resistir à sua magia Círculo da Justiça aumenta em +5."
+        "descricao": "(apenas devotos de Khalmyr) O verilêmur é um parceiro especial (vigilante) que fornece os benefícios a seguir. Iniciante: você pode lançar a magia Círculo da Justiça (atributo-chave Sabedoria); se aprender essa magia, seu custo diminui em -1 PM. Veterano: quando falha em um teste de resistência contra uma magia, você pode gastar 2 PM para rolar novamente esse teste (apenas uma vez por teste). Mestre: a CD para resistir à sua magia Círculo da Justiça aumenta em +5"
       }
     ],
     "magias": [],
@@ -14920,7 +14920,7 @@
       "Reflexos +6",
       "Vontade +2",
       "Furtividade +10",
-      "Sobrevivência +5."
+      "Sobrevivência +5"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -15017,7 +15017,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "Uma asa-assassina é um parceiro especial (assassino) que fornece os benefícios a seguir. Iniciante: uma vez por rodada, quando causa dano com um ataque, você pode deixar a vítima sangrando. Veterano: a perda de PV pelo sangramento aumenta para 1d8. Mestre: a perda de PV aumenta para 2d8."
+        "descricao": "Uma asa-assassina é um parceiro especial (assassino) que fornece os benefícios a seguir. Iniciante: uma vez por rodada, quando causa dano com um ataque, você pode deixar a vítima sangrando. Veterano: a perda de PV pelo sangramento aumenta para 1d8. Mestre: a perda de PV aumenta para 2d8"
       }
     ],
     "magias": [],
@@ -15470,7 +15470,7 @@
       "Reflexos +12",
       "Vontade +6",
       "Enganação +15",
-      "Furtividade +2."
+      "Furtividade +2"
     ],
     "resistencias": [
       "imunidade a ácido",
@@ -15506,7 +15506,7 @@
       },
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+3d6."
+        "descricao": "+3d6"
       },
       {
         "nome": "Cuspe Material (Padrão)",
@@ -15602,7 +15602,7 @@
       "Fortitude +8",
       "Reflexos +1",
       "Vontade +4",
-      "Furtividade +8."
+      "Furtividade +8"
     ],
     "resistencias": [
       "redução de ácido 5"
@@ -15661,7 +15661,7 @@
       "Fortitude +8",
       "Reflexos +20",
       "Vontade +5",
-      "Furtividade +16."
+      "Furtividade +16"
     ],
     "resistencias": [
       "imunidade a confuso e metamorfose",
@@ -15736,7 +15736,7 @@
       "Fortitude +14",
       "Reflexos +29",
       "Vontade +10",
-      "Furtividade +25."
+      "Furtividade +25"
     ],
     "resistencias": [
       "imunidade a confuso e metamorfose",
@@ -16002,7 +16002,7 @@
       "Fortitude +6",
       "Reflexos +0",
       "Vontade +3",
-      "Atletismo +9."
+      "Atletismo +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -16054,7 +16054,7 @@
       "Fortitude +6",
       "Reflexos +3",
       "Vontade +0",
-      "Atletismo +9."
+      "Atletismo +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -16101,7 +16101,7 @@
       "Fortitude +6",
       "Reflexos +5",
       "Vontade +3",
-      "Atletismo +9."
+      "Atletismo +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -16148,7 +16148,7 @@
       "Fortitude +11",
       "Reflexos +7",
       "Vontade +4",
-      "Atletismo +11."
+      "Atletismo +11"
     ],
     "resistencias": [
       "resistência a medo +2"
@@ -16202,7 +16202,7 @@
       "Fortitude +14",
       "Reflexos +7",
       "Vontade +2",
-      "Atletismo +7."
+      "Atletismo +7"
     ],
     "resistencias": [
       "redução de frio 5"
@@ -16260,7 +16260,7 @@
       "Fortitude +13",
       "Reflexos +7",
       "Vontade +2",
-      "Atletismo +8."
+      "Atletismo +8"
     ],
     "resistencias": [
       "redução de fogo 5"
@@ -16453,7 +16453,7 @@
       "Fortitude +8",
       "Reflexos +5",
       "Vontade +3",
-      "Atletismo +9."
+      "Atletismo +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -16482,7 +16482,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O gorlogg é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo. Veterano: o bônus em rolagens de dano corpo a corpo muda para +1d10. Mestre: seu Deslocamento muda para 15m e o bônus em rolagens de dano corpo a corpo muda para +2d8."
+        "descricao": "O gorlogg é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo. Veterano: o bônus em rolagens de dano corpo a corpo muda para +1d10. Mestre: seu Deslocamento muda para 15m e o bônus em rolagens de dano corpo a corpo muda para +2d8"
       }
     ],
     "magias": [],
@@ -16508,7 +16508,7 @@
       "Fortitude +13",
       "Reflexos +9",
       "Vontade +6",
-      "Atletismo +12."
+      "Atletismo +12"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -16569,7 +16569,7 @@
       "Reflexos +10",
       "Vontade +4",
       "Atletismo +10",
-      "Furtividade +8."
+      "Furtividade +8"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -16608,7 +16608,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O leão é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em rolagens de dano corpo a corpo. Veterano: quando faz uma investida, o bônus em rolagens de dano corpo a corpo dobra. Mestre: seu Deslocamento muda para 15m e o bônus em rolagens de dano corpo a corpo muda para +1d10."
+        "descricao": "O leão é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em rolagens de dano corpo a corpo. Veterano: quando faz uma investida, o bônus em rolagens de dano corpo a corpo dobra. Mestre: seu Deslocamento muda para 15m e o bônus em rolagens de dano corpo a corpo muda para +1d10"
       }
     ],
     "magias": [],
@@ -16636,7 +16636,7 @@
       "Reflexos +11",
       "Vontade +0",
       "Atletismo +7",
-      "Furtividade +11."
+      "Furtividade +11"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -16774,7 +16774,7 @@
       "Fortitude +16",
       "Reflexos +4",
       "Vontade +10",
-      "Atletismo +10."
+      "Atletismo +10"
     ],
     "resistencias": [
       "redução de dano 5"
@@ -16832,7 +16832,7 @@
       "Fortitude +18",
       "Reflexos +6",
       "Vontade +12",
-      "Atletismo +12."
+      "Atletismo +12"
     ],
     "resistencias": [
       "redução de dano 5",
@@ -16891,7 +16891,7 @@
       "Fortitude +20",
       "Reflexos +7",
       "Vontade +15",
-      "Atletismo +18."
+      "Atletismo +18"
     ],
     "resistencias": [
       "redução de dano 5"
@@ -16930,7 +16930,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O brontotério é um parceiro montaria (Enorme) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e você recebe +1 na Defesa. Veterano: o bônus na Defesa muda para +2 e você recebe uma ação de movimento extra por turno (apenas para se deslocar). Mestre: você recebe redução de dano 5."
+        "descricao": "O brontotério é um parceiro montaria (Enorme) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e você recebe +1 na Defesa. Veterano: o bônus na Defesa muda para +2 e você recebe uma ação de movimento extra por turno (apenas para se deslocar). Mestre: você recebe redução de dano 5"
       }
     ],
     "magias": [],
@@ -16993,7 +16993,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O tatu-montanha é um parceiro montaria (Enorme) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 9m (normal e de natação) e você recebe uma ação de movimento extra por turno (apenas para se deslocar). Veterano: você recebe +1 na Defesa e redução de ácido 5. Mestre: muda o bônus na Defesa para +2 e a redução de ácido para 10."
+        "descricao": "O tatu-montanha é um parceiro montaria (Enorme) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 9m (normal e de natação) e você recebe uma ação de movimento extra por turno (apenas para se deslocar). Veterano: você recebe +1 na Defesa e redução de ácido 5. Mestre: muda o bônus na Defesa para +2 e a redução de ácido para 10"
       }
     ],
     "magias": [],
@@ -17045,7 +17045,7 @@
     "habilidades": [
       {
         "nome": "Parceiro",
-        "descricao": "O trobo pode ser usado como um parceiro besta de carga (veja página 416) ou como uma montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 9m e você recebe uma ação de movimento extra por turno (apenas para se deslocar) e +1 em testes de resistência. Veterano: seu Deslocamento muda para 12m e o bônus em testes de resistência muda para +2. Mestre: o bônus em testes de resistência muda para +5."
+        "descricao": "O trobo pode ser usado como um parceiro besta de carga (veja página 416) ou como uma montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 9m e você recebe uma ação de movimento extra por turno (apenas para se deslocar) e +1 em testes de resistência. Veterano: seu Deslocamento muda para 12m e o bônus em testes de resistência muda para +2. Mestre: o bônus em testes de resistência muda para +5"
       }
     ],
     "magias": [],
@@ -17071,7 +17071,7 @@
       "Fortitude +16",
       "Reflexos +10",
       "Vontade +2",
-      "Atletismo +14."
+      "Atletismo +14"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -17127,7 +17127,7 @@
       "Fortitude +9",
       "Reflexos +5",
       "Vontade +2",
-      "Atletismo +6."
+      "Atletismo +6"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -17162,7 +17162,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O panda é um parceiro montaria (Médio) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 9m e você recebe +2 em Diplomacia e uma ação de movimento extra por turno (apenas para se deslocar). Veterano: você pode usar Rolamento Defensivo. Caso possua esse poder, em vez disso o custo para usá-lo diminui em -1 PM. Mestre: você pode usar Aparência Inofensiva. Se possuir esse poder, a CD para resistir a ele aumenta em +2."
+        "descricao": "O panda é um parceiro montaria (Médio) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 9m e você recebe +2 em Diplomacia e uma ação de movimento extra por turno (apenas para se deslocar). Veterano: você pode usar Rolamento Defensivo. Caso possua esse poder, em vez disso o custo para usá-lo diminui em -1 PM. Mestre: você pode usar Aparência Inofensiva. Se possuir esse poder, a CD para resistir a ele aumenta em +2"
       }
     ],
     "magias": [],
@@ -17189,7 +17189,7 @@
       "Fortitude +13",
       "Reflexos +10",
       "Vontade +4",
-      "Atletismo +11."
+      "Atletismo +11"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -17224,7 +17224,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O urso pardo é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo. Veterano: uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra agarrar como uma ação livre. Essa manobra não deixa sua mão ocupada, mas você só pode manter um inimigo agarrado por vez. Mestre: muda o bônus em rolagens de dano corpo a corpo para +1d10."
+        "descricao": "O urso pardo é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo. Veterano: uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra agarrar como uma ação livre. Essa manobra não deixa sua mão ocupada, mas você só pode manter um inimigo agarrado por vez. Mestre: muda o bônus em rolagens de dano corpo a corpo para +1d10"
       }
     ],
     "magias": [],
@@ -17251,7 +17251,7 @@
       "Fortitude +20",
       "Reflexos +15",
       "Vontade +9",
-      "Atletismo +15."
+      "Atletismo +15"
     ],
     "resistencias": [
       "redução de dano 5"
@@ -17292,7 +17292,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O urso das cavernas é um parceiro montaria (Enorme) que fornece os benefícios a seguir. Iniciante: seu deslocamento muda para 12m e você recebe redução de dano 2. Veterano: uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra agarrar como uma ação livre. Essa manobra não deixa sua mão ocupada, mas você só pode manter um inimigo agarrado desta forma. Mestre: muda a redução de dano para 5."
+        "descricao": "O urso das cavernas é um parceiro montaria (Enorme) que fornece os benefícios a seguir. Iniciante: seu deslocamento muda para 12m e você recebe redução de dano 2. Veterano: uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra agarrar como uma ação livre. Essa manobra não deixa sua mão ocupada, mas você só pode manter um inimigo agarrado desta forma. Mestre: muda a redução de dano para 5"
       }
     ],
     "magias": [],
@@ -17320,7 +17320,7 @@
       "Reflexos +13",
       "Vontade +5",
       "Furtividade +11 (+16 em ambientes escuros)",
-      "Sobrevivência +10."
+      "Sobrevivência +10"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -17345,7 +17345,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+2d6."
+        "descricao": "+2d6"
       },
       {
         "nome": "Derrubar (Livre)",
@@ -17384,7 +17384,7 @@
       "Fortitude +4",
       "Reflexos +10",
       "Vontade +16",
-      "Intuição +15."
+      "Intuição +15"
     ],
     "resistencias": [
       "imunidade a encantamento"
@@ -17461,7 +17461,7 @@
       "Reflexos +5",
       "Vontade +10",
       "Atletismo +6",
-      "Furtividade +7."
+      "Furtividade +7"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -17524,7 +17524,7 @@
       "Reflexos +7",
       "Vontade +12",
       "Atletismo +7",
-      "Furtividade +8."
+      "Furtividade +8"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -17590,7 +17590,7 @@
       "Fortitude +11",
       "Reflexos +5",
       "Vontade +0",
-      "Atletismo +9."
+      "Atletismo +9"
     ],
     "resistencias": [
       "redução de corte",
@@ -17707,7 +17707,7 @@
       "Fortitude +4",
       "Reflexos +16",
       "Vontade +10",
-      "Atletismo +9."
+      "Atletismo +9"
     ],
     "resistencias": [
       "redução de corte",
@@ -18029,7 +18029,7 @@
       "Reflexos +14",
       "Vontade +20",
       "Furtividade +15",
-      "Intimidação +13."
+      "Intimidação +13"
     ],
     "resistencias": [
       "incorpóreo"
@@ -18091,7 +18091,7 @@
       "Reflexos +18",
       "Vontade +23",
       "Furtividade +22",
-      "Intimidação +19."
+      "Intimidação +19"
     ],
     "resistencias": [
       "incorpóreo"
@@ -18160,7 +18160,7 @@
       "Fortitude +0",
       "Reflexos +2",
       "Vontade -1",
-      "Furtividade +11."
+      "Furtividade +11"
     ],
     "resistencias": [
       "imunidade a efeitos de sentidos"
@@ -18392,7 +18392,7 @@
       "Reflexos +9",
       "Vontade +15",
       "Enganação +8",
-      "Furtividade +8."
+      "Furtividade +8"
     ],
     "resistencias": [
       "vulnerabilidade a luz"
@@ -18463,7 +18463,7 @@
       "Fortitude +11",
       "Reflexos +24",
       "Vontade +18",
-      "Furtividade +22."
+      "Furtividade +22"
     ],
     "resistencias": [
       "incorpóreo"
@@ -18528,7 +18528,7 @@
       "Fortitude +11",
       "Reflexos +5",
       "Vontade +17",
-      "Furtividade +10."
+      "Furtividade +10"
     ],
     "resistencias": [
       "redução de dano 5",
@@ -18683,7 +18683,7 @@
       "Fortitude +24",
       "Reflexos +11",
       "Vontade +18",
-      "Atletismo +20."
+      "Atletismo +20"
     ],
     "resistencias": [
       "imunidade a atordoado",
@@ -18752,7 +18752,7 @@
       "Fortitude +28",
       "Reflexos +13",
       "Vontade +22",
-      "Atletismo +23."
+      "Atletismo +23"
     ],
     "resistencias": [
       "imunidade a atordoado",
@@ -18788,7 +18788,7 @@
     "habilidades": [
       {
         "nome": "Aura de Podridão",
-        "descricao": "Uma criatura que comece seu turno em um raio de 30m do necrodraco zumbi é exposta à doença calafrio diabólico (veja Tormenta20, p. 318). Devido à virulência do necrodraco, a CD para resistir a essa doença é 38."
+        "descricao": "Uma criatura que comece seu turno em um raio de 30m do necrodraco zumbi é exposta à doença calafrio diabólico (veja Tormenta20, p. 318). Devido à virulência do necrodraco, a CD para resistir a essa doença é 38"
       },
       {
         "nome": "Sopro (Padrão)",
@@ -18834,7 +18834,7 @@
       "Intuição +20",
       "Misticismo +28",
       "Ofício (alquimista) +28",
-      "Religião +20."
+      "Religião +20"
     ],
     "resistencias": [
       "imunidade a atordoado",
@@ -18922,7 +18922,7 @@
       },
       {
         "nome": "Toque da Morte (Padrão, 25 PM)",
-        "descricao": "Inimigos em alcance curto sofrem 10d8+18 pontos de dano de trevas. Um inimigo com menos da metade de seus PV em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10."
+        "descricao": "Inimigos em alcance curto sofrem 10d8+18 pontos de dano de trevas. Um inimigo com menos da metade de seus PV em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10"
       },
       {
         "nome": "Toque Vampírico (Padrão, 19 PM)",
@@ -18965,7 +18965,7 @@
       "Misticismo +36",
       "Nobreza +36",
       "Ofício (alquimista) +36",
-      "Religião +25."
+      "Religião +25"
     ],
     "resistencias": [
       "imunidade a medo",
@@ -19280,7 +19280,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O deinonico é um parceiro montaria (Média) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e sua margem de ameaça com armas corpo a corpo aumenta em +1. Veterano: você recebe +5 em testes de Atletismo para saltar e uma ação de movimento adicional por turno (apenas para se deslocar). Mestre: seu Deslocamento muda para 15m e o bônus na margem de ameaça aumenta para +2."
+        "descricao": "O deinonico é um parceiro montaria (Média) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e sua margem de ameaça com armas corpo a corpo aumenta em +1. Veterano: você recebe +5 em testes de Atletismo para saltar e uma ação de movimento adicional por turno (apenas para se deslocar). Mestre: seu Deslocamento muda para 15m e o bônus na margem de ameaça aumenta para +2"
       }
     ],
     "magias": [],
@@ -20278,7 +20278,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+1d6."
+        "descricao": "+1d6"
       },
       {
         "nome": "Sombreiro",
@@ -20353,7 +20353,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+3d6."
+        "descricao": "+3d6"
       },
       {
         "nome": "Poncho (Reação)",
@@ -20420,7 +20420,7 @@
     ],
     "magias": [],
     "equipamento": [
-      "Adaga x2."
+      "Adaga x2"
     ],
     "tesouro": "Metade."
   },
@@ -20487,7 +20487,7 @@
       },
       {
         "nome": "Armamento da Natureza (Movimento, 4 PM)",
-        "descricao": "A clava do imediato se torna mágica; ela fornece +1 em testes de ataque e rolagens de dano e seu dano aumenta +1d6."
+        "descricao": "A clava do imediato se torna mágica; ela fornece +1 em testes de ataque e rolagens de dano e seu dano aumenta +1d6"
       },
       {
         "nome": "Curar Ferimentos (Padrão, 4 PM)",
@@ -21410,7 +21410,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+8d6."
+        "descricao": "+8d6"
       },
       {
         "nome": "Bloqueio Resistente (Reação)",
@@ -21593,7 +21593,7 @@
       "Reflexos +9",
       "Vontade +14",
       "Atletismo +6",
-      "Sobrevivência +7."
+      "Sobrevivência +7"
     ],
     "resistencias": [
       "evasão"
@@ -21794,7 +21794,7 @@
       "Azagaia x3",
       "escudo de couro",
       "lança",
-      "peçonha concentrada x4."
+      "peçonha concentrada x4"
     ],
     "tesouro": "Metade."
   },
@@ -21990,7 +21990,7 @@
       "Atletismo +12",
       "Furtividade +16",
       "Intimidação +10",
-      "Sobrevivência+13."
+      "Sobrevivência+13"
     ],
     "resistencias": [
       "evasão",
@@ -22072,7 +22072,7 @@
       "Atletismo +26",
       "Cura +17",
       "Diplomacia +17",
-      "Religião +20."
+      "Religião +20"
     ],
     "resistencias": [
       "cura acelerada 10/trevas",
@@ -22248,7 +22248,7 @@
       "Reflexos +22",
       "Vontade +15",
       "Atletismo +30",
-      "Intimidação +30."
+      "Intimidação +30"
     ],
     "resistencias": [
       "cura acelerada 15",
@@ -22325,7 +22325,7 @@
       "Atletismo +20",
       "Diplomacia +21",
       "Intuição +21",
-      "Religião +21."
+      "Religião +21"
     ],
     "resistencias": [
       "imunidade a cansaço",
@@ -22619,7 +22619,7 @@
       "Besta leve",
       "cimitarra",
       "couraça sob medida",
-      "virotes de aço rubi x20."
+      "virotes de aço rubi x20"
     ],
     "tesouro": "Padrão."
   },
@@ -22642,7 +22642,7 @@
       "Fortitude +13",
       "Reflexos +9",
       "Vontade +5",
-      "Atletismo +13."
+      "Atletismo +13"
     ],
     "resistencias": [
       "redução de corte",
@@ -22701,7 +22701,7 @@
       "Fortitude +15",
       "Reflexos +11",
       "Vontade +7",
-      "Atletismo +14."
+      "Atletismo +14"
     ],
     "resistencias": [
       "redução de corte",
@@ -22905,7 +22905,7 @@
       "Reflexos +4",
       "Vontade +0",
       "Diplomacia +7",
-      "Enganação +7."
+      "Enganação +7"
     ],
     "resistencias": [
       "imunidade a efeitos mentais"
@@ -22991,7 +22991,7 @@
       "Armadura completa",
       "escudo pesado reforçado",
       "martelo de guerra pungente",
-      "poção de Curar Ferimentos (2d8+2) x2."
+      "poção de Curar Ferimentos (2d8+2) x2"
     ],
     "tesouro": "Padrão."
   },
@@ -23050,7 +23050,7 @@
       "Armadura completa",
       "escudo pesado reforçado",
       "martelo de guerra pungente (1d6 de cada)",
-      "poção de Curar Ferimentos (2d8+2) x2d6."
+      "poção de Curar Ferimentos (2d8+2) x2d6"
     ],
     "tesouro": "Padrão."
   },
@@ -23144,7 +23144,7 @@
       "Vontade +24",
       "Furtividade +18",
       "Intuição +11",
-      "Misticismo +25."
+      "Misticismo +25"
     ],
     "resistencias": [
       "imunidade a atordoado e medo",
@@ -23314,7 +23314,7 @@
       "Reflexos +13",
       "Vontade +2",
       "Furtividade +6",
-      "Sobrevivência +8."
+      "Sobrevivência +8"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -23496,7 +23496,7 @@
       "Fortitude +21",
       "Reflexos +15",
       "Vontade +9",
-      "Furtividade +11."
+      "Furtividade +11"
     ],
     "resistencias": [
       "imunidade a medo"
@@ -23568,7 +23568,7 @@
       "Reflexos +8",
       "Vontade +15",
       "Atletismo +14",
-      "Sobrevivência +16."
+      "Sobrevivência +16"
     ],
     "resistencias": [
       "imunidade a confusão",
@@ -23690,7 +23690,7 @@
       },
       {
         "nome": "Sacrificar Servo (Reação)",
-        "descricao": "Uma vez por rodada, quando sofre dano, o lich sacrifica uma de suas criaturas invocadas para reduzir esse dano a 0."
+        "descricao": "Uma vez por rodada, quando sofre dano, o lich sacrifica uma de suas criaturas invocadas para reduzir esse dano a 0"
       },
       {
         "nome": "Toque Paralisante",
@@ -23728,7 +23728,7 @@
       },
       {
         "nome": "Toque da Morte (Padrão, 25 PM)",
-        "descricao": "Criaturas em alcance curto sofrem 10d8+19 pontos de dano de trevas. Um inimigo com menos da metade de seus PV em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10."
+        "descricao": "Criaturas em alcance curto sofrem 10d8+19 pontos de dano de trevas. Um inimigo com menos da metade de seus PV em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10"
       },
       {
         "nome": "Toque Vampírico (Padrão, 19 PM)",
@@ -23738,7 +23738,7 @@
     "equipamento": [
       "Essência de mana x5",
       "robe do arquimago",
-      "terra de cemitério x2."
+      "terra de cemitério x2"
     ],
     "tesouro": "Dobro e fragmento de filactério ."
   },
@@ -23868,7 +23868,7 @@
       },
       {
         "nome": "Toque da Morte (Padrão, 25 PM)",
-        "descricao": "Criaturas em alcance curto sofrem 10d8+22 pontos de dano de trevas. Um inimigo com menos da metade de seus PV em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10."
+        "descricao": "Criaturas em alcance curto sofrem 10d8+22 pontos de dano de trevas. Um inimigo com menos da metade de seus PV em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10"
       },
       {
         "nome": "Toque Vampírico (Padrão, 29 PM)",
@@ -24005,7 +24005,7 @@
       },
       {
         "nome": "Sacrificar Servo (Reação)",
-        "descricao": "Uma vez por rodada, quando sofre dano, Ferren sacrifica uma de suas criaturas invocadas para reduzir esse dano a 0."
+        "descricao": "Uma vez por rodada, quando sofre dano, Ferren sacrifica uma de suas criaturas invocadas para reduzir esse dano a 0"
       },
       {
         "nome": "Toque Paralisante",
@@ -24051,7 +24051,7 @@
       },
       {
         "nome": "Toque da Morte (Padrão, 25 PM)",
-        "descricao": "Criaturas em alcance curto sofrem 10d8+35 pontos de dano de trevas. Um inimigo com menos da metade de seus PV em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10."
+        "descricao": "Criaturas em alcance curto sofrem 10d8+35 pontos de dano de trevas. Um inimigo com menos da metade de seus PV em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10"
       },
       {
         "nome": "Toque Vampírico (Padrão, 35 PM)",
@@ -24145,7 +24145,7 @@
       "Reflexos +10",
       "Vontade +4",
       "Atletismo +7",
-      "Sobrevivência +4."
+      "Sobrevivência +4"
     ],
     "resistencias": [
       "redução de perfuração 10"
@@ -24473,7 +24473,7 @@
       "Reflexos +9",
       "Vontade +2",
       "Furtividade +3",
-      "Intimidação +9."
+      "Intimidação +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -24692,7 +24692,7 @@
       "Adestramento +12",
       "Misticismo +11",
       "Religião +14",
-      "Sobrevivência +16."
+      "Sobrevivência +16"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -24774,7 +24774,7 @@
       "Fortitude +15",
       "Reflexos +5",
       "Vontade +10",
-      "Furtividade +9."
+      "Furtividade +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -24935,7 +24935,7 @@
     "habilidades": [
       {
         "nome": "Ferrugem",
-        "descricao": "A antena do oxxdon destrói automaticamente qualquer objeto de metal atingido. Uma arma de metal que cause dano a um oxxdon também é destruída imediatamente (itens mágicos têm direito a um teste de Fortitude contra CD 17 para evitar). Contra criaturas de metal (como golens), a antena deixa o alvo fatigado, então exausto, então paralisado (mesmo que seja imune a essas condições; Fort CD 17 evita). Remover cada uma destas condições da criatura exige uma hora de trabalho, o gasto de T$ 50 em materiais e passar em um teste de Ofício (artesão) contra CD 20."
+        "descricao": "A antena do oxxdon destrói automaticamente qualquer objeto de metal atingido. Uma arma de metal que cause dano a um oxxdon também é destruída imediatamente (itens mágicos têm direito a um teste de Fortitude contra CD 17 para evitar). Contra criaturas de metal (como golens), a antena deixa o alvo fatigado, então exausto, então paralisado (mesmo que seja imune a essas condições; Fort CD 17 evita). Remover cada uma destas condições da criatura exige uma hora de trabalho, o gasto de T$ 50 em materiais e passar em um teste de Ofício (artesão) contra CD 20"
       }
     ],
     "magias": [],
@@ -24996,7 +24996,7 @@
       },
       {
         "nome": "Ferrugem",
-        "descricao": "A antena do oxxdon destrói automaticamente qualquer objeto de metal atingido. Uma arma de metal que cause dano a um oxxdon também é destruída imediatamente (itens mágicos têm direito a um teste de Fortitude contra CD 17 para evitar). Contra criaturas de metal (como golens), a antena deixa o alvo fatigado, então exausto, então paralisado (mesmo que seja imune a essas condições; Fort CD 17 evita). Remover cada uma destas condições da criatura exige uma hora de trabalho, o gasto de T$ 50 em materiais e passar em um teste de Ofício (artesão) contra CD 30."
+        "descricao": "A antena do oxxdon destrói automaticamente qualquer objeto de metal atingido. Uma arma de metal que cause dano a um oxxdon também é destruída imediatamente (itens mágicos têm direito a um teste de Fortitude contra CD 17 para evitar). Contra criaturas de metal (como golens), a antena deixa o alvo fatigado, então exausto, então paralisado (mesmo que seja imune a essas condições; Fort CD 17 evita). Remover cada uma destas condições da criatura exige uma hora de trabalho, o gasto de T$ 50 em materiais e passar em um teste de Ofício (artesão) contra CD 30"
       }
     ],
     "magias": [],
@@ -25341,7 +25341,7 @@
       "Reflexos +28",
       "Vontade +20",
       "Atletismo +35",
-      "Intimidação +35."
+      "Intimidação +35"
     ],
     "resistencias": [
       "cura acelerada 50/ kaiju",
@@ -25878,7 +25878,7 @@
       "Fortitude +10",
       "Reflexos +5",
       "Vontade +0",
-      "Furtividade +12."
+      "Furtividade +12"
     ],
     "resistencias": [
       "redução de ácido e impacto 5"
@@ -25939,7 +25939,7 @@
       "Fortitude +5",
       "Reflexos +10",
       "Vontade +1",
-      "Furtividade +7."
+      "Furtividade +7"
     ],
     "resistencias": [
       "imunidade a ácido",
@@ -25997,7 +25997,7 @@
       "Fortitude +12",
       "Reflexos +18",
       "Vontade +6",
-      "Furtividade +9."
+      "Furtividade +9"
     ],
     "resistencias": [
       "imunidade a ácido",
@@ -26056,7 +26056,7 @@
       "Fortitude +15",
       "Reflexos +21",
       "Vontade +8",
-      "Furtividade +12."
+      "Furtividade +12"
     ],
     "resistencias": [
       "imunidade a ácido",
@@ -26116,7 +26116,7 @@
       "Vontade +26",
       "Atuação +19",
       "Diplomacia +19",
-      "Intimidação +19."
+      "Intimidação +19"
     ],
     "resistencias": [
       "imunidade a frio"
@@ -26235,7 +26235,7 @@
       "Fortitude +7",
       "Reflexos +12",
       "Vontade +3",
-      "Acrobacia +11."
+      "Acrobacia +11"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -26284,7 +26284,7 @@
       "Fortitude +12",
       "Reflexos +7",
       "Vontade +2",
-      "Furtividade +6."
+      "Furtividade +6"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -26344,7 +26344,7 @@
       "Fortitude +17",
       "Reflexos +11",
       "Vontade +5",
-      "Furtividade +10."
+      "Furtividade +10"
     ],
     "resistencias": [
       "redução de dano 5"
@@ -26406,7 +26406,7 @@
       "Fortitude +20",
       "Reflexos +15",
       "Vontade +9",
-      "Furtividade +9."
+      "Furtividade +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -26657,7 +26657,7 @@
       "Atletismo +35",
       "Diplomacia +27",
       "Enganação +27",
-      "Intimidação +27."
+      "Intimidação +27"
     ],
     "resistencias": [
       "redução de dano 20",
@@ -26692,7 +26692,7 @@
     "habilidades": [
       {
         "nome": "Agarrar Aprimorado (Livre)",
-        "descricao": "Tentáculo +60."
+        "descricao": "Tentáculo +60"
       },
       {
         "nome": "Chamado do Mar (Padrão)",
@@ -26767,7 +26767,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+2d6."
+        "descricao": "+2d6"
       },
       {
         "nome": "Falso Amigo",
@@ -26859,7 +26859,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+5d6."
+        "descricao": "+5d6"
       },
       {
         "nome": "Falso Amigo",
@@ -27171,7 +27171,7 @@
     "equipamento": [
       "Arco longo certeiro",
       "espada curta",
-      "flechas x20."
+      "flechas x20"
     ],
     "tesouro": "Padrão mais 1d4 doses de peçonha concentrada."
   },
@@ -27343,7 +27343,7 @@
     "magias": [
       {
         "nome": "Imagem Espelhada (Padrão, 5 PM)",
-        "descricao": "Cinco cópias ilusórias da nagah surgem ao seu redor, concedendo +10 na Defesa. Cada vez que um ataque erra a nagah, uma das cópias desaparece e o bônus na defesa diminui em 2."
+        "descricao": "Cinco cópias ilusórias da nagah surgem ao seu redor, concedendo +10 na Defesa. Cada vez que um ataque erra a nagah, uma das cópias desaparece e o bônus na defesa diminui em 2"
       },
       {
         "nome": "Relâmpago (Padrão, 5 PM)",
@@ -27551,7 +27551,7 @@
       "Arco curto",
       "armadura de couro",
       "espada curta",
-      "flechas x20."
+      "flechas x20"
     ],
     "tesouro": "Metade."
   },
@@ -27607,7 +27607,7 @@
     "habilidades": [
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+4d6."
+        "descricao": "+4d6"
       },
       {
         "nome": "Falso Amigo",
@@ -27792,7 +27792,7 @@
     ],
     "magias": [],
     "equipamento": [
-      "Cimitarra de mitral x4."
+      "Cimitarra de mitral x4"
     ],
     "tesouro": "Metade."
   },
@@ -28120,7 +28120,7 @@
       },
       {
         "nome": "Ataque Furtivo",
-        "descricao": "+8d8."
+        "descricao": "+8d8"
       },
       {
         "nome": "Cobra em Pele de Cordeiro",
@@ -28136,7 +28136,7 @@
       },
       {
         "nome": "Manto do Traidor",
-        "descricao": "O celebrante pode se esconder mesmo sem camuflagem ou cobertura disponíveis, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para -5."
+        "descricao": "O celebrante pode se esconder mesmo sem camuflagem ou cobertura disponíveis, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para -5"
       },
       {
         "nome": "Magias",
@@ -28237,7 +28237,7 @@
       },
       {
         "nome": "Presença Arcana",
-        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2."
+        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2"
       },
       {
         "nome": "Intolerância a Luz",
@@ -28271,7 +28271,7 @@
       },
       {
         "nome": "Toque da Morte (Padrão, 17 PM)",
-        "descricao": "Uma criatura em alcance curto sofre 10d8+10 pontos de dano de trevas. Se estiver com menos da metade de seus PV, em vez disso ela deve fazer um teste de Fortitude; se passar sofre o dano normal, caso contrário seus PV são reduzidos a -10."
+        "descricao": "Uma criatura em alcance curto sofre 10d8+10 pontos de dano de trevas. Se estiver com menos da metade de seus PV, em vez disso ela deve fazer um teste de Fortitude; se passar sofre o dano normal, caso contrário seus PV são reduzidos a -10"
       }
     ],
     "equipamento": [
@@ -28302,7 +28302,7 @@
       "Fortitude +18",
       "Reflexos +12",
       "Vontade +6",
-      "Sobrevivência +6."
+      "Sobrevivência +6"
     ],
     "resistencias": [
       "cura acelerada 15/especial"
@@ -28492,7 +28492,7 @@
       "Fortitude +23",
       "Reflexos +14",
       "Vontade +13",
-      "Atletismo +15."
+      "Atletismo +15"
     ],
     "resistencias": [
       "natureza vegetal"
@@ -28586,7 +28586,7 @@
       },
       {
         "nome": "Presença Arcana",
-        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2."
+        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2"
       },
       {
         "nome": "Intolerância a Luz",
@@ -28598,7 +28598,7 @@
       "Besta pesada",
       "cimitarra x2",
       "rede",
-      "virotes x20."
+      "virotes x20"
     ],
     "tesouro": "Padrão."
   },
@@ -28659,7 +28659,7 @@
       },
       {
         "nome": "Presença Arcana",
-        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2."
+        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2"
       },
       {
         "nome": "Intolerância a Luz",
@@ -28767,7 +28767,7 @@
       },
       {
         "nome": "Presença Arcana",
-        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2."
+        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2"
       },
       {
         "nome": "Intolerância a Luz",
@@ -28827,7 +28827,7 @@
       "Reflexos +9",
       "Vontade +1",
       "Sobrevivência +8",
-      "Furtividade +6."
+      "Furtividade +6"
     ],
     "resistencias": [
       "natureza vegetal"
@@ -29001,7 +29001,7 @@
       },
       {
         "nome": "Presença Arcana",
-        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2."
+        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2"
       },
       {
         "nome": "Intolerância a Luz",
@@ -29092,7 +29092,7 @@
       },
       {
         "nome": "Presença Arcana",
-        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2."
+        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2"
       },
       {
         "nome": "Intolerância a Luz",
@@ -29102,7 +29102,7 @@
     "magias": [
       {
         "nome": "Curar Ferimentos (Padrão, 9 PM)",
-        "descricao": "Uma criatura adjacente cura 10d8+10 PV ou criaturas escolhidas em alcance curto curam 5d8+5."
+        "descricao": "Uma criatura adjacente cura 10d8+10 PV ou criaturas escolhidas em alcance curto curam 5d8+5"
       },
       {
         "nome": "Comando (Padrão, 4 PM)",
@@ -29199,7 +29199,7 @@
       },
       {
         "nome": "Presença Arcana",
-        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2."
+        "descricao": "Um finntroll recebe +2 em Misticismo (já contabilizado) e resistência a magia +2"
       },
       {
         "nome": "Intolerância a Luz",
@@ -29267,7 +29267,7 @@
       "Vontade +0",
       "Atletismo +6",
       "Intimidação +4",
-      "Sobrevivência +8."
+      "Sobrevivência +8"
     ],
     "resistencias": [
       "evasão"
@@ -29790,7 +29790,7 @@
     "magias": [],
     "equipamento": [
       "Gibão de peles",
-      "machado de batalha preciso x2."
+      "machado de batalha preciso x2"
     ],
     "tesouro": "Padrão."
   },
@@ -30110,7 +30110,7 @@
       },
       {
         "nome": "Parceiro",
-        "descricao": "O urso das neves é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e você recebe redução de frio 5. Veterano: seu Deslocamento muda para 12m (normal e de natação) e a redução de frio aumenta para 10. Mestre: a redução de frio aumenta para 20."
+        "descricao": "O urso das neves é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu Deslocamento muda para 12m e você recebe redução de frio 5. Veterano: seu Deslocamento muda para 12m (normal e de natação) e a redução de frio aumenta para 10. Mestre: a redução de frio aumenta para 20"
       }
     ],
     "magias": [],

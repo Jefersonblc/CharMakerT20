@@ -283,7 +283,7 @@
       "Fortitude +8",
       "Reflexos +11",
       "Vontade +3",
-      "Furtividade +9."
+      "Furtividade +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -391,7 +391,7 @@
       "Reflexos +11",
       "Vontade +9",
       "Atletismo +8",
-      "Intimidação +4."
+      "Intimidação +4"
     ],
     "resistencias": [
       "imunidade a ácido e venenos",
@@ -628,7 +628,7 @@
       "Fortitude +1",
       "Reflexos +3",
       "Vontade -1",
-      "Furtividade +5."
+      "Furtividade +5"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -675,7 +675,7 @@
       "Reflexos +8",
       "Vontade +3",
       "Furtividade +7",
-      "Intimidação +6."
+      "Intimidação +6"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -733,7 +733,7 @@
       "Fortitude +5",
       "Reflexos +2",
       "Vontade +1",
-      "Atletismo +5."
+      "Atletismo +5"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -782,7 +782,7 @@
       "Reflexos +4",
       "Vontade +3",
       "Atletismo +7",
-      "Intuição +4."
+      "Intuição +4"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -822,7 +822,7 @@
       "besta leve",
       "cota de malha",
       "maça",
-      "virotes x20."
+      "virotes x20"
     ],
     "tesouro": "Metade."
   },
@@ -846,7 +846,7 @@
       "Fortitude +6",
       "Reflexos +3",
       "Vontade +1",
-      "Sobrevivência +6."
+      "Sobrevivência +6"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -969,7 +969,7 @@
       "Reflexos +4",
       "Vontade +15",
       "Religião +8",
-      "Sobrevivência +10."
+      "Sobrevivência +10"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -1169,7 +1169,7 @@
       "Fortitude +8",
       "Reflexos +5",
       "Vontade +3",
-      "Atletismo +9."
+      "Atletismo +9"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -1220,7 +1220,7 @@
       "Fortitude +10",
       "Reflexos +5",
       "Vontade +1",
-      "Furtividade +7."
+      "Furtividade +7"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -1291,7 +1291,7 @@
       "Fortitude +11",
       "Reflexos +7",
       "Vontade +6",
-      "Sobrevivência +11."
+      "Sobrevivência +11"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -1347,7 +1347,7 @@
       "Fortitude +11",
       "Reflexos +9",
       "Vontade +7",
-      "Atletismo +9."
+      "Atletismo +9"
     ],
     "resistencias": [
       "imunidade a fogo",
@@ -1515,7 +1515,7 @@
       "Reflexos +10",
       "Vontade +0",
       "Atletismo +12",
-      "Intuição -5."
+      "Intuição -5"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -1789,7 +1789,7 @@
       "escudo pesado",
       "espada bastarda",
       "meia armadura",
-      "virotes x10."
+      "virotes x10"
     ],
     "tesouro": "Metade."
   },
@@ -1857,7 +1857,7 @@
       "besta pesada",
       "escudo pesado",
       "espada bastarda aumentada certeira",
-      "virotes x20."
+      "virotes x20"
     ],
     "tesouro": "Padrão."
   },
@@ -1879,7 +1879,7 @@
       "Reflexos +5",
       "Vontade +16",
       "Misticismo +5",
-      "Religião +7."
+      "Religião +7"
     ],
     "resistencias": [
       "imunidade a medo"
@@ -1958,7 +1958,7 @@
       "Vontade +13",
       "Cavalgar +4",
       "Guerra +7",
-      "Nobreza +7."
+      "Nobreza +7"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -2017,7 +2017,7 @@
       "Vontade +17",
       "Furtividade +8",
       "Intimidação +17",
-      "Misticismo +19."
+      "Misticismo +19"
     ],
     "resistencias": [
       "imunidade a medo"
@@ -2436,7 +2436,7 @@
       "Fortitude +5",
       "Reflexos +17",
       "Vontade +11",
-      "Furtividade +15."
+      "Furtividade +15"
     ],
     "resistencias": [
       "incorpóreo"
@@ -2490,7 +2490,7 @@
       "Reflexos +14",
       "Vontade +20",
       "Conhecimento +14",
-      "Misticismo +16."
+      "Misticismo +16"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -2537,7 +2537,7 @@
       },
       {
         "nome": "Sacrificar Servo (Reação)",
-        "descricao": "Uma vez por rodada, quando sofre dano, o necromante sacrifica um de seus mortos-vivos conjurados para reduzir esse dano a 0."
+        "descricao": "Uma vez por rodada, quando sofre dano, o necromante sacrifica um de seus mortos-vivos conjurados para reduzir esse dano a 0"
       },
       {
         "nome": "Magias",
@@ -2572,7 +2572,7 @@
       "Diplomacia +16",
       "Enganação +16",
       "Furtividade +25",
-      "Nobreza +13."
+      "Nobreza +13"
     ],
     "resistencias": [
       "cura acelerada 10",
@@ -2682,7 +2682,7 @@
       }
     ],
     "equipamento": [
-      "Adagas x2."
+      "Adagas x2"
     ],
     "tesouro": "Padrão."
   },
@@ -2705,7 +2705,7 @@
       "Fortitude +12",
       "Reflexos +7",
       "Vontade +3",
-      "Ofício (armeiro) +2."
+      "Ofício (armeiro) +2"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -2740,7 +2740,7 @@
       "cota de malha",
       "escudo pesado",
       "espada longa",
-      "flechas x20."
+      "flechas x20"
     ],
     "tesouro": "Padrão."
   },
@@ -2764,7 +2764,7 @@
       "Reflexos +15",
       "Vontade +9",
       "Furtividade +7",
-      "Ofício (engenhoqueiro) +10."
+      "Ofício (engenhoqueiro) +10"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -2816,7 +2816,7 @@
       "Adaga",
       "besta leve",
       "instrumentos de Ofício (engenhoqueiro)",
-      "virotes x20."
+      "virotes x20"
     ],
     "tesouro": "Padrão."
   },
@@ -2838,7 +2838,7 @@
       "Reflexos +4",
       "Vontade +16",
       "Intimidação +9",
-      "Religião +8."
+      "Religião +8"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -2911,7 +2911,7 @@
       "Vontade +17",
       "Guerra +9",
       "Misticismo +9",
-      "Ofício (armeiro) +11."
+      "Ofício (armeiro) +11"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -3065,7 +3065,7 @@
       "Reflexos +15",
       "Vontade +8",
       "Furtividade +13",
-      "Intimidação +14."
+      "Intimidação +14"
     ],
     "resistencias": [
       "imunidade a medo"
@@ -3129,7 +3129,7 @@
       "Furtividade +18",
       "Intimidação +9",
       "Ladinagem +15",
-      "Ofício (armeiro) +12."
+      "Ofício (armeiro) +12"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -3175,7 +3175,7 @@
     "equipamento": [
       "Couro batido ajustado",
       "machadinhas atrozes x4",
-      "peçonha potente x1d4."
+      "peçonha potente x1d4"
     ],
     "tesouro": "Padrão."
   },
@@ -3199,7 +3199,7 @@
       "Fortitude +2",
       "Reflexos +5",
       "Vontade -1",
-      "Furtividade +12."
+      "Furtividade +12"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -3253,7 +3253,7 @@
       "Fortitude +3",
       "Reflexos +5",
       "Vontade +0",
-      "Furtividade +7."
+      "Furtividade +7"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -3311,7 +3311,7 @@
       "Fortitude +5",
       "Reflexos +10",
       "Vontade +1",
-      "Furtividade +10."
+      "Furtividade +10"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -3365,7 +3365,7 @@
       "Fortitude +9",
       "Reflexos +15",
       "Vontade +3",
-      "Furtividade +8."
+      "Furtividade +8"
     ],
     "resistencias": [],
     "deslocamento": [
@@ -3423,7 +3423,7 @@
       "Reflexos +11",
       "Vontade +9",
       "Enganação +4",
-      "Furtividade +6."
+      "Furtividade +6"
     ],
     "resistencias": [
       "resistência a veneno +5"
@@ -3461,7 +3461,7 @@
       }
     ],
     "equipamento": [
-      "Cimitarras x2."
+      "Cimitarras x2"
     ],
     "tesouro": "Padrão."
   },
@@ -3488,7 +3488,7 @@
       "Enganação +9",
       "Furtividade +10",
       "Intuição +9",
-      "Misticismo +10."
+      "Misticismo +10"
     ],
     "resistencias": [
       "resistência a veneno +5"
@@ -3521,7 +3521,7 @@
     "magias": [
       {
         "nome": "Imagem Espelhada (Padrão, 5 PM)",
-        "descricao": "Cinco cópias ilusórias da nagah surgem ao seu redor, concedendo a ela +10 na Defesa. Cada vez que um ataque erra a nagah, uma das cópias desaparece e o bônus na Defesa diminui em 2."
+        "descricao": "Cinco cópias ilusórias da nagah surgem ao seu redor, concedendo a ela +10 na Defesa. Cada vez que um ataque erra a nagah, uma das cópias desaparece e o bônus na Defesa diminui em 2"
       },
       {
         "nome": "Relâmpago (Padrão, 5 PM)",
@@ -3569,7 +3569,7 @@
       "Vontade +20",
       "Enganação +20",
       "Intuição +20",
-      "Religião +17."
+      "Religião +17"
     ],
     "resistencias": [
       "resistência a veneno +5"
@@ -3720,7 +3720,7 @@
       "Fortitude +26",
       "Reflexos +20",
       "Vontade +13",
-      "Furtividade +17."
+      "Furtividade +17"
     ],
     "resistencias": [
       "imunidade a efeitos de movimento e veneno"
@@ -3792,7 +3792,7 @@
       "Reflexos +12",
       "Vontade +4",
       "Furtividade +8",
-      "Sobrevivência +7."
+      "Sobrevivência +7"
     ],
     "resistencias": [
       "imunidade a atordoamento e metamorfose",
@@ -3846,7 +3846,7 @@
       "Besta pesada",
       "cimitarra x2",
       "rede",
-      "virotes x20."
+      "virotes x20"
     ],
     "tesouro": "Padrão."
   },
@@ -3870,7 +3870,7 @@
       "Reflexos +12",
       "Vontade +16",
       "Intimidação +9",
-      "Misticismo +11."
+      "Misticismo +11"
     ],
     "resistencias": [
       "imunidade a atordoamento e metamorfose",
@@ -4256,7 +4256,7 @@
       },
       {
         "nome": "Resistência a Magia",
-        "descricao": "Dragões filhotes têm resistência a magia +1."
+        "descricao": "Dragões filhotes têm resistência a magia +1"
       }
     ],
     "equipamento": [],
@@ -4282,7 +4282,7 @@
       "Fortitude +20",
       "Reflexos +9",
       "Vontade +12",
-      "Intimidação +11."
+      "Intimidação +11"
     ],
     "resistencias": [
       "imunidade a fogo",
@@ -4336,7 +4336,7 @@
       },
       {
         "nome": "Resistência a Magia",
-        "descricao": "Dragões Jovens têm resistência a magia +2."
+        "descricao": "Dragões Jovens têm resistência a magia +2"
       }
     ],
     "equipamento": [],
@@ -4364,7 +4364,7 @@
       "Vontade +18",
       "Enganação +15",
       "Intimidação +15",
-      "Misticismo +15."
+      "Misticismo +15"
     ],
     "resistencias": [
       "imunidade a fogo",
@@ -4451,7 +4451,7 @@
       },
       {
         "nome": "Resistência a Magia",
-        "descricao": "Dragões Adultos têm resistência a magia +3."
+        "descricao": "Dragões Adultos têm resistência a magia +3"
       },
       {
         "nome": "Habilidades Dracônicas",
@@ -4488,7 +4488,7 @@
       "Enganação +22",
       "Intimidação +22",
       "Intuição +22",
-      "Misticismo +22."
+      "Misticismo +22"
     ],
     "resistencias": [
       "imunidade a fogo",
@@ -4579,7 +4579,7 @@
       },
       {
         "nome": "Resistência a Magia",
-        "descricao": "Dragões Veneráveis têm resistência a magia +4."
+        "descricao": "Dragões Veneráveis têm resistência a magia +4"
       },
       {
         "nome": "Magia Acelerada (livre, 4 PM)",
@@ -4620,7 +4620,7 @@
       "Enganação +26",
       "Intimidação +26",
       "Intuição +26",
-      "Misticismo +26."
+      "Misticismo +26"
     ],
     "resistencias": [
       "imunidade a fogo",
@@ -4715,7 +4715,7 @@
       },
       {
         "nome": "Resistência a Magia",
-        "descricao": "O Dragão-Rei têm resistência a magia +5."
+        "descricao": "O Dragão-Rei têm resistência a magia +5"
       },
       {
         "nome": "Fluxo de Mana",
@@ -4758,7 +4758,7 @@
       "Vontade +16",
       "Cavalgar +9",
       "Intimidação +13",
-      "Misticismo +11."
+      "Misticismo +11"
     ],
     "resistencias": [
       "imunidade a atordoamento e medo",
@@ -5053,7 +5053,7 @@
       "Fortitude +19",
       "Reflexos +21",
       "Vontade +10",
-      "Furtividade +20."
+      "Furtividade +20"
     ],
     "resistencias": [
       "redução de dano 10"
@@ -5287,7 +5287,7 @@
       "Reflexos +10",
       "Vontade +22",
       "Intimidação +9",
-      "Religião +16."
+      "Religião +16"
     ],
     "resistencias": [
       "imunidade a confusão",
