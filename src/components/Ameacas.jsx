@@ -55,10 +55,6 @@ function Ameacas() {
     // Opções para Select
     const options = ameacasFiltradas.map(a => ({ value: a.nome, label: a.nome, data: a }));
 
-    function handleSelecionar(opcoes) {
-        setSelecionadas(opcoes ? opcoes.map(o => o.data) : []);
-    }
-
     function getPericiasOutros(periciaAmeaca) {
         const splitPericia = periciaAmeaca.split(' ');
         const pericia = skills.find(s => s.nome === splitPericia[0]);
@@ -195,9 +191,28 @@ function Ameacas() {
             saveAs(content, `ameacas_${Date.now()}.zip`);
         }
     }
+    
+    function handleSelecionar(opcoes) {
+        setSelecionadas(opcoes ? opcoes.map(o => {
+            return {
+                id: crypto.randomUUID(),
+                open: false,
+                ...o.data,
+            }
+        }) : []);
+    }
 
-    function removeAmeaca(nome) {
-        setSelecionadas(prev => prev.filter((ameaca) => ameaca.nome !== nome));
+    function removeAmeaca(id) {
+        setSelecionadas(prev => prev.filter(ameaca => ameaca.id !== id));
+    }
+
+    function toggleColapse(id) {
+        setSelecionadas(prev => 
+            prev.map(a => a.id === id ? { 
+              ...a, 
+              open: !a.open
+            } : a)
+        );
     }
 
     return (
@@ -236,7 +251,7 @@ function Ameacas() {
             <Select
                 options={options}
                 isMulti
-                value={selecionadas.map(a => options.find(o => o.data === a))}
+                value={selecionadas.map(a => options.find(o => o.data.nome === a.nome))}
                 onChange={handleSelecionar}
                 placeholder="Selecione ameaças..."
                 classNamePrefix="react-select"
@@ -248,124 +263,132 @@ function Ameacas() {
 
             <div className="d-flex flex-column-reverse mt-4">
                 {selecionadas.length === 0 && <p>Nenhuma ameaça selecionada.</p>}
-                {selecionadas.map((a, index) => (
-                    <div key={index} className="card mb-3 position-relative">
+                {selecionadas.map(a => (
+                    <div key={a.id} className="card mb-3 position-relative">
 
-                        <button className="btn btn-sm btn-danger position-absolute top-0 end-0 m-3"
-                            title="Remover ameaça"
-                            onClick={() => removeAmeaca(a.nome)}
-                        >
-                            <i className="fa-solid fa-xmark"></i>
-                        </button>
+                        <div className="position-absolute top-0 end-0 m-3">
+                            <button className="btn btn-sm btn-outline-secondary" title={a.open ? "Minimizar" : "Expandir" } onClick={() => toggleColapse(a.id)}>
+                                <i className={a.open ? "fa-solid fa-caret-up" : "fa-solid fa-caret-down" }></i>
+                            </button>
+
+                            <button className="btn btn-sm btn-danger ms-2" title="Remover ameaça" onClick={() => removeAmeaca(a.id)}>
+                                <i className="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
 
                         <div className="card-body">
                             <h1 className="card-title fw-bold">
                                 <strong>{a.nome}</strong> | ND {a.nd} | 
-                                {a.descricao !== '' && <span data-tooltip-id={`tooltip-desc-${index}`} className='ms-1'> <i className="fa-solid fa-circle-info"></i></span>}
+                                {a.descricao !== '' && <span data-tooltip-id={`tooltip-desc-${a.id}`} className='ms-1'> <i className="fa-solid fa-circle-info"></i></span>}
                             </h1>
                             <p>{a.tipo} {a.tamanho}</p>
 
-                            <hr className="border border-1 border-dark" />
-
-                            <Tooltip id={`tooltip-desc-${index}`} style={{ maxWidth: '600px' }}>
+                            <Tooltip id={`tooltip-desc-${a.id}`} style={{ maxWidth: '600px' }}>
                                 <div className="text-sm">
                                     <p className="pre-wrap fw-italic p-2">{a.descricao}</p>
                                 </div>
                             </Tooltip>
 
-                            <div className='d-flex flex-nowrap overflow-auto align-items-start my-2'>
-                                {Object.entries(a.atributos)?.map(([atributo, mod]) => (
-                                    <div key={atributo} className="card card-atributo text-center text-nowrap mx-1">
-                                        <div className="card-header px-0">
-                                            <strong className="text-uppercase">{atributo}</strong>
-                                        </div>
-                                        <div className="card-body py-2">
-                                            <strong className="card-text fs-3">{mod===null ? '-' : mod}</strong>
-                                        </div>
+                            {a.open && (
+                                <>
+                                    <hr className="border border-1 border-dark" />
+
+
+                                    <div className='d-flex flex-nowrap overflow-auto align-items-start my-2'>
+                                        {Object.entries(a.atributos)?.map(([atributo, mod]) => (
+                                            <div key={atributo} className="card card-atributo text-center text-nowrap mx-1">
+                                                <div className="card-header px-0">
+                                                    <strong className="text-uppercase">{atributo}</strong>
+                                                </div>
+                                                <div className="card-body py-2">
+                                                    <strong className="card-text fs-3">{mod===null ? '-' : mod}</strong>
+                                                </div>
+                                            </div>
+                                        ))}
                                     </div>
-                                ))}
-                            </div>
 
-                            <hr className="border border-1 border-dark" />
-
-                            <p><strong>Defesa:</strong> {a.defesa} <i className="fa-solid fa-shield-halved"></i></p>
-
-                            <p><strong>PV:</strong> {a.pv} <i className="fas fa-heart"></i></p>
-
-                            {a.pm > 0 && (
-                                <p><strong>PM:</strong> {a.pm} <i className="fa-solid fa-flask"></i></p>
-                            )}
-
-                            <p><strong>Deslocamento:</strong> {a.deslocamento.join(', ')} <i className="fa-solid fa-person-running"></i></p>
-
-                            {a.sentidos.length > 0 && (
-                                <p><strong>Sentidos:</strong> {a.sentidos.join(', ')} <i className="fa-solid fa-eye"></i></p>
-                            )}
-
-                            {a.resistencias.length > 0 && (
-                                <p><strong>Resistencias:</strong> {a.resistencias.join(', ')} <i className="fa-solid fa-user-shield"></i></p>
-                            )}
-
-                            <hr className="border border-1 border-dark" />
-
-                            <h4>Perícias:</h4>
-                            <div className='d-flex align-content-around flex-wrap mb-2'>
-                                {a.pericias?.map((pericia, index) => (
-                                    <span key={index} className="badge bg-primary m-1 p-2">
-                                        {pericia}
-                                    </span>
-                                ))}
-                            </div>
-
-                            <hr className="border border-1 border-dark" />
-
-                            {a.ataques.length > 0 && (
-                                <div className='d-flex flex-column flex-nowrap overflow-auto align-items-start mb-2 pb-2'>
-                                    <h4>Ataques:</h4>
-                                    {a.ataques?.map((ataque, index) => (
-                                        <span key={index} className="badge bg-primary m-1 p-2">
-                                            <strong>{ataque.tipo}</strong> - {ataque.nome}: {ataque.bonus} ({ataque.dano}+{ataque.danoextra}{getAtaqueDescricao(ataque)})
-                                        </span>
-                                    ))}
-                                    
-                                </div>
-                            )}
-
-                            <hr className="border border-1 border-dark" />
-
-                            {a.habilidades.length > 0 && (
-                                <div className='pre-wrap mb-2 pb-2'>
-                                    <h4>Habilidades:</h4>
-                                    <ul className='pb-2'>
-                                        {a.habilidades?.map((habilidade, index) => (
-                                            <li key={index}>
-                                                <strong>{habilidade.nome}:</strong> {habilidade.descricao}
-                                            </li>
-                                        ))}
-                                    </ul>
                                     <hr className="border border-1 border-dark" />
-                                </div>
-                            )}
 
-                            {a.magias.length > 0 && (
-                                <div className='pre-wrap mb-2 pb-2'>
-                                    <h4>Magias:</h4>
-                                    <ul>
-                                        {a.magias?.map((magia, index) => (
-                                            <li key={index}>
-                                                <strong>{magia.nome}:</strong> {magia.descricao}
-                                            </li>
-                                        ))}
-                                    </ul>
+                                    <p><strong>Defesa:</strong> {a.defesa} <i className="fa-solid fa-shield-halved"></i></p>
+
+                                    <p><strong>PV:</strong> {a.pv} <i className="fas fa-heart"></i></p>
+
+                                    {a.pm > 0 && (
+                                        <p><strong>PM:</strong> {a.pm} <i className="fa-solid fa-flask"></i></p>
+                                    )}
+
+                                    <p><strong>Deslocamento:</strong> {a.deslocamento.join(', ')} <i className="fa-solid fa-person-running"></i></p>
+
+                                    {a.sentidos.length > 0 && (
+                                        <p><strong>Sentidos:</strong> {a.sentidos.join(', ')} <i className="fa-solid fa-eye"></i></p>
+                                    )}
+
+                                    {a.resistencias.length > 0 && (
+                                        <p><strong>Resistencias:</strong> {a.resistencias.join(', ')} <i className="fa-solid fa-user-shield"></i></p>
+                                    )}
+
                                     <hr className="border border-1 border-dark" />
-                                </div>
-                            )}
 
-                            {a.equipamento && a.equipamento.length > 0 && (
-                                <p><strong>Equipamento:</strong> {a.equipamento.join(', ')} <i className="fa-solid fa-user-gear"></i></p>
-                            )}
+                                    <h4>Perícias:</h4>
+                                    <div className='d-flex align-content-around flex-wrap mb-2'>
+                                        {a.pericias?.map((pericia, index) => (
+                                            <span key={index} className="badge bg-primary m-1 p-2">
+                                                {pericia}
+                                            </span>
+                                        ))}
+                                    </div>
 
-                            <p><strong>Tesouro:</strong> {a.tesouro} <i className="fa-solid fa-gem"></i></p>
+                                    <hr className="border border-1 border-dark" />
+
+                                    {a.ataques.length > 0 && (
+                                        <div className='d-flex flex-column flex-nowrap overflow-auto align-items-start mb-2 pb-2'>
+                                            <h4>Ataques:</h4>
+                                            {a.ataques?.map((ataque, index) => (
+                                                <span key={index} className="badge bg-primary m-1 p-2">
+                                                    <strong>{ataque.tipo}</strong> - {ataque.nome}: {ataque.bonus} ({ataque.dano}+{ataque.danoextra}{getAtaqueDescricao(ataque)})
+                                                </span>
+                                            ))}
+                                            
+                                        </div>
+                                    )}
+
+                                    <hr className="border border-1 border-dark" />
+
+                                    {a.habilidades.length > 0 && (
+                                        <div className='pre-wrap mb-2 pb-2'>
+                                            <h4>Habilidades:</h4>
+                                            <ul className='pb-2'>
+                                                {a.habilidades?.map((habilidade, index) => (
+                                                    <li key={index}>
+                                                        <strong>{habilidade.nome}:</strong> {habilidade.descricao}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                            <hr className="border border-1 border-dark" />
+                                        </div>
+                                    )}
+
+                                    {a.magias.length > 0 && (
+                                        <div className='pre-wrap mb-2 pb-2'>
+                                            <h4>Magias:</h4>
+                                            <ul>
+                                                {a.magias?.map((magia, index) => (
+                                                    <li key={index}>
+                                                        <strong>{magia.nome}:</strong> {magia.descricao}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                            <hr className="border border-1 border-dark" />
+                                        </div>
+                                    )}
+
+                                    {a.equipamento && a.equipamento.length > 0 && (
+                                        <p><strong>Equipamento:</strong> {a.equipamento.join(', ')} <i className="fa-solid fa-user-gear"></i></p>
+                                    )}
+
+                                    <p><strong>Tesouro:</strong> {a.tesouro} <i className="fa-solid fa-gem"></i></p>
+                                </>
+                            )}
                         </div>
                     </div>
                 ))}
