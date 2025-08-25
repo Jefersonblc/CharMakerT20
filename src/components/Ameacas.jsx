@@ -119,12 +119,12 @@ function Ameacas() {
 
             proficiencias: `${ameaca.nome} | ND: ${ameaca.nd}\n` +
                 `${ameaca.tipo} ${ameaca.tamanho}\n` +
-                `• Sentidos: ${ameaca.sentidos.join(', ')}\n` +
-                `• Resistências: ${ameaca.resistencias.join(', ')}\n`,
+                (ameaca.sentidos.length > 0 ? `• Sentidos: ${ameaca.sentidos.join(', ')}\n` : '') +
+                (ameaca.resistencias.length > 0 ? `• Resistências: ${ameaca.resistencias.join(', ')}\n` : ''),
 
             charnotes:
                 `• Perícias: ${ameaca.pericias.join(', ')}\n\n` +
-                `• Equipamento: ${ameaca.equipamento.join(', ')}\n\n` +
+                (ameaca.equipamento.length > 0 ? `• Equipamento: ${ameaca.equipamento.join(', ')}\n\n` : '') +
                 `• Tesouro: ${ameaca.tesouro}`,
 
             tamanho: opcoesTamanho.find(opcao => opcao.label === ameaca.tamanho)?.value || 0,
@@ -196,6 +196,10 @@ function Ameacas() {
         }
     }
 
+    function removeAmeaca(nome) {
+        setSelecionadas(prev => prev.filter((ameaca) => ameaca.nome !== nome));
+    }
+
     return (
         <div className="form-section">
             <div className="row mb-3">
@@ -228,9 +232,11 @@ function Ameacas() {
                     </select>
                 </div>
             </div>
+            
             <Select
                 options={options}
                 isMulti
+                value={selecionadas.map(a => options.find(o => o.data === a))}
                 onChange={handleSelecionar}
                 placeholder="Selecione ameaças..."
                 classNamePrefix="react-select"
@@ -240,10 +246,18 @@ function Ameacas() {
                 <i className="fa-solid fa-file-arrow-down"></i> Exportar Ameaças
             </button>
 
-            <div className="mt-4">
+            <div className="d-flex flex-column-reverse mt-4">
                 {selecionadas.length === 0 && <p>Nenhuma ameaça selecionada.</p>}
                 {selecionadas.map((a, index) => (
-                    <div key={index} className="card mb-3">
+                    <div key={index} className="card mb-3 position-relative">
+
+                        <button className="btn btn-sm btn-danger position-absolute top-0 end-0 m-3"
+                            title="Remover ameaça"
+                            onClick={() => removeAmeaca(a.nome)}
+                        >
+                            <i className="fa-solid fa-xmark"></i>
+                        </button>
+
                         <div className="card-body">
                             <h1 className="card-title fw-bold">
                                 <strong>{a.nome}</strong> | ND {a.nd} | 
