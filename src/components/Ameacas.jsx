@@ -211,7 +211,7 @@ function Ameacas() {
             />
 
             <button className="btn btn-secondary mt-3" onClick={exportarAmeacas} disabled={selecionadas.length === 0}>
-                <i class="fa-solid fa-file-arrow-down"></i> Exportar Ameaças
+                <i className="fa-solid fa-file-arrow-down"></i> Exportar Ameaças
             </button>
 
             <div className="mt-4">
@@ -235,7 +235,7 @@ function Ameacas() {
 
                             <div className='d-flex flex-nowrap overflow-auto align-items-start my-2'>
                                 {Object.entries(a.atributos)?.map(([atributo, mod]) => (
-                                    <div className="card card-atributo text-center text-nowrap mx-1">
+                                    <div key={atributo} className="card card-atributo text-center text-nowrap mx-1">
                                         <div className="card-header px-0">
                                             <strong className="text-uppercase">{atributo}</strong>
                                         </div>
@@ -270,8 +270,8 @@ function Ameacas() {
 
                             <h4>Perícias:</h4>
                             <div className='d-flex align-content-around flex-wrap mb-2'>
-                                {a.pericias?.map((pericia) => (
-                                    <span className="badge bg-primary m-1 p-2">
+                                {a.pericias?.map((pericia, index) => (
+                                    <span key={index} className="badge bg-primary m-1 p-2">
                                         {pericia}
                                     </span>
                                 ))}
@@ -282,8 +282,8 @@ function Ameacas() {
                             {a.ataques.length > 0 && (
                                 <div className='d-flex flex-column flex-nowrap overflow-auto align-items-start mb-2 pb-2'>
                                     <h4>Ataques:</h4>
-                                    {a.ataques?.map((ataque) => (
-                                        <span className="badge bg-primary m-1 p-2">
+                                    {a.ataques?.map((ataque, index) => (
+                                        <span key={index} className="badge bg-primary m-1 p-2">
                                             <strong>{ataque.tipo}</strong> - {ataque.nome}: {ataque.bonus} ({ataque.dano})
                                         </span>
                                     ))}
@@ -297,8 +297,8 @@ function Ameacas() {
                                 <div className='pre-wrap mb-2 pb-2'>
                                     <h4>Habilidades:</h4>
                                     <ul className='pb-2'>
-                                        {a.habilidades?.map((habilidade) => (
-                                            <li>
+                                        {a.habilidades?.map((habilidade, index) => (
+                                            <li key={index}>
                                                 <strong>{habilidade.nome}:</strong> {habilidade.descricao}
                                             </li>
                                         ))}
@@ -311,8 +311,8 @@ function Ameacas() {
                                 <div className='pre-wrap mb-2 pb-2'>
                                     <h4>Magias:</h4>
                                     <ul>
-                                        {a.magias?.map((magia) => (
-                                            <li>
+                                        {a.magias?.map((magia, index) => (
+                                            <li key={index}>
                                                 <strong>{magia.nome}:</strong> {magia.descricao}
                                             </li>
                                         ))}
