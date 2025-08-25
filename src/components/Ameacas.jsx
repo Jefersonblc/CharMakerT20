@@ -72,6 +72,31 @@ function Ameacas() {
         }
     }
 
+    function getAtaqueDescricao(ataque) {
+        let descricao = [];
+        if (ataque.tipodano) {
+            descricao.push(`${ataque.tipodano}`);
+        }
+
+        if (ataque.critico && ataque.multiplicador) {
+            descricao.push(`${ataque.critico}/x${ataque.multiplicador}`);
+        }else if (ataque.critico){
+            descricao.push(`${ataque.critico}`);
+        }else if (ataque.multiplicador){
+            descricao.push(`x${ataque.multiplicador}`);
+        }
+
+        if (ataque.extra) {
+            descricao.push(`mais ${ataque.extra}`);
+        }
+
+        if (ataque.alcance) {
+            descricao.push(`alcance ${ataque.alcance}`);
+        }
+
+        return descricao.length > 0 ? `, ${descricao.join(', ')}` : '';
+    }
+
     function convertAmeacas() {
         return selecionadas.map((ameaca, index) => ({
             id: index,
@@ -109,16 +134,16 @@ function Ameacas() {
 
             attacks: ameaca.ataques.map(ataque => ({
                 nomeataque: ataque.nome,
-                // bonusataque: ataque.attackbonus,
-                // danoataque: ataque.attackdano,
-                // danoextraataque: ataque.attackdanoextra,
-                // margemcriticoataque: ataque.attackcritico,
-                // multiplicadorcriticoataque: ataque.attackmultiplicador,
-                // ataquepericia: `@{${ataque.attackpericiaUsada?.toLowerCase()}total}+@{condicaomodataquecc}+@{condicaomodataque}`,
-                // modatributodano: ataque.attackatributodano,
-                // ataquetipodedano: ataque.tipodano,
-                ataquealcance: ataque.tipo,
-                ataquedescricao: `${ataque.bonus} (${ataque.dano})`,
+                bonusataque: parseInt(ataque.bonus) - (ameaca.atributos[ataque.atributo] || 0),
+                danoataque: ataque.dano,
+                danoextraataque: ataque.danoextra - (ameaca.atributos[ataque.atributo] || 0),
+                margemcriticoataque: ataque.critico || 20,
+                multiplicadorcriticoataque: ataque.multiplicador || 2,
+                ataquepericia: `@{${ataque.perifica}total}+@{condicaomodataquecc}+@{condicaomodataque}`,
+                modatributodano: `@{${ataque.atributo}_mod}`,
+                ataquetipodedano: ataque.tipodano,
+                ataquealcance: ataque.alcance ? `${ataque.tipo}: ${ataque.alcance}` : ataque.tipo,
+                ataquedescricao: ataque.extra,
             })),
 
             abilities: ameaca.habilidades.map(habilidade => ({
@@ -147,6 +172,7 @@ function Ameacas() {
             }, {}),
         }));
     }
+
 
     // Função para exportar ameaças
     async function exportarAmeacas() {
@@ -284,7 +310,7 @@ function Ameacas() {
                                     <h4>Ataques:</h4>
                                     {a.ataques?.map((ataque, index) => (
                                         <span key={index} className="badge bg-primary m-1 p-2">
-                                            <strong>{ataque.tipo}</strong> - {ataque.nome}: {ataque.bonus} ({ataque.dano})
+                                            <strong>{ataque.tipo}</strong> - {ataque.nome}: {ataque.bonus} ({ataque.dano}+{ataque.danoextra}{getAtaqueDescricao(ataque)})
                                         </span>
                                     ))}
                                     

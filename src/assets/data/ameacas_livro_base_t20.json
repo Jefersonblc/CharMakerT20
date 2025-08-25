@@ -36,9 +36,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Pancada",
         "bonus": "+7",
-        "dano": "1d4 mais 1d4 ácido"
+        "dano": "1d4",
+        "extra": "1d4 ácido"
       }
     ],
     "magias": [],
@@ -83,9 +86,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+7",
-        "dano": "1d4+3 mais doença"
+        "dano": "1d4",
+        "danoextra": "3",
+        "extra": "doença"
       }
     ],
     "magias": [],
@@ -133,9 +140,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Maça",
         "bonus": "+9",
-        "dano": "1d8+7"
+        "dano": "1d8",
+        "danoextra": "7"
       }
     ],
     "magias": [],
@@ -188,9 +198,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Machado de batalha",
         "bonus": "+11",
-        "dano": "1d8+12, x3"
+        "dano": "1d8",
+        "danoextra": "12",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -241,15 +255,22 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Machado de guerra",
         "bonus": "+20",
-        "dano": "1d12+18, x3"
+        "dano": "1d12",
+        "danoextra": "18",
+        "multiplicador": "3"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+20",
-        "dano": "1d6+18"
+        "dano": "1d6",
+        "danoextra": "18"
       }
     ],
     "magias": [],
@@ -301,9 +322,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
-        "dano": "2d6+8 mais veneno"
+        "dano": "2d6",
+        "danoextra": "8",
+        "extra": "veneno"
       }
     ],
     "magias": [],
@@ -355,9 +380,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "duas garras",
         "bonus": "+12",
-        "dano": "1d6+6"
+        "dano": "1d6",
+        "danoextra": "6"
       }
     ],
     "magias": [],
@@ -412,15 +440,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Machado de guerra",
         "bonus": "+14",
-        "dano": "1d12+16, x3"
+        "dano": "1d12",
+        "danoextra": "16",
+        "multiplicador": "3"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "ou chifres",
         "bonus": "+14",
-        "dano": "2d6+10 impacto"
+        "dano": "2d6",
+        "danoextra": "10",
+        "tipodano": "impacto"
       }
     ],
     "magias": [],
@@ -472,15 +508,21 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+18",
-        "dano": "1d10+12"
+        "dano": "1d10",
+        "danoextra": "12"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+18",
-        "dano": "1d8+12"
+        "dano": "1d8",
+        "danoextra": "12"
       }
     ],
     "magias": [],
@@ -532,9 +574,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+24",
-        "dano": "2d8+18 mais 2d6 fogo"
+        "dano": "2d8",
+        "danoextra": "18",
+        "extra": "2d6 fogo"
       }
     ],
     "magias": [],
@@ -592,9 +638,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+30",
-        "dano": "2d10+25"
+        "dano": "2d10",
+        "danoextra": "25"
       }
     ],
     "magias": [],
@@ -645,9 +694,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Clava",
         "bonus": "+7",
-        "dano": "1d6+3"
+        "dano": "1d6",
+        "danoextra": "3"
       }
     ],
     "magias": [],
@@ -692,15 +744,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+9",
-        "dano": "1d6+5, 19"
+        "dano": "1d6",
+        "danoextra": "5",
+        "critico": "19"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Adaga",
         "bonus": "+7",
-        "dano": "1d4+3, 19"
+        "dano": "1d4",
+        "danoextra": "3",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -750,9 +810,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Maça",
         "bonus": "+7",
-        "dano": "1d8+5"
+        "dano": "1d8",
+        "danoextra": "5"
       }
     ],
     "magias": [],
@@ -799,15 +862,22 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Maça",
         "bonus": "+10",
-        "dano": "1d8+10"
+        "dano": "1d8",
+        "danoextra": "10"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Besta leve",
         "bonus": "+9",
-        "dano": "1d8+5, 19"
+        "dano": "1d8",
+        "danoextra": "5",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -863,9 +933,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+7",
-        "dano": "1d6+5"
+        "dano": "1d6",
+        "danoextra": "5"
       }
     ],
     "magias": [],
@@ -916,21 +989,31 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Tacape",
         "bonus": "+9",
-        "dano": "1d12+5"
+        "dano": "1d12",
+        "danoextra": "5"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Cascos",
         "bonus": "+9",
-        "dano": "1d8+5"
+        "dano": "1d8",
+        "danoextra": "5"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Arco longo",
         "bonus": "+7",
-        "dano": "1d10+5, x3"
+        "dano": "1d10",
+        "danoextra": "5",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -986,15 +1069,21 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Bordão",
         "bonus": "+11",
-        "dano": "1d8+4"
+        "dano": "1d8",
+        "danoextra": "4"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Cascos",
         "bonus": "+11",
-        "dano": "1d8+4"
+        "dano": "1d8",
+        "danoextra": "4"
       }
     ],
     "magias": [
@@ -1058,21 +1147,31 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Lança",
         "bonus": "+10",
-        "dano": "1d6+4"
+        "dano": "1d6",
+        "danoextra": "4"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+10",
-        "dano": "1d6+4"
+        "dano": "1d6",
+        "danoextra": "4"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Arco curto",
         "bonus": "+9",
-        "dano": "1d6+3, x3"
+        "dano": "1d6",
+        "danoextra": "3",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -1119,21 +1218,33 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+11",
-        "dano": "1d6+4, 19"
+        "dano": "1d6",
+        "danoextra": "4",
+        "critico": "19"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+11",
-        "dano": "1d6+4"
+        "dano": "1d6",
+        "danoextra": "4"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Mosquete",
         "bonus": "+12",
-        "dano": "2d8+9, 19/x3"
+        "dano": "2d8",
+        "danoextra": "9",
+        "critico": "19",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -1186,9 +1297,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
-        "dano": "2d6+8, x3"
+        "dano": "2d6",
+        "danoextra": "8",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -1237,21 +1352,30 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Lança",
         "bonus": "+11",
-        "dano": "1d6+5"
+        "dano": "1d6",
+        "danoextra": "5"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+11",
-        "dano": "1d6+5"
+        "dano": "1d6",
+        "danoextra": "5"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Azagaia",
         "bonus": "+9",
-        "dano": "1d6+5"
+        "dano": "1d6",
+        "danoextra": "5"
       }
     ],
     "magias": [],
@@ -1308,9 +1432,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+13",
-        "dano": "2d6+10"
+        "dano": "2d6",
+        "danoextra": "10"
       }
     ],
     "magias": [],
@@ -1368,9 +1495,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+14",
-        "dano": "2d6+6 mais 2d6 fogo"
+        "dano": "2d6",
+        "danoextra": "6",
+        "extra": "2d6 fogo"
       }
     ],
     "magias": [],
@@ -1421,15 +1552,21 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+14",
-        "dano": "2d6+5"
+        "dano": "2d6",
+        "danoextra": "5"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+14",
-        "dano": "1d6+5"
+        "dano": "1d6",
+        "danoextra": "5"
       }
     ],
     "magias": [],
@@ -1480,9 +1617,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+16",
-        "dano": "2d8+12 mais veneno"
+        "dano": "2d8",
+        "danoextra": "12",
+        "extra": "veneno"
       }
     ],
     "magias": [],
@@ -1532,9 +1673,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Tacape",
         "bonus": "+16",
-        "dano": "1d12+18"
+        "dano": "1d12",
+        "danoextra": "18"
       }
     ],
     "magias": [],
@@ -1589,15 +1733,21 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+16",
-        "dano": "1d8+5"
+        "dano": "1d8",
+        "danoextra": "5"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+15",
-        "dano": "1d6+5"
+        "dano": "1d6",
+        "danoextra": "5"
       }
     ],
     "magias": [],
@@ -1649,15 +1799,22 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
-        "dano": "2d6+12"
+        "dano": "2d6",
+        "danoextra": "12"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Ferrão",
         "bonus": "+17",
-        "dano": "1d8+12 mais veneno"
+        "dano": "1d8",
+        "danoextra": "12",
+        "extra": "veneno"
       }
     ],
     "magias": [],
@@ -1707,9 +1864,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Alabarda",
         "bonus": "+8",
-        "dano": "1d10+5, x3"
+        "dano": "1d10",
+        "danoextra": "5",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -1762,15 +1923,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada bastarda",
         "bonus": "+9",
-        "dano": "1d10+9, 19"
+        "dano": "1d10",
+        "danoextra": "9",
+        "critico": "19"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Besta pesada",
         "bonus": "+7",
-        "dano": "1d12+4, 19"
+        "dano": "1d12",
+        "danoextra": "4",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -1826,15 +1995,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada bastarda",
         "bonus": "+14",
-        "dano": "1d12+15, 19"
+        "dano": "1d12",
+        "danoextra": "15",
+        "critico": "19"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Besta pesada",
         "bonus": "+12",
-        "dano": "1d12+10, 19"
+        "dano": "1d12",
+        "danoextra": "10",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -1898,9 +2075,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Martelo de guerra",
         "bonus": "+14",
-        "dano": "1d8+15, x3"
+        "dano": "1d8",
+        "danoextra": "15",
+        "multiplicador": "3"
       }
     ],
     "magias": [
@@ -1975,9 +2156,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+17",
-        "dano": "1d8+8, 19"
+        "dano": "1d8",
+        "danoextra": "8",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -2036,9 +2221,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada bastarda",
         "bonus": "+28",
-        "dano": "3d6+15, 19"
+        "dano": "3d6",
+        "danoextra": "15",
+        "critico": "19"
       }
     ],
     "magias": [
@@ -2118,9 +2307,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada titânica",
         "bonus": "+39",
-        "dano": "4d12+30, 19"
+        "dano": "4d12",
+        "danoextra": "30",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -2188,9 +2381,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+7",
-        "dano": "1d6+6"
+        "dano": "1d6",
+        "danoextra": "6"
       }
     ],
     "magias": [],
@@ -2238,9 +2434,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
-        "dano": "2d6+12"
+        "dano": "2d6",
+        "danoextra": "12"
       }
     ],
     "magias": [],
@@ -2295,9 +2494,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+14",
-        "dano": "2d8+12, 19"
+        "dano": "2d8",
+        "danoextra": "12",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -2346,9 +2549,14 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+18",
-        "dano": "2d8+15, 19, mais 2d8 trevas"
+        "dano": "2d8",
+        "danoextra": "15",
+        "critico": "19",
+        "extra": "2d8 trevas"
       }
     ],
     "magias": [],
@@ -2398,9 +2606,14 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+28",
-        "dano": "4d8+30, 19, mais 4d8 trevas"
+        "dano": "4d8",
+        "danoextra": "30",
+        "critico": "19",
+        "extra": "4d8 trevas"
       }
     ],
     "magias": [],
@@ -2455,9 +2668,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Toque drenante",
         "bonus": "+18",
-        "dano": "3d8+6 trevas"
+        "dano": "3d8",
+        "danoextra": "6",
+        "tipodano": "trevas"
       }
     ],
     "magias": [],
@@ -2507,9 +2724,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Adaga",
         "bonus": "+22",
-        "dano": "1d4, 19, mais 1d8 trevas"
+        "dano": "1d4",
+        "critico": "19",
+        "extra": "1d8 trevas"
       }
     ],
     "magias": [
@@ -2593,15 +2814,24 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada longa x2",
         "bonus": "+36",
-        "dano": "2d8+25, 17, mais 2d10 trevas"
+        "dano": "2d8",
+        "danoextra": "25",
+        "critico": "17",
+        "extra": "2d10 trevas"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Garra",
         "bonus": "+36",
-        "dano": "2d6+25 mais 2d10 trevas"
+        "dano": "2d6",
+        "danoextra": "25",
+        "extra": "2d10 trevas"
       }
     ],
     "magias": [],
@@ -2669,9 +2899,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas adagas",
         "bonus": "+7",
-        "dano": "1d4, 19"
+        "dano": "1d4",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -2722,15 +2955,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+15",
-        "dano": "1d8+15, 19"
+        "dano": "1d8",
+        "danoextra": "15",
+        "critico": "19"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Arco longo",
         "bonus": "+11",
-        "dano": "1d8+6, x3"
+        "dano": "1d8",
+        "danoextra": "6",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -2782,15 +3023,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Adaga",
         "bonus": "+8",
-        "dano": "1d4+3, 19"
+        "dano": "1d4",
+        "danoextra": "3",
+        "critico": "19"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Besta leve",
         "bonus": "+9",
-        "dano": "1d8+3, 19"
+        "dano": "1d8",
+        "danoextra": "3",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -2855,9 +3104,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Machado de guerra",
         "bonus": "+16",
-        "dano": "3d6+12, x3"
+        "dano": "3d6",
+        "danoextra": "12",
+        "multiplicador": "3"
       }
     ],
     "magias": [
@@ -2928,9 +3181,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+14",
-        "dano": "1d8+3, 19"
+        "dano": "1d8",
+        "danoextra": "3",
+        "critico": "19"
       }
     ],
     "magias": [
@@ -3084,9 +3341,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Machado de guerra x2",
         "bonus": "+26",
-        "dano": "1d12+20, x3"
+        "dano": "1d12",
+        "danoextra": "20",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -3146,15 +3407,25 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas machadinhas",
         "bonus": "+27",
-        "dano": "1d6+12, x3, mais veneno"
+        "dano": "1d6",
+        "danoextra": "12",
+        "multiplicador": "3",
+        "extra": "veneno"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Duas machadinhas",
         "bonus": "+27",
-        "dano": "1d6+12, x3, mais veneno"
+        "dano": "1d6",
+        "danoextra": "12",
+        "multiplicador": "3",
+        "extra": "veneno"
       }
     ],
     "magias": [],
@@ -3218,9 +3489,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+7",
-        "dano": "1d4 mais veneno"
+        "dano": "1d4",
+        "extra": "veneno"
       }
     ],
     "magias": [],
@@ -3272,9 +3546,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
-        "dano": "1d6+4"
+        "dano": "1d6",
+        "danoextra": "4"
       }
     ],
     "magias": [],
@@ -3330,9 +3607,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
-        "dano": "1d4 mais veneno"
+        "dano": "1d4",
+        "extra": "veneno"
       }
     ],
     "magias": [],
@@ -3384,9 +3664,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+18",
-        "dano": "2d6+14"
+        "dano": "2d6",
+        "danoextra": "14"
       }
     ],
     "magias": [],
@@ -3442,15 +3725,22 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas cimitarras",
         "bonus": "+14",
-        "dano": "1d6+6, 18"
+        "dano": "1d6",
+        "danoextra": "6",
+        "critico": "18"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Cauda",
         "bonus": "+14",
-        "dano": "1d6+6"
+        "dano": "1d6",
+        "danoextra": "6"
       }
     ],
     "magias": [],
@@ -3507,15 +3797,22 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Adaga",
         "bonus": "+18",
-        "dano": "1d6+6, 19"
+        "dano": "1d6",
+        "danoextra": "6",
+        "critico": "19"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Cauda",
         "bonus": "+18",
-        "dano": "1d6+6"
+        "dano": "1d6",
+        "danoextra": "6"
       }
     ],
     "magias": [
@@ -3588,9 +3885,14 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Adaga",
         "bonus": "+22",
-        "dano": "1d4+4, 19, mais veneno"
+        "dano": "1d4",
+        "danoextra": "4",
+        "critico": "19",
+        "extra": "veneno"
       }
     ],
     "magias": [
@@ -3685,9 +3987,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Cinco mordidas",
         "bonus": "+34",
-        "dano": "3d6+16"
+        "dano": "3d6",
+        "danoextra": "16"
       }
     ],
     "magias": [],
@@ -3741,9 +4046,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+37",
-        "dano": "4d12+28 mais veneno"
+        "dano": "4d12",
+        "danoextra": "28",
+        "extra": "veneno"
       }
     ],
     "magias": [],
@@ -3812,15 +4121,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas cimitarras",
         "bonus": "+12",
-        "dano": "1d6+5, 18"
+        "dano": "1d6",
+        "danoextra": "5",
+        "critico": "18"
       },
       {
         "tipo": "À Distância",
+        "perifica": "pontaria",
+        "atributo": "",
         "nome": "Besta pesada",
         "bonus": "+12",
-        "dano": "1d12+4, 19"
+        "dano": "1d12",
+        "danoextra": "4",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -3890,9 +4207,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Chicote",
         "bonus": "+18",
-        "dano": "1d3+10, 19"
+        "dano": "1d3",
+        "danoextra": "10",
+        "critico": "19"
       }
     ],
     "magias": [
@@ -3984,15 +4305,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
-        "dano": "2d6+8"
+        "dano": "2d6",
+        "danoextra": "8"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+17",
-        "dano": "1d8+8, 19/x3"
+        "dano": "1d8",
+        "danoextra": "8",
+        "critico": "19",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -4042,15 +4371,21 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
-        "dano": "1d8+6"
+        "dano": "1d8",
+        "danoextra": "6"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+17",
-        "dano": "1d6+6"
+        "dano": "1d6",
+        "danoextra": "6"
       }
     ],
     "magias": [],
@@ -4114,15 +4449,21 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Tacape",
         "bonus": "+26",
-        "dano": "3d6+27"
+        "dano": "3d6",
+        "danoextra": "27"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+26",
-        "dano": "2d6+27"
+        "dano": "2d6",
+        "danoextra": "27"
       }
     ],
     "magias": [],
@@ -4233,15 +4574,21 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+15",
-        "dano": "2d6+5"
+        "dano": "2d6",
+        "danoextra": "5"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+15",
-        "dano": "1d6+5"
+        "dano": "1d6",
+        "danoextra": "5"
       }
     ],
     "magias": [],
@@ -4305,15 +4652,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+25",
-        "dano": "2d6+14, 19"
+        "dano": "2d6",
+        "danoextra": "14",
+        "critico": "19"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+25",
-        "dano": "1d8+14, 19"
+        "dano": "1d8",
+        "danoextra": "14",
+        "critico": "19"
       }
     ],
     "magias": [],
@@ -4387,15 +4742,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+35",
-        "dano": "4d10+25, 18"
+        "dano": "4d10",
+        "danoextra": "25",
+        "critico": "18"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+35",
-        "dano": "3d10+25, 18"
+        "dano": "3d10",
+        "danoextra": "25",
+        "critico": "18"
       }
     ],
     "magias": [
@@ -4511,15 +4874,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+44",
-        "dano": "4d12+40, 17"
+        "dano": "4d12",
+        "danoextra": "40",
+        "critico": "17"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+44",
-        "dano": "3d12+40, 17"
+        "dano": "3d12",
+        "danoextra": "40",
+        "critico": "17"
       }
     ],
     "magias": [
@@ -4643,15 +5014,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+55",
-        "dano": "6d20+50, 16"
+        "dano": "6d20",
+        "danoextra": "50",
+        "critico": "16"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+50",
-        "dano": "6d20+50, 16"
+        "dano": "6d20",
+        "danoextra": "50",
+        "critico": "16"
       }
     ],
     "magias": [
@@ -4779,15 +5158,22 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Machado de batalha x2",
         "bonus": "+29",
-        "dano": "2d8+14, x3"
+        "dano": "2d8",
+        "danoextra": "14",
+        "multiplicador": "3"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Garra",
         "bonus": "+29",
-        "dano": "1d8+14"
+        "dano": "1d8",
+        "danoextra": "14"
       }
     ],
     "magias": [
@@ -4853,9 +5239,13 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Machado de guerra",
         "bonus": "+16",
-        "dano": "1d12+15, x3"
+        "dano": "1d12",
+        "danoextra": "15",
+        "multiplicador": "3"
       }
     ],
     "magias": [],
@@ -4923,15 +5313,22 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Pinça",
         "bonus": "+16",
-        "dano": "2d6+6, 19"
+        "dano": "2d6",
+        "danoextra": "6",
+        "critico": "19"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Garra",
         "bonus": "+16",
-        "dano": "1d6+6"
+        "dano": "1d6",
+        "danoextra": "6"
       }
     ],
     "magias": [],
@@ -4997,15 +5394,22 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas pinças",
         "bonus": "+23",
-        "dano": "3d6+10, 19"
+        "dano": "3d6",
+        "danoextra": "10",
+        "critico": "19"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Garra",
         "bonus": "+23",
-        "dano": "1d8+10"
+        "dano": "1d8",
+        "danoextra": "10"
       }
     ],
     "magias": [],
@@ -5074,21 +5478,33 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Adaga da Tormenta",
         "bonus": "+30",
-        "dano": "1d4+18 mais 1d8 de trevas, 19"
+        "dano": "1d4",
+        "danoextra": "18",
+        "extra": "1d8 de trevas",
+        "critico": "19"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "garra",
         "bonus": "+30",
-        "dano": "1d6+18"
+        "dano": "1d6",
+        "danoextra": "18"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+30",
-        "dano": "1d6+18 mais veneno"
+        "dano": "1d6",
+        "danoextra": "18",
+        "extra": "veneno"
       }
     ],
     "magias": [],
@@ -5162,9 +5578,12 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Quatro pancadas",
         "bonus": "+48",
-        "dano": "4d12+24"
+        "dano": "4d12",
+        "danoextra": "24"
       }
     ],
     "magias": [],
@@ -5240,15 +5659,23 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Dois tentáculos",
         "bonus": "+17",
-        "dano": "1d8+9, alcance 4,5m"
+        "dano": "1d8",
+        "danoextra": "9",
+        "alcance": "4,5m"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
-        "dano": "1d6+9 mais doença"
+        "dano": "1d6",
+        "danoextra": "9",
+        "extra": "doença"
       }
     ],
     "magias": [],
@@ -5313,15 +5740,22 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Duas correntes de espinhos aberrantes",
         "bonus": "+30",
-        "dano": "4d6+12 mais 1d6 ácido"
+        "dano": "4d6",
+        "danoextra": "12",
+        "extra": "1d6 ácido"
       },
       {
         "tipo": "Corpo a Corpo",
+        "perifica": "luta",
+        "atributo": "for",
         "nome": "Mordida",
         "bonus": "+30",
-        "dano": "1d6+12"
+        "dano": "1d6",
+        "danoextra": "12"
       }
     ],
     "magias": [
