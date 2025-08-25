@@ -114,7 +114,7 @@ function Exportar() {
   return (
     <div className="form-section">
       <button onClick={handleExport} className="btn btn-secondary mt-2">
-        <i class="fa-solid fa-file-arrow-down"></i> Exportar Personagem
+        <i className="fa-solid fa-file-arrow-down"></i> Exportar Personagem
       </button>
       <h2>Resultado</h2>
       <pre>{json}</pre>
