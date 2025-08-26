@@ -37,7 +37,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Toque cáustico",
         "bonus": "+26",
@@ -336,7 +336,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Três pancadas",
         "bonus": "+39",
@@ -411,7 +411,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+16",
@@ -471,7 +471,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+26",
@@ -532,7 +532,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas lâminas",
         "bonus": "+29",
@@ -544,7 +544,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+29",
@@ -607,7 +607,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pinças",
         "bonus": "+28",
@@ -617,7 +617,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+28",
@@ -689,7 +689,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+35",
@@ -698,7 +698,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+35",
@@ -763,7 +763,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pinças x2",
         "bonus": "+40",
@@ -831,7 +831,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garra",
         "bonus": "+49",
@@ -913,7 +913,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Rompedor da Realidade x4",
         "bonus": "+64",
@@ -1017,7 +1017,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+11",
@@ -1027,7 +1027,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Adaga",
         "bonus": "+9",
@@ -1084,7 +1084,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Maça",
         "bonus": "+11",
@@ -1141,7 +1141,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de batalha",
         "bonus": "+18",
@@ -1206,7 +1206,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Maça",
         "bonus": "+9",
@@ -1257,7 +1257,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Marreta",
         "bonus": "+11",
@@ -1310,7 +1310,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de batalha",
         "bonus": "+11",
@@ -1369,7 +1369,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "18 x",
         "bonus": "2",
@@ -1431,7 +1431,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de guerra",
         "bonus": "+20",
@@ -1441,7 +1441,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+20",
@@ -1498,7 +1498,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+29",
@@ -1507,7 +1507,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "pancada",
         "bonus": "+27",
@@ -1516,7 +1516,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+27",
@@ -1575,7 +1575,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga x2",
         "bonus": "+29",
@@ -1657,7 +1657,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Língua",
         "bonus": "+12",
@@ -1732,7 +1732,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança",
         "bonus": "+11",
@@ -1741,7 +1741,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Língua",
         "bonus": "+11",
@@ -1752,7 +1752,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+7",
@@ -1814,7 +1814,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança",
         "bonus": "+14",
@@ -1824,7 +1824,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Língua",
         "bonus": "+14",
@@ -1836,7 +1836,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+11",
@@ -1901,7 +1901,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança",
         "bonus": "+11",
@@ -1910,7 +1910,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+11",
@@ -1919,7 +1919,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+9",
@@ -1977,7 +1977,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+11",
@@ -1986,7 +1986,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Arco longo",
         "bonus": "+14",
@@ -2050,7 +2050,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+17",
@@ -2059,7 +2059,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
@@ -2121,7 +2121,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de guerra",
         "bonus": "+9",
@@ -2131,7 +2131,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -2188,7 +2188,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de guerra",
         "bonus": "+26",
@@ -2198,7 +2198,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+26",
@@ -2267,7 +2267,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+16",
@@ -2328,7 +2328,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape x2",
         "bonus": "+24",
@@ -2391,7 +2391,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Marreta x2",
         "bonus": "+36",
@@ -2449,7 +2449,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Clava",
         "bonus": "+7",
@@ -2498,7 +2498,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Clava",
         "bonus": "+9",
@@ -2507,7 +2507,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Funda",
         "bonus": "+9",
@@ -2559,7 +2559,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança x2",
         "bonus": "+11",
@@ -2568,7 +2568,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+11",
@@ -2623,7 +2623,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+10",
@@ -2680,7 +2680,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada longa x2",
         "bonus": "+14",
@@ -2690,7 +2690,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pistola",
         "bonus": "+14",
@@ -2750,7 +2750,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de batalha",
         "bonus": "+17",
@@ -2760,7 +2760,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+17",
@@ -2769,7 +2769,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+17",
@@ -2827,7 +2827,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+9",
@@ -2837,7 +2837,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Adaga",
         "bonus": "+7",
@@ -2896,7 +2896,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+12",
@@ -2906,7 +2906,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+12",
@@ -2970,7 +2970,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+16",
@@ -2980,7 +2980,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+16",
@@ -3053,7 +3053,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga x2",
         "bonus": "+10",
@@ -3140,7 +3140,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga x2",
         "bonus": "+24",
@@ -3235,7 +3235,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+6",
@@ -3299,7 +3299,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+8",
@@ -3363,7 +3363,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga x2",
         "bonus": "+15",
@@ -3430,7 +3430,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Porrete",
         "bonus": "+9",
@@ -3500,7 +3500,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Porrete",
         "bonus": "+14",
@@ -3570,7 +3570,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garra x2",
         "bonus": "+14",
@@ -3638,7 +3638,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+16",
@@ -3716,7 +3716,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga da Tormenta x2",
         "bonus": "+22",
@@ -3806,7 +3806,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+30",
@@ -3816,7 +3816,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+30",
@@ -3887,7 +3887,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+22",
@@ -3896,7 +3896,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+22",
@@ -3963,7 +3963,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+27",
@@ -3972,7 +3972,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "mordida",
         "bonus": "+27",
@@ -3981,7 +3981,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas patas insetoides",
         "bonus": "+27",
@@ -4050,7 +4050,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga da Tormenta",
         "bonus": "+30",
@@ -4061,7 +4061,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "garra",
         "bonus": "+30",
@@ -4070,7 +4070,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+30",
@@ -4147,7 +4147,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga da Tormenta",
         "bonus": "+40",
@@ -4158,7 +4158,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "garra",
         "bonus": "+40",
@@ -4167,7 +4167,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+40",
@@ -4266,7 +4266,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Quatro garras",
         "bonus": "+28",
@@ -4366,7 +4366,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Quatro garras",
         "bonus": "+43",
@@ -4376,7 +4376,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois tentáculos",
         "bonus": "+43",
@@ -4471,7 +4471,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garra",
         "bonus": "+19",
@@ -4480,7 +4480,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Arco longo",
         "bonus": "+23",
@@ -4544,7 +4544,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Quatro tentáculos",
         "bonus": "+58",
@@ -4553,7 +4553,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+58",
@@ -4636,7 +4636,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+14",
@@ -4645,7 +4645,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+14",
@@ -4708,7 +4708,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+13",
@@ -4717,7 +4717,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+13",
@@ -4776,7 +4776,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+18",
@@ -4785,7 +4785,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+18",
@@ -4851,7 +4851,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+25",
@@ -4861,7 +4861,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+25",
@@ -4927,7 +4927,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+24",
@@ -4937,7 +4937,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+24",
@@ -5005,7 +5005,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+34",
@@ -5015,7 +5015,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+34",
@@ -5118,7 +5118,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+33",
@@ -5128,7 +5128,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+35",
@@ -5242,7 +5242,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+44",
@@ -5252,7 +5252,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+44",
@@ -5368,7 +5368,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+44",
@@ -5378,7 +5378,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "duas garras",
         "bonus": "+44",
@@ -5388,7 +5388,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+44",
@@ -5495,7 +5495,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+30",
@@ -5505,7 +5505,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+30",
@@ -5588,7 +5588,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+36",
@@ -5598,7 +5598,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garra",
         "bonus": "+36",
@@ -5673,7 +5673,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+66",
@@ -5683,7 +5683,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+61",
@@ -5828,7 +5828,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de guerra",
         "bonus": "+14",
@@ -5892,7 +5892,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de guerra x2",
         "bonus": "+24",
@@ -6206,7 +6206,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+16",
@@ -6272,7 +6272,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+24",
@@ -6349,7 +6349,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança de fogo",
         "bonus": "+17",
@@ -6360,7 +6360,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Lança de fogo",
         "bonus": "+20",
@@ -6434,7 +6434,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança montada x2",
         "bonus": "+32",
@@ -6444,7 +6444,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "ou espada longa x2",
         "bonus": "+32",
@@ -6526,7 +6526,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança montada x2",
         "bonus": "+32",
@@ -6536,7 +6536,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "ou espada longa x2",
         "bonus": "+32",
@@ -6615,7 +6615,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Corrente de espinhos x4",
         "bonus": "+42",
@@ -6693,7 +6693,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "52 x",
         "bonus": "4",
@@ -6762,7 +6762,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tentáculo hídrico x2",
         "bonus": "+13",
@@ -6833,7 +6833,7 @@
     "ataques": [
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Jato d'água x2",
         "bonus": "+27",
@@ -6906,7 +6906,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Quatro tentáculos d’água",
         "bonus": "+39",
@@ -6985,7 +6985,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Brisa agressiva",
         "bonus": "+11",
@@ -6995,7 +6995,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Lufada cortante",
         "bonus": "+11",
@@ -7067,7 +7067,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois socos pneumáticos",
         "bonus": "+20",
@@ -7142,7 +7142,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Punho x3",
         "bonus": "+44",
@@ -7152,7 +7152,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Dois escombros",
         "bonus": "+37",
@@ -7231,7 +7231,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Queimadura",
         "bonus": "+11",
@@ -7299,7 +7299,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Marrada",
         "bonus": "+26",
@@ -7369,7 +7369,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida x2",
         "bonus": "+39",
@@ -7443,7 +7443,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+9",
@@ -7513,7 +7513,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+24",
@@ -7580,7 +7580,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+34",
@@ -7653,7 +7653,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+37",
@@ -7662,7 +7662,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Flechas ácidas x6",
         "bonus": "+34",
@@ -7741,7 +7741,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+46",
@@ -7751,7 +7751,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+46",
@@ -7825,7 +7825,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+23",
@@ -7895,7 +7895,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tentáculo",
         "bonus": "+20",
@@ -7905,7 +7905,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+20",
@@ -7969,7 +7969,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de guerra x2",
         "bonus": "+26",
@@ -7979,7 +7979,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+26",
@@ -8044,7 +8044,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Clava",
         "bonus": "+24",
@@ -8053,7 +8053,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "mordida",
         "bonus": "+24",
@@ -8062,7 +8062,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+24",
@@ -8161,7 +8161,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+26",
@@ -8223,7 +8223,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Probóscide",
         "bonus": "+11",
@@ -8397,7 +8397,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+15",
@@ -8406,7 +8406,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Dois espinhos",
         "bonus": "+15",
@@ -8470,7 +8470,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+16",
@@ -8479,7 +8479,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Dois espinhos",
         "bonus": "+16",
@@ -8602,7 +8602,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+14",
@@ -8663,7 +8663,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+20",
@@ -8673,7 +8673,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois tentáculos",
         "bonus": "+24",
@@ -8747,7 +8747,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+55",
@@ -8757,7 +8757,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Rocha",
         "bonus": "+50",
@@ -8845,7 +8845,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada longa x2",
         "bonus": "+26",
@@ -8855,7 +8855,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "",
         "bonus": "26",
@@ -8864,7 +8864,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Besta leve x2",
         "bonus": "+27",
@@ -8938,7 +8938,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+9",
@@ -8948,7 +8948,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -9005,7 +9005,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança",
         "bonus": "+10",
@@ -9014,7 +9014,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+10",
@@ -9023,7 +9023,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Arco curto",
         "bonus": "+9",
@@ -9076,7 +9076,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+11",
@@ -9086,7 +9086,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+11",
@@ -9095,7 +9095,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Mosquete",
         "bonus": "+12",
@@ -9157,7 +9157,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de batalha",
         "bonus": "+17",
@@ -9167,7 +9167,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
@@ -9176,7 +9176,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+17",
@@ -9241,7 +9241,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Clava",
         "bonus": "+9",
@@ -9250,7 +9250,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -9333,7 +9333,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+17",
@@ -9344,7 +9344,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
@@ -9509,7 +9509,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -9576,7 +9576,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -9641,7 +9641,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+16",
@@ -9708,7 +9708,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de guerra x2",
         "bonus": "+32",
@@ -9718,7 +9718,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+32",
@@ -9789,7 +9789,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Três mordidas",
         "bonus": "+44",
@@ -9798,7 +9798,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois tacapes",
         "bonus": "+44",
@@ -9865,7 +9865,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+12",
@@ -9922,7 +9922,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+17",
@@ -9982,7 +9982,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+29",
@@ -9991,7 +9991,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Tiro de lama x4",
         "bonus": "+26",
@@ -10060,7 +10060,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+27",
@@ -10120,7 +10120,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+25",
@@ -10177,7 +10177,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada bastarda x2",
         "bonus": "+28",
@@ -10243,7 +10243,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+30",
@@ -10302,7 +10302,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+43",
@@ -10367,7 +10367,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+50",
@@ -10438,7 +10438,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+36",
@@ -10499,7 +10499,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+24",
@@ -10568,7 +10568,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança x2",
         "bonus": "+16",
@@ -10577,7 +10577,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Besta pesada",
         "bonus": "+11",
@@ -10643,7 +10643,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Martelo de guerra",
         "bonus": "+27",
@@ -10653,7 +10653,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chicote",
         "bonus": "+27",
@@ -10746,7 +10746,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Armamento sagrado x2",
         "bonus": "+25",
@@ -10757,7 +10757,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Armamento sagrado x2",
         "bonus": "+25",
@@ -10825,7 +10825,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Armamento sagrado x2",
         "bonus": "+35",
@@ -10836,7 +10836,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "[Bando] Armamento sagrado x2",
         "bonus": "+35",
@@ -10903,7 +10903,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Martelo de guerra x2",
         "bonus": "+25",
@@ -10969,7 +10969,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Armamento adaptativo x2",
         "bonus": "+39",
@@ -11032,7 +11032,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Martelo de guerra",
         "bonus": "+14",
@@ -11116,7 +11116,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Martelo de guerra x2",
         "bonus": "+24",
@@ -11313,7 +11313,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança montada x2",
         "bonus": "+26",
@@ -11323,7 +11323,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "ou espada bastarda x2",
         "bonus": "+26",
@@ -11390,7 +11390,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Maça",
         "bonus": "+13",
@@ -11473,7 +11473,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Maça x2",
         "bonus": "+24",
@@ -11482,7 +11482,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+24",
@@ -11580,7 +11580,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança x2",
         "bonus": "+35",
@@ -11591,7 +11591,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Lança",
         "bonus": "+35",
@@ -11704,7 +11704,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+12",
@@ -11713,7 +11713,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -11862,7 +11862,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+30",
@@ -11976,7 +11976,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Gadanho",
         "bonus": "+20",
@@ -11986,7 +11986,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+20",
@@ -12053,7 +12053,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta x2",
         "bonus": "+27",
@@ -12063,7 +12063,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+27",
@@ -12141,7 +12141,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+58",
@@ -12151,7 +12151,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+58",
@@ -12235,7 +12235,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Galhada",
         "bonus": "+4",
@@ -12291,7 +12291,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Galhada",
         "bonus": "+8",
@@ -12351,7 +12351,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Galhada",
         "bonus": "+12",
@@ -12413,7 +12413,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Galhada",
         "bonus": "+16",
@@ -12479,7 +12479,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+22",
@@ -12537,7 +12537,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+32",
@@ -12547,7 +12547,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "pinça",
         "bonus": "+32",
@@ -12558,7 +12558,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tentáculo",
         "bonus": "+32",
@@ -12625,7 +12625,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta x3",
         "bonus": "+32",
@@ -12635,7 +12635,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Zarabatana",
         "bonus": "+34",
@@ -12731,7 +12731,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Ataque desarmado x2",
         "bonus": "+9",
@@ -12797,7 +12797,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Ataque desarmado x2",
         "bonus": "+14",
@@ -12873,7 +12873,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Ataque desarmado x3",
         "bonus": "+15",
@@ -12882,7 +12882,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Adaga",
         "bonus": "+13",
@@ -12947,7 +12947,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Katana x2",
         "bonus": "+18",
@@ -13018,7 +13018,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois neko-te",
         "bonus": "+11",
@@ -13028,7 +13028,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+11",
@@ -13038,7 +13038,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+9",
@@ -13101,7 +13101,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas espadas curtas",
         "bonus": "+12",
@@ -13111,7 +13111,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -13121,7 +13121,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Duas shuriken",
         "bonus": "+12",
@@ -13192,7 +13192,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Marreta",
         "bonus": "+16",
@@ -13201,7 +13201,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+16",
@@ -13269,7 +13269,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de guerra",
         "bonus": "+17",
@@ -13279,7 +13279,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+17",
@@ -13348,7 +13348,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tetsubo",
         "bonus": "+28",
@@ -13359,7 +13359,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pinças",
         "bonus": "+28",
@@ -13368,7 +13368,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+28",
@@ -13441,7 +13441,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Katana x2",
         "bonus": "+25",
@@ -13510,7 +13510,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas katanas",
         "bonus": "+26",
@@ -13603,7 +13603,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+29",
@@ -13613,7 +13613,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+29",
@@ -13712,7 +13712,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+42",
@@ -13722,7 +13722,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+42",
@@ -13836,7 +13836,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+52",
@@ -13846,7 +13846,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+52",
@@ -13969,7 +13969,7 @@
     "ataques": [
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Arco longo x2",
         "bonus": "+21",
@@ -14037,7 +14037,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Gládio",
         "bonus": "+14",
@@ -14048,7 +14048,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+14",
@@ -14057,7 +14057,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+10",
@@ -14128,7 +14128,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Gládio",
         "bonus": "+23",
@@ -14139,7 +14139,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+23",
@@ -14148,7 +14148,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+23",
@@ -14221,7 +14221,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres espectrais",
         "bonus": "+15",
@@ -14287,7 +14287,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres espectrais",
         "bonus": "+27",
@@ -14356,7 +14356,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tridente",
         "bonus": "+29",
@@ -14365,7 +14365,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "chifres",
         "bonus": "+29",
@@ -14374,7 +14374,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Rede",
         "bonus": "+29",
@@ -14439,7 +14439,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Gládio",
         "bonus": "+10",
@@ -14450,7 +14450,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+10",
@@ -14459,7 +14459,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+10",
@@ -14521,7 +14521,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Gládio",
         "bonus": "+20",
@@ -14532,7 +14532,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifre",
         "bonus": "+20",
@@ -14541,7 +14541,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "[Bando] Azagaia",
         "bonus": "+20",
@@ -14610,7 +14610,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Gládio x2",
         "bonus": "+27",
@@ -14621,7 +14621,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+27",
@@ -14690,7 +14690,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+7",
@@ -14774,7 +14774,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta 2x",
         "bonus": "+18",
@@ -14855,7 +14855,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+19",
@@ -14865,7 +14865,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+18",
@@ -14943,7 +14943,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+14",
@@ -14952,7 +14952,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garras",
         "bonus": "+14",
@@ -15064,7 +15064,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança",
         "bonus": "+9",
@@ -15073,7 +15073,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Funda",
         "bonus": "+9",
@@ -15131,7 +15131,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "14 x",
         "bonus": "2",
@@ -15140,7 +15140,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Funda",
         "bonus": "+14",
@@ -15203,7 +15203,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança",
         "bonus": "+17",
@@ -15212,7 +15212,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "[Bando] Funda",
         "bonus": "+17",
@@ -15270,7 +15270,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+16",
@@ -15333,7 +15333,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança",
         "bonus": "+11",
@@ -15342,7 +15342,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Funda",
         "bonus": "+11",
@@ -15405,7 +15405,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Gadanho",
         "bonus": "+12",
@@ -15415,7 +15415,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -15424,7 +15424,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Funda",
         "bonus": "+12",
@@ -15573,7 +15573,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Galho",
         "bonus": "+7",
@@ -15583,7 +15583,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Cuspe venenoso",
         "bonus": "+9",
@@ -15644,7 +15644,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+9",
@@ -15700,7 +15700,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada x2",
         "bonus": "+7",
@@ -15755,7 +15755,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+8",
@@ -15815,7 +15815,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Ferrão venenoso",
         "bonus": "+11",
@@ -15826,7 +15826,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Dardo venenoso",
         "bonus": "+11",
@@ -15891,7 +15891,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+8",
@@ -15951,7 +15951,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+8",
@@ -16019,7 +16019,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+13",
@@ -16086,7 +16086,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+7",
@@ -16146,7 +16146,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garras",
         "bonus": "+5",
@@ -16209,7 +16209,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Asa afiada",
         "bonus": "+10",
@@ -16280,7 +16280,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Bicada",
         "bonus": "+14",
@@ -16345,7 +16345,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Bicada",
         "bonus": "+24",
@@ -16355,7 +16355,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda de serpente",
         "bonus": "+20",
@@ -16420,7 +16420,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Maça",
         "bonus": "+20",
@@ -16429,7 +16429,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garra",
         "bonus": "+20",
@@ -16438,7 +16438,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "ou duas garras",
         "bonus": "+20",
@@ -16499,7 +16499,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+7",
@@ -16549,7 +16549,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+12",
@@ -16609,7 +16609,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+12",
@@ -16671,7 +16671,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Aguilhão",
         "bonus": "+17",
@@ -16683,7 +16683,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
@@ -16749,7 +16749,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois tentáculos",
         "bonus": "+20",
@@ -16820,7 +16820,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Três mordidas",
         "bonus": "+26",
@@ -16829,7 +16829,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+24",
@@ -16890,7 +16890,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garras",
         "bonus": "+10",
@@ -16954,7 +16954,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+17",
@@ -16963,7 +16963,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "1d3 mordidas",
         "bonus": "+17",
@@ -16972,7 +16972,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "1 tentáculos",
         "bonus": "+17",
@@ -17038,7 +17038,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+34",
@@ -17047,7 +17047,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "1d3 mordidas",
         "bonus": "+34",
@@ -17056,7 +17056,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "1 tentáculos",
         "bonus": "+34",
@@ -17127,7 +17127,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "40 x",
         "bonus": "2",
@@ -17199,7 +17199,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+14",
@@ -17258,7 +17258,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+11",
@@ -17321,7 +17321,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+7",
@@ -17376,7 +17376,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+7",
@@ -17426,7 +17426,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+9",
@@ -17478,7 +17478,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+9",
@@ -17536,7 +17536,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -17596,7 +17596,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+12",
@@ -17656,7 +17656,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -17720,7 +17720,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Presas",
         "bonus": "+24",
@@ -17730,7 +17730,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tromba",
         "bonus": "+24",
@@ -17801,7 +17801,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -17860,7 +17860,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+18",
@@ -17925,7 +17925,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -17934,7 +17934,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+12",
@@ -17999,7 +17999,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -18008,7 +18008,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+12",
@@ -18072,7 +18072,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+14",
@@ -18081,7 +18081,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+14",
@@ -18150,7 +18150,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifre",
         "bonus": "+16",
@@ -18212,7 +18212,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifre",
         "bonus": "+20",
@@ -18273,7 +18273,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifre",
         "bonus": "+26",
@@ -18343,7 +18343,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+16",
@@ -18408,7 +18408,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+11",
@@ -18462,7 +18462,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+15",
@@ -18521,7 +18521,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -18530,7 +18530,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garras",
         "bonus": "+9",
@@ -18589,7 +18589,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+14",
@@ -18598,7 +18598,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+14",
@@ -18659,7 +18659,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+27",
@@ -18668,7 +18668,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+27",
@@ -18733,7 +18733,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+15",
@@ -18802,7 +18802,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifre",
         "bonus": "+14",
@@ -18812,7 +18812,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+14",
@@ -18884,7 +18884,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -18894,7 +18894,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+9",
@@ -18955,7 +18955,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -18965,7 +18965,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+12",
@@ -19030,7 +19030,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+9",
@@ -19090,7 +19090,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+14",
@@ -19153,7 +19153,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+15",
@@ -19162,7 +19162,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+15",
@@ -19226,7 +19226,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape x2",
         "bonus": "+17",
@@ -19289,7 +19289,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Presas",
         "bonus": "+26",
@@ -19299,7 +19299,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+26",
@@ -19362,7 +19362,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cinco mordidas",
         "bonus": "+34",
@@ -19418,7 +19418,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+37",
@@ -19427,7 +19427,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+37",
@@ -19500,7 +19500,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Toque drenante",
         "bonus": "+23",
@@ -19566,7 +19566,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Toque drenante x2",
         "bonus": "+33",
@@ -19640,7 +19640,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+7",
@@ -19700,7 +19700,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+14",
@@ -19814,7 +19814,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+17",
@@ -19880,7 +19880,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -19890,7 +19890,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+12",
@@ -19958,7 +19958,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Toque drenante 2x",
         "bonus": "+34",
@@ -20028,7 +20028,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+17",
@@ -20093,7 +20093,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Ankh solar",
         "bonus": "+41",
@@ -20103,7 +20103,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+41",
@@ -20199,7 +20199,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+36",
@@ -20209,7 +20209,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+36",
@@ -20274,7 +20274,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+36",
@@ -20284,7 +20284,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+36",
@@ -20366,7 +20366,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+55",
@@ -20377,7 +20377,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+50",
@@ -20506,7 +20506,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+65",
@@ -20517,7 +20517,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+65",
@@ -20628,7 +20628,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Seis mordidas",
         "bonus": "+37",
@@ -20686,7 +20686,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+13",
@@ -20741,7 +20741,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+26",
@@ -20801,7 +20801,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+16",
@@ -20810,7 +20810,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+16",
@@ -20869,7 +20869,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+26",
@@ -20878,7 +20878,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+26",
@@ -20936,7 +20936,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada espinhenta",
         "bonus": "+14",
@@ -21000,7 +21000,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+12",
@@ -21009,7 +21009,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+12",
@@ -21071,7 +21071,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cascos",
         "bonus": "+14",
@@ -21126,7 +21126,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+7",
@@ -21222,7 +21222,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+36",
@@ -21232,7 +21232,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "ou pisão",
         "bonus": "+36",
@@ -21288,7 +21288,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+26",
@@ -21298,7 +21298,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+26",
@@ -21369,7 +21369,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+30",
@@ -21430,7 +21430,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+40",
@@ -21440,7 +21440,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+37",
@@ -21508,7 +21508,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+26",
@@ -21566,7 +21566,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+29",
@@ -21626,7 +21626,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de batalha",
         "bonus": "+20",
@@ -21635,7 +21635,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Mosquete",
         "bonus": "+20",
@@ -21705,7 +21705,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de batalha",
         "bonus": "+24",
@@ -21715,7 +21715,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Mosquete",
         "bonus": "+24",
@@ -21819,7 +21819,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+33",
@@ -21828,7 +21828,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pistola demoníaca x2",
         "bonus": "+36",
@@ -21896,7 +21896,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas adagas",
         "bonus": "+14",
@@ -21906,7 +21906,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Traque",
         "bonus": "+14",
@@ -21980,7 +21980,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas adagas",
         "bonus": "+20",
@@ -21990,7 +21990,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Bacamarte",
         "bonus": "+20",
@@ -22057,7 +22057,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas adagas",
         "bonus": "+13",
@@ -22115,7 +22115,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Clava",
         "bonus": "+15",
@@ -22207,7 +22207,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado anão",
         "bonus": "+25",
@@ -22217,7 +22217,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida do diabo",
         "bonus": "+25",
@@ -22278,7 +22278,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cimitarra",
         "bonus": "+9",
@@ -22336,7 +22336,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cimitarra",
         "bonus": "+17",
@@ -22393,7 +22393,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cimitarra",
         "bonus": "+24",
@@ -22403,7 +22403,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+24",
@@ -22464,7 +22464,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cimitarra x2",
         "bonus": "+24",
@@ -22475,7 +22475,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pistola",
         "bonus": "+24",
@@ -22548,7 +22548,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cimitarra x2",
         "bonus": "+26",
@@ -22559,7 +22559,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pistola",
         "bonus": "+26",
@@ -22641,7 +22641,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Florete x2",
         "bonus": "+29",
@@ -22652,7 +22652,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pistola",
         "bonus": "+29",
@@ -22720,7 +22720,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+12",
@@ -22730,7 +22730,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pistola",
         "bonus": "+12",
@@ -22795,7 +22795,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+16",
@@ -22805,7 +22805,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pistola",
         "bonus": "+16",
@@ -22881,7 +22881,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+11",
@@ -22891,7 +22891,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -22959,7 +22959,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tridente",
         "bonus": "+16",
@@ -22968,7 +22968,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+14",
@@ -23045,7 +23045,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+32",
@@ -23055,7 +23055,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pistola",
         "bonus": "+36",
@@ -23141,7 +23141,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Florete x2",
         "bonus": "+46",
@@ -23151,7 +23151,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga x2",
         "bonus": "+46",
@@ -23161,7 +23161,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Adaga",
         "bonus": "+46",
@@ -23238,7 +23238,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+14",
@@ -23247,7 +23247,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+14",
@@ -23310,7 +23310,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+24",
@@ -23319,7 +23319,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+24",
@@ -23388,7 +23388,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+12",
@@ -23450,7 +23450,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+15",
@@ -23537,7 +23537,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Lança",
         "bonus": "+17",
@@ -23547,7 +23547,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+17",
@@ -23719,7 +23719,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada vespa",
         "bonus": "+27",
@@ -23729,7 +23729,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garra",
         "bonus": "+27",
@@ -23739,7 +23739,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+24",
@@ -23813,7 +23813,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Presa de serpente x2",
         "bonus": "+30",
@@ -23823,7 +23823,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Garra",
         "bonus": "+30",
@@ -23833,7 +23833,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Azagaia",
         "bonus": "+28",
@@ -23977,7 +23977,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Presa de serpente",
         "bonus": "+38",
@@ -23990,7 +23990,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "garra",
         "bonus": "+38",
@@ -24001,7 +24001,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+38",
@@ -24098,7 +24098,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+40",
@@ -24108,7 +24108,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pisão",
         "bonus": "+40",
@@ -24185,7 +24185,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifre solar x3",
         "bonus": "+36",
@@ -24257,7 +24257,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+13",
@@ -24343,7 +24343,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+31",
@@ -24433,7 +24433,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cimitarra x2",
         "bonus": "+23",
@@ -24444,7 +24444,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Besta leve x2",
         "bonus": "+23",
@@ -24524,7 +24524,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+12",
@@ -24586,7 +24586,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+15",
@@ -24659,7 +24659,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois machados de batalha",
         "bonus": "+16",
@@ -24729,7 +24729,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois machados de batalha",
         "bonus": "+20",
@@ -24848,7 +24848,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Martelo de guerra",
         "bonus": "+16",
@@ -24911,7 +24911,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Martelo de guerra",
         "bonus": "+27",
@@ -24981,7 +24981,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Ataque desarmado x4",
         "bonus": "+47",
@@ -25152,7 +25152,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Quatro pancadas",
         "bonus": "+49",
@@ -25225,7 +25225,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+14",
@@ -25290,7 +25290,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Maça",
         "bonus": "+16",
@@ -25350,7 +25350,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Alabarda",
         "bonus": "+17",
@@ -25360,7 +25360,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "ou espada curta x2",
         "bonus": "+17",
@@ -25426,7 +25426,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+27",
@@ -25436,7 +25436,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tripas-tentáculos",
         "bonus": "+27",
@@ -25508,7 +25508,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas mordidas",
         "bonus": "+26",
@@ -25586,7 +25586,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Toque gélido",
         "bonus": "+41",
@@ -25718,7 +25718,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Toque gélido",
         "bonus": "+47",
@@ -25871,7 +25871,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cajado da destruição",
         "bonus": "+57",
@@ -25881,7 +25881,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "ou toque gélido",
         "bonus": "+55",
@@ -26045,7 +26045,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Marrada",
         "bonus": "+10",
@@ -26107,7 +26107,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+13",
@@ -26116,7 +26116,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+13",
@@ -26175,7 +26175,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+18",
@@ -26184,7 +26184,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+18",
@@ -26239,7 +26239,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+40",
@@ -26248,7 +26248,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+40",
@@ -26313,7 +26313,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois tentáculos",
         "bonus": "+17",
@@ -26323,7 +26323,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
@@ -26388,7 +26388,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois tentáculos",
         "bonus": "+44",
@@ -26398,7 +26398,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+44",
@@ -26467,7 +26467,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pancada",
         "bonus": "+10",
@@ -26537,7 +26537,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Pistola-punhal",
         "bonus": "+12",
@@ -26547,7 +26547,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pistola-punhal",
         "bonus": "+10",
@@ -26627,7 +26627,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Montante",
         "bonus": "+18",
@@ -26637,7 +26637,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+18",
@@ -26706,7 +26706,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Bordão x2",
         "bonus": "+25",
@@ -26791,7 +26791,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Quatro tentáculos",
         "bonus": "+16",
@@ -26864,7 +26864,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+43",
@@ -26874,7 +26874,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+43",
@@ -26934,7 +26934,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Antena",
         "bonus": "+12",
@@ -26942,7 +26942,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -26996,7 +26996,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas antenas",
         "bonus": "+29",
@@ -27006,7 +27006,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+29",
@@ -27070,7 +27070,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+47",
@@ -27080,7 +27080,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+47",
@@ -27146,7 +27146,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
@@ -27155,7 +27155,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Ferrão",
         "bonus": "+17",
@@ -27217,7 +27217,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+26",
@@ -27226,7 +27226,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Ferrão",
         "bonus": "+26",
@@ -27291,7 +27291,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
@@ -27352,7 +27352,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+26",
@@ -27423,7 +27423,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+55",
@@ -27432,7 +27432,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "mordida",
         "bonus": "+55",
@@ -27441,7 +27441,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+55",
@@ -27517,7 +27517,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+14",
@@ -27579,7 +27579,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Quatro garras",
         "bonus": "+45",
@@ -27652,7 +27652,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Arpão",
         "bonus": "+12",
@@ -27662,7 +27662,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Arpão",
         "bonus": "+14",
@@ -27727,7 +27727,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tridente x2",
         "bonus": "+22",
@@ -27736,7 +27736,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Rede",
         "bonus": "+20",
@@ -27807,7 +27807,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Arpão",
         "bonus": "+22",
@@ -27817,7 +27817,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "for",
         "nome": "Arpão",
         "bonus": "+24",
@@ -27913,7 +27913,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+52",
@@ -27923,7 +27923,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda x2",
         "bonus": "+52",
@@ -27995,7 +27995,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois tentáculos",
         "bonus": "+16",
@@ -28061,7 +28061,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tentáculo x2",
         "bonus": "+11",
@@ -28182,7 +28182,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tentáculo x2",
         "bonus": "+26",
@@ -28246,7 +28246,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+32",
@@ -28310,7 +28310,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cabeçada",
         "bonus": "+20",
@@ -28419,7 +28419,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+12",
@@ -28486,7 +28486,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida x2",
         "bonus": "+18",
@@ -28551,7 +28551,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida x2",
         "bonus": "+27",
@@ -28617,7 +28617,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida x2",
         "bonus": "+34",
@@ -28686,7 +28686,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
@@ -28750,7 +28750,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+29",
@@ -28826,7 +28826,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Oito tentáculos",
         "bonus": "+50",
@@ -28835,7 +28835,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+50",
@@ -28913,7 +28913,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+12",
@@ -29010,7 +29010,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+22",
@@ -29117,7 +29117,7 @@
     "ataques": [
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pústula asquerosa",
         "bonus": "+12",
@@ -29185,7 +29185,7 @@
     "ataques": [
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Pústula virulenta",
         "bonus": "+26",
@@ -29315,7 +29315,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+20",
@@ -29326,7 +29326,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Arco longo +20 x",
         "bonus": "2",
@@ -29402,7 +29402,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+36",
@@ -29495,7 +29495,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+18",
@@ -29505,7 +29505,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+18",
@@ -29597,7 +29597,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+22",
@@ -29607,7 +29607,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+22",
@@ -29713,7 +29713,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada curta",
         "bonus": "+14",
@@ -29723,7 +29723,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+14",
@@ -29732,7 +29732,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Arco curto",
         "bonus": "+14",
@@ -29806,7 +29806,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+15",
@@ -29817,7 +29817,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Adaga",
         "bonus": "+15",
@@ -29896,7 +29896,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Alfange x2",
         "bonus": "+26",
@@ -29906,7 +29906,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+26",
@@ -29979,7 +29979,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Quatro cimitarras",
         "bonus": "+36",
@@ -29991,7 +29991,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+36",
@@ -30076,7 +30076,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+15",
@@ -30085,7 +30085,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda",
         "bonus": "+15",
@@ -30214,7 +30214,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+10",
@@ -30283,7 +30283,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+50",
@@ -30295,7 +30295,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Cauda x2",
         "bonus": "+50",
@@ -30369,7 +30369,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Punhal sszzaazita",
         "bonus": "+44",
@@ -30479,7 +30479,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Açoite finntroll",
         "bonus": "+35",
@@ -30590,7 +30590,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+19",
@@ -30649,7 +30649,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+12",
@@ -30710,7 +30710,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas pancadas",
         "bonus": "+15",
@@ -30842,7 +30842,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas cimitarras",
         "bonus": "+12",
@@ -30852,7 +30852,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Besta pesada",
         "bonus": "+12",
@@ -30925,7 +30925,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chicote",
         "bonus": "+18",
@@ -31029,7 +31029,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Açoite finntroll",
         "bonus": "+33",
@@ -31140,7 +31140,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+10",
@@ -31149,7 +31149,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tentáculos",
         "bonus": "+10",
@@ -31213,7 +31213,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Martelo de guerra x2",
         "bonus": "+20",
@@ -31223,7 +31223,7 @@
       },
       {
         "tipo": "À Distância",
-        "perifica": "pontaria",
+        "pericia": "pontaria",
         "atributo": "",
         "nome": "Machadinha",
         "bonus": "+17",
@@ -31285,7 +31285,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Açoite finntroll",
         "bonus": "+22",
@@ -31384,7 +31384,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Açoite finntroll",
         "bonus": "+18",
@@ -31490,7 +31490,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Adaga",
         "bonus": "+27",
@@ -31605,7 +31605,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+9",
@@ -31615,7 +31615,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+9",
@@ -31679,7 +31679,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada longa",
         "bonus": "+9",
@@ -31739,7 +31739,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada longa x2",
         "bonus": "+26",
@@ -31804,7 +31804,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Espada longa x2",
         "bonus": "+29",
@@ -31873,7 +31873,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Presas",
         "bonus": "+27",
@@ -31883,7 +31883,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tromba",
         "bonus": "+27",
@@ -31956,7 +31956,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Presas espectrais",
         "bonus": "+39",
@@ -31967,7 +31967,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tromba",
         "bonus": "+39",
@@ -32049,7 +32049,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de batalha",
         "bonus": "+13",
@@ -32059,7 +32059,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+13",
@@ -32124,7 +32124,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de batalha x2",
         "bonus": "+19",
@@ -32134,7 +32134,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Chifres",
         "bonus": "+19",
@@ -32203,7 +32203,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Tacape",
         "bonus": "+17",
@@ -32274,7 +32274,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Machado de guerra x2",
         "bonus": "+27",
@@ -32343,7 +32343,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Dois punhos",
         "bonus": "+14",
@@ -32413,7 +32413,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+16",
@@ -32476,7 +32476,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+17",
@@ -32485,7 +32485,7 @@
       },
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Duas garras",
         "bonus": "+17",
@@ -32550,7 +32550,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+29",
@@ -32625,7 +32625,7 @@
     "ataques": [
       {
         "tipo": "Corpo a Corpo",
-        "perifica": "luta",
+        "pericia": "luta",
         "atributo": "for",
         "nome": "Mordida",
         "bonus": "+49",
