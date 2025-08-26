@@ -16,8 +16,14 @@ function Ameacas() {
     const [selecionadas, setSelecionadas] = useState([]);
 
     useEffect(() => {
-        const todas = [...ameacasArton, ...ameacasBase];
-        setAmeacas(todas);
+        const todas = [...ameacasArton, ...ameacasBase].map(a => { 
+            return {
+                id: crypto.randomUUID(),
+                open: true,
+                ...a, 
+            }
+        });
+        setAmeacas(todas, []);
     }, []);
 
     const opcoesTamanho = [
@@ -192,14 +198,16 @@ function Ameacas() {
         }
     }
     
-    function handleSelecionar(opcoes) {
-        setSelecionadas(opcoes ? opcoes.map(o => {
-            return {
-                id: crypto.randomUUID(),
-                open: false,
-                ...o.data,
-            }
-        }) : []);
+    function handleSelecionar(opcoes, val) {
+        let newSelected = [];
+
+        if(val.action === "select-option"){
+            newSelected = [...selecionadas, val.option.data];
+        }else if(val.action === "remove-value"){
+            newSelected = selecionadas.filter(a => a.id !== val.removedValue.data.id);
+        }
+
+        setSelecionadas(newSelected)
     }
 
     function removeAmeaca(id) {
