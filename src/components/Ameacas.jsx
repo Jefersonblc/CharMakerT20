@@ -100,79 +100,90 @@ function Ameacas() {
     }
 
     function convertAmeacas() {
-        return selecionadas.map((ameaca, index) => ({
-            id: index,
-            playername: ameaca.nome,
-            menace_name: ameaca.nome,
-            trace: ameaca.tipo,
-            charnivel: ameaca.nd.startsWith("S") ? 20 : (parseInt(ameaca.nd) || 1),
+        return selecionadas.map((ameaca, index) => {
+            const nd = ameaca.nd.startsWith("S") ? 20 : (parseInt(ameaca.nd) || 1)
 
-            for: ameaca.atributos.for,
-            des: ameaca.atributos.des,
-            con: ameaca.atributos.con,
-            int: ameaca.atributos.int,
-            sab: ameaca.atributos.sab,
-            car: ameaca.atributos.car,
+            const luta = ameaca.ataques?.find(ataque => ataque.pericia === 'luta')?.bonus;
+            const lutaoutros = luta ? parseInt(luta) - ameaca.atributos.for - Math.floor(nd/2) : 0;
 
-            vidatotal: ameaca.pv,
-            vida: ameaca.pv,
-            manatotal: ameaca.pm,
-            mana: ameaca.pm,
+            const pontaria = ameaca.ataques?.find(ataque => ataque.pericia === 'pontaria')?.bonus;
+            const pontariaoutros = pontaria ? parseInt(pontaria) - ameaca.atributos.des - Math.floor(nd/2) : 0;
 
-            proficiencias: `${ameaca.nome} | ND: ${ameaca.nd}\n` +
-                `${ameaca.tipo} ${ameaca.tamanho}\n` +
-                (ameaca.sentidos.length > 0 ? `• Sentidos: ${ameaca.sentidos.join(', ')}\n` : '') +
-                (ameaca.resistencias.length > 0 ? `• Resistências: ${ameaca.resistencias.join(', ')}\n` : ''),
+            return {
+                id: index,
+                playername: ameaca.nome,
+                menace_name: ameaca.nome,
+                trace: ameaca.tipo,
+                charnivel: nd,
 
-            charnotes:
-                `• Perícias: ${ameaca.pericias.join(', ')}\n\n` +
-                (ameaca.equipamento.length > 0 ? `• Equipamento: ${ameaca.equipamento.join(', ')}\n\n` : '') +
-                `• Tesouro: ${ameaca.tesouro}`,
+                for: ameaca.atributos.for,
+                des: ameaca.atributos.des,
+                con: ameaca.atributos.con,
+                int: ameaca.atributos.int,
+                sab: ameaca.atributos.sab,
+                car: ameaca.atributos.car,
 
-            tamanho: opcoesTamanho.find(opcao => opcao.label === ameaca.tamanho)?.value || 0,
-            deslocamento: ameaca.deslocamento.join(', '),
+                vidatotal: ameaca.pv,
+                vida: ameaca.pv,
+                manatotal: ameaca.pm,
+                mana: ameaca.pm,
 
-            defesaoutros: parseInt(ameaca.defesa) - 10 - ameaca.atributos.des,
+                proficiencias: `${ameaca.nome} | ND: ${ameaca.nd}\n` +
+                    `${ameaca.tipo} ${ameaca.tamanho}\n` +
+                    (ameaca.sentidos.length > 0 ? `• Sentidos: ${ameaca.sentidos.join(', ')}\n` : '') +
+                    (ameaca.resistencias.length > 0 ? `• Resistências: ${ameaca.resistencias.join(', ')}\n` : ''),
 
-            attacks: ameaca.ataques.map(ataque => ({
-                nomeataque: ataque.nome,
-                bonusataque: parseInt(ataque.bonus) - (ameaca.atributos[ataque.atributo] || 0),
-                danoataque: ataque.dano,
-                danoextraataque: ataque.danoextra - (ameaca.atributos[ataque.atributo] || 0),
-                margemcriticoataque: ataque.critico || 20,
-                multiplicadorcriticoataque: ataque.multiplicador || 2,
-                ataquepericia: `@{${ataque.perifica}total}+@{condicaomodataquecc}+@{condicaomodataque}`,
-                modatributodano: `@{${ataque.atributo}_mod}`,
-                ataquetipodedano: ataque.tipodano,
-                ataquealcance: ataque.alcance ? `${ataque.tipo}: ${ataque.alcance}` : ataque.tipo,
-                ataquedescricao: ataque.extra,
-            })),
+                charnotes:
+                    `• Perícias: ${ameaca.pericias.join(', ')}\n\n` +
+                    (ameaca.equipamento.length > 0 ? `• Equipamento: ${ameaca.equipamento.join(', ')}\n\n` : '') +
+                    `• Tesouro: ${ameaca.tesouro}`,
 
-            abilities: ameaca.habilidades.map(habilidade => ({
-                nameability: habilidade.nome,
-                abilitydescription: habilidade.descricao
-            })),
+                tamanho: opcoesTamanho.find(opcao => opcao.label === ameaca.tamanho)?.value || 0,
+                deslocamento: ameaca.deslocamento.join(', '),
 
-            spells1: ameaca.magias.map(magia => ({
-                namespell: magia.nome,
-                spelldescription: magia.descricao,
-            })),
-            ...ameaca.pericias.reduce((acc, pericia) => {
-                const { nome, mod, attr, obs, oficio } = getPericiasOutros(pericia);
-                const nd = ameaca.nd.startsWith("S") ? 20 : (parseInt(ameaca.nd) || 1)
-                return {
-                    ...acc,
-                    ...{
-                        [`${nome}outros`]: mod - ameaca.atributos[attr] - Math.floor(nd/2),
-                        ...obs !== '' ? {[`${nome}obs`]: obs} : {},
-                        ...oficio !== '' ? { oficionome: oficio } : {}
-                    }
-                };
-            }, {}),
-            ...skills.reduce((acc, skill) => {
-                return { ...acc, ...{[`${skill.id}atributo2`]: `@{${skill.atributo}_mod}`} }
-            }, {}),
-        }));
+                defesaoutros: parseInt(ameaca.defesa) - 10 - ameaca.atributos.des,
+
+                attacks: ameaca.ataques.map(ataque => ({
+                    nomeataque: ataque.nome,
+                    bonusataque: parseInt(ataque.bonus) - (ataque.pericia === 'luta' ?  luta : pontaria),
+                    danoataque: ataque.dano,
+                    danoextraataque: ataque.danoextra - (ameaca.atributos[ataque.atributo] || 0),
+                    margemcriticoataque: ataque.critico || 20,
+                    multiplicadorcriticoataque: ataque.multiplicador || 2,
+                    ataquepericia: `@{${ataque.pericia}total}+@{condicaomodataquecc}+@{condicaomodataque}`,
+                    modatributodano: `@{${ataque.atributo}_mod}`,
+                    ataquetipodedano: ataque.tipodano,
+                    ataquealcance: ataque.alcance ? `${ataque.tipo}: ${ataque.alcance}` : ataque.tipo,
+                    ataquedescricao: ataque.extra,
+                })),
+
+                abilities: ameaca.habilidades.map(habilidade => ({
+                    nameability: habilidade.nome,
+                    abilitydescription: habilidade.descricao
+                })),
+
+                spells1: ameaca.magias.map(magia => ({
+                    namespell: magia.nome,
+                    spelldescription: magia.descricao,
+                })),
+                ...ameaca.pericias.reduce((acc, pericia) => {
+                    const { nome, mod, attr, obs, oficio } = getPericiasOutros(pericia);
+                    return {
+                        ...acc,
+                        ...{
+                            [`${nome}outros`]: mod - ameaca.atributos[attr] - Math.floor(nd/2),
+                            ...obs !== '' ? {[`${nome}obs`]: obs} : {},
+                            ...oficio !== '' ? { oficionome: oficio } : {}
+                        }
+                    };
+                }, {}),
+                lutaoutros: lutaoutros,
+                pontariaoutros: pontariaoutros,
+                ...skills.reduce((acc, skill) => {
+                    return { ...acc, ...{[`${skill.id}atributo2`]: `@{${skill.atributo}_mod}`} }
+                }, {})
+            };
+        });
     }
 
 
