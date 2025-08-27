@@ -4409,25 +4409,33 @@ export const classes = [
                 name: "Devoto Fiel",
                 description: "Você se torna devoto de um deus maior. Veja as regras de devotos em Tormenta20, p. 96. Ao contrário de devotos normais, você recebe dois poderes concedidos por se tornar devoto, em vez de apenas um. Como alternativa, você pode cultuar o Panteão como um todo. Não recebe nenhum Poder Concedido, mas sua única obrigação e restrição é não usar armas cortantes ou perfurantes (porque derramam sangue, algo que frades do Panteão consideram proibido). Sua arma preferida é a maça e você pode canalizar energia positiva ou negativa a sua escolha (uma vez feita, essa escolha não pode ser mudada). Cultuar o Panteão conta como sua devoção.",
                 default: true,
-                nivel: 1
+                nivel: 1,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Erudição",
                 description: "Quando faz um teste de perícia (exceto de ataque), você pode gastar uma quantidade de PM a sua escolha (limitada pela sua Inteligência). Para cada PM que gastar, recebe +2 no teste.",
                 default: true,
-                nivel: 1
+                nivel: 1,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Magias",
                 description: "Você pode lançar magias divinas de 1º círculo. A cada quatro níveis, pode lançar magias de um círculo maior (2º círculo no 5º nível, 3º círculo no 9º nível e assim por diante). Você começa com três magias de 1º círculo. A cada nível, aprende uma magia de qualquer círculo que possa lançar. Você pode lançar essas magias vestindo armaduras leves mas, se estiver usando armadura pesada, precisará fazer um teste de Misticismo como se fosse um conjurador arcano (veja “Armaduras e Magia Arcana”, em Tormenta20, p. 171). Seu atributo-chave para lançar magias é Sabedoria e você soma sua Sabedoria no seu total de PM. Veja o Capítulo 4 de Tormenta20 para as regras de magia.",
                 default: true,
-                nivel: 1
+                nivel: 1,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Versiculário",
                 description: "No 2º nível, você recebe um versiculário, um livro de anotações religiosas pessoais. Uma vez por dia, você pode gastar 1 hora estudando suas anotações no versiculário. Quando faz isso, escolha uma quantidade de magias igual à sua Inteligência (limitada pelo seu nível). Até o próximo dia, quando lança uma dessas magias, você recebe +1 PM para gastar em aprimoramentos. Se perder seu versiculário, você pode escrever outro com 1 semana de trabalho e o gasto de T$ 100.",
                 default: true,
-                nivel: 2
+                nivel: 2,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Acelerar Sacrário",
@@ -4633,13 +4641,17 @@ export const classes = [
                 name: "Dádiva da Fé",
                 description: "No 5º nível, você recebe Proteção Sagrada (se sua divindade canaliza energia positiva) ou Cólera Divina (se canaliza energia negativa).\n• Proteção Sagrada. Você pode gastar uma ação de movimento e até 2 PM por círculo de magia a que tem acesso para energizar seu símbolo sagrado até o fim da cena. Enquanto você estiver empunhando o símbolo, ele projeta uma aura com 9m de raio. Criaturas a sua escolha dentro dessa aura recebem redução de dano igual à metade do total de PM gastos.\n• Cólera Divina. Você pode gastar uma ação de movimento e até 2 PM por círculo de magia a que tem acesso para energizar seu símbolo sagrado até o fim da cena. Enquanto você estiver empunhando o símbolo, ele projeta uma aura com 9m de raio. Criaturas a sua escolha dentro dessa aura recebem um bônus em suas rolagens de dano igual à metade do total de PM gastos.",
                 default: true,
-                nivel: 5
+                nivel: 5,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Solo Santificado",
                 description: "No 20º nível, o raio de sua Dádiva da Fé muda para 30m e criaturas afetadas por ela também somam o bônus concedido pela habilidade na CD de suas próprias habilidades.",
                 default: true,
-                nivel: 20
+                nivel: 20,
+                mainclassOnly: true,
+                subclassOnly: false,
             }
         ]
     },
@@ -4660,19 +4672,25 @@ export const classes = [
                 name: "Direcionar",
                 description: "Se o seu melhor amigo estiver em alcance curto e fizer um teste de perícia, você pode gastar 2 PM para somar seu Carisma no teste dele.",
                 default: true,
-                nivel: 1
+                nivel: 1,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Melhor Amigo",
                 description: "Você recebe um melhor amigo, um parceiro especial que o acompanha em suas aventuras. Veja a página 20 para as regras do melhor amigo. Ele começa com dois truques a sua escolha e recebe um novo truque a cada três níveis seguintes. Caso seu melhor amigo morra, você fica atordoado por 1d4 rodadas. Você pode treinar um novo melhor amigo com um mês de trabalho.",
                 default: true,
-                nivel: 1
+                nivel: 1,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Domar Criatura",
                 description: "A partir do 2º nível, você pode gastar uma ação de movimento e 1 PM para fazer um teste de Adestramento oposto ao teste de Vontade de uma criatura não inteligente em alcance curto. Se você vencer, causa 2d8 pontos de dano psíquico não letal à criatura. Se perder, causa metade desse dano. Se a criatura for reduzida a 0 ou menos PV, em vez de cair inconsciente, ela se rende. A cada quatro níveis, você pode gastar +1 PM para aumentar o dano em +2d8.\nA partir do 5º nível, quando rende uma criatura com ND igual ou menor que seu nível, você pode gastar uma quantidade de pontos de mana igual ao ND dela. Se fizer isso, ela recupera todos os PV perdidos por esta habilidade e, até o fim da cena, você controla as ações dela (ela age durante o seu turno, mas possui as próprias ações).\nA partir do 8º nível, se o ND da criatura for igual ou menor que seu nível -3, ela fica com você até o fim do dia. Enquanto estiver sendo controlada, a criatura conta em seu limite de parceiros.\nCriaturas que possuam habilidades que não gastam PM e não possuam limite de uso podem usar essas habilidades apenas uma vez por dia. Além disso, algumas criaturas (a critério do mestre) são indomáveis, sendo imunes a este efeito (nesse caso, você recupera os PM gastos ao tentar comandar a criatura).",
                 default: true,
-                nivel: 2
+                nivel: 2,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Amigo Divino",
@@ -4766,19 +4784,25 @@ export const classes = [
                 name: "Treino Especializado",
                 description: "No 5º nível, escolha entre Conquistar pelos Números e Treino Intensivo.\n• Conquistar pelos Números. Você recebe um segundo melhor amigo. Uma vez por rodada, quando faz uma ação padrão com um de seus melhores amigos, você pode gastar 3 PM para fazer uma ação padrão com o outro.\n• Treino Intensivo. Seu melhor amigo recebe +4 PV por nível, redução de dano 5 e um truque. No 11º nível, a RD aumenta para 10 e ele recebe outro truque. No 17º nível, a RD aumenta para 15.",
                 default: true,
-                nivel: 5
+                nivel: 5,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Sincronia de Combate",
                 description: "A partir do 6º nível, uma vez por rodada, quando seu melhor amigo acerta um ataque usando a ação agredir, você pode gastar 2 PM para fazer um ataque contra o mesmo alvo.",
                 default: true,
-                nivel: 6
+                nivel: 6,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Sincronia Perfeita",
                 description: "No 20º nível, você pode gastar uma ação de movimento e 6 PM para entrar em um estado de sincronia perfeita com um dos seus melhores amigos. Até o fim da cena, o tamanho dele aumenta em uma categoria. Além disso, uma vez por rodada, quando usa uma ação padrão consigo mesmo, você recebe uma ação padrão extra para usar com ele.",
                 default: true,
-                nivel: 20
+                nivel: 20,
+                mainclassOnly: true,
+                subclassOnly: false,
             },
             {
                 name: "Alado (Truque)",
