@@ -15133,8 +15133,8 @@
         "tipo": "Corpo a Corpo",
         "pericia": "luta",
         "atributo": "for",
-        "nome": "14 x",
-        "bonus": "2",
+        "nome": "Lança x2",
+        "bonus": "+14",
         "dano": "1d6",
         "danoextra": "6"
       },
@@ -15352,9 +15352,14 @@
     ],
     "habilidades": [
       {
+        "nome": "Peste Oportunista",
+        "descricao": "Os ataques do kobold explosivo causam +1d4 pontos de dano contra inimigos que já sofreram dano na rodada."
+      },
+      {
         "nome": "Detonação Final",
-        "descricao": "Quando o kobold é reduzido a 0 PV, role 1d6: com um resultado 1 ou 2, ocorre uma explosão. Todas as criaturas a até 3m sofrem 4d6 pontos de dano de impacto (Ref CD 14 reduz à metade). Peste Oportunista Os ataques do kobold explosivo causam +1d4 pontos de dano contra inimigos que já sofreram dano na rodada."
+        "descricao": "Quando o kobold é reduzido a 0 PV, role 1d6: com um resultado 1 ou 2, ocorre uma explosão. Todas as criaturas a até 3m sofrem 4d6 pontos de dano de impacto (Ref CD 14 reduz à metade)."
       }
+      
     ],
     "magias": [],
     "equipamento": [
@@ -27381,7 +27386,7 @@
     "categoria": "Sanguinárias",
     "tipo": "Monstro (kaiju)",
     "tamanho": "Colossal",
-    "descricao": "Kaiju\n“Não, rapaz. Não se combate um kaiju, como não se combate u — Mon’han Galldo’han, kliren fund“Não, rapaz. Não se combate um kaiju, como não se combate um terremoto ou uma tempestade. Apenas tenta-se sobreviver.” — Mon’han Galldo’han, kliren fundador da Guilda dos Caça-Monstros\n\nUm tremor e um rugido profundo anunciam seu despertar. Atrás da montanha, algo ainda maior que esta se ergue — algo escuro e escamado, que alcança e encobre o sol, os céus.\nGrandes como a estátua de Valkaria — ou até maiores —, kaiju são os maiores seres vivos conhecidos na existência. Mais que simples monstros, são verdadeiras forças da natureza, como os terremotos, vulcões e tufões. Muitas vezes, até venerados como deuses.\nEmbora muitos concordem que os kaiju são crias de Megalokk, alguns acadêmicos acreditam que nem mesmo um deus maior teria poder para produzir estas criaturas supremas, sendo sua verdadeira origem um mistério. Eles não se reproduzem como outros seres, não acasalam ou procriam — até porque não existem espécies kaiju, não existem dois iguais. Alguns passam por estranhos estágios larvais e metamorfoses, mas nunca foram encontrados ovos ou filhotes. Suspeita-se que todos os kaiju existentes surgiram (nasceram?) no passado remoto, quando Arton era tomada pelos monstros, ou vieram de lugares ainda mais terríveis. Adormecidos, ou mesmo mortos, podem despertar/ressuscitar a qualquer momento para trazer fúria e destruição.\nKaiju não morrem por meios naturais; seu tempo de vida simplesmente não pode ser medido. Um kaiju pode ser derrotado e morto, tipicamente por outro kaiju — pois quase nenhum outro ser no mundo é capaz dessa façanha. Contudo, mesmo despedaçado ou reduzido a ossos, um kaiju nunca morre realmente — ou melhor, nunca permanece morto. Vai regenerar com o tempo, sem que nada nem ninguém consiga impedir. Por isso, é normal que kaiju destruídos em batalhas épicas simplesmente retornem tempos depois.\nUm kaiju enfurecido pode despertar e atacar em qualquer parte de Arton, mas o único lugar onde existem em abundância são as Sanguinárias. Ali, travam batalhas titânicas cujos tremores sacodem a ilha de Tamu-ra a leste. Tamuranianos chamam a cordilheira de Trono de Sugora, o grande espírito que alguns consideram o nome nativo de Megalokk. Vez ou outra, um kaiju atravessa o mar e alcança o Império de Jade para devastar suas cidades, forçando os heróis locais a encontrar formas de lidar com a besta.\n\n",
+    "descricao": "Kaiju\n“Não, rapaz. Não se combate um kaiju, como não se combate um terremoto ou uma tempestade. Apenas tenta-se sobreviver.” — Mon’han Galldo’han, kliren fundador da Guilda dos Caça-Monstros\n\nUm tremor e um rugido profundo anunciam seu despertar. Atrás da montanha, algo ainda maior que esta se ergue — algo escuro e escamado, que alcança e encobre o sol, os céus.\nGrandes como a estátua de Valkaria — ou até maiores —, kaiju são os maiores seres vivos conhecidos na existência. Mais que simples monstros, são verdadeiras forças da natureza, como os terremotos, vulcões e tufões. Muitas vezes, até venerados como deuses.\nEmbora muitos concordem que os kaiju são crias de Megalokk, alguns acadêmicos acreditam que nem mesmo um deus maior teria poder para produzir estas criaturas supremas, sendo sua verdadeira origem um mistério. Eles não se reproduzem como outros seres, não acasalam ou procriam — até porque não existem espécies kaiju, não existem dois iguais. Alguns passam por estranhos estágios larvais e metamorfoses, mas nunca foram encontrados ovos ou filhotes. Suspeita-se que todos os kaiju existentes surgiram (nasceram?) no passado remoto, quando Arton era tomada pelos monstros, ou vieram de lugares ainda mais terríveis. Adormecidos, ou mesmo mortos, podem despertar/ressuscitar a qualquer momento para trazer fúria e destruição.\nKaiju não morrem por meios naturais; seu tempo de vida simplesmente não pode ser medido. Um kaiju pode ser derrotado e morto, tipicamente por outro kaiju — pois quase nenhum outro ser no mundo é capaz dessa façanha. Contudo, mesmo despedaçado ou reduzido a ossos, um kaiju nunca morre realmente — ou melhor, nunca permanece morto. Vai regenerar com o tempo, sem que nada nem ninguém consiga impedir. Por isso, é normal que kaiju destruídos em batalhas épicas simplesmente retornem tempos depois.\nUm kaiju enfurecido pode despertar e atacar em qualquer parte de Arton, mas o único lugar onde existem em abundância são as Sanguinárias. Ali, travam batalhas titânicas cujos tremores sacodem a ilha de Tamu-ra a leste. Tamuranianos chamam a cordilheira de Trono de Sugora, o grande espírito que alguns consideram o nome nativo de Megalokk. Vez ou outra, um kaiju atravessa o mar e alcança o Império de Jade para devastar suas cidades, forçando os heróis locais a encontrar formas de lidar com a besta.\n\n",
     "defesa": "62",
     "pv": 1500,
     "pm": 0,
