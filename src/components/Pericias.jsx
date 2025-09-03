@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { usePersonagem } from '../context/PersonagemContext';
-// import skillsData from '../assets/data/skills.js';
 
 function Pericias() {
   const { personagem, setPersonagem } = usePersonagem();
@@ -53,11 +52,10 @@ function Pericias() {
           <thead className="table-light">
             <tr>
               <th className="text-start">Perícia</th>
-              <th>Treinada({numeroPericiasTreinadas()}) <br/> (INT:{personagem.int}) </th>
+              <th>Treinada({numeroPericiasTreinadas()})</th>
               <th>Atributo</th>
               <th>Outros</th>
               <th>Total</th>
-              <th>Opção de Classe (2 + {personagem?.extraSkills || 0} = {(personagem?.extraSkills || 0) + 2})</th>
             </tr>
           </thead>
           <tbody>
@@ -76,6 +74,9 @@ function Pericias() {
                         /> 
                       : <span>{skill.nome}</span>
                     }
+                    {personagem.skills.includes(skill.nome) && '*'}
+                    {personagem.treinedSkills.includes(skill.nome) && '**'}
+                    {mustSelectSkill(skill.nome) && '**'}
                   </div>
                 </td>
                 <td className="position-relative">
@@ -117,16 +118,15 @@ function Pericias() {
                     disabled
                   />
                 </td>
-                <td className="text-start">
-                  {personagem.skills.includes(skill.nome) ? <i className="fa-solid fa-circle-left"></i> : ''}
-                  {mustSelectSkill(skill.nome) ? ' Escolher 1' : ''}
-                  {personagem.treinedSkills.includes(skill.nome) ? <span><i className="fa-solid fa-circle-left"></i> Padrão de Classe</span> : ''}
-                </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
+      <p><strong>Total de Pericias:</strong> 2 (padrão) + {personagem?.extraSkills || 0} (classe) + {Math.max(personagem.int, 0)} (INT) = <strong>{ 2 + (personagem?.extraSkills || 0) + Math.max(personagem.int, 0)}</strong></p>
+      <p className='small fw-light mb-1'>* Pericias de Classe</p>
+      <p className='small fw-light mb-1'>** Pericias de Padrão da Classe</p>
+      {personagem?.treinedSkillsOr?.length > 0 && (<p className='small fw-light mb-1'>*** Pericias de Padrão da Classe (Escolher)</p>)}
     </div>
   );
 }
