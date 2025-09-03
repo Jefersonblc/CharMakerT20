@@ -277,3 +277,14 @@ pre {
 .card-atributo {  
   min-width: 70px;
 }
+
+.clickable {
+  cursor: pointer;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+}

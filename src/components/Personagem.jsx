@@ -6,7 +6,7 @@ import originsData from '../assets/data/origins.json';
 import classesData from '../assets/data/classes.js';
 import deitiesData from '../assets/data/deities.js';
 import { OptionOriginTooltip } from './OptionOriginTooltip';
-import { Tooltip } from "react-tooltip";
+import Modal from './Modal';
 
 function Personagem() {
   const {
@@ -20,6 +20,9 @@ function Personagem() {
   const [origins, setOrigins] = useState([]);
   const [classes, setClasses] = useState([]);
   const [deities, setDeities] = useState([]);
+
+  const [modalOrigins, setModalOrigins] = useState(false);
+  const [modalDeities, setModalDeities] = useState(false);
 
   useEffect(() => {
     setRaces(racesData.races || racesData);
@@ -359,9 +362,11 @@ function Personagem() {
         <div className="col-md">
           <div className="d-flex">
             <label className="form-label">Origem</label>
-            {personagem.torigin && <span data-tooltip-id='tooltip-origin' className='ms-1'>
-              <i className="fa-solid fa-circle-info"></i>
-            </span>}      
+            {personagem.torigin && (
+              <span className='ms-1 clickable' onClick={() => setModalOrigins(true)}>
+                <i className="fa-solid fa-circle-info"></i>
+              </span>
+            )}      
           </div>
           <Select
             options={origins.map(o => ({ value: o.name, label: o.name, description: o.description, itens: o.itens, beneficios: o.beneficios }))}
@@ -372,21 +377,27 @@ function Personagem() {
             placeholder="Selecione..."
             classNamePrefix="react-select"
           />
-          <Tooltip id='tooltip-origin' style={{ maxWidth: '500px' }}>
+          <Modal
+            title={personagem.torigin}
+            show={modalOrigins}
+            handleClose={() => setModalOrigins(false)}
+          >
             <div className="text-sm">
               <p><strong>Descrição:</strong> {personagem.originDescription}</p>
               <p><strong>Itens:</strong> {personagem.originItens}</p>
               <p><strong>Benefícios:</strong> {personagem.originBeneficios}</p>
             </div>
-          </Tooltip>
+          </Modal>
         </div>
 
         <div className="col-md">
           <div className="d-flex">
             <label className="form-label">Divindade</label>
-            {personagem.divindade && <span data-tooltip-id='tooltip-divindade' className='ms-1'>
-              <i className="fa-solid fa-circle-info"></i>
-            </span>}      
+            {personagem.divindade && (
+              <span className='ms-1 clickable' onClick={() => setModalDeities(true)}>
+                <i className="fa-solid fa-circle-info"></i>
+              </span>
+            )}
           </div>
           <Select
             options={deities.map(d => ({ value: d.nome, label: d.nome, divindade: d }))}
@@ -396,7 +407,11 @@ function Personagem() {
             placeholder="Selecione..."
             classNamePrefix="react-select"
           />
-          <Tooltip id='tooltip-divindade' style={{ maxWidth: '500px' }}>
+          <Modal
+            title={personagem.divindade}
+            show={modalDeities}
+            handleClose={() => setModalDeities(false)}
+          >
             <div className="text-sm">
               <p><strong>Descrição:</strong> {personagem.divindadeDescricao}</p>
               <p><strong>Energia:</strong> {personagem.divindadeEnergia}</p>
@@ -407,7 +422,7 @@ function Personagem() {
               <p><strong>Devotos:</strong> {personagem.divindadeDevotos}</p>
               <p><strong>Poderes:</strong> {personagem.divindadePoderes?.join(', ')}</p>
             </div>
-          </Tooltip>
+          </Modal>
         </div>
       </div>
 

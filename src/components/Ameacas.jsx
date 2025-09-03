@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import Select from 'react-select';
 import ameacasArton from '../assets/data/ameaças_de_arton_t20.json';
 import ameacasBase from '../assets/data/ameacas_livro_base_t20.json';
-import { Tooltip } from "react-tooltip";
 import JSZip from 'jszip';
 import { saveAs } from 'file-saver';
 import skills from '../assets/data/skills.js';
+import Modal from './Modal';
 
 function Ameacas() {
     const [ameacas, setAmeacas] = useState([]);
@@ -14,6 +14,7 @@ function Ameacas() {
     const [filtroTamanho, setFiltroTamanho] = useState('');
     const [filtroND, setFiltroND] = useState('');
     const [selecionadas, setSelecionadas] = useState([]);
+    const [modalAmeacaId, setModalAmeacaId] = useState(null);
 
     useEffect(() => {
         const todas = [...ameacasArton, ...ameacasBase].map(a => { 
@@ -298,20 +299,27 @@ function Ameacas() {
                         <div className="card-body">
                             <h1 className="card-title fw-bold">
                                 <strong>{a.nome}</strong> | ND {a.nd} | 
-                                {a.descricao !== '' && <span data-tooltip-id={`tooltip-desc-${a.id}`} className='ms-1'> <i className="fa-solid fa-circle-info"></i></span>}
+                                {a.descricao !== '' && (
+                                    <span className='ms-1 clickable' onClick={() => setModalAmeacaId(a.id)}> 
+                                        <i className="fa-solid fa-circle-info"></i>
+                                    </span>
+                                )}
                             </h1>
                             <p>{a.tipo} {a.tamanho}</p>
 
-                            <Tooltip id={`tooltip-desc-${a.id}`} style={{ maxWidth: '600px' }}>
+                            <Modal
+                                show={modalAmeacaId === a.id}
+                                handleClose={() => setModalAmeacaId(null)}
+                                title={`Descrição de ${a.nome}`}
+                            >
                                 <div className="text-sm">
                                     <p className="pre-wrap fw-italic p-2">{a.descricao}</p>
                                 </div>
-                            </Tooltip>
+                            </Modal>
 
                             {a.open && (
                                 <>
                                     <hr className="border border-1 border-dark" />
-
 
                                     <div className='d-flex flex-nowrap overflow-auto align-items-start my-2'>
                                         {Object.entries(a.atributos)?.map(([atributo, mod]) => (
