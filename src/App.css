@@ -288,3 +288,8 @@ pre {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1050;
 }
+
+.form-label-sm {
+  font-size: 0.6em;
+  margin-bottom: 0.2em;
+}

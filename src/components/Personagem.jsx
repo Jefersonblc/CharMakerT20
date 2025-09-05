@@ -432,8 +432,9 @@ function Personagem() {
           <div className="col-md" key={attr}>
             <label className="form-label fs-5"><i className={attributes[attr].icon + " attribute-icon"} ></i>{attributes[attr].name.toUpperCase()}</label>
             <input name={attr} className="form-control form-control-lg fs-3 fw-bold text-center" value={personagem[attr]} disabled />
-            <div className="d-flex justify-content-between mt-1 gap-1">
+            <div className="d-flex justify-content-between gap-1">
               <div className="position-relative">
+                <label className="form-label form-label-sm">Racial</label>
                 <input name={attr + "_race"} className="form-control" value={attributes[attr].mod} disabled />
                 <div className="position-absolute top-50 end-0 translate-middle-y" hidden={!attributes[attr].any || attributes[attr].except} >
                   <input type="checkbox" className="btn-check" id={`btn-check-${attr}`} 
@@ -442,7 +443,10 @@ function Personagem() {
                   <label className="btn btn-select" htmlFor={`btn-check-${attr}`}><i className="fa-solid fa-circle-up"></i></label>
                 </div>
               </div>
-              <input type="number" name={attr + "_point"} className="form-control" value={attributes[attr].points} onChange={e => handleChangeAttribute(attr, e)} />
+              <div>
+                <label className="form-label form-label-sm">Mod</label>
+                <input type="number" name={attr + "_point"} className="form-control" value={attributes[attr].points} onChange={e => handleChangeAttribute(attr, e)} />
+              </div>
             </div>
           </div>
         ))}
