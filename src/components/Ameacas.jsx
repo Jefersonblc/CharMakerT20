@@ -278,8 +278,9 @@ function Ameacas() {
             />
 
             <button className="btn btn-secondary mt-3" onClick={exportarAmeacas} disabled={selecionadas.length === 0}>
-                <i className="fa-solid fa-file-arrow-down"></i> Exportar Ameaças
+                <i className="fa-solid fa-file-export"></i> Exportar Ameaças
             </button>
+            <p className="text-muted small">Formato JSON compatível com a extenção <a target="_blank" href="https://roll20tormenta20.pyanderson.dev/">Roll20: Grimório do Tormenta20</a>.</p>
 
             <div className="d-flex flex-column-reverse mt-4">
                 {selecionadas.length === 0 && <p>Nenhuma ameaça selecionada.</p>}
