@@ -1,10 +1,110 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { usePersonagem } from '../context/PersonagemContext';
 
 function Exportar() {
-  const { personagem } = usePersonagem();
-  const [json, setJson] = useState('');
+  const { 
+    personagem, setPersonagem,
+    attributes, setAttributes,
+    anyAttribute, setAnyAttribute,
+    pointbuy, setPointbuy,
+    config, setConfig 
+  } = usePersonagem();
 
+  const [json, setJson] = useState('');
+  const [storage, setStorage] = useState({
+    saves: [],
+    selected: '',
+  });
+
+  useEffect(() => {
+    const saves = localStorage.getItem("personagens");
+    if (saves) {
+      setStorage({ 
+        ...storage, 
+        saves: JSON.parse(saves)
+      });
+    }
+  }, []);
+
+  function handleSaveSelected(e){
+    const { value } = e.target;
+    setStorage({
+      ...storage,
+      selected: value
+    })
+  }
+
+  function handleSaveTolocal(){
+    const localsaves = localStorage.getItem("personagens") || "[]";
+
+    let saves = JSON.parse(localsaves);
+    const personagemSave = {
+      nome: storage.selected,
+      personagem: personagem,
+      attributes: attributes,
+      anyAttribute: anyAttribute,
+      pointbuy: pointbuy,
+    }
+    
+    if(saves.find(s => s.nome === personagemSave.nome)){
+      if(!window.confirm(`Sobrescrever o personagem "${personagemSave.nome}"?`)){
+        return;
+      }
+      saves = saves.map(save =>
+        save.nome === personagemSave.nome ? personagemSave : save
+      );
+    }else{
+      saves.push(personagemSave);
+    }
+
+    localStorage.setItem('personagens', JSON.stringify(saves));
+
+    setStorage({ 
+      ...storage, 
+      saves: saves
+    });
+
+    alert('Personagem salvo no navegador!');
+  }
+
+  function handleLoadFromlocal(){
+    const localsaves = localStorage.getItem("personagens") || "[]";
+    const saves = JSON.parse(localsaves);
+
+    if(saves.length > 0 && storage.selected !== '') {
+      const saved = saves.find(save => save.nome === storage.selected);
+      if(!saved){
+        alert('Nenhum personagem salvo com esse nome!');
+        return;
+      }
+
+      if(window.confirm('Carregar o personagem salvo no navegador? Isso irá sobrescrever o personagem atual.')){
+        setPersonagem(saved.personagem);
+        setAttributes(saved.attributes);
+        setAnyAttribute(saved.anyAttribute);
+        setPointbuy(saved.pointbuy);
+      }
+    } else {
+      alert('Nenhum personagem salvo no navegador!');
+    }
+  }
+
+  function handleDeleteFromlocal(){
+    const localsaves = localStorage.getItem("personagens") || "[]";
+    const saves = JSON.parse(localsaves);
+
+    if(saves.length > 0 && storage.selected !== '') {
+      if(window.confirm(`Deseja realmente deletar o personagem "${storage.selected}"?`)){
+        const newSaves = saves.filter(save => save.nome !== storage.selected);
+        localStorage.setItem('personagens', JSON.stringify(newSaves));
+        setStorage({ ...storage, saves: newSaves });
+      }
+    } else {
+      alert('Nenhum personagem selecionado!');
+    }
+  }
+
+  
   function handleExport() {
     const jsonExport = {
         isJDA: true,
@@ -113,11 +213,38 @@ function Exportar() {
 
   return (
     <div className="form-section">
-      <button onClick={handleExport} className="btn btn-secondary mt-2">
-        <i className="fa-solid fa-file-arrow-down"></i> Exportar Personagem
+      <h2 className='mt-2'>Salvar/Carregar</h2>
+      
+      <div className='d-flex flex-column align-items-center gap-2'>
+        <select id="saves" class="form-select form-select-md" size="4" value={storage.saves.find(save => save.nome === storage.selected) ? storage.selected : ''} onChange={handleSaveSelected}>
+          <option value="" disabled selected hidden></option>
+          {storage.saves.map((save, index) => (
+            <option key={index} value={save.nome}>{save.nome}</option>
+          ))}
+        </select>
+
+        <input type="text" class="form-control" id="newsave" placeholder="Novo personagem..." value={storage.selected} onChange={handleSaveSelected} />
+      </div>
+
+      <div className="d-flex gap-2 mt-2">
+        <button className="btn btn-secondary" onClick={handleSaveTolocal} disabled={storage.selected === ''}>
+          <i className="fa-solid fa-file-arrow-up"></i> Salvar
+        </button>
+        <button className="btn btn-secondary" onClick={handleLoadFromlocal} disabled={!storage.saves.find(save => save.nome === storage.selected)}>
+          <i className="fa-solid fa-file-arrow-down"></i> Carregar
+        </button>
+        <button className="btn btn-secondary" onClick={handleDeleteFromlocal} disabled={!storage.saves.find(save => save.nome === storage.selected)}>
+          <i className="fa-solid fa-trash"></i> Deletar
+        </button>
+      </div>
+
+      <h2 className='mt-4'>Exportar Personagem</h2>
+
+      <button onClick={handleExport} className="btn btn-secondary">
+        <i className="fa-solid fa-file-export"></i> Exportar
       </button>
-      <h2>Resultado</h2>
-      <pre>{json}</pre>
+      <p className="text-muted small mt-2">Formato JSON compatível com a extenção <a target="_blank" href="https://roll20tormenta20.pyanderson.dev/">Roll20: Grimório do Tormenta20</a>.</p>
+      <pre className="mt-2">{json || 'JSON Result'}</pre>
     </div>
   );
 }

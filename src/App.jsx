@@ -14,8 +14,8 @@ const tabs = [
   { name: 'Ataques', icon:"fa-solid fa-burst", animation: "fa-spin-pulse", component: <Ataques /> },
   { name: 'Habilidades', icon:"fas fa-star", animation: "fa-bounce", component: <Habilidades /> },
   { name: 'Magias', icon:"fas fa-fire", animation: "fa-beat-fade", component: <Magias /> },
-  { name: 'Exportar', icon:"fas fa-code", animation: "fa-flip", component: <Exportar /> },
   { name: 'Ameaças', icon:"fa-solid fa-skull", animation: "fa-fade", component: <Ameacas /> },
+  { name: 'Configurações', icon:"fas fa-gear", animation: "fa-spin-pulse", component: <Exportar /> },
 ];
 
 function App() {

@@ -66,24 +66,26 @@ export function PersonagemProvider({ children }) {
   });
 
   const [attributes, setAttributes] = useState({
-    for: { name: 'for', mod: 0, any: false, except: false, points: 0, icon:"fas fa-dumbbell" },
-    des: { name: 'des', mod: 0, any: false, except: false, points: 0, icon:"fas fa-bolt" },
-    con: { name: 'con', mod: 0, any: false, except: false, points: 0, icon:"fas fa-heartbeat" },
-    int: { name: 'int', mod: 0, any: false, except: false, points: 0, icon:"fas fa-brain" },
-    sab: { name: 'sab', mod: 0, any: false, except: false, points: 0, icon:"fas fa-eye" },
-    car: { name: 'car', mod: 0, any: false, except: false, points: 0, icon:"fas fa-users" },
+    for: { name: 'for', mod: 0, any: false, except: false, points: 0 },
+    des: { name: 'des', mod: 0, any: false, except: false, points: 0 },
+    con: { name: 'con', mod: 0, any: false, except: false, points: 0 },
+    int: { name: 'int', mod: 0, any: false, except: false, points: 0 },
+    sab: { name: 'sab', mod: 0, any: false, except: false, points: 0 },
+    car: { name: 'car', mod: 0, any: false, except: false, points: 0 },
   });
 
   const [anyAttribute, setAnyAttribute] = useState({ avaliable: 0, selected: 0 });
 
   const [pointbuy, setPointbuy] = useState({ limit: 10, spent: 0, available: 10 });
+  const [config, setConfig] = useState({ autosave: true });
 
   return (
     <PersonagemContext.Provider value={{
       personagem, setPersonagem,
       attributes, setAttributes,
       anyAttribute, setAnyAttribute,
-      pointbuy, setPointbuy
+      pointbuy, setPointbuy,
+      config, setConfig
     }}>
       {children}
     </PersonagemContext.Provider>
