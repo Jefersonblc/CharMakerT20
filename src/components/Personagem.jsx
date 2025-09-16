@@ -427,38 +427,46 @@ function Personagem() {
       </div>
 
       {/* Atributos */}
-      <div className="row pb-2 g-2 attribute-group">
+      <div className="row pb-2 g-2">
         {Object.keys(attributes).map(attr => (
           <div className="col-md" key={attr}>
-            <label className="form-label fs-5"><i className={attributes[attr].icon + " attribute-icon"} ></i>{attributes[attr].name.toUpperCase()}</label>
-            <input name={attr} className="form-control form-control-lg fs-3 fw-bold text-center" value={personagem[attr]} disabled />
-            <div className="d-flex justify-content-between gap-1">
-              <div className="position-relative">
-                <label className="form-label form-label-sm">Racial</label>
-                <input name={attr + "_race"} className="form-control" value={attributes[attr].mod} disabled />
-                <div className="position-absolute top-50 end-0 translate-middle-y" hidden={!attributes[attr].any || attributes[attr].except} >
-                  <input type="checkbox" className="btn-check" id={`btn-check-${attr}`} 
-                    onChange={e => handleAttrCheckboxChange(attr, e)}
-                    checked={attributes[attr].mod === 1} />
-                  <label className="btn btn-select" htmlFor={`btn-check-${attr}`}><i className="fa-solid fa-circle-up"></i></label>
-                </div>
+            <div className="card card-atributo text-center">
+              <div className="card-header px-0">
+                <strong className="text-uppercase">{attributes[attr].name.toUpperCase()}</strong>
               </div>
-              <div>
-                <label className="form-label form-label-sm">Mod</label>
-                <input type="number" name={attr + "_point"} className="form-control" value={attributes[attr].points} onChange={e => handleChangeAttribute(attr, e)} />
+              <div className="card-body p-2">
+                <strong className="card-text fs-1">{personagem[attr]}</strong>
+                <div className="d-flex justify-content-between gap-1">
+                  <div>
+                    <label className="form-label form-label-sm">Racial</label>
+                    <div className="position-relative">
+                      <input name={attr + "_race"} className="form-control" value={attributes[attr].mod} disabled />
+                      <div className="position-absolute top-50 end-0 translate-middle-y pe-1" hidden={!attributes[attr].any || attributes[attr].except} >
+                        <input type="checkbox" className="btn-check" id={`btn-check-${attr}`}
+                          onChange={e => handleAttrCheckboxChange(attr, e)}
+                          checked={attributes[attr].mod === 1} />
+                        <label className="btn btn-select btn-sm border-0" htmlFor={`btn-check-${attr}`} hidden={attributes[attr].mod !== 1 && anyAttribute.selected >= anyAttribute.avaliable}>
+                          <i className="fa-solid fa-circle-up"></i>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <label className="form-label form-label-sm">Mod</label>
+                    <input type="number" name={attr + "_point"} className="form-control" value={attributes[attr].points} onChange={e => handleChangeAttribute(attr, e)} />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         ))}
 
-        {/* Point buy session */}
-        <div className="col-md-1">
-          <label className="form-label fs-5">Pontos</label>
+        <div className="col-md-2">
+          <label className="form-label fs-4 fw-bold">Pontos</label>
           <select name="pointbuy_rule" className="form-select" value={pointbuy.limit} onChange={handlePointbuyChange}>
             <option value="5">5 Pontos</option>
             <option value="10">10 Pontos</option>
             <option value="15">15 Pontos</option>
-            {/* <option value="any">Personalizado</option> */}
           </select>
           <div className="position-relative">
             <input name="pointbuy_count" className="form-control form-control-lg mt-1 fs-3" value={pointbuy.available} disabled />
