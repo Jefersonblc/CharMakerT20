@@ -243,7 +243,7 @@ function Exportar() {
       <button onClick={handleExport} className="btn btn-secondary">
         <i className="fa-solid fa-file-export"></i> Exportar
       </button>
-      <p className="text-muted small mt-2">Formato JSON compatível com a extenção <a target="_blank" href="https://roll20tormenta20.pyanderson.dev/">Roll20: Grimório do Tormenta20</a>.</p>
+      <p className="text-muted small mt-2">Formato JSON compatível com a extensão <a target="_blank" href="https://roll20tormenta20.pyanderson.dev/">Roll20: Grimório do Tormenta20</a>.</p>
       <pre className="mt-2">{json || 'JSON Result'}</pre>
     </div>
   );
