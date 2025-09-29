@@ -570,7 +570,7 @@ function Personagem() {
 
       <div className="mt-4">
         <label className="form-label">Anotações</label>
-        <textarea name="charnotes" className="form-control fst-italic" rows="6" value={personagem.anotacoes} onChange={handleChange} />
+        <textarea name="charnotes" className="form-control fst-italic" rows="6" value={personagem.charnotes} onChange={handleChange} />
       </div>
 
     </div>
