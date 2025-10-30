@@ -330,7 +330,33 @@ function Personagem() {
         </div>
         <div className="col-md-2">
           <label className="form-label">Nível</label>
-          <input type="number" className="form-control" name="charnivel" value={personagem.charnivel} onChange={onLevelChange} />
+          <div className="input-group">
+            <button
+              type="button"
+              className="btn btn-outline-secondary"
+              onClick={() => onLevelChange({ target: { value: Math.max(1, personagem.charnivel - 1) } })}
+              disabled={personagem.charnivel <= 1}
+            >
+              -
+            </button>
+            <input
+              type="number"
+              className="form-control text-center"
+              name="charnivel"
+              value={personagem.charnivel}
+              onChange={onLevelChange}
+              min={1}
+              max={20}
+            />
+            <button
+              type="button"
+              className="btn btn-outline-secondary"
+              onClick={() => onLevelChange({ target: { value: Math.min(20, personagem.charnivel + 1) } })}
+              disabled={personagem.charnivel >= 20}
+            >
+              +
+            </button>
+          </div>
         </div>
       </div>
 
