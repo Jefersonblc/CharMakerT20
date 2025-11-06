@@ -144,9 +144,14 @@ function Exportar() {
         armaduradefesa2: personagem.defesaescudo, 
         armadurapenalidade2: personagem.penalidadeescudo, 
 
-        abilities : personagem.abilities.map(ability => ({
+        abilities : personagem.abilities.filter(a => a.classDefault || a.raceDefault).map(ability => ({
           nameability: ability.name,
           abilitydescription: ability.description
+        })),
+
+        powers : personagem.abilities.filter(a => !a.classDefault && !a.raceDefault).map(power => ({
+          namepower: power.name,
+          powerdescription: power.description
         })),
 
         attacks : personagem.attacks.map(attack => ({
