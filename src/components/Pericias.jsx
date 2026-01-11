@@ -31,7 +31,11 @@ function Pericias() {
     const atributo = skill.atributo;
     const outros = skill.outros || 0;
     const bonusTreinado = treined ? bonusPericiaTreinada(personagem.charnivel) : 0;
-    return bonusTreinado + personagem[atributo] + outros + Math.floor(personagem.charnivel/2);
+    const penalidadeArmadura = skill.armorPenalty ? personagem.penalidadearmadura + personagem.penalidadeescudo : 0;
+    
+    let total = bonusTreinado + personagem[atributo] + outros + Math.floor(personagem.charnivel/2) - penalidadeArmadura;
+
+    return total;
   }
 
   function mustSelectSkill(skillName) {
@@ -42,7 +46,6 @@ function Pericias() {
 
   function numeroPericiasTreinadas() {
     return Object.values(personagem.pericias).filter(skill => skill.treined).length;
-    //&& !(personagem?.treinedSkills?.includes(skill.nome) || personagem?.treinedSkillsOr?.filter(item => item == skill.nome).length > 0)
   }
 
   return (

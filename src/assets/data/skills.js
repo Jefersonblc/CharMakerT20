@@ -2,6 +2,7 @@ export const skills = [
     {
         nome: "Acrobacia",
         atributo: "des",
+        armorPenalty: true,
         id: "acrobacia"
     },
     {
@@ -52,6 +53,7 @@ export const skills = [
     {
         nome: "Furtividade",
         atributo: "des",
+        armorPenalty: true,
         id: "furtividade"
     },
     {
@@ -87,6 +89,7 @@ export const skills = [
     {
         nome: "Ladinagem",
         atributo: "des",
+        armorPenalty: true,
         id: "ladinagem"
     },
     {
