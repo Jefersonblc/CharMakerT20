@@ -35,6 +35,10 @@ function Pericias() {
     
     let total = bonusTreinado + personagem[atributo] + outros + Math.floor(personagem.charnivel/2) - penalidadeArmadura;
 
+    if (skill.id === 'furtividade') {
+      total += parseInt(personagem.tamanho) || 0;
+    }
+
     return total;
   }
 
