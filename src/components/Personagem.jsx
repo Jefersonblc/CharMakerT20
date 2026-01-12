@@ -84,7 +84,7 @@ function Personagem() {
 
   function handleSizeChange(e) {
     const { value } = e;
-    setPersonagem(prev => ({ ...prev, tamanho: value }));
+    setPersonagem(prev => ({ ...prev, tamanho: value, tamanholabel: opcoesTamanho.find(item => item.value === value).label }));
   };
 
   // Atualiza atributos e exceções da raça ao selecionar
@@ -135,6 +135,7 @@ function Personagem() {
     setPersonagem(prev => ({ 
       ...prev, 
       tamanho: opcoesTamanho.find(item => item.label === selectedRace.size)?.value || prev.tamanho,
+      tamanholabel: selectedRace.size || prev.tamanholabel,
       deslocamento: selectedRace.displacement + " Metros" || prev.deslocamento,
       abilities: [
         ...prev.abilities.filter(a => !a.raceDefault), 
