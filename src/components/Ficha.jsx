@@ -278,7 +278,7 @@ function Ficha() {
         </div>
 
         {/* Anotações */}
-          <div className="mb-4">
+          <div className="notes-section mb-4">
             <h5 className="fw-bold text-uppercase border-bottom border-dark pb-2 mb-3">Anotações</h5>
             <p className="mb-0 small text-break">{personagem.charnotes}</p>
             <hr/>

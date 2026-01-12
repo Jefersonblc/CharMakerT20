@@ -52,6 +52,11 @@
   -webkit-print-color-adjust: exact;
 }
 
+.notes-section {
+  white-space: pre-wrap;
+  line-height: normal;
+}
+
 .spell-detail {
   white-space: pre-wrap;
   line-height: normal;
