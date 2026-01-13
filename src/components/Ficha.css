@@ -11,9 +11,11 @@
     display: none !important;
   }
 
-  .card {
+  .card, .row, .mb-4, .list-skills, table {
     break-inside: avoid;
     page-break-inside: avoid;
+    orphans: 3;
+    widows: 3;
   }
 
   a[href]:after {
@@ -23,8 +25,20 @@
   /* Remover sombras e efeitos visuais em impressão */
   * {
     box-shadow: none !important;
+    overflow: visible !important;
   }
 
+  /* Evitar cortes em textos longos */
+  p, span, div, td, th {
+    page-break-inside: avoid;
+    orphans: 2;
+    widows: 2;
+  }
+
+  /* Garantir que divs com conteúdo não sejam cortadas */
+  .border-bottom {
+    page-break-inside: avoid;
+  }
 
 }
 
@@ -36,17 +50,30 @@
 }
 
 .list-skills-item {
-  border: 1px solid;
-  font-size: 0.875rem;
+  border-bottom: 1px solid black;
+  font-size: 0.750rem;
   min-width: 50%;
 }
 
- .list-smaller small,  
- .list-smaller.small {
+.list-skills-item:nth-child(2n) {
+  border-left: 1px solid black
+}
+
+.list-skills-item:nth-last-child(-n+2) {
+  border-bottom: 0px;
+}
+
+.ability-header, .spell-header {
+  background-color: #afafaf;
+  border-top: #333 solid 1px;
+}
+
+.ability-detail, .spell-detail {
+  white-space: pre-wrap;
+  line-height: normal;
   font-size: 0.675em;
 }
 
-/* Links não devem aparecer em impressão */
 .no-print {
   print-color-adjust: exact;
   -webkit-print-color-adjust: exact;
@@ -57,10 +84,6 @@
   line-height: normal;
 }
 
-.spell-detail {
-  white-space: pre-wrap;
-  line-height: normal;
-}
 
 .faded-text {
   color: #a0acb7 !important;

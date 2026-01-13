@@ -41,11 +41,12 @@ function Ficha() {
   const handlePrintPDF = () => {
     const element = fichaRef.current;
     const opt = {
-      margin: 1,
+      margin: 0,
       filename: `t20-${personagem.playername || 'personagem'}-${new Date().getTime()}.pdf`,
       image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 2, dpi: 192, letterRendering: true },
-      jsPDF: { orientation: 'portrait', unit: 'mm', format: 'a4' }
+      html2canvas: { scale: 2, dpi: 192, letterRendering: true, allowTaint: true, useCORS: true },
+      jsPDF: { orientation: 'portrait', unit: 'mm', format: 'a4' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
     };
 
     html2pdf().set(opt).from(element).save();
@@ -116,9 +117,9 @@ function Ficha() {
 
         {/* Vida, Mana e Perícias */}
         <div className="mb-4">
-          <div className="row g-3">
+          <div className="row g-2">
             <div className="col-md-7">
-              <div className="row g-2 mb-4">
+              <div className="row g-2 mb-2">
                 <div className="col-6">
                   <div className="card border-dark">
                     <div className="card-body">
@@ -141,11 +142,11 @@ function Ficha() {
                 </div>
               </div>
 
-              <div className="row g-2 mb-4">
+              <div className="row g-2 mb-2">
                 <div className="col-12">
                   <div className="card border-dark">
-                    <div className="card-body">
-                      <small className="text-muted fw-bold d-block mb-2">ATAQUES</small>
+                    <div className="card-body p-2">
+                      <small className="text-muted fw-bold d-block">Ataques</small>
                       <table className="table-attacks table table-sm mb-0">
                         <thead>
                           <tr>
@@ -186,7 +187,7 @@ function Ficha() {
                   <div className="card border-dark">
                     <div className="card-body p-2">
                       <div className="mb-2">
-                        <small className="text-muted fw-bold d-block">DEFESA</small>
+                        <small className="text-muted fw-bold d-block">Defesa</small>
                         <h4 className="faded-text text-center">{getDefesaTotal()}</h4>
                       </div>
                       <table className="table table-sm table-borderless table-defense mb-0">
@@ -212,15 +213,17 @@ function Ficha() {
                       </table>
                     </div>
                   </div>
-                                        <div className="card border-dark mt-2">
-                        <div className="card-body">
-                          <small className="text-muted fw-bold d-block"><small>Tamanho:</small> {personagem.tamanholabel}</small>
+                    <div className="card border-dark mt-2">
+                        <div className="card-body p-2">
+                          <small className="text-muted fw-bold d-block">Tamanho</small>
+                          <small className="text-muted">{personagem.tamanholabel}</small>
                         </div>
                       </div>
 
                       <div className="card border-dark mt-2">
-                        <div className="card-body">
-                          <small className="text-muted fw-bold d-block"><small>Deslocamento:</small> {personagem.deslocamento}</small>
+                        <div className="card-body p-2">
+                          <small className="text-muted fw-bold d-block">Deslocamento</small>
+                          <small className="text-muted">{personagem.deslocamento}</small>
                         </div>
                       </div>
                 </div>
@@ -229,8 +232,8 @@ function Ficha() {
                   <div className="row g-2 mb-2">
                     <div className="col-12">
                       <div className="card border-dark">
-                        <div className="card-body text-center">
-                          <small className="text-muted fw-bold d-block mb-2">Proficiências/Outros</small>
+                        <div className="card-body p-2">
+                          <small className="text-muted fw-bold d-block">Proficiências/Outros</small>
                           <p className="mb-0 small">{personagem.proficiencias}</p>
                           <hr />
                           <hr />
@@ -246,15 +249,6 @@ function Ficha() {
                     </div>
                   </div>
 
-                  <div className="row g-2">
-                    <div className="col-6">
-
-                    </div>
-                    <div className="col-6">
-
-                    </div>
-                  </div>
-
                 </div>
               </div>
             </div>
@@ -263,13 +257,25 @@ function Ficha() {
             <div className="col-md-5">
               <div className="row g-2">
                 <div className="col-12">
-                  <div className="list-skills d-flex flex-wrap">
-                    {Object.values(personagem.pericias).map((skill, idx) => (
-                      <div className="list-skills-item d-flex justify-content-between align-items-center py-1 px-2" key={idx}>
-                        <small>{skill.nome} {skill.treined && (<span className="ms-1">♦</span>)}</small>
-                        <span className="fw-bold">{totalSkill(skill.id) || 0}</span>
-                      </div>
-                    ))}
+                  <div className="card border-dark overflow-auto">
+                    <div className="list-skills d-flex flex-wrap">
+                      {Object.values(personagem.pericias).map((skill, idx) => (
+                        <div className="list-skills-item d-flex justify-content-between align-items-center py-1 px-2" key={idx}>
+                          <small>
+                            {skill.nome} 
+                            {skill.armorPenalty && (<span className="ms-1" title="Sofre penalidade de armadura">◄</span>)}
+                            {skill.treinedOnly && (<span className="ms-1" title="Somente treinado">‼</span>)}
+                            {skill.treined && (<span className="ms-1 fw-bold" title="Treinado">♦</span>)}
+                          </small>
+                          <span className="fw-bold">{totalSkill(skill.id) || 0}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="mt-2 small text-muted">
+                    <small className="mb-0">♦ - Treinado</small>
+                    <small className="mb-0 px-3">◄ - Penalidade Armadura</small>
+                    <small className="mb-0">‼ - Somente Treinado</small>
                   </div>
                 </div>
               </div>
@@ -288,16 +294,16 @@ function Ficha() {
 
         {/* Habilidades */}
         {personagem.abilities && personagem.abilities.length > 0 && (
-          <div className="mb-4 list-smaller">
-            <h5 className="fw-bold text-uppercase border-bottom border-dark pb-2 mb-3">Habilidades</h5>
+          <div className="mb-2 list-smaller">
+            <h5 className="fw-bold text-uppercase border-bottom border-dark pb-1 mb-2">Habilidades</h5>
             <div className="p-2">
               {personagem.abilities.map((ability, idx) => (
-                <div key={idx} className="mb-2 pb-2 border-bottom border-dark">
-                  <div className="d-flex justify-content-between align-items-start gap-2">
+                <div key={idx} className="mb-2 pb-2">
+                  <div className="ability-header d-flex justify-content-between align-items-start gap-2 px-1">
                     <strong className="small">{ability.name}</strong>
                     <small className="text-muted text-nowrap">{ability.type}</small>
                   </div>
-                  {ability.description && <small className="d-block mt-1">{ability.description}</small>}
+                  {ability.description && <div className="d-block ability-detail mt-1">{ability.description}</div>}
                 </div>
               ))}
             </div>
@@ -308,12 +314,12 @@ function Ficha() {
         {[1, 2, 3, 4, 5].map(circle => {
           const spellsCicle = `spells${circle}`;
           return personagem[spellsCicle] && personagem[spellsCicle].length > 0 ? (
-            <div className="mb-4" key={spellsCicle}>
-              <h5 className="fw-bold text-uppercase border-bottom border-dark pb-2 mb-3">Magias de {circle}º Círculo ({(circle * (circle + 1)) / 2} PM)</h5>
+            <div className="mb-2" key={spellsCicle}>
+              <h5 className="fw-bold text-uppercase border-bottom border-dark pb-1 mb-2">Magias de {circle}º Círculo ({(circle * (circle + 1)) / 2} PM)</h5>
               <div className="p-2">
                 {personagem[spellsCicle].map((spell, idx) => (
-                  <div key={idx} className="list-smaller mb-2 pb-2 border-bottom border-dark">
-                    <div className="d-flex justify-content-between align-items-start gap-2 mb-1">
+                  <div key={idx} className="list-smaller mb-2 pb-2">
+                    <div className="spell-header d-flex justify-content-between align-items-start gap-2 mb-1 px-1">
                       <strong>{spell.namespell}</strong>
                       <small className="text-muted text-nowrap">{spell.spellescola} | {spell.spelltipo}</small>
                     </div>
@@ -325,9 +331,7 @@ function Ficha() {
                       {spell.spellalvoarea && <div className="mb-1"><strong>Alvo/Área:</strong> {spell.spellalvoarea}</div>}
                       {spell.spellresistencia && <div className="mb-1"><strong>Resistência:</strong> {spell.spellresistencia}</div>}
                     </div>
-                    <div className="small">
-                      {spell.spelldescription && <div className="mt-1 spell-detail small">{spell.spelldescription}</div>}
-                    </div>
+                    {spell.spelldescription && <div className="d-block spell-detail mt-1">{spell.spelldescription}</div>}
                   </div>
                 ))}
               </div>
