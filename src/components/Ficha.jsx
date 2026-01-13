@@ -296,7 +296,7 @@ function Ficha() {
         {personagem.abilities && personagem.abilities.length > 0 && (
           <div className="mb-2 list-smaller">
             <h5 className="fw-bold text-uppercase border-bottom border-dark pb-1 mb-2">Habilidades</h5>
-            <div className="p-2">
+            <div className="p-2 abilities-container">
               {personagem.abilities.map((ability, idx) => (
                 <div key={idx} className="mb-2 pb-2">
                   <div className="ability-header d-flex justify-content-between align-items-start gap-2 px-1">
