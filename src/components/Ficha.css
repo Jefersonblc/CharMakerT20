@@ -44,7 +44,7 @@
 
 /* Lista de perícias compacta */
 .list-skills {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -52,14 +52,9 @@
 .list-skills-item {
   border-bottom: 1px solid black;
   font-size: 0.750rem;
-  min-width: 50%;
 }
 
-.list-skills-item:nth-child(2n) {
-  border-left: 1px solid black
-}
-
-.list-skills-item:nth-last-child(-n+2) {
+.list-skills-item:nth-last-child(1) {
   border-bottom: 0px;
 }
 
@@ -68,7 +63,7 @@
   border-top: #333 solid 1px;
 }
 
-.ability-detail, .spell-detail {
+.ability-detail, .spell-detail, .charnotes {
   white-space: pre-wrap;
   line-height: normal;
   font-size: 0.675em;
@@ -83,7 +78,6 @@
   white-space: pre-wrap;
   line-height: normal;
 }
-
 
 .faded-text {
   color: #a0acb7 !important;
@@ -100,24 +94,35 @@
 }
 
 .table-attacks tbody tr {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #777777;
 }
 
 .table-attacks th {
-  padding: 6px 8px;
-  font-weight: bold;
-  font-size: 0.65rem;
+  padding: 2px 4px;
+  font-size: 0.55rem;
 }
 
 .table-attacks td {
-  padding: 4px 8px;
+  padding: 2px 4px;
   font-size: 0.9rem;
 }
 
 .table-defense th {
-  padding: 6px 8px;
-  font-weight: bold;
-  font-size: 0.65rem;
+  padding: 2px 4px;
+  font-size: 0.55rem;
+}
+
+.table-defense thead tr {
+  border-bottom: 2px solid #333;
+}
+
+.table-defense tbody tr {
+  border-bottom: 1px solid #777777;
+}
+
+.table-defense td {
+  padding: 2px 4px;
+  font-size: 0.9rem;
 }
 
 .abilities-container {

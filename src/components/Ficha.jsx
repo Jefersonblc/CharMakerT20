@@ -43,7 +43,7 @@ function Ficha() {
     const opt = {
       margin: 0,
       filename: `t20-${personagem.playername || 'personagem'}-${new Date().getTime()}.pdf`,
-      image: { type: 'jpeg', quality: 0.98 },
+      image: { type: 'jpeg', quality: 0.99 },
       html2canvas: { scale: 2, dpi: 192, letterRendering: true, allowTaint: true, useCORS: true },
       jsPDF: { orientation: 'portrait', unit: 'mm', format: 'a4' },
       pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
@@ -68,7 +68,7 @@ function Ficha() {
 
       <div ref={fichaRef} className="bg-white p-4">
         {/* Informações Básicas */}
-        <div className="mb-4 pt-4 border-top border-dark">
+        <div className="mb-2 pt-2 border-top border-dark">
           <div className="mb-3">
             <label className="fw-bold">Nome</label>
             <div className="border-bottom border-dark pb-2">{personagem.playername}</div>
@@ -97,46 +97,47 @@ function Ficha() {
           </div>
         </div>
 
-        {/* Atributos */}
-        <div className="mb-4">
-          <div className="row g-2">
-            {Object.keys(attributes).map(attr => (
-              <div className="col-2" key={attr}>
-                <div className="card card-atributo text-center">
-                  <div className="card-header px-0">
-                    <small className="fw-bold">{attributes[attr].name.toUpperCase()}</small>
-                  </div>
-                  <div className="card-body p-2">
-                    <strong className="card-text fs-1">{personagem[attr]}</strong>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+
 
         {/* Vida, Mana e Perícias */}
         <div className="mb-4">
           <div className="row g-2">
-            <div className="col-md-7">
+            <div className="col-md-9">
+
+              {/* Atributos */}
+              <div className="row g-2 mb-2">
+                {Object.keys(attributes).map(attr => (
+                  <div className="col-2" key={attr}>
+                    <div className="card card-atributo text-center">
+                      <div className="card-header px-0">
+                        <small className="fw-bold">{attributes[attr].name.toUpperCase()}</small>
+                      </div>
+                      <div className="card-body p-2">
+                        <strong className="card-text fs-1">{personagem[attr]}</strong>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
               <div className="row g-2 mb-2">
                 <div className="col-6">
                   <div className="card border-dark">
-                    <div className="card-body">
-                      <small className="text-muted fw-bold d-block mb-2">
+                    <div className="card-body p-2">
+                      <small className="text-muted fw-bold d-block">
                         <i className="fas fa-heart text-danger"></i> PV
                       </small>
-                      <h4 className="m-2 text-center"><span className="faded-text">{personagem.vidatotal}</span> / ____</h4>
+                      <h2 className="m-2 text-center"><span className="faded-text ">{personagem.vidatotal}</span> / ___</h2>
                     </div>
                   </div>
                 </div>
                 <div className="col-6">
                   <div className="card border-dark">
-                    <div className="card-body">
-                      <small className="text-muted fw-bold d-block mb-2">
+                    <div className="card-body p-2">
+                      <small className="text-muted fw-bold d-block">
                         <i className="fa-solid fa-flask text-primary"></i> PM
                       </small>
-                      <h4 className="m-2 text-center"><span className="faded-text">{personagem.manatotal}</span> / ____</h4>
+                      <h2 className="m-2 text-center"><span className="faded-text">{personagem.manatotal}</span> / ___</h2>
                     </div>
                   </div>
                 </div>
@@ -147,7 +148,7 @@ function Ficha() {
                   <div className="card border-dark">
                     <div className="card-body p-2">
                       <small className="text-muted fw-bold d-block">Ataques</small>
-                      <table className="table-attacks table table-sm mb-0">
+                      <table className="table table-attacks table-sm mb-0">
                         <thead>
                           <tr>
 
@@ -161,7 +162,7 @@ function Ficha() {
                         <tbody>
                           {personagem.attacks && personagem.attacks.length > 0 ? personagem.attacks.map((attack, idx) => (
                             <tr key={idx}>
-                              <td className="fw-bold">{attack.attackname}</td>
+                              <td className="fw-bold faded-text">{attack.attackname}</td>
                               <td className="text-center">{attack.attackbonus}</td>
                               <td className="text-center">{attack.attackdano}</td>
                               <td className="text-center">{attack.attackdanoextra}</td>
@@ -185,49 +186,79 @@ function Ficha() {
               <div className="row g-2 mb-2">
                 <div className="col-6">
                   <div className="card border-dark">
+
+                    {/* Defesa */}
                     <div className="card-body p-2">
                       <div className="mb-2">
                         <small className="text-muted fw-bold d-block">Defesa</small>
-                        <h4 className="faded-text text-center">{getDefesaTotal()}</h4>
+                        <div className="d-flex justify-content-center align-items-center mb-2">
+                          <table className="table table-defense table-sm mb-0">
+                            <thead>
+                              <tr>
+                                <th colSpan="2">Total</th>
+                                <th colSpan="2">Atributo</th>
+                                <th colSpan="2">Armadura</th>
+                                <th colSpan="2">Escudo</th>
+                                <th className="text-center">Outros</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td className="text-center"><span className="faded-text">{getDefesaTotal()}</span></td>
+                                <td className="text-center">=</td>
+                                <td className="text-center faded-text">{personagem.defesaatributo.toUpperCase()}({personagem[personagem.defesaatributo]})</td>
+                                <td className="text-center">+</td>
+                                <td className="text-center faded-text">{personagem.defesaarmadura}</td>
+                                <td className="text-center">+</td>
+                                <td className="text-center faded-text">{personagem.defesaescudo}</td>
+                                <td className="text-center">+</td>
+                                <td className="text-center faded-text">{personagem.defesaoutros}</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
                       </div>
-                      <table className="table table-sm table-borderless table-defense mb-0">
+
+                      <table className="table table-defense table-sm mb-0">
                         <thead>
-                          <tr className="border-bottom border-dark small">
+                          <tr>
                             <th className="ps-0"><i className="fas fa-shield-alt"></i></th>
                             <th className="text-center">Defesa</th>
-                            <th className="text-center pe-0">Penalidade</th>
+                            <th className="text-center">Penalidade</th>
                           </tr>
                         </thead>
-                        <tbody className="small">
-                          <tr className="border-bottom border-dark">
-                            <td className="ps-0">Armadura</td>
+                        <tbody>
+                          <tr>
+                            <td className="faded-text ps-0">Armadura</td>
                             <td className="text-center faded-text">{personagem.defesaarmadura || 0}</td>
-                            <td className="text-center faded-text pe-0">{personagem.penalidadearmadura || 0}</td>
+                            <td className="text-center faded-text">{personagem.penalidadearmadura || 0}</td>
                           </tr>
                           <tr>
-                            <td className="ps-0">Escudo</td>
+                            <td className="faded-text ps-0">Escudo</td>
                             <td className="text-center faded-text">{personagem.defesaescudo || 0}</td>
-                            <td className="text-center faded-text pe-0">{personagem.penalidadeescudo || 0}</td>
+                            <td className="text-center faded-text">{personagem.penalidadeescudo || 0}</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
                   </div>
-                    <div className="card border-dark mt-2">
-                        <div className="card-body p-2">
-                          <small className="text-muted fw-bold d-block">Tamanho</small>
-                          <small className="text-muted">{personagem.tamanholabel}</small>
-                        </div>
-                      </div>
 
-                      <div className="card border-dark mt-2">
-                        <div className="card-body p-2">
-                          <small className="text-muted fw-bold d-block">Deslocamento</small>
-                          <small className="text-muted">{personagem.deslocamento}</small>
-                        </div>
-                      </div>
+                  <div className="card border-dark mt-2">
+                    <div className="card-body p-2">
+                      <small className="text-muted fw-bold d-block">Tamanho</small>
+                      <small className="text-muted">{personagem.tamanholabel}</small>
+                    </div>
+                  </div>
+
+                  <div className="card border-dark mt-2">
+                    <div className="card-body p-2">
+                      <small className="text-muted fw-bold d-block">Deslocamento</small>
+                      <small className="text-muted">{personagem.deslocamento}</small>
+                    </div>
+                  </div>
                 </div>
 
+                {/* Proficiências */}
                 <div className="col-6">
                   <div className="row g-2 mb-2">
                     <div className="col-12">
@@ -254,7 +285,7 @@ function Ficha() {
             </div>
 
             {/* Coluna Direita: Perícias */}
-            <div className="col-md-5">
+            <div className="col-md-3">
               <div className="row g-2">
                 <div className="col-12">
                   <div className="card border-dark overflow-auto">
@@ -262,20 +293,21 @@ function Ficha() {
                       {Object.values(personagem.pericias).map((skill, idx) => (
                         <div className="list-skills-item d-flex justify-content-between align-items-center py-1 px-2" key={idx}>
                           <small>
-                            {skill.nome} 
-                            {skill.armorPenalty && (<span className="ms-1" title="Sofre penalidade de armadura">◄</span>)}
-                            {skill.treinedOnly && (<span className="ms-1" title="Somente treinado">‼</span>)}
+                            <strong>{skill.nome}</strong>
+                            {skill.atributo && (<span className="ms-1">({skill.atributo.toUpperCase()})</span>)}
                             {skill.treined && (<span className="ms-1 fw-bold" title="Treinado">♦</span>)}
+                            {skill.armorPenalty && (<span className="ms-1" title="Sofre penalidade de armadura">*</span>)}
+                            {skill.treinedOnly && (<span className="ms-1" title="Somente treinado">•</span>)}
                           </small>
-                          <span className="fw-bold">{totalSkill(skill.id) || 0}</span>
+                          <span className="fw-bold faded-text">{totalSkill(skill.id) || 0}</span>
                         </div>
                       ))}
                     </div>
                   </div>
                   <div className="mt-2 small text-muted">
                     <small className="mb-0">♦ - Treinado</small>
-                    <small className="mb-0 px-3">◄ - Penalidade Armadura</small>
-                    <small className="mb-0">‼ - Somente Treinado</small>
+                    <small className="mb-0 px-3">* - Penalidade Armadura</small>
+                    <small className="mb-0">• - Somente Treinado</small>
                   </div>
                 </div>
               </div>
@@ -284,13 +316,13 @@ function Ficha() {
         </div>
 
         {/* Anotações */}
-          <div className="notes-section mb-4">
-            <h5 className="fw-bold text-uppercase border-bottom border-dark pb-2 mb-3">Anotações</h5>
-            <p className="mb-0 small text-break">{personagem.charnotes}</p>
-            <hr/>
-            <hr/>
-            <hr/>
-          </div>
+        <div className="notes-section mb-4">
+          <h5 className="fw-bold text-uppercase border-bottom border-dark pb-2 mb-3">Anotações</h5>
+          <p className="mb-0 small text-break charnotes">{personagem.charnotes}</p>
+          <hr />
+          <hr />
+          <hr />
+        </div>
 
         {/* Habilidades */}
         {personagem.abilities && personagem.abilities.length > 0 && (
@@ -339,12 +371,6 @@ function Ficha() {
           ) : null;
         })}
 
-
-        {/* Rodapé */}
-        <div className="text-center text-muted small pt-3 mt-4">
-          <p className="mb-0">Gerado por CharMaker T20</p>
-          <p className="mb-0">{new Date().toLocaleDateString('pt-BR')}</p>
-        </div>
       </div>
     </div>
   );
