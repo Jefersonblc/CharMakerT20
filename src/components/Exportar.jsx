@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
+import html2pdf from 'html2pdf.js';
 import { usePersonagem } from '../context/PersonagemContext';
+import FichaContent from './FichaContent';
 
 function Exportar() {
   const { 
@@ -7,7 +9,6 @@ function Exportar() {
     attributes, setAttributes,
     anyAttribute, setAnyAttribute,
     pointbuy, setPointbuy,
-    config, setConfig 
   } = usePersonagem();
 
   const [json, setJson] = useState('');
@@ -15,6 +16,8 @@ function Exportar() {
     saves: [],
     selected: '',
   });
+  const [printing, setPrinting] = useState(false);
+  const fichaRef = useRef(null);
 
   useEffect(() => {
     const saves = localStorage.getItem("personagens");
@@ -25,6 +28,28 @@ function Exportar() {
       });
     }
   }, []);
+
+  useEffect(() => {
+    if (printing && fichaRef.current) {
+      const element = fichaRef.current;
+      const opt = {
+        margin: 0,
+        filename: `t20-${personagem.playername || 'personagem'}-${new Date().getTime()}.pdf`,
+        image: { type: 'jpeg', quality: 0.99 },
+        html2canvas: { scale: 2, dpi: 192, letterRendering: true, allowTaint: true, useCORS: true },
+        jsPDF: { orientation: 'portrait', unit: 'mm', format: 'a4' },
+        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+      };
+
+      html2pdf().set(opt).from(element).save().then(() => {
+        setPrinting(false);
+      });
+    }
+  }, [printing, personagem.playername]);
+
+  function handlePrintPDF() {
+    setPrinting(true);
+  }
 
   function handleSaveSelected(e){
     const { value } = e.target;
@@ -221,14 +246,14 @@ function Exportar() {
       <h2 className='mt-2'>Salvar/Carregar</h2>
       
       <div className='d-flex flex-column align-items-center gap-2'>
-        <select id="saves" class="form-select form-select-md" size="4" value={storage.saves.find(save => save.nome === storage.selected) ? storage.selected : ''} onChange={handleSaveSelected}>
-          <option value="" disabled selected hidden></option>
+        <select id="saves" className="form-select form-select-md" size="4" value={storage.saves.find(save => save.nome === storage.selected) ? storage.selected : ''} onChange={handleSaveSelected}>
+          <option value="" disabled hidden></option>
           {storage.saves.map((save, index) => (
             <option key={index} value={save.nome}>{save.nome}</option>
           ))}
         </select>
 
-        <input type="text" class="form-control" id="newsave" placeholder="Novo personagem..." value={storage.selected} onChange={handleSaveSelected} />
+        <input type="text" className="form-control" id="newsave" placeholder="Novo personagem..." value={storage.selected} onChange={handleSaveSelected} />
       </div>
 
       <div className="d-flex gap-2 mt-2">
@@ -245,11 +270,21 @@ function Exportar() {
 
       <h2 className='mt-4'>Exportar Personagem</h2>
 
-      <button onClick={handleExport} className="btn btn-secondary">
-        <i className="fa-solid fa-file-export"></i> Exportar
-      </button>
+      <div className="d-flex gap-2">
+        <button onClick={handleExport} className="btn btn-secondary">
+          <i className="fa-solid fa-file-export"></i> Exportar
+        </button>
+        <button className="btn btn-secondary" onClick={handlePrintPDF}>
+          <i className="fas fa-file-pdf"></i> Gerar PDF
+        </button>
+      </div>
       <p className="text-muted small mt-2">Formato JSON compatível com a extensão <a target="_blank" href="https://roll20tormenta20.pyanderson.dev/">Roll20: Grimório do Tormenta20</a>.</p>
       <pre className="mt-2">{json || 'JSON Result'}</pre>
+      {printing && (
+        <div style={{ position: 'fixed', top: '-9999px', left: '-9999px' }}>
+          <FichaContent ref={fichaRef} />
+        </div>
+      )}
     </div>
   );
 }

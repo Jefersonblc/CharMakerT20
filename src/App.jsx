@@ -17,7 +17,7 @@ const tabs = [
   { name: 'Magias', icon:"fas fa-fire", animation: "fa-beat-fade", component: <Magias /> },
   { name: 'Ameaças', icon:"fa-solid fa-skull", animation: "fa-fade", component: <Ameacas /> },
   { name: 'Configurações', icon:"fas fa-gear", animation: "fa-spin-pulse", component: <Exportar /> },
-  { name: 'Ficha', icon:"fas fa-scroll", animation: "fa-fade", component: <Ficha /> },
+  //{ name: 'Ficha', icon:"fas fa-scroll", animation: "fa-fade", component: <Ficha /> },
 ];
 
 function App() {
