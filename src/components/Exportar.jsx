@@ -11,7 +11,6 @@ function Exportar() {
     pointbuy, setPointbuy,
   } = usePersonagem();
 
-  const [json, setJson] = useState('');
   const [storage, setStorage] = useState({
     saves: [],
     selected: '',
@@ -36,7 +35,7 @@ function Exportar() {
         margin: 0,
         filename: `t20-${personagem.playername || 'personagem'}-${new Date().getTime()}.pdf`,
         image: { type: 'jpeg', quality: 0.99 },
-        html2canvas: { scale: 2, dpi: 192, letterRendering: true, allowTaint: true, useCORS: true },
+        html2canvas: { scale: 2, dpi: 192, letterRendering: true, allowTaint: true, useCORS: true, windowWidth: 1200 },
         jsPDF: { orientation: 'portrait', unit: 'mm', format: 'a4' },
         pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
       };
@@ -228,8 +227,6 @@ function Exportar() {
 
     const personagemJson = JSON.stringify(jsonExport, null, 2)
 
-    setJson(personagemJson);
-
     const blob = new Blob([personagemJson], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
 
@@ -272,16 +269,16 @@ function Exportar() {
 
       <div className="d-flex gap-2">
         <button onClick={handleExport} className="btn btn-secondary">
-          <i className="fa-solid fa-file-export"></i> Exportar
+          <i className="fa-solid fa-dice-d20"></i> Roll20*
         </button>
         <button className="btn btn-secondary" onClick={handlePrintPDF}>
-          <i className="fas fa-file-pdf"></i> Gerar PDF
+          <i className="fas fa-file-pdf"></i> PDF
         </button>
       </div>
-      <p className="text-muted small mt-2">Formato JSON compatível com a extensão <a target="_blank" href="https://roll20tormenta20.pyanderson.dev/">Roll20: Grimório do Tormenta20</a>.</p>
-      <pre className="mt-2">{json || 'JSON Result'}</pre>
+      <p className="text-muted small mt-2">* Roll20: Formato JSON compatível com a extensão <a target="_blank" href="https://roll20tormenta20.pyanderson.dev/">Roll20: Grimório do Tormenta20</a>.</p>
+
       {printing && (
-        <div style={{ position: 'fixed', top: '-9999px', left: '-9999px' }}>
+        <div style={{ position: 'fixed', top: '-9999px', left: '-9999px', width: '1300px' }}>
           <FichaContent ref={fichaRef} />
         </div>
       )}

@@ -37,7 +37,7 @@ const FichaContent = React.forwardRef((props, ref) => {
   }
 
   return (
-    <div ref={ref} className="bg-white p-4">
+    <div ref={ref} className="bg-white p-2">
       {/* Informações Básicas */}
       <div className="mb-2 pt-2 border-top border-dark">
         <div className="mb-3">
@@ -45,23 +45,23 @@ const FichaContent = React.forwardRef((props, ref) => {
           <div className="border-bottom border-dark pb-2">{personagem.playername}</div>
         </div>
         <div className="row g-3">
-          <div className="col-md">
+          <div className="col">
             <label className="fw-bold small">Raça</label>
             <div className="border-bottom border-dark pb-2">{personagem.trace}</div>
           </div>
-          <div className="col-md">
+          <div className="col">
             <label className="fw-bold small">Classe</label>
             <div className="border-bottom border-dark pb-2">{personagem.tlevel}</div>
           </div>
-          <div className="col-md">
+          <div className="col">
             <label className="fw-bold small">Origem</label>
             <div className="border-bottom border-dark pb-2">{personagem.torigin}</div>
           </div>
-          <div className="col-md">
+          <div className="col">
             <label className="fw-bold small">Divindade</label>
             <div className="border-bottom border-dark pb-2">{personagem.divindade}</div>
           </div>
-          <div className="col-md-1">
+          <div className="col-1">
             <label className="fw-bold small">Nível</label>
             <div className="border-bottom border-dark pb-2 text-center faded-text">{personagem.charnivel || '1'}</div>
           </div>
@@ -73,7 +73,7 @@ const FichaContent = React.forwardRef((props, ref) => {
       {/* Vida, Mana e Perícias */}
       <div className="mb-4">
         <div className="row g-2">
-          <div className="col-md-9">
+          <div className="col-9">
 
             {/* Atributos */}
             <div className="row g-2 mb-2">
@@ -256,7 +256,7 @@ const FichaContent = React.forwardRef((props, ref) => {
           </div>
 
           {/* Coluna Direita: Perícias */}
-          <div className="col-md-3">
+          <div className="col-3">
             <div className="row g-2">
               <div className="col-12">
                 <div className="card border-dark overflow-auto">
