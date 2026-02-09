@@ -38,6 +38,8 @@ export function PersonagemProvider({ children }) {
     defesatotal: 10,
     defesaoutros: 0,
     defesaatributo: "des",
+    nomearmadura: 'Armadura',
+    nomeescudo: 'Escudo',
     defesaarmadura: 0,
     defesaescudo: 0,
     penalidadearmadura: 0,

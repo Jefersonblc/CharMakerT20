@@ -7,7 +7,7 @@ import Habilidades from './components/Habilidades';
 import Magias from './components/Magias';
 import Exportar from './components/Exportar';
 import Ameacas from './components/Ameacas';
-import Ficha from './components/Ficha';
+// import Ficha from './components/Ficha';
 
 const tabs = [
   { name: 'Personagem', icon:"fas fa-circle-user", animation: "fa-beat", component: <Personagem /> },

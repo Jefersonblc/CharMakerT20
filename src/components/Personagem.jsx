@@ -557,40 +557,61 @@ function Personagem() {
 
       <div className='row g-2 mt-3'>
         <div className="col-md-6">
-          <label className="form-label"><i className="fas fa-shield"></i> Defesa</label>
+          <label className="form-label mb-0"><i className="fas fa-shield"></i> Defesa</label>
 
           <div className="d-flex justify-content-between gap-1">
-            <input type="number" name="defesatotal" className="form-control" value={getDefesaTotal()} disabled/>
+            <div className="flex-grow-1">
+              <label className="form-label form-label-sm">Total</label>
+              <input type="number" name="defesatotal" className="form-control" value={getDefesaTotal()} disabled/>
+            </div>
             
-            <select name="defesaatributo" className="form-select" value={personagem.defesaatributo} onChange={handleChange}>
-              <option value="">Nenhum</option>
-              <option value="des">DES</option>
-              <option value="for">FOR</option>
-              <option value="con">CON</option>
-              <option value="int">INT</option>
-              <option value="sab">SAB</option>
-              <option value="car">CAR</option>
-            </select>
+            <div>
+              <label className="form-label form-label-sm">Atributo</label>
+              <select name="defesaatributo" className="form-select" value={personagem.defesaatributo} onChange={handleChange}>
+                <option value="">Nenhum</option>
+                <option value="des">DES</option>
+                <option value="for">FOR</option>
+                <option value="con">CON</option>
+                <option value="int">INT</option>
+                <option value="sab">SAB</option>
+                <option value="car">CAR</option>
+              </select>
+            </div>
+            
 
-            <input type="number" name="defesaoutros" className="form-control" value={personagem.defesaoutros} onChange={handleChange} />
+            <div>
+              <label className="form-label form-label-sm">Outros</label>
+              <input type="number" name="defesaoutros" className="form-control" value={personagem.defesaoutros} onChange={handleChange} />
+            </div>
+            
           </div>
 
-          <div className="input-group mt-1 gap-1 align-items-baseline">
-            <span className="input-group-text w-25">Armadura</span>
-            <input type="number" name="defesaarmadura" className="form-control" value={personagem.defesaarmadura} onChange={handleChange} />
-            <input type="number" name="penalidadearmadura" className="form-control" value={personagem.penalidadearmadura} onChange={handleChange} />
-          </div>
-
-          <div className="input-group mt-1 gap-1 align-items-baseline">
-            <span className="input-group-text w-25">Escudo</span>
-            <input type="number" name="defesaescudo" className="form-control" value={personagem.defesaescudo} onChange={handleChange} />
-            <input type="number" name="penalidadeescudo" className="form-control" value={personagem.penalidadeescudo} onChange={handleChange} />
-          </div>
+          <table className="table table-ca table-borderless mt-1">
+            <thead>
+              <tr>
+                <th>Tipo</th>
+                <th>Defesa</th>
+                <th>Penalidade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="w-50 ps-0"><input type="text" name="nomearmadura" className="form-control" value={personagem.nomearmadura} onChange={handleChange} /></td>
+                <td><input type="number" name="defesaarmadura" className="form-control" value={personagem.defesaarmadura} onChange={handleChange} /></td>
+                <td className="pe-0"><input type="number" name="penalidadearmadura" className="form-control" value={personagem.penalidadearmadura} onChange={handleChange} /></td>
+              </tr>
+              <tr>
+                <td className="w-50 ps-0"><input type="text" name="nomeescudo" className="form-control" value={personagem.nomeescudo} onChange={handleChange} /></td>
+                <td><input type="number" name="defesaescudo" className="form-control" value={personagem.defesaescudo} onChange={handleChange} /></td>
+                <td className="pe-0"><input type="number" name="penalidadeescudo" className="form-control" value={personagem.penalidadeescudo} onChange={handleChange} /></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
         <div className="col-md">
           <label className="form-label"><i className="fa-solid fa-bars"></i> Proficiências/Outros</label>
-          <textarea name="proficiencias" className="form-control fst-italic" rows="3" value={personagem.proficiencias} onChange={handleChange} />
+          <textarea name="proficiencias" className="form-control fst-italic" rows="5" value={personagem.proficiencias} onChange={handleChange} />
         </div>
 
       </div>

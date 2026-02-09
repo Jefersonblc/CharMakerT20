@@ -292,4 +292,24 @@ pre {
 .form-label-sm {
   font-size: 0.6em;
   margin-bottom: 0.2em;
+  font-weight: 500;
+}
+
+.table-ca {
+  padding: 2px;
+}
+
+.table-ca th {
+  padding: 2px;
+  font-size: 0.6em;
+  font-weight: 500;
+}
+
+.table-ca td {
+  padding: 2px;
+}
+
+.table-ca thead tr {
+  border-style: none;
+  border-width: 0;
 }
