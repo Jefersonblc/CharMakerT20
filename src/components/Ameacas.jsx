@@ -8,6 +8,7 @@ import html2pdf from 'html2pdf.js';
 import skills from '../assets/data/skills.js';
 import Modal from './Modal';
 import AmeacaContent from './AmeacaContent';
+import AllAmeacasContent from './AllAmeacasContent';
 
 function Ameacas() {
     const [ameacas, setAmeacas] = useState([]);
@@ -18,7 +19,9 @@ function Ameacas() {
     const [selecionadas, setSelecionadas] = useState([]);
     const [modalAmeacaId, setModalAmeacaId] = useState(null);
     const [printingAmeaca, setPrintingAmeaca] = useState(null);
-    const printRef = useRef(null);
+    const [printingAllAmeacas, setPrintingAllAmeacas] = useState(false);
+    const singlePrintRef = useRef(null); // Ref for single threat PDF
+    const multiPrintRef = useRef(null);   // Ref for multiple threats PDF
 
     useEffect(() => {
         const todas = [...ameacasArton, ...ameacasBase].map(a => { 
@@ -32,9 +35,9 @@ function Ameacas() {
     }, []);
 
     useEffect(() => {
-        if (printingAmeaca && printRef.current) {
+        if (printingAmeaca && singlePrintRef.current) {
             const ameaca = printingAmeaca;
-            const element = printRef.current;
+            const element = singlePrintRef.current;
             const opt = {
                 margin: 5,
                 filename: `t20-ameaca-${ameaca.nome.replace(/[^a-z0-9]/gi, '-').toLowerCase() || 'ameaca'}.pdf`,
@@ -48,6 +51,23 @@ function Ameacas() {
             });
         }
     }, [printingAmeaca]);
+
+    useEffect(() => {
+        if (printingAllAmeacas && multiPrintRef.current && selecionadas.length > 0) {
+            const element = multiPrintRef.current;
+            const opt = {
+                margin: 5,
+                filename: `t20-ameacas-selecionadas-${new Date().getTime()}.pdf`,
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2, dpi: 192, letterRendering: true, useCORS: true, windowWidth: 1100 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+
+            html2pdf().set(opt).from(element).save().then(() => {
+                setPrintingAllAmeacas(false);
+            });
+        }
+    }, [printingAllAmeacas, selecionadas]);
 
 
     const opcoesTamanho = [
@@ -237,6 +257,10 @@ function Ameacas() {
         setPrintingAmeaca(ameaca);
     }
 
+    function handlePrintAllPDF() {
+        setPrintingAllAmeacas(true);
+    }
+
     function handleSelecionar(opcoes, val) {
         let newSelected = [];
 
@@ -303,11 +327,19 @@ function Ameacas() {
                 placeholder="Selecione ameaças..."
                 classNamePrefix="react-select"
             />
-
-            <button className="btn btn-secondary mt-3" onClick={exportarAmeacas} disabled={selecionadas.length === 0}>
-                <i className="fa-solid fa-file-export"></i> Exportar Ameaças
-            </button>
-            <p className="text-muted small">Formato JSON compatível com a extensão <a target="_blank" href="https://roll20tormenta20.pyanderson.dev/">Roll20: Grimório do Tormenta20</a>.</p>
+            
+            {selecionadas.length > 0 && 
+                <div className="mt-2 pt-2 border-top border-bottom">
+                    <h4 className="mb-0">Exportar</h4>
+                    <button className="btn btn-secondary mt-2" onClick={exportarAmeacas} disabled={selecionadas.length === 0}>
+                        <i className="fa-solid fa-dice-d20"></i> Roll20*
+                    </button>
+                    <button className="btn btn-secondary mt-2 ms-2" onClick={handlePrintAllPDF} disabled={selecionadas.length === 0}>
+                        <i className="fas fa-file-pdf"></i> PDF
+                    </button>
+                    <p className="text-muted small">*Formato JSON compatível com a extensão <a target="_blank" href="https://roll20tormenta20.pyanderson.dev/">Roll20: Grimório do Tormenta20</a>.</p>
+                </div>
+            }
 
             <div className="d-flex flex-column-reverse mt-4">
                 {selecionadas.length === 0 && <p>Nenhuma ameaça selecionada.</p>}
@@ -452,8 +484,14 @@ function Ameacas() {
             </div>
 
             {printingAmeaca && (
-                <div style={{ position: 'fixed', top: '-9999px', left: '-9999px', width: '1100px' }}>
-                    <AmeacaContent ref={printRef} ameaca={printingAmeaca} />
+                <div style={{ position: 'fixed', top: '-9999px', left: '-9999px', width: '1100px', padding: '5px' }}>
+                    <AmeacaContent ref={singlePrintRef} ameaca={printingAmeaca} />
+                </div>
+            )}
+
+            {printingAllAmeacas && (
+                <div style={{ position: 'fixed', top: '-9999px', left: '-9999px', width: '1100px', padding: '5px' }}>
+                    <AllAmeacasContent ref={multiPrintRef} ameacas={selecionadas} />
                 </div>
             )}
         </div>

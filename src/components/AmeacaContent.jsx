@@ -29,7 +29,7 @@ const AmeacaContent = React.forwardRef(({ ameaca }, ref) => {
     }
 
     return (
-        <div ref={ref} className="bg-white p-0" style={{ fontSize: '0.8rem', lineHeight: '1.2', pageBreakInside: 'avoid' }}>
+        <div ref={ref} className="bg-white p-0" style={{ fontSize: '0.8rem', lineHeight: '1.2' }}>
             <h3 className="card-title fw-bold mb-1">
                 <strong>{ameaca.nome}</strong> | ND {ameaca.nd}
             </h3> 
