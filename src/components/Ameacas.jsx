@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Select from 'react-select';
 import ameacasArton from '../assets/data/ameaças_de_arton_t20.json';
 import ameacasBase from '../assets/data/ameacas_livro_base_t20.json';
 import JSZip from 'jszip';
 import { saveAs } from 'file-saver';
+import html2pdf from 'html2pdf.js';
 import skills from '../assets/data/skills.js';
 import Modal from './Modal';
+import AmeacaContent from './AmeacaContent';
 
 function Ameacas() {
     const [ameacas, setAmeacas] = useState([]);
@@ -15,6 +17,8 @@ function Ameacas() {
     const [filtroND, setFiltroND] = useState('');
     const [selecionadas, setSelecionadas] = useState([]);
     const [modalAmeacaId, setModalAmeacaId] = useState(null);
+    const [printingAmeaca, setPrintingAmeaca] = useState(null);
+    const printRef = useRef(null);
 
     useEffect(() => {
         const todas = [...ameacasArton, ...ameacasBase].map(a => { 
@@ -26,6 +30,25 @@ function Ameacas() {
         });
         setAmeacas(todas, []);
     }, []);
+
+    useEffect(() => {
+        if (printingAmeaca && printRef.current) {
+            const ameaca = printingAmeaca;
+            const element = printRef.current;
+            const opt = {
+                margin: 5,
+                filename: `t20-ameaca-${ameaca.nome.replace(/[^a-z0-9]/gi, '-').toLowerCase() || 'ameaca'}.pdf`,
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2, dpi: 192, letterRendering: true, useCORS: true, windowWidth: 1100 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+
+            html2pdf().set(opt).from(element).save().then(() => {
+                setPrintingAmeaca(null);
+            });
+        }
+    }, [printingAmeaca]);
+
 
     const opcoesTamanho = [
         { value: '5', label: 'Minúsculo' },
@@ -210,6 +233,10 @@ function Ameacas() {
         }
     }
     
+    function handlePrintPDF(ameaca) {
+        setPrintingAmeaca(ameaca);
+    }
+
     function handleSelecionar(opcoes, val) {
         let newSelected = [];
 
@@ -287,12 +314,14 @@ function Ameacas() {
                 {selecionadas.map(a => (
                     <div key={a.id} className="card mb-3 position-relative">
 
-                        <div className="position-absolute top-0 end-0 m-3">
+                        <div className="position-absolute top-0 end-0 m-3 d-flex gap-2">
+                            <button className="btn btn-sm btn-secondary" title="Gerar PDF" onClick={() => handlePrintPDF(a)}>
+                                <i className="fas fa-file-pdf"></i>
+                            </button>
                             <button className="btn btn-sm btn-outline-secondary" title={a.open ? "Minimizar" : "Expandir" } onClick={() => toggleColapse(a.id)}>
                                 <i className={a.open ? "fa-solid fa-caret-up" : "fa-solid fa-caret-down" }></i>
                             </button>
-
-                            <button className="btn btn-sm btn-danger ms-2" title="Remover ameaça" onClick={() => removeAmeaca(a.id)}>
+                            <button className="btn btn-sm btn-danger" title="Remover ameaça" onClick={() => removeAmeaca(a.id)}>
                                 <i className="fa-solid fa-xmark"></i>
                             </button>
                         </div>
@@ -421,6 +450,12 @@ function Ameacas() {
                     </div>
                 ))}
             </div>
+
+            {printingAmeaca && (
+                <div style={{ position: 'fixed', top: '-9999px', left: '-9999px', width: '1100px' }}>
+                    <AmeacaContent ref={printRef} ameaca={printingAmeaca} />
+                </div>
+            )}
         </div>
     );
 }
