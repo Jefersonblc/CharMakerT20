@@ -46,7 +46,7 @@ function App() {
 
       <div className="tab-content">
         <div className="tab-pane fade show active">
-          <div className="d-md-none p-2 tab-title">
+          <div className="d-md-none ps-3 pb-2 tab-title">
             <span className="fw-bold">{tabs[activeTab].name}</span>
           </div>
           {tabs[activeTab].component}

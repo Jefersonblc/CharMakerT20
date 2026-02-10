@@ -155,6 +155,7 @@ pre {
   color: white;
   background-color: var(--t20-red);
   border-color: var(--t20-red);
+  font-size: 1.5rem;
 }
 
 .table {
