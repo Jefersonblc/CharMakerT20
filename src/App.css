@@ -151,6 +151,12 @@ pre {
   border-bottom: 3px solid var(--t20-red);
 }
 
+.tab-title {
+  color: white;
+  background-color: var(--t20-red);
+  border-color: var(--t20-red);
+}
+
 .table {
   vertical-align: middle;
   border-color: var(--t20-red);

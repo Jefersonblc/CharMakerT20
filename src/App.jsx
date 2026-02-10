@@ -28,17 +28,17 @@ function App() {
     <div className="container-md">
       <h1 className="my-4">Gerador Tormenta20</h1>
 
-      <ul className="nav nav-tabs" id="mainTabs" role="tablist">
+      <ul className="nav nav-tabs small" id="mainTabs" role="tablist">
         {tabs.map((tab, idx) => (
           <li className="nav-item" role="presentation" key={tab.name}>
             <button
-              className={`nav-link ${activeTab === idx ? 'active' : ''}`}
+              className={`nav-link ${activeTab === idx ? 'active' : ''} p-2 px-md-3`}
               onClick={() => setActiveTab(idx)}
               onMouseOver={() => setAnimateTab(idx)}
               onMouseLeave={() => setAnimateTab(-1)}
               type="button"
             >
-              <i className={tab.icon + (animateTab === idx ? ` ${tab.animation}` : "")}></i> {tab.name}
+              <i className={tab.icon + (animateTab === idx ? ` ${tab.animation}` : "")}></i><span className="d-none d-md-inline"> {tab.name}</span>
             </button>
           </li>
         ))}
@@ -46,6 +46,9 @@ function App() {
 
       <div className="tab-content">
         <div className="tab-pane fade show active">
+          <div className="d-md-none p-2 tab-title">
+            <span className="fw-bold">{tabs[activeTab].name}</span>
+          </div>
           {tabs[activeTab].component}
         </div>
       </div>
