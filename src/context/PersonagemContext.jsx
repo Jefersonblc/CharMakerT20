@@ -79,7 +79,12 @@ export function PersonagemProvider({ children }) {
   const [anyAttribute, setAnyAttribute] = useState({ avaliable: 0, selected: 0 });
 
   const [pointbuy, setPointbuy] = useState({ limit: 10, spent: 0, available: 10 });
-  const [config, setConfig] = useState({ autosave: true });
+  const [config, setConfig] = useState({ 
+    playername: '',
+    stored: false,
+    altered: false,
+    autosave: false 
+  });
 
   return (
     <PersonagemContext.Provider value={{

@@ -90,6 +90,12 @@ function Exportar() {
       saves: saves
     });
 
+    setConfig({
+      ...config,
+      playername: personagem.playername,
+      stored: true,
+    });
+
     alert('Personagem salvo no navegador!');
   }
 
@@ -106,6 +112,12 @@ function Exportar() {
 
       if (window.confirm('Carregar o personagem salvo no navegador? Isso irá sobrescrever o personagem atual.')) {
         loadPersonagem(saved);
+
+        setConfig({
+          ...config,
+          playername: saved.personagem.playername,
+          stored: true,
+        });
       }
     } else {
       alert('Nenhum personagem salvo no navegador!');
@@ -314,6 +326,13 @@ function Exportar() {
   return (
     <div className="form-section">
       <h2 className='mt-2'>Salvar/Carregar</h2>
+
+      {(config.playername || personagem.playername) &&
+        <>
+          <span className='text-muted'>Personagem Atual{config.stored ? '' : ' (Não Salvo)'}: </span>
+          <h4>{config.playername || personagem.playername}</h4>
+        </>
+      }
 
       <div className='d-flex flex-column align-items-center gap-2'>
         <select id="saves" className="form-select form-select-md" size="4" value={storage.saves.find(save => save.nome === storage.selected) ? storage.selected : ''} onChange={handleSaveSelected}>
