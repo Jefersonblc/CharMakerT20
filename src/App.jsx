@@ -7,6 +7,7 @@ import Habilidades from './components/Habilidades';
 import Magias from './components/Magias';
 import Exportar from './components/Exportar';
 import Ameacas from './components/Ameacas';
+import Itens from './components/Itens';
 // import Ficha from './components/Ficha';
 
 const tabs = [
@@ -15,6 +16,7 @@ const tabs = [
   { name: 'Ataques', icon:"fa-solid fa-burst", animation: "fa-spin-pulse", component: <Ataques /> },
   { name: 'Habilidades', icon:"fas fa-star", animation: "fa-bounce", component: <Habilidades /> },
   { name: 'Magias', icon:"fas fa-fire", animation: "fa-beat-fade", component: <Magias /> },
+  { name: 'Itens', icon:"fas fa-sack-xmark", animation: "fa-flip", component: <Itens /> },
   { name: 'Ameaças', icon:"fa-solid fa-skull", animation: "fa-fade", component: <Ameacas /> },
   { name: 'Configurações', icon:"fas fa-gear", animation: "fa-spin-pulse", component: <Exportar /> },
   //{ name: 'Ficha', icon:"fas fa-scroll", animation: "fa-fade", component: <Ficha /> },

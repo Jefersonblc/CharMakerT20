@@ -1,0 +1,2490 @@
+{
+  "name": "Itens Gerais",
+  "items": [
+    {
+      "name": "Ábaco",
+      "price": "T$ 45",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este instrumento desenvolvido pelos sábios sar-allan fornece a seu usuário a capacidade de fazer operações matemáticas complexas em pouco tempo. Muito útil para determinar custos e margens de lucro! Para usar um ábaco você precisa ser treinado em Conhecimento. Se você fizer um teste de Ofício para sustento, recebe TO, em vez de T$. Além disso, se possuir Poder Monetário, o limite de TO que você pode gastar por dia aumenta em +2."
+    },
+    {
+      "name": "Água benta",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura",
+      "description": "Além de seus usos tradicionais, água benta pode ser usada como um catalisador. Abissais e mortos-vivos afetados por uma magia divina lançada com ela sofrem –2 em testes de resistência e 2 dados extras de dano (se aplicável)."
+    },
+    {
+      "name": "Água benta concentrada",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura",
+      "description": "Criada com os mais puros ingredientes, esta água funciona como água benta (Tormenta20, p. 155), mas causa 4d10 pontos de dano. É fabricada com o mesmo aprimoramento de Abençoar Alimentos, mas seu componente material custa T$ 30."
+    },
+    {
+      "name": "Algemas",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um par de algemas para criaturas Médias. Prender uma criatura que não esteja indefesa exige empunhar a algema, agarrar o alvo (veja “Manobras de Combate”, no Capítulo 5) e vencer um novo teste de agarrar contra ela. Você pode prender os dois pulsos da pessoa (–5 em testes que exijam o uso das mãos, impede conjuração) ou um dos pulsos dela em um objeto imóvel adjacente, caso haja, para impedir que ela se mova. Escapar das algemas exige uma ação completa e um teste de Acrobacia contra CD 30 ou de Força contra CD 25 - ou ter as chaves..."
+    },
+    {
+      "name": "Ampulheta",
+      "price": "T$ 45",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um objeto delicado, usado para medir o tempo. Um ciclo da ampulheta normalmente equivale a uma hora. Usada por nobres para manter controle de seus compromissos e por alquimistas para medir o tempo de certas reações. Quando escolhe 10 em um teste de Ofício (alquimista), você considera o resultado do d20 como um 12 automático."
+    },
+    {
+      "name": " Amuleto de Khalmyr",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este amuleto em formato de balança não é usado apenas por devotos de Khalmyr - todos os artonianos podem se beneficiar dele. Contudo, por não ser mágico, dizem que apenas os chatos mais previsíveis o utilizam... Quando faz um teste de perícia, você pode fazer um teste de Sabedoria (CD 10). Se passar, pode escolher 10 para esse teste de perícia (em vez de usar o valor rolado no d20). Uma vez que você use este efeito em um teste, o amuleto perde seus “poderes”, tornando-se inútil."
+    },
+    {
+      "name": "Amuleto de Nimb",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este amuleto em formato de dado não é usado apenas por devotos de Nimb - todos os artonianos podem se beneficiar dele. Contudo, por não ser mágico, dizem que apenas os crédulos o utilizam... Quando faz um teste de perícia, você pode fazer um teste de Inteligência (CD 10). Se fizer o teste de Inteligência e falhar nele, pode rolar novamente o teste de perícia e usar o melhor resultado. Uma vez que você use este efeito em um teste, o amuleto perde seus “poderes”, tornando-se inútil."
+    },
+    {
+      "name": "Apanhador de sonhos",
+      "price": "T$ 40",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Muitos artonianos acreditam que ficam mais vulneráveis enquanto estão dormindo - não apenas a ataques físicos, mas também a espíritos inquietos, tentações demoníacas e, é claro, pesadelos. Este item é uma pequena estrutura de madeira, cordões, contas e penas feita por um sacerdote para proteger o descanso de seus fiéis. Se estiver em posso de um apanhador de sonhos, recebe +2 em testes de resistência quando estiver dormindo."
+    },
+    {
+      "name": "Aparelho de chá",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um conjunto de xícaras delicadas, pires e um bule. Qualquer um que se depare com um aparelho de chá fica automaticamente mais predisposto a conversar. Uma vez por cena, você recebe +1d4 em um teste de Diplomacia ou Enganação feito com alguém que esteja tomando chá com você."
+    },
+    {
+      "name": "Armação para mochila",
+      "price": "T$ 50",
+      "spaces": "—",
+      "category": "Equipamento de Aventura",
+      "description": "Uma armação para mochila é uma estrutura de metal amarrada aos ombros, tórax e cintura do usuário. A mochila de aventureiro então é encaixada nessa estrutura, garantindo que o peso seja mais bem distribuído, diminuindo a fadiga. Com uma armação, uma mochila de aventureiro passa a aumentar sua capacidade de carga em 6 espaços (em vez de 2). Entretanto, a ação necessária para sacar seus itens aumenta em um passo (de livre para movimento, de movimento para padrão e de padrão para completa)."
+    },
+    {
+      "name": "Arpéu",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um gancho de aço amarrado na ponta de uma corda para se fixar em muros, janelas, parapeitos de prédios... Prender um arpéu exige um teste de Pontaria (CD 15). Subir um muro com a ajuda de uma corda fornece +5 no teste de Atletismo."
+    },
+    {
+      "name": "Asas do texugo",
+      "price": "T$ 200",
+      "spaces": "2",
+      "category": "Equipamento de Aventura",
+      "description": "Criada por uma serelepe tribo de kobolds, este implemento deixou inúmeros engenhoqueiros goblins se perguntando: “Por que não pensei nisso antes?”. Consiste em uma mochila vestida às costas, da qual se projetam duas asas retráteis. Pedais, manivelas e roldanas permitem o “bater” das asas, sustentando um voo um tanto irregular, mas controlável. Para voar com as asas do texugo, é necessário gastar uma ação de movimento para estender as asas (quando não estão em uso, elas ficam dobradas dentro da “mochila”). Isso faz com que você passe a ocupar o espaço de uma criatura uma categoria de tamanho maior que a sua. Para sair do chão é necessário fazer um teste de Atletismo para saltar (CD 15) para pegar impulso. Se passar, você recebe deslocamento de voo 12m por 1 rodada, +1 rodada para cada 5 pontos pelos quais o resultado superar a CD. Saltar de um ponto elevado, como do telhado de um celeiro, fornece +5 nesse teste. Ao fim do tempo de voo, você plana rumo ao chão (como no efeito básico da magia Queda Suave). Enquanto está voando, você fica vulnerável e em condição ruim para lançar magias (você ignora essas penalidades se for treinado em Pilotagem)."
+    },
+    {
+      "name": "Aspersório",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este item parece uma maça, mas sua cabeça é um reservatório de água benta feito de metal perfurado. Você pode gastar uma ação padrão para dispersar uma dose de água benta (normal ou concentrada) em um cone de 4,5m; a CD para resistir à água benta aumenta em +2. Um aspersório pode armazenar até 3 doses de água benta. Carregá-lo exige uma ação completa e o gasto das doses."
+    },
+    {
+      "name": "Astrolábio",
+      "price": "T$ 90",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um avançado instrumento de navegação, que usa a posição relativa das estrelas para guiar seu usuário. Sua complexidade, no entanto, limita seu uso a pessoas que receberam educação avançada. Você pode usar Conhecimento no lugar de Sobrevivência para orientar-se."
+    },
+    {
+      "name": "Bainha adornada",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Coberta de fios de ouro, gemas e outros ornamentos, esta bainha permite que você use armas como parte de um traje da corte (Tormenta20, p. 159). Com isso você pode participar de bailes, festas e encontros da nobreza devidamente armado, sem chamar atenção."
+    },
+    {
+      "name": "Bandoleira de poções",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um cinto de couro com bolsos que comportam pequenos frascos. Se você estiver vestindo uma bandoleira, pode sacar itens alquímicos e poções como uma ação livre. Itens gerais"
+    },
+    {
+      "name": "Barraca",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Esta barraca de lona conta como um saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar."
+    },
+    {
+      "name": "Bússola",
+      "price": "T$ 45",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este avançadíssimo instrumento de navegação funciona por princípios simples, mas depende de materiais raros. Por meio de um ímã, a bússola sempre aponta para o norte. Quando faz um teste de Sobrevivência para orientar-se, você rola dois dados e usa o melhor resultado."
+    },
+    {
+      "name": "Caixa de voz",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este complexo mecanismo tem 1d4 cargas: quando usa uma habilidade de bardo ou nobre com alcance curto ou médio, você pode gastar uma carga para aumentar seu alcance em um passo. Segredo de engenharia da Supremacia Purista, este item não pode ser fabricado, sendo encontrado apenas nos destroços de corcéis e carruagens de comando."
+    },
+    {
+      "name": "Cajado de pastor",
+      "price": "T$ 12",
+      "spaces": "2",
+      "category": "Equipamento de Aventura",
+      "description": "Um cajado comprido, com uma extremidade reta e a outra em semicírculo. Usado originalmente para guiar ovelhas, é símbolo de algumas religiões pacíficas e campestres. Se você rezar uma Missa (Tormenta20, p. 58) usando um cajado de pastor, cada participante recebe 5 PV e 1 PM temporários (cumulativos com os efeitos da missa)."
+    },
+    {
+      "name": "Cálice consagrado",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um cálice santificado feito de um material relacionado ao deus (ouro para Azgher, madeira para Allihanna, obsidiana para Tenebra...). Se você for um devoto da divindade, pode usar o cálice para beber uma poção ou para aplicá-la em um aliado. Se fizer isso, o efeito da poção aumenta em +1 dado do mesmo tipo. Para usar o cálice você precisa gastar uma ação de movimento derramando a poção em seu interior, além do tempo necessário para consumi-la ou aplicá-la. A critério do mestre, esse efeito pode não funcionar com devotos de um deus inimigo (por exemplo, Azgher e Tenebra)."
+    },
+    {
+      "name": "Cinto de utilidades",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um cinturão de couro cheio de bolsos e fivelas, com espaço para os vários equipamentos esquisitos de um inventor. Se você estiver vestindo um cinto de utilidades, pode sacar e guardar engenhocas como uma ação livre."
+    },
+    {
+      "name": "Colar do suplicante",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este colar simples possui 10 contas de um material ligado à divindade em questão, como jade para Lin-Wu ou cristal para Wynna. Se você estiver vestindo um colar do suplicante de um deus do qual é devoto, uma vez por dia você pode gastar uma ação de movimento e uma das contas para recuperar 1 PM. Uma vez que as contas sejam gastas, o colar perde seu efeito."
+    },
+    {
+      "name": "Condecoração militar",
+      "price": "—",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Condecorações não são compradas, são conquistadas! Uma condecoração militar é concedida por um reino ou igreja após uma missão bem-sucedida. Se estiver ostentando sua condecoração, no início de cada combate, você recebe uma quantidade de PV temporários, cumulativos com outros bônus de itens e com outras condecorações, igual a 3x o patamar em que a condecoração foi conquistada (por exemplo, 6 PV para uma condecoração obtida em patamar veterano)."
+    },
+    {
+      "name": "Corda",
+      "price": "T$ 1",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um rolo com 10 metros de corda de cânhamo, o mesmo tipo usado em navios. Possui diversas utilidades: pode ajudar a descer um buraco ou muro (+5 em testes de Atletismo nessas situações), amarrar pessoas etc. Dar um nó firme ou especial (por exemplo, capaz de deslizar, se desfazer com um puxão etc.) exige um teste de Destreza (CD 15). Arrebentar a corda exige 2 pontos de dano de corte ou uma ação padrão e um teste de Força (CD 20)."
+    },
+    {
+      "name": "Corda de teia",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Feita de teia de aranha gigante, esta corda de 10m funciona como uma corda normal, mas é mais resistente. Arrebentá-la exige 5 pontos de dano de corte ou um teste de Força (CD 28)."
+    },
+    {
+      "name": "Dente de wisphago",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um dente de wisphago pode ser vestido como um amuleto. Quando faz um teste de resistência contra uma magia arcana, você pode gastar o amuleto para rolar novamente esse teste com um bônus de +2. Uma vez ativado, o amuleto se desfaz. Um dente de wisphago não pode ser fabricado."
+    },
+    {
+      "name": "Dente falso",
+      "price": "T$ 300",
+      "spaces": "—",
+      "category": "Equipamento de Aventura",
+      "description": "Um minúsculo frasco disfarçado como um dente, dentro de sua boca. Permite que você carregue um preparado alquímico consumível ou uma poção sem ocupar espaços. Além disso, permite ingerir esse item como uma ação de movimento. É preciso quebrar o dente falso para ingerir seu conteúdo: uma vez que você faça isso, o dente falso é perdido. Você só pode ter um dente falso instalado em sua boca por vez (a menos que, de alguma forma, possua mais de uma boca…)."
+    },
+    {
+      "name": "Diagrama anatômico",
+      "price": "T$ 75",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este pergaminho com esquemas detalhados do corpo das principais raças humanoides à primeira vista parece feito para auxiliar curandeiros... No entanto, basta um olhar mais atento para perceber que ele mostra as regiões mais vulneráveis desses corpos, além de explicar as melhores maneiras de atacá-las. Quando usa Ataque Furtivo, você recebe +1 na margem de ameaça."
+    },
+    {
+      "name": "Emblema religioso",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Esta chapa fina de cobre maleável é gravada com a imagem de uma figura religiosa importante e vendida ou distribuída para peregrinos e fiéis em igrejas e templos. É um lembrete dos ensinamentos religiosos que até mesmo os devotos mais humildes ou ignorantes recebem. Existem emblemas religiosos específicos para cada deus e eles só funcionam com devotos da divindade específica. Você pode gastar uma ação de movimento e 1 PM para receber os benefícios de ser treinado em Religião em um teste dessa perícia até o fim da cena."
+    },
+    {
+      "name": "Espelho",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este pequeno espelho possui diversas utilidades: observar cantos, fazer sinais de luz e, claro, garantir que você esteja apresentável."
+    },
+    {
+      "name": "Espelho refletor",
+      "price": "T$ 45",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este pequeno espelho pode ser usado para refletir qualquer luz nos olhos de um inimigo, cegando-o temporariamente. Você pode gastar uma ação de movimento para fazer um teste de Ladinagem oposto a um teste de Reflexos de uma criatura em alcance curto. Se você vencer o teste oposto, ela fica desprevenida contra seu próximo ataque realizado até o fim do seu próximo turno. Pode ser usado apenas uma vez por cena - após isso, os inimigos sabem que devem se proteger contra o truque."
+    },
+    {
+      "name": "Estetoscópio",
+      "price": "T$ 60",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Médicos de Salistick usam este aparato sofisticado para auscultar o coração de pacientes. No entanto, criminosos costumam usá-lo para ouvir os movimentos de mecanismos internos de fechaduras e armadilhas, facilitando seu trabalho ardiloso. Você pode gastar uma ação padrão para fazer um teste de Investigação para ajudar a si mesmo e aplicar o bônus a um teste de Cura, ou de Ladinagem para abrir fechadura ou sabotar, que você realize até o fim do seu próximo turno."
+    },
+    {
+      "name": "Estrepes (bolsa para 3m)",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Pequenas peças de metal com pontas afiadas. Você pode gastar uma ação padrão para cobrir com estrepes um quadrado de até 3m de lado adjacente a você. Eles causam 1d4 pontos de dano de perfuração em qualquer criatura que pise na área. Uma criatura que sofra dano dos estrepes fica lenta até o fim do próximo turno dela."
+    },
+    {
+      "name": "Favor da pessoa amada",
+      "price": "—",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Este item não pode ser comprado nem fabricado, apenas conquistado por meio de interpretação - deve ser dado espontaneamente para que tenha efeito em regras. O favor da pessoa amada é uma mecha de cabelo, lenço perfumado, bilhete de amor, flor seca ou outro item pessoal (mas sem valor monetário) que alguém muito querido dá a um herói. Em geral, é mantido preso sob a armadura ou roupa, em contato com o corpo. Fornece +2 PM, cumulativo com bônus de outros itens. Se você e sua pessoa amada tiverem uma desavença ou decepcionarem um ao outro de alguma forma, este item para de funcionar."
+    },
+    {
+      "name": "Férula",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um cajado luxuoso (feito de madeira de boa qualidade ou de um metal precioso) com um símbolo sagrado no topo. Usado em procissões, na leitura de textos sagrados e na administração de sacramentos. O efeito de sua habilidade Canalizar Energia aumenta em +1d6. Uma férula pode ser usada como arma, com as estatísticas de uma maça."
+    },
+    {
+      "name": "Lampião",
+      "price": "T$ 7",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um cilindro com uma alça e duas portinholas. Uma chama alimentada por óleo é acesa dentro do cilindro e uma das portinholas aberta deixa a luz sair. Acender um lampião é uma ação padrão e sua luz ilumina um raio com 15m. Carregar um lampião com óleo é uma ação padrão e ele dura uma cena."
+    },
+    {
+      "name": "Lampião de foco",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Esta lanterna sofisticada funciona como um lampião, mas possui uma cobertura e pequenos espelhos que concentram a luz em um cone de 24m."
+    },
+    {
+      "name": "Leque",
+      "price": "T$ 3",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Permite que damas e cavalheiros se abanem ou escondam a boca, para fofocar em paz. Muitos usuários se abanam como uma verdadeira mania, principalmente após ouvir algo ultrajante. Uma vez por cena, quando faz um teste de Vontade, você pode se abanar para usar seu Carisma em vez de Sabedoria nesse teste."
+    },
+    {
+      "name": "Livro de métodos anti-Nimb",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Jogos de azar recebem esse nome porque dependem do acaso. Os melhores jogadores são capazes de usar seu magnetismo natural, frieza e capacidade de blefar para garantir vitória em quase qualquer mesa. Este livro, contudo, contém métodos que permitem trocar toda essa aleatoriedade e malandragem por racionalidade: cálculos de estatísticas e probabilidades, truques para contar cartas, gráficos com projeções de ganhos e perdas... Você pode gastar 1 minuto consultando o livro e 1 PM para substituir testes de Jogatina por testes de Conhecimento até o fim da cena. Certos cassinos, tavernas e grupos de jogadores que notem alguém consultando um destes livros podem bani-lo do jogo (ou fazer coisa bem pior)."
+    },
+    {
+      "name": "Lupa",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Uma lente de aumento em uma armação metálica, com cabo de madeira. Equipamento indispensável para detetives. Quando faz um teste de Investigação para procurar usando uma lupa, você pode rolar dois dados e usar o melhor resultado."
+    },
+    {
+      "name": "Mapa",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um mapa de uma região (determinada pelo mestre ao ser adquirido). Fornece +5 em testes de Sobrevivência para orientar-se nessa região."
+    },
+    {
+      "name": "Mecanismo de mola",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Esta estrutura de metal com molas é presa ao antebraço e fica engatilhada até que seja ativada, com um movimento do pulso do usuário. Você pode manter uma arma leve com a qualidade ocultável no mecanismo de mola. Ao ativá-lo, saca essa arma como uma ação livre e ela recebe a qualidade surpreendente para esse ataque."
+    },
+    {
+      "name": "Mochila",
+      "price": "T$ 2",
+      "spaces": "—",
+      "category": "Equipamento de Aventura",
+      "description": "Uma bolsa de lona com tiras para ser carregada nas costas. Não conta como item vestido."
+    },
+    {
+      "name": "Mochila de aventureiro",
+      "price": "T$ 50",
+      "spaces": "—",
+      "category": "Equipamento de Aventura",
+      "description": "Feita de couro resistente, esta mochila é repleta de bolsos para prender equipamento. Vestir uma mochila de aventureiro aumenta sua capacidade de carga em 2 espaços (ela própria não gasta um espaço)."
+    },
+    {
+      "name": "Mochila discreta",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Como uma mochila normal, mas tem um compartimento oculto onde o usuário pode esconder objetos equivalentes a 1 espaço. Esses itens contam em sua capacidade de carga, mas você recebe +5 em testes de Ladinagem para ocultá-los (cumulativo com qualquer bônus concedido pelo próprio item). Uma mochila discreta deve ser vestida, mas não ocupa espaço de carga do personagem."
+    },
+    {
+      "name": "Óleo",
+      "price": "T$ 0,1",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura",
+      "description": "Um frasco com óleo inflamável para lampião. Você pode atirar o frasco em uma criatura em alcance curto com uma ação padrão. Se ela sofrer dano de fogo até o fim do seu próximo turno, sofre 1d6 pontos de dano extra e fica em chamas."
+    },
+    {
+      "name": "Organizador de pergaminhos",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um estojo de madeira ou couro rígido. Se você estiver vestindo um organizador de pergaminhos, pode sacar pergaminhos como uma ação livre."
+    },
+    {
+      "name": "Panfleto de aforismos",
+      "price": "T$ 60",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Às vezes as religiões artonianas contam com tomos de fácil leitura, sem conteúdo pesado - apenas citações motivadoras, conselhos simples, dicas de exercícios de respiração e pequenos excertos que ajudam o fiel a relaxar. Cada panfleto de aforismos é específico de um deus e só funciona com seus devotos. Se estiver debilitado, enjoado, exausto, fatigado, fraco ou vulnerável, você pode gastar uma ação completa e 1 PM para remover uma dessas condições."
+    },
+    {
+      "name": "Patuá",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Vários deuses artonianos ensinam seus devotos a fazer pequenos sacos contendo ervas, substâncias sagradas, pedaços de pergaminhos com orações e outros objetos minúsculos. Esses saquinhos são vestidos como amuletos, pendurados no pescoço, e protegem o devoto de todos os males. Se tiver uma devoção, você recebe redução de dano 2/mundano e resistência a magia +1."
+    },
+    {
+      "name": "Pé de cabra",
+      "price": "T$ 2",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Esta barra de ferro fornece +5 em testes de Força para abrir portas, janelas e baús fechados. Um pé de cabra pode ser usado como arma, com as estatísticas de uma clava."
+    },
+    {
+      "name": "Prancheta",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Uma simples tabuleta de madeira com um pergaminho, no qual o usuário pode fingir escrever alguma coisa. Alguém que carrega uma prancheta é imediatamente identificado como uma figura de autoridade - talvez um inspetor de alguma guilda, ou um enviado de um nobre. Você pode fazer testes de Nobreza para etiqueta mesmo sem ser treinado."
+    },
+    {
+      "name": "Saco de dormir",
+      "price": "T$ 1",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um colchão com uma coberta fina o bastante para ser enrolada e amarrada, é especialmente útil para aventureiros, que nunca sabem onde vão passar a noite. Dormir ao relento sem um acampamento e um saco de dormir diminui sua recuperação de PV e PM (veja a página 106)."
+    },
+    {
+      "name": "Símbolo sagrado",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um medalhão de madeira ou metal com o símbolo de uma divindade. Se você estiver vestindo (normalmente com uma corrente ao redor do pescoço) ou empunhando o símbolo sagrado de um deus do qual é devoto, recebe +1 em testes de resistência."
+    },
+    {
+      "name": "Sinete",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um estojo de madeira ou metal contendo cera, papéis e um anel ou carimbo com o símbolo pessoal do usuário. Reduz em –1 PM o custo das habilidades Autoridade Feudal e Favor e de outras habilidades em que, a critério do mestre, seu símbolo pessoal tenha algum peso."
+    },
+    {
+      "name": "Texto sagrado",
+      "price": "T$ 60",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Todas as religiões de Arton têm um ou mais textos sagrados - escrituras, parábolas, relatos históricos ou até mesmo diagramas que contêm os maiores valores da divindade e oferecem alento a seus fiéis em momentos de necessidade. Cada texto sagrado é específico de um deus e só funciona com seus devotos. Se estiver abalado, alquebrado, apavorado, esmorecido ou frustrado, você pode gastar uma ação completa e 1 PM para remover uma dessas condições."
+    },
+    {
+      "name": "Tocha",
+      "price": "T$ 0,1",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Um bastão de madeira com algum combustível na ponta (geralmente trapos embebidos em parafina). Acender uma tocha é uma ação padrão. Ela ilumina um raio de 9m e dura uma cena. Pode ser usada como uma arma simples leve (dano 1d4 de impacto mais 1 de fogo, crítico x2)."
+    },
+    {
+      "name": "Vara de madeira (3m)",
+      "price": "T$ 0,2",
+      "spaces": "1",
+      "category": "Equipamento de Aventura",
+      "description": "Uma haste com 3m de comprimento. Útil para alcançar pontos distantes, mas frágil demais para servir como arma."
+    },
+    {
+      "name": "Alaúde élfico",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Feito com madeira de alta qualidade e manufatura delicada, este alaúde gera notas vívidas e emocionantes. Enquanto empunha este item, você pode usar a habilidade Inspiração como uma ação de movimento. Conta como um instrumento musical."
+    },
+    {
+      "name": "Apito de caça",
+      "price": "T$ 6",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Este pequeno apito fornece +1 em Adestramento e permite usar manejar animal com um parceiro não inteligente (Int –4 ou –5) como ação livre uma vez por rodada."
+    },
+    {
+      "name": "Baralho marcado",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Um baralho com marcações sutis, que só o usuário é capaz de reconhecer. Uma inspeção casual não revela nada além de um baralho comum. Você recebe +2 em testes de Jogatina com cartas. Contudo, se rolar 1 natural em um teste de Jogatina com este baralho, você é descoberto, o que pode levar a uma bela briga de taverna..."
+    },
+    {
+      "name": "Cítara heptatônica",
+      "price": "T$ 250",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Um instrumento peculiar, com som misterioso, que gera uma atmosfera mística. Criaturas a sua escolha sob efeito de sua Inspiração recebem +2 na CD da primeira habilidade mágica que usarem."
+    },
+    {
+      "name": "Clarim deheoni",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Feito de um fino metal, este clarim produz um som marcial, que muitos associam a um chamado às armas. Criaturas a sua escolha sob efeito de sua Inspiração recebem um bônus adicional de +1 em testes de resistência."
+    },
+    {
+      "name": "Coleção de livros",
+      "price": "T$ 75",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Uma pequena coleção de tomos e tratados sobre um assunto. Fornece +1 em Conhecimento, Guerra, Misticismo, Nobreza ou Religião (definido quando o item é comprado ou fabricado)."
+    },
+    {
+      "name": "Cornamusa de Doherimm",
+      "price": "T$ 750",
+      "spaces": "2",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Criada pelos anões para reverberar na acústica de cavernas, este instrumento é similar a uma gaita de foles, mas possui roncões imensos, que sobem pelas costas do músico numa curva e repousam em seus ombros. Diferente de outros instrumentos, a cornamusa é vestida e não empunhada (mas você ainda precisa ter pelo menos uma mão livre para usá-la). Enquanto você estiver vestindo a cornamusa, o custo de sua Inspiração é reduzido –1 PM, mas você sofre –2 na Defesa."
+    },
+    {
+      "name": "Espelho cirúrgico",
+      "price": "T$ 12",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Uma haste de metal ou madeira com um espelho na ponta, dotada de mecanismos que permitem controlar o ângulo do reflexo a partir da outra extremidade. Muito usado por médicos de campo que só podem contar consigo mesmos para suturar seus ferimentos. Se estiver usando um espelho cirúrgico, você não sofre a penalidade de –5 em testes de Cura em si mesmo."
+    },
+    {
+      "name": "Equipamento de viagem",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Um saco de lona contendo instrumentos úteis para sobreviver nos ermos, como pederneira (pedra para fazer fogo), panelas e talheres para cozinhar, anzól e linha para pescar e uma pequena pá. Um personagem sem este item sofre –5 em testes de Sobrevivência para fazer um acampamento. Não inclui saco de dormir ou barraca."
+    },
+    {
+      "name": "Estandarte",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Um pedaço de tecido, geralmente retangular e com enfeites, com uma representação do brasão ou símbolo de uma família, senhor feudal ou deus. Montado em uma estrutura de madeira reforçada com metal, precisa ser empunhado com uma mão. Se você estiver empunhando um estandarte, seus capangas recebem +1 na Defesa e em rolagens de dano."
+    },
+    {
+      "name": "Estandarte portátil",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Igual ao estandarte, mas feito para ser usado nas costas ou preso à sela de uma montaria. Deixa as mãos livres. Contudo, se estiver preso às costas, impõe uma penalidade de armadura de –2 e, se estiver preso à montaria, conta como um item vestido dela (veja p. 238)."
+    },
+    {
+      "name": "Estojo de disfarces",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Um conjunto de cosméticos, tintas para cabelo e algumas próteses simples (como bigodes e narizes falsos). Um personagem sem este item sofre –5 em testes de Enganação para disfarce."
+    },
+    {
+      "name": "Flauta mística",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Um instrumento delicado, repleto de runas e pequenas gemas místicas. Um bardo que empunhe este item aumenta a CD para resistir às magias lançadas por ele em +1. Conta como um instrumento musical."
+    },
+    {
+      "name": "Flauta sar-allan",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Uma flauta de Halak-Tûr, que produz um som característico, capaz de hipnotizar certos animais. Concede +5 no teste de Atuação para usar uma Música de bardo, mas apenas contra criaturas reptilianas como cobras, nagahs, medusas, trogs e outras a critério do mestre."
+    },
+    {
+      "name": "Gaita de foles",
+      "price": "T$ 500",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Um instrumento polêmico - algumas culturas adoram seu som, mas a maioria das pessoas odeia! Apenas um músico muito habilidoso consegue transformar o lamento da gaita de foles em algo agradável. Ao usar Inspiração, faça um teste de Atuação (CD 20 + total de PM gastos na habilidade). Se passar, o bônus concedido pela Inspiração aumenta em +1. Se falhar, a habilidade não tem efeito, mas os PM são gastos da mesma forma."
+    },
+    {
+      "name": "Gazua",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Uma barra fina de ferro, com a ponta torta ou em forma de gancho. Um personagem sem este item sofre –5 em testes de Ladinagem para abrir fechaduras."
+    },
+    {
+      "name": "Instrumentos de <ofício>",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Existe uma versão deste item para cada perícia de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpinteiro), pergaminhos em branco, tinta e pena para Ofício (escriba) e assim por diante. Um personagem sem os instrumentos de seu Ofício sofre –5 nessa perícia."
+    },
+    {
+      "name": "Instrumento musical",
+      "price": "T$ 35",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Um instrumento típico, como um bandolim, flauta ou lira. Veja o quadro acima para as regras deste item."
+    },
+    {
+      "name": "Lira de casco de tartaruga",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Um instrumento suave, que produz um som pacífico e acalentador. Bardos que usam liras costumam ser belos jovens em togas esvoaçantes. Suas Músicas e magias de bardo de cura recuperam +1 PV por dado de cura."
+    },
+    {
+      "name": "Luneta",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Este instrumento valioso consiste de um cilindro metálico com duas lentes. Fornece +5 em testes de Percepção para observar coisas em alcance longo ou além."
+    },
+    {
+      "name": "Maleta de medicamentos",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Caixa de madeira com ervas, unguentos, bandagens e outros materiais úteis. Um personagem sem este item sofre –5 em Cura."
+    },
+    {
+      "name": "Marionetes",
+      "price": "T$ 90",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Embora não produza nenhum som, este conjunto de bonecos articulados pode ser empregado como um “instrumento musical”. Você recebe +2 no teste oposto de Atuação para usar os poderes Música: Balada Fascinante e Fascinar em Massa, e na CD dos poderes Manipular e Manipular em Massa."
+    },
+    {
+      "name": "Molde pré-fabricado",
+      "price": "T$ 500",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "A maior parte das engenhocas usa alguns princípios básicos, modificados e personalizados por cada inventor. Um molde pré-fabricado é um conjunto de peças já montadas, presentes em diversos tipos de engenhocas. Existe um molde para cada escola de magias. Usar um molde pré-fabricado diminui o tempo de fabricação de uma engenhoca que simule uma magia da respectiva escola para três dias."
+    },
+    {
+      "name": "Pandeiro das estradas",
+      "price": "T$ 200",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Um instrumento de ritmos populares, que convida todos a se juntar ao seu som. Você pode gastar uma ação de movimento, em vez de uma ação padrão, para manter a concentração em uma Música de bardo que exija isso."
+    },
+    {
+      "name": "Sela",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Ferramentas - Gerais",
+      "description": "Uma peça de couro e pelego colocada sobre o lombo da montaria, sobre a qual o cavaleiro se senta. Inclui arreios para conduzir o animal. Um personagem montado em uma montaria sem sela sofre –5 em testes de Cavalgar. Usada no animal, a sela não ocupa espaço de carga do personagem."
+    },
+    {
+      "name": "Tambor das profundezas",
+      "price": "T$ 80",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Um instrumento típico de anões de Doherimm, capaz de sons graves e retumbantes. Enquanto empunha este item, o alcance da habilidade Inspiração e de qualquer Música de Bardo é dobrado. Conta como um instrumento musical."
+    },
+    {
+      "name": "Tamborete marcial",
+      "price": "T$ 80",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Menor que um tambor, este instrumento é tocado com um par de baquetas pequenas. Produz um som rápido e cadenciado. Criaturas a sua escolha sob efeito de sua Inspiração recebem +3m em deslocamento."
+    },
+    {
+      "name": "Trombeta do cruzado",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Esta trombeta santificada infunde energia divina nas criaturas que você convoca. Se estiver empunhando esta trombeta quando usa um poder concedido ou uma magia divina que convoca capangas (como Servos do Dragão ou Conjurar Mortos-vivos), o custo da habilidade é reduzido em –1 PM e os capangas convocados recebem +2 em rolagens de dano. Conta como um instrumento musical."
+    },
+    {
+      "name": "Trombeta tapistana",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Usado por incontáveis exércitos ao longo dos séculos, este instrumento produz um som que qualquer guerreiro reconhece - o som da peleja! Quando você usa Inspiração, cada criatura a sua escolha sob efeito dessa habilidade recebe uma ação de movimento extra em seu próximo turno."
+    },
+    {
+      "name": "Violino soprano",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Ferramentas - Instrumentos Musicais",
+      "description": "Um instrumento difícil de ser dominado, usado pelos bardos mais habilidosos. Ver um mestre violinista em ação é um grande incentivo ao virtuosismo em qualquer área. Cada criatura a sua escolha sob efeito de sua Inspiração recebe um bônus adicional de +1d4 em seu próximo teste de perícia (exceto testes de ataque)."
+    },
+    {
+      "name": "Andrajos de aldeão",
+      "price": "T$ 1",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Roupas típicas de camponês. Consiste de camisa larga e calças soltas ou blusa e saia e não inclui botas - os mais pobres andam descalços. Fornece +2 em testes de Investigação para interrogar (ninguém se importa com o que um aldeão escuta) e, se você possuir o poder Aparência Inofensiva, a CD para resistir a ele aumenta em +2. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas que se importam com classe social."
+    },
+    {
+      "name": "Anel eclesiástico",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Este anel é um símbolo da autoridade de um sacerdote. Pessoas comuns tendem a se impressionar com estes anéis, até mesmo se ajoelhando para beijá-los na mão de seus portadores. Se for um clérigo ou frade e estiver vestindo um anel eclesiástico, você recebe +1 em Diplomacia e Intimidação."
+    },
+    {
+      "name": "Avental de forja",
+      "price": "T$ 75",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Um avental grosso, feito de couro tratado alquimicamente. Um artesão protegido dessa forma não precisa se preocupar com faíscas e pequenas gotas de metal derretido respingando sobre seu peito. Evitando ferimentos sérios, pode se arriscar mais ao trabalhar. Se estiver usando um avental de forja, você pode perder 1d6 PV para receber +1 em um teste de Ofício (cumulativo com outros itens)."
+    },
+    {
+      "name": "Bandana",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Um lenço tipicamente usado por bandidos e piratas. Fornece +1 em Intimidação."
+    },
+    {
+      "name": "Botas reforçadas",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Grossas e resistentes, estas botas de cano alto protegem contra perigos do terreno. Aumentam seu deslocamento em +1,5m se ele for reduzido por terreno difícil (após a redução)."
+    },
+    {
+      "name": "Camisa bufante",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Blusa colorida, com mangas e golas longas e encrespadas. Fornece +1 em Atuação."
+    },
+    {
+      "name": "Camisolão",
+      "price": "T$ 12",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta roupa de dormir pode não ser muito elegante, mas com certeza é confortável! Feita de tecido macio (de preferência listrado), aberta o bastante para ser fresca no calor, aconchegante o suficiente para aquecer no frio, proporciona uma boa noite de sono a qualquer um. Inclui gorro com pompom (um acessório indispensável). Dormir com um camisolão e nenhum outro item vestido transforma condições de descanso confortáveis em luxuosas."
+    },
+    {
+      "name": "Capa com dragonas",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Uma capa elegante com ombreiras, utilizada como parte de uniformes. Enquanto você estiver vestindo esta capa, sua armadura conta como um traje da corte e pode ser usada em bailes, festas e encontros da nobreza sem chamar atenção."
+    },
+    {
+      "name": "Capa esvoaçante",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Favorita entre heróis ousados, esta capa de seda produz movimentos amplos e chamativos, que fornecem +1 em Enganação."
+    },
+    {
+      "name": "Capa pesada",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Uma capa de couro grossa e resistente. Protege e aquece o corpo, fornecendo +1 em Fortitude."
+    },
+    {
+      "name": "Carcaça do predador primal",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta carcaça de um animal ou monstro é trabalhada na forma de uma capa ou manto. Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), o bônus na Defesa concedido pela forma aumenta em +1."
+    },
+    {
+      "name": "Casaca de apetrechos",
+      "price": "T$ 75",
+      "spaces": "—",
+      "category": "Vestuário",
+      "description": "Este casacão pesado recobre todo o corpo do usuário, estendendo-se até abaixo de seus joelhos. É forrado de bolsos por dentro e por fora, sendo ideal para carregar muitos pequenos itens de utilidade variada. Uma casaca de apetrechos aumenta sua capacidade de carga em 4 espaços (ela própria não gasta um espaço). Por ser volumosa e desajeitada, impõe uma penalidade de armadura de –2 e não pode ser usada com armadura."
+    },
+    {
+      "name": "Casaco longo",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Feito de peles ou couro grosso forrado com lã, e impermeabilizado com óleo, este casaco é quente e pesado. Fornece +5 em testes de Fortitude para resistir a efeitos de frio, mas impõe penalidade de armadura de –2."
+    },
+    {
+      "name": "Chapéu arcano",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Com pinturas e bordados de símbolos místicos, este chapéu pontudo ajuda a canalizar energias mágicas. Ele fornece +1 ponto de mana, mas apenas se você possuir a habilidade de classe Caminho do Arcanista."
+    },
+    {
+      "name": "Chapéu emplumado",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Popular entre capitães piratas e duelistas fanfarrões, este enorme chapéu tem abas largas e uma gigantesca pluma. Na primeira rodada de um combate, você pode gastar uma ação de movimento para saudar seus inimigos. Se fizer isso, você recebe 1 PM temporário que dura até o fim da cena."
+    },
+    {
+      "name": "Elmo leve",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Um capuz de couro ou peles, ou um capacete aberto. Fornece fortificação 25%, mas impõe –2 em Iniciativa e Percepção. Se você tiver proficiência com armaduras pesadas, anula essa penalidade."
+    },
+    {
+      "name": "Elmo pesado",
+      "price": "T$ 200",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Uma coifa (capuz de cota de malha) ou capacete fechado. Fornece fortificação 50%, mas impõe –5 em Iniciativa e Percepção. Se você tiver proficiência com armaduras pesadas, reduz essa penalidade para –2."
+    },
+    {
+      "name": "Enfeite de elmo",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Um adorno chamativo, como crina de cavalo, plumas, asas ou um totem de animal. Fornece resistência a medo +2."
+    },
+    {
+      "name": "Farrapos de ermitão",
+      "price": "T$ 1",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Trapos “adornados” com plantas e raízes. Uma pessoa vestindo farrapos de ermitão não parece muito civilizada, e sofre –2 em Diplomacia e em testes de Investigação para interrogar. Entretanto, recebe +2 em Adestramento."
+    },
+    {
+      "name": "Garra feroz",
+      "price": "T$ 60",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Estas pinças de insetos gigantes, presas com tiras de couro, funcionam como uma manopla (Tormenta20, p. 159), mas seus benefícios também se aplicam a uma garra ou a uma arma natural de um personagem sob efeito de habilidades como Forma Selvagem."
+    },
+    {
+      "name": "Garras do predador primal",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Estas garras de um animal ou monstro são trabalhadas na forma de um colar ou um par de braceletes. Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), você recebe +1 nas rolagens de dano com armas naturais."
+    },
+    {
+      "name": "Gorro de ervas",
+      "price": "T$ 75",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Formado por duas camadas de tecido, este chapéu é preenchido com ervas preparadas para auxiliar a concentração do usuário. Fornece +1 em Vontade."
+    },
+    {
+      "name": "Hábito monástico",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Uma vestimenta simples, em geral de tecido cru, amarrada com um cinto de corda. A humildade dos religiosos que vestem estes hábitos só é rivalizada por sua temperança. Fornece +2 em Vontade contra efeitos mentais e aumenta em +2 a CD da magia Tranquilidade. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas ricas, nobres ou arrogantes."
+    },
+    {
+      "name": "Hábito sacerdotal",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Para o sacerdote que dedica sua vida à fé, mas não de forma tão extrema quanto os monges, uma roupa mais atraente e confortável. A aparência desta batina varia muito de acordo com a religião do devoto, mas ela sempre concede +2 em testes de perícias baseadas em Carisma com devotos da mesma divindade."
+    },
+    {
+      "name": "Jaqueta de couro",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Uma jaqueta feita de couro que protege costas e braços, mas é aberta na frente. O couro pode variar de preto a marrom, com ou sem gola. Comum entre exploradores, ladinos e qualquer humanoide com aparência bonita e “perigosa”. Você recebe +1 em testes de Investigação para interrogar e gasta apenas metade do dinheiro (arredondado para cima) neles."
+    },
+    {
+      "name": "Luva de falcoaria",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta luva recobre o antebraço do usuário, permitindo que uma ave de rapina pouse sobre ele sem machucá-lo com suas garras. Concede +2 em testes de Adestramento com pássaros e criaturas semelhantes (a critério do mestre)."
+    },
+    {
+      "name": "Luva de pelica",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Estas luvas delicadas preservam o tato e impedem que o suor deixe os dedos escorregadios. Fornecem +1 em Ladinagem."
+    },
+    {
+      "name": "Luva magnética",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Poucos em Arton sabem como os ímãs funcionam - mas muitos sabem que eles podem atrair certos metais. Esta luva tem pequenos ímãs nas pontas dos dedos, sendo útil para surrupiar objetos ferrosos sem chamar a atenção. A vítima de um teste de Ladinagem para punga sofre uma penalidade de –5 no teste de Percepção para notar que foi vítima disso."
+    },
+    {
+      "name": "Manopla",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Luva metálica que permite socos mais perigosos - o dano de seus ataques desarmados torna-se letal. Uma manopla conta como uma arma para receber melhorias e encantos para usá-los em seus ataques desarmados."
+    },
+    {
+      "name": "Manto camuflado",
+      "price": "T$ 12",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Um manto camuflado é feito para um tipo de terreno específico (veja a habilidade Explorador, na página 51). Por exemplo, um manto camuflado para floresta pode ser verde e marrom e coberto de folhas, enquanto um manto urbano pode ser cinza ou negro. Usar um manto camuflado no terreno correto fornece +2 em Furtividade."
+    },
+    {
+      "name": "Manto de alto sacerdote",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Um manto longo com mangas, que cobre todo o corpo. Esta batina é ricamente adornada, feita de tecidos finos de alta qualidade, e tem mais em comum com as vestimentas de um nobre do que com o hábito de um frade. Se você possuir o poder Autoridade Eclesiástica, recebe +1 PM por patamar acima de iniciante (somente após um dia de uso)."
+    },
+    {
+      "name": "Manto do mantor",
+      "price": "T$ 450",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Este manto, feito a partir do couro de um mantor, oferece parte de sua furtividade. Na escuridão completa fornece camuflagem total, mesmo contra criaturas que vejam no escuro."
+    },
+    {
+      "name": "Manto eclesiástico",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Um manto típico de igrejas e templos. Fornece +1 em Religião."
+    },
+    {
+      "name": "Manto pesado",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Estas vestes pesadas com um grande capuz oferecem proteção contra o sol e contra claridade em excesso. Você recebe imunidade a condição ofuscado e, mesmo durante o dia, não é considerado sob luz solar ou semelhante."
+    },
+    {
+      "name": "Máscara bucal",
+      "price": "T$ 3",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta máscara nada mais é que um pano que cobre nariz e boca do usuário. Ela permite respirar mas esconde boa parte das feições, deixando à mostra apenas olhos, testa e orelhas. A preferida de onze entre dez bandoleiros de estradas. Qualquer pessoa que veja um personagem usando uma máscara bucal deve passar em um teste de Percepção (CD 25) para ser capaz de descrevê-lo mais tarde (útil para fugir das autoridades após um crime)."
+    },
+    {
+      "name": "Máscara completa",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta máscara cobre totalmente o rosto. Como a área da máscara é maior, geralmente ela tem a forma de uma criatura ou entidade - ursos, demônios, golens, javalis... Tudo que couber na imaginação do artesão. Pode ser feita de argila, madeira, porcelana ou metal. Escolha uma perícia baseada em Carisma. A máscara concede +1 em testes dessa perícia, de acordo com sua forma (uma máscara de demônio pode ajudar em Intimidação, por exemplo)."
+    },
+    {
+      "name": "Máscara de baile",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Tapa a região dos olhos, testa e às vezes o nariz, deixando à mostra a boca, o queixo e as orelhas. Muito popular em bailes e festas requintadas… Ou picantes. Uma vez por cena, se estiver em um baile, festa ou outra situação apropriada (de acordo com o mestre), você pode colocar uma máscara de baile (ou trocar de máscara) para repetir um teste de Diplomacia ou Enganação."
+    },
+    {
+      "name": "Máscara de soldador",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Uma chapa metálica que recobre o rosto, com um visor protegido por uma lente grossa e escurecida. A máscara garante maior segurança para os olhos e o rosto de um artesão, permitindo que ele chegue bem perto do item no qual está trabalhando e examine os mínimos detalhes. Quando faz um teste de Ofício, você pode fazer um teste de Percepção para ajudar a si mesmo e aplicar o bônus a esse teste."
+    },
+    {
+      "name": "Monóculo",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Uma lente corretiva utilizada para enxergar melhor com um olho, encaixada na órbita ocular do usuário. Isso é o que dizem para os tolos - na verdade, o monóculo é um símbolo de dignidade, austeridade e empáfia. Quando você usa a habilidade Orgulho em um teste de Vontade, o bônus fornecido por ela aumenta em +2."
+    },
+    {
+      "name": "Óculos de aeronauta",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta proteção para os olhos é indispensável para baloeiros e aeronautas em geral. Fornece +1 em Pilotagem (cumulativo com outros bônus de itens). Certas pessoas que não são aeronautas gostam de usar estes óculos apenas por estilo... o que pode provocar a fúria de alguns! Segundo a decisão do mestre, personagens que valorizem muito a profissão de aeronauta ou que estejam fartos de ver estes óculos como um mero acessório estético têm sua atitude piorada em uma categoria em relação a usuários que não sejam aeronautas."
+    },
+    {
+      "name": "Palmar",
+      "price": "T$ 12",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Este equipamento é usado nas mãos, parecendo leques ou pequenas pranchas que as recobrem. Um personagem usando palmares não pode empunhar nada em nenhuma das mãos. Contudo, quando passa em um teste de Atletismo para natação, avança seu deslocamento inteiro (em vez de metade)."
+    },
+    {
+      "name": "Penas do predador primal",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Estas penas de um animal ou monstro são costuradas como uma capa ou um capuz. Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), enquanto estiver nessa forma você recebe +2 em Atletismo e seu deslocamento aumenta em +3m."
+    },
+    {
+      "name": "Peruca",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Muitos aristocratas desejam penteados extravagantes sem todo o trabalho necessário para moldar seus cabelos. Ou simplesmente estão com piolhos, raspam a cabeça e desejam continuar bonitos. De qualquer forma, uma peruca permite que um personagem com Carisma menor que 0 seja considerado como se tivesse Carisma 0 para fins de perícias originalmente baseadas nesse atributo (exceto Adestramento) durante uma cena. Após a cena, a peruca deve ser penteada, limpa e recolocada, um processo que demora 1 hora e gasta T$ 10."
+    },
+    {
+      "name": "Piercing de umbigo",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta joia, muito apreciada por devotos de Marah, deve ser usada na barriga ou em outra parte do corpo visível e, por assim dizer, sensual. A CD para resistir às suas habilidades que causam as condições enfeitiçado, fascinado ou pasmo aumenta em +1, mas apenas se você estiver sem armadura ou usando uma armadura sensual (Heróis de Arton, Capítulo 3: Arsenal dos Heróis)."
+    },
+    {
+      "name": "Robe místico",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Um manto longo, adornado com temas arcanos. Fornece +1 em Misticismo."
+    },
+    {
+      "name": "Rondel",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Dois discos de aço costurados rebitados na armadura. Aumentam o bônus na Defesa de sua armadura em +1 (cumulativo com outros bônus de itens), mas afetam seus movimentos, impondo –2 em testes de ataque. Se você tiver proficiência com armaduras pesadas, anula essa penalidade."
+    },
+    {
+      "name": "Roupão elegante",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Este traje de veludo é refinado e casual ao mesmo tempo, dando ao usuário uma aparência de descontração, autoconfiança e requinte. Você recebe +5 em testes de Diplomacia dentro de uma de suas estruturas (como sua base, negócio ou domínio) - é preciso estar em casa para que este item tenha efeito. Contudo, o roupão exige um ar relaxado: você não recebe seu benefício se estiver vestindo um item que forneça algum bônus em perícias baseadas em Força, Destreza ou Constituição, ou uma armadura."
+    },
+    {
+      "name": "Rufo",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta gola adornada e apertada é ajustada ao redor do pescoço, dando a aparência de que o usuário está sufocando... mas aumentando muito sua elegância em certos círculos. Se você usar um traje da corte em conjunto com um rufo, o traje passa a fornecer +1 em Diplomacia (cumulativo com quaisquer bônus do próprio traje)."
+    },
+    {
+      "name": "Sandálias",
+      "price": "T$ 9",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Um solado resistente para proteger os pés de objetos pontiagudos como pedras e espinhos, mas não da chuva. Muitas vezes sandálias são usadas como sinal de humildade e abnegação. Impõem uma penalidade de –2 em testes para resistir a condições climáticas e para evitar ser derrubado no chão. Entretanto, fornecem +1 ponto de mana, mas apenas se você for um conjurador divino."
+    },
+    {
+      "name": "Sapatos confortáveis",
+      "price": "T$ 6",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Calçados apropriados para uso em jornadas longas, preservando os pés do usuário. Se estiver vestindo sapatos confortáveis, você ignora o primeiro teste de Fortitude para marcha forçada (Tormenta20, p. 270). A critério do mestre, esse benefício pode se aplicar em outros testes de Fortitude para situações semelhantes."
+    },
+    {
+      "name": "Sapatos de camurça",
+      "price": "T$ 8",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Leves e resistentes, aprimoram o equilíbrio e a firmeza dos pés, fornecendo +1 em Acrobacia."
+    },
+    {
+      "name": "Sapatos de salto alto",
+      "price": "T$ 18",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Para alguns, a elegância vem antes do conforto, e a prova são estes verdadeiros instrumentos de tortura em nome da moda. Com estes sapatos, seu deslocamento é reduzido em –1,5m e você falha automaticamente em testes de Fortitude para marcha forçada. Em compensação, uma vez por cena você pode escolher uma criatura e caminhar na frente dela (uma ação completa). Se fizer isso, você pode usar o poder Atraente pelo restante da cena contra essa criatura (se já tiver esse poder, em vez disso o bônus que ele fornece contra essa criatura aumenta para +5)."
+    },
+    {
+      "name": "Sombreiro",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Tipo de chapéu com abas muito largas, comum nas proximidades de Smokestone. Fornece resistência a efeitos de sentidos +2."
+    },
+    {
+      "name": "Tabardo",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Uma peça de tecido usada como um colete, cobrindo o peito e as costas. Geralmente ostenta a heráldica de um reino, igreja, casa nobre ou ordem de cavaleiros. Fornece +1 em Diplomacia."
+    },
+    {
+      "name": "Tonsura",
+      "price": "T$ 3",
+      "spaces": "—",
+      "category": "Vestuário",
+      "description": "Não uma roupa, mas um estilo de cabelo. A tonsura pode significar que o devoto tem o topo da cabeça raspado, ou toda a frente do couro cabeludo, ou ainda algum corte mais exótico. A maioria das pessoas acha um sacerdote tonsurado bastante engraçado e “bonitinho”. Impõe –5 em Intimidação, mas permite usar o poder Aparência Inofensiva. Se já tiver este poder, em vez disso você pode usá-lo contra as duas primeiras criaturas inteligentes que o atacarem em uma cena. Uma tonsura conta como um item vestido porque você precisa deixar a cabeça à mostra, mas não ocupa um espaço."
+    },
+    {
+      "name": "Traje da corte",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Roupas de luxo, feitas sob medida e adequadas à nobreza e realeza. Inclui algumas joias, como aneis e colares. Em certos ambientes (um baile, um salão de palácio), um personagem que não esteja vestindo este item sofre –5 em perícias baseadas em Carisma."
+    },
+    {
+      "name": "Traje de viajante",
+      "price": "T$ 10",
+      "spaces": "—",
+      "category": "Vestuário",
+      "description": "Inclui botas, calças ou saias, cinto, camisa de linho e capa com capuz. A roupa padrão de aventureiros."
+    },
+    {
+      "name": "Traje Selako",
+      "price": "T$ 90",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Feito com couro de selako, este traje fornece parte das capacidades desses predadores. Você recebe +2 em testes de Atletismo para nadar e +3m em seu deslocamento de natação."
+    },
+    {
+      "name": "Túnica do Virtuoso",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta túnica de algodão tem um corte simples e prático, que faz jus às verdadeiras virtudes de um paladino. Conta como uma Virtude Paladinesca (Tormenta20, p. 84) para cálculo dos PM adicionais que você recebe por esses poderes (somente após um dia de uso)."
+    },
+    {
+      "name": "Veste acolchoada",
+      "price": "T$ 60",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Este traje completo (casaco, calças, capuz) é feito de tecido resistente estofado com lã ou algodão. Usado sob uma armadura, aumenta sua penalidade de armadura em –2, mas reduz o multiplicador de crítico de qualquer ataque sofrido em –1 (mínimo x2)."
+    },
+    {
+      "name": "Veste de seda",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Vestuário",
+      "description": "Esta roupa leve e elegante deixa seus movimentos os mais livres possíveis. Fornece +1 em Reflexos."
+    },
+    {
+      "name": "Afiador solar",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Esta pequena pedra de amolar canaliza luz para suas armas. Quando lança uma magia que tenha como alvo uma arma e que forneça dados adicionais de dano a ela, você pode mudar o tipo desse dano adicional para luz."
+    },
+    {
+      "name": "Ankh solar",
+      "price": "T$ 450",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Este item raro é encontrado em corpos embalsamados no Deserto da Perdição. Pode ser usado como arma leve simples corpo a corpo (dano 1d6, crítico 19, corte). Suas magias que tenham testes de resistência recebem o seguinte aprimoramento: +2 PM. Além do normal, criaturas que falham na resistência não podem recuperar PV por 1 rodada."
+    },
+    {
+      "name": "Báculo da retribuição",
+      "price": "T$ 200",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Este bastão longo possui uma ponta curva, geralmente adornada com um símbolo religioso. Sempre que gastar pelo menos 1 PM em uma magia de cura de luz, role 1d4. Com um resultado 4, além do normal, a magia recupera 1 PM de cada criatura curada."
+    },
+    {
+      "name": "Bolsa de pó",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Uma bolsa com pó multicolorido, fabricado a partir das pétalas trituradas de flores que nascem apenas na Pondsmânia. Quando lança uma magia de encantamento ou ilusão, você recebe +2 PM para gastar em aprimoramentos."
+    },
+    {
+      "name": "Cajado arcano",
+      "price": "T$ 1.000",
+      "spaces": "2",
+      "category": "Esotéricos",
+      "description": "Um cajado típico, feito de madeira de boa qualidade e entalhado com runas. O limite de PM que você pode gastar em magias arcanas e a CD para resistir a elas aumentam em +1. Para fornecer seus benefícios, um cajado precisa ser empunhado com as duas mãos. Ele pode ser usado como arma, com as estatísticas de um bordão."
+    },
+    {
+      "name": "Cetro elemental",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Este cetro possui uma pedra preciosa em sua ponta: esmeralda (ácido), topázio (eletricidade), rubi (fogo) ou safira (frio). Quando lança uma magia que causa dano do tipo da pedra, o dano aumenta em um dado do mesmo tipo."
+    },
+    {
+      "name": "Compasso místico",
+      "price": "T$ 600",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Este compasso ostenta marcações geométricas combinadas com símbolos arcanos. Quando lança uma magia com efeito em área, você pode excluir um alvo da área afetada."
+    },
+    {
+      "name": "Contas de oração",
+      "price": "T$ 500",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Este item está presente em muitas religiões artonianas, consistindo de várias pequenas esferas, miçangas, conchas ou outros ornamentos parecidos, presos por um cordão. Elas têm a função de ajudar o devoto a contar as orações ou cânticos que já fez, assim auxiliando-o a se concentrar em suas orações. Aumenta seu limite de PM para magias divinas em +1."
+    },
+    {
+      "name": "Costela de lich",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Esta varinha é feita a partir do osso de um morto-vivo. Suas magias causam +1d6 pontos de dano de trevas. Se estiver empunhando esta varinha você não recupera PV por efeitos mágicos de cura."
+    },
+    {
+      "name": "Dedo de ente",
+      "price": "T$ 200",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Uma varinha feita da madeira de uma árvore senciente. Sempre que gastar pelo menos 1 PM para lançar uma magia, role 1d4. Com um resultado 4, você recupera 1 PM."
+    },
+    {
+      "name": "Estola",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Uma faixa larga e comprida que sacerdotes usam em torno do pescoço. Cada estola é adornada com símbolos que remetem a uma magia divina específica, e o uso de um destes acessórios indica que o sacerdote está ocupado com algum dever eclesiástico ligado a essa magia. A CD para resistir à magia divina representada na estola aumenta em +2. Ao contrário de outros itens esotéricos, uma estola pode ser vestida em vez de empunhada."
+    },
+    {
+      "name": "Flauta convocadora",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Esta réplica de flauta é esculpida em um único pedaço de cristal. Quando lança uma magia que conjura capangas, você conjura um capanga adicional do mesmo tipo."
+    },
+    {
+      "name": "Frasco purificador",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Este pequeno vasilhame contém 10 doses de uma combinação de água e especiarias santificadas. Quando lança uma magia que tenha uma criatura como alvo, você pode gastar uma quantidade dessas doses (limitada por sua Sabedoria); para cada dose gasta, o alvo da magia também recupera 1d4 PV. Recarregar um frasco purificador é uma ação completa e consome 2 doses de água benta. Um frasco purificador só pode ser usado por devotos de divindades que canalizam energia positiva."
+    },
+    {
+      "name": "Luva de ferro",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Um conjunto de dedais interligados por correntes. Suas magias arcanas pessoais que concedem bônus na Defesa ou em testes de resistências têm esse bônus aumentado em +1."
+    },
+    {
+      "name": "Mandala onírica",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Esta mandala é feita de delicados fios metálicos entrelaçados. Quando ao menos um inimigo falha no teste de Vontade de uma de suas magias, você recebe 1 PM temporário (limitado pelo total de PM gasto na magia)."
+    },
+    {
+      "name": "Medalhão afiado",
+      "price": "T$ 900",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Um pequeno medalhão com bordas afiadas e a imagem de uma arma gravada. Quando você lança uma magia que fornece um bônus em testes de ataque, ela também fornece +1 na margem de ameaça desses ataques."
+    },
+    {
+      "name": "Medalhão de prata",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Gravado com uma runa pessoal do conjurador, este medalhão de prata diminui em –1 PM o custo de magias de alcance pessoal."
+    },
+    {
+      "name": "Orbe cristalina",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Esta esfera perfeita concentra seu poder mágico. O limite de PM que você pode gastar em magias arcanas aumenta em +1."
+    },
+    {
+      "name": "Ostensório santificado",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Uma obra de arte dedicada ao deus, muitas vezes contendo uma relíquia. Escolha uma magia que você possa lançar. Seu custo diminui em –1 PM (cumulativo com outras reduções), mas somente se for lançada em devotos do seu deus."
+    },
+    {
+      "name": "Rede de almas",
+      "price": "T$ 600",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Esta pequena rede decorada com ossos só pode ser usada por devotos de divindades que canalizam energia negativa. Quando lança uma magia divina de trevas, para cada resultado máximo nos dados de dano da magia (incluindo dados maximizados), você recebe 1 PV temporário cumulativo."
+    },
+    {
+      "name": "Tomo de Guerra",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Quando lança uma magia de evocação, você recebe +1 PM para gastar em aprimoramentos."
+    },
+    {
+      "name": "Tomo do Rancor",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Suas magias de dano recebem o seguinte aprimoramento: +2 PM. Além do normal, quando lança uma magia de dano, ela causa +2d8+2 pontos de dano de corte, impacto ou perfuração, a sua escolha."
+    },
+    {
+      "name": "Tomo hermético",
+      "price": "T$ 1.500",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Um livro de tratados que aumentam a sua compreensão sobre uma escola de magia específica. A CD para resistir a suas magias arcanas dessa escola aumenta em +2."
+    },
+    {
+      "name": "Turíbulo ungido",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Um vaso ou incensário formado por um fornilho na ponta de uma corrente, onde se queimam ervas e incensos. Aumenta a área de suas magias em +1,5m (uma magia que afeta um raio de 3m passa a afetar um raio de 4,5m, por exemplo)."
+    },
+    {
+      "name": "Varinha arcana",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Uma varinha típica, feita de madeira de boa qualidade e entalhada com runas. A CD para resistir a suas magias arcanas aumenta em +1."
+    },
+    {
+      "name": "Varinha armamentista",
+      "price": "T$ 600",
+      "spaces": "1",
+      "category": "Esotéricos",
+      "description": "Feita de metal ou marfim, esta varinha canaliza seu poder pessoal para a energia da magia. Aumenta o bônus de dano fornecido pelo poder Arcano de Batalha em +2."
+    },
+    {
+      "name": "Ácido",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Frasco de vidro contendo um ácido alquímico altamente corrosivo. Para usar o ácido, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d4 pontos de dano de ácido (Reflexos CD Des reduz à metade)."
+    },
+    {
+      "name": "Ácido concentrado",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Como ácido, mas o alvo sofre 4d8 pontos de dano de ácido e fica vulnerável até o fim da cena (Reflexos CD Des reduz à metade e evita a condição)."
+    },
+    {
+      "name": "Análgésico",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Mais barato e menos eficiente que cura verdadeira, um analgésico apenas mascara os sintomas dos ferimentos, permitindo que um personagem continue lutando por pura força de vontade. Usar um analgésico é uma ação padrão. Ao usá-lo, role 2d4. Esse é o máximo de pontos de mana que você poderá gastar com essa dose do analgésico. Até o fim da cena, ou até atingir esse máximo de PM, sempre que sofrer dano você pode gastar 1 PM para reduzir esse dano em 5."
+    },
+    {
+      "name": "Bálsamo de drogadora",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Produzido por curandeiras dos povos-trovão, este pote de cerâmica contém uma pasta gosmenta. Aplicá-la é uma ação completa e cura 4d6+4 PV."
+    },
+    {
+      "name": "Bálsamo restaurador",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Uma pasta verde e fedorenta, feita de ervas medicinais. Usá-la é uma ação completa e recupera 2d4 pontos de vida."
+    },
+    {
+      "name": "Bomba",
+      "price": "T$ 50",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Uma granada rudimentar. Para usar a bomba, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de impacto (Reflexos CD Des reduz à metade)."
+    },
+    {
+      "name": "Bomba de fumaça",
+      "price": "T$ 15",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Saco de estopa com pavio, contendo uma pólvora especial que produz mais fumaça do que fogo. Segue as mesmas regras da bomba, mas, em vez de causar dano, emite uma nuvem de fumaça espessa com 6m de raio, que obscurece toda a visão e dura até o fim da cena. Criaturas a até 1,5m têm camuflagem leve e criaturas a partir de 3m têm camuflagem total."
+    },
+    {
+      "name": "Cosmético",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Perfume ou maquiagem. Usá-lo é uma ação completa e fornece +2 em testes de perícias baseadas em Carisma até o fim da cena."
+    },
+    {
+      "name": "Elixir do amor",
+      "price": "T$ 100",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Um humanoide que beba este líquido adocicado fica apaixonado pela primeira criatura que enxergar (condição enfeitiçado; Vontade CD Car anula). O efeito dura 1d3 dias."
+    },
+    {
+      "name": "Elixir quimérico",
+      "price": "T$ 120",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Beber este elixir é uma ação padrão; até o fim da cena, você ganha uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possui uma mordida, seu dano aumenta em um passo."
+    },
+    {
+      "name": "Essência de mana",
+      "price": "T$ 50",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Esta poção feita de ervas raras e compostos alquímicos recupera energia pessoal. Beber a essência de mana é uma ação padrão e recupera 1d4 pontos de mana."
+    },
+    {
+      "name": "Estalinho Gury",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Este preparado, desenvolvido pelo famoso alquimista Jozhen Gury, gera uma onda de choque e um estouro muito alto (o tal “estalinho”) quando detonado. Para usá-lo, você precisa empunhá-lo e gastar uma ação padrão para arremessá-lo em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 4d6 pontos de dano de impacto e ficam surdas (Fortitude CD Des reduz à metade e evita a condição)."
+    },
+    {
+      "name": "Éter elemental",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Extraído de elementais, este líquido viscoso tem cor e textura relacionados ao elemento de origem. Uma dose é suficiente para cobrir uma arma corpo a corpo ou 20 munições; aplicá-lo é uma ação padrão e faz a arma (ou as munições) causar +1d4 pontos de dano do tipo do dano elemental até o fim da cena. Múltiplas doses não são cumulativas."
+    },
+    {
+      "name": "Extrato de gelo eterno",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Um frasco de vidro contendo um líquido congelante. Para usar o extrato, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d12 pontos de dano de frio e fica lenta por 1 rodada (Reflexos CD Des reduz à metade e evita a condição)."
+    },
+    {
+      "name": "Extrato de oxxdon",
+      "price": "T$ 180",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Este frasco de vidro contém um extrato da substância secretada pelo oxxdon, capaz de arruinar objetos metálicos. Para usá-lo, você deve gastar uma ação padrão e arremessá-lo em um quadrado de 1,5m em alcance curto. Objetos não mágicos de metal na área são destruídos e criaturas de metal (como golens) ficam fatigadas, mesmo que sejam imunes a essa condição. Em ambos os casos, um teste de Fortitude (CD Des) para cada item ou criatura evita o efeito. Remover a fadiga causada pelo extrato exige 1 hora de trabalho, T$ 50 em materiais e passar em um teste de Ofício (artesão) contra CD 20."
+    },
+    {
+      "name": "Fogo alquímico",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Frasco de cerâmica contendo uma substância que entra em combustão em contato com o ar. Para usar o fogo alquímico, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 1d6 pontos de dano de fogo e fica em chamas. Um teste de Reflexos (CD Des) reduz o dano à metade e evita as chamas."
+    },
+    {
+      "name": "Frasco abissal",
+      "price": "T$ 300",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Este temido preparado alquímico é proibido no Reinado, pois faz o próprio ar pegar fogo. Para usar o frasco abissal, você gasta uma ação padrão e arremessa-o em um ponto em alcance curto. Todas as criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de fogo e ficam em chamas (Reflexos CD Des reduz à metade e evita a condição). As chamas causadas por este preparado são mais fortes: causam 2d6 pontos de dano de fogo por rodada e exigem que a vítima gaste uma ação completa e passe em um teste de Reflexos (CD 20) ou mergulhe em água para apagá-las."
+    },
+    {
+      "name": "Granada redentora",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Este dispositivo contém uma carga de um preparado curativo santificado. Para usar a granada redentora, você precisa empunhá-la e gastar uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto recuperam 6d4 pontos de vida por luz. Este item só pode ser fabricado por devotos de deuses que canalizam energia positiva."
+    },
+    {
+      "name": "Incenso",
+      "price": "T$ 12",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Estes bastões delgados podem ser acesos, lentamente liberando um cheiro agradável no ambiente. Como alternativa, incensos podem ser grânulos queimados em braseiros. Seja como for, a atmosfera criada pela queima de um incenso facilita a conexão com os deuses. Se gastar um incenso como parte de uma Missa, cada participante recebe 2 PM temporários (cumulativos com os efeitos da Missa)."
+    },
+    {
+      "name": "Isca putrefata",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Frasco de restos mortais diluídos em uma solução macabra. Você pode gastar uma ação padrão para arremessar a isca em um local ou criatura em alcance médio. A isca se gruda ao alvo (Ref CD Des evita) e dura 1d6 rodadas. Durante esse tempo, cada morto-vivo não inteligente em alcance curto é atraído (Von CD Des evita), gastando todas as suas ações para se deslocar até a isca. Quando a alcança, fica fascinado ou, se a isca estiver presa a uma criatura, a ataca."
+    },
+    {
+      "name": "Lagrima pétrea",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Este líquido cristalino tem o poder de devolver criaturas à sua forma original. Você pode gastar uma ação padrão para aplicá-lo em uma criatura adjacente ou arremessá-lo em uma criatura em alcance curto; uma dose remove todos os efeitos de metamorfose (Ref CD Des evita)."
+    },
+    {
+      "name": "Lucidílico",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Este líquido, uma criação atribuída a devotos de Nimb, parece ser formado por cores e texturas variadas, frequentemente em movimento. Bebê-lo é uma ação padrão; ao fazer isso, e no início de cada um dos seus turnos, role um dado. Em um resultado ímpar, você perde 1 PM. Em um resultado par, você pode executar uma ação de movimento adicional nesse turno. A cada três resultados pares em sequência, a ação adicional pode ser padrão. O efeito do lucidílico dura até o fim da cena ou até você ficar sem PM."
+    },
+    {
+      "name": "Óleo de baleia",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Este antigo preparado é um destilado de gordura de baleia. Você pode usar uma ação padrão para aplicar o óleo em uma arma ou pacote de munições para ignorar penalidades de combate submerso com esse item até o fim da cena."
+    },
+    {
+      "name": "Óleo de besouro",
+      "price": "T$ 50",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "O líquido do terrível besouro-do-óleo pode ser usado em lampiões (dobro da duração e área de iluminação) e explosivos. Para usar um frasco, você precisa empunhá-lo, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-lo em alcance curto. Criaturas a até 3m do ponto atingido sofrem 4d6 pontos de dano de fogo e ficam em chamas (Ref CD Des reduz o dano à metade e evita a condição)."
+    },
+    {
+      "name": "Pó azul",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Saquinho de couro com pó feito a partir de uma planta exótica de Galrasia, capaz de absorver energia mágica ambiente. Inalar o pó é uma ação completa e recupera 2d4 PM."
+    },
+    {
+      "name": "Pó de cinza",
+      "price": "T$ 5",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Este pó mineral serve como lubrificante para mecanismos. Gastar uma dose de pó de cinza fornece +5 em um teste de Ladinagem para abrir fechaduras ou sabotar (cumulativo com o bônus fornecido por outros itens)."
+    },
+    {
+      "name": "Pó do aparecimento",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Um item favorito de aventureiros que se deparam com muitos inimigos invisíveis. Um frasco contendo um pó de alguma cor berrante bastante grudento. Para usá-lo, você gasta uma ação padrão e escolhe um ponto em alcance curto. Criaturas invisíveis a até 3m desse ponto deixam de estar invisíveis e passam a ter apenas camuflagem leve. Remover o pó do aparecimento demora 1 minuto."
+    },
+    {
+      "name": "Pó do desaparecimento",
+      "price": "T$ 100",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Uma criatura ou objeto coberto por este pó torna-se invisível (como em Invisibilidade) por 2d6 rodadas. O usuário não sabe quando a invisibilidade vai terminar."
+    },
+    {
+      "name": "Saliva Ácida",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados",
+      "description": "Este líquido viscoso e esverdeado só pode ser obtido do cadáver de um jhumariel, e não pode ser fabricado normalmente. Uma dose é suficiente para cobrir uma arma corpo a corpo ou 20 munições; aplicá-la é uma ação padrão e faz a arma (ou a munição) causar +1d8 pontos de dano de ácido até o fim da cena. Preparado alquímico, T$ 150, 0,5 espaço."
+    },
+    {
+      "name": "Santa granada de mão",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Preparados",
+      "description": "Unindo fé e ciência, este controverso equipamento é a melhor escolha contra hordas de mortos-vivos e abissais. Para usar a granada, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Mortos–vivos e abissais a até 3m desse ponto sofrem 6d12 pontos de dano de luz (Reflexos CD Sab reduz à metade). Este item só pode ser fabricado por devotos de deuses que canalizam energia positiva."
+    },
+    {
+      "name": "Visco persistente",
+      "price": "T$ 25",
+      "spaces": "0,5",
+      "category": "Preparados",
+      "description": "O líquido leitoso contido neste frasco se transforma em uma gosma corrosiva instantaneamente em contato com o ar. Para usá-lo, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 4d4 pontos de dano de ácido e fica enredada (Fortitude CD Des reduz à metade e evita a condição). Uma criatura enredada pode se soltar com uma ação padrão e um teste de Atletismo contra a CD do visco."
+    },
+    {
+      "name": "Água benta",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Além de seus usos tradicionais, água benta pode ser usada como um catalisador. Abissais e mortos-vivos afetados por uma magia divina lançada com ela sofrem –2 em testes de resistência e 2 dados extras de dano (se aplicável)."
+    },
+    {
+      "name": "Baga-de-fogo",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Pequeno fruto vermelho, apreciado por seu sabor picante. Usado como catalisador, adiciona +1d6 de dano de fogo a magias."
+    },
+    {
+      "name": "Corrosivo Mineral",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Pasta mineral corrosiva produzida com ingredientes naturais. Aumenta os dados de dano de magias de ácido em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+    },
+    {
+      "name": "Cristal reflexivo",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Um fragmento de um material refletor como espelho, que duplica as propriedades divinatórias de certas magias. Quando lança uma magia de adivinhação, você recebe +1 na Defesa pela duração da magia."
+    },
+    {
+      "name": "Dente-de-dragão",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Uma flor comum em regiões montanhosas, especialmente nas Sanguinárias, possui formato parecido com uma presa de monstro. Suas propriedades místicas aumentam o dano de magias em um dado do mesmo tipo."
+    },
+    {
+      "name": "Essência abissal",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Um líquido espesso, produzido através do sangue de criaturas demoníacas. Aumenta os dados de dano de magias de fogo em uma categoria - d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (o máximo)."
+    },
+    {
+      "name": "Essência fantasmal",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Uma pasta fabricada a partir de ectoplasma encontrado em locais de aparições fantasmagóricas. A magia ignora 5 pontos da RD de todas as criaturas afetadas."
+    },
+    {
+      "name": "Favo de mel",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Um favo doce e saboroso. Quando lança uma magia divina, você pode remover uma condição de cansaço de uma das criaturas afetadas por ela. Ao contrário de outros catalisadores, você empunhar vários favos de mel na mesma mão e usá-los na mesma magia para afetar criaturas diferentes."
+    },
+    {
+      "name": "Fitilho consagrado",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Esta pequena fita é amarrada ao pulso (não precisa ser empunhada, nem conta como um item vestido). Quando lança uma magia divina, você pode gastar o fitilho para receber +1 PM para gastar em um aprimoramento."
+    },
+    {
+      "name": "Flor de orlyn",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Quando aplicada a uma magia de cura que afeta uma criatura, esta flor dourada faz com que uma segunda criatura no alcance da magia recupere uma quantidade de PV igual à metade do efeito da magia."
+    },
+    {
+      "name": "Frasco de luz",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Este pequeno frasco cristalino contém uma gota de um líquido luminoso. Fornece +2 na CD de magias de luz."
+    },
+    {
+      "name": "Gelo Extremo",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Cristais minerais que eliminam todo o calor ao redor. Aumenta os dados de dano de magias de frio em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+    },
+    {
+      "name": "Lantejoula",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Um pequeno pedaço de um material reflexivo, que é consumido como parte da magia. Diminui o custo de magias de ilusão em –1 PM."
+    },
+    {
+      "name": "Líquen lilás",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Esta estranha planta tem aspecto cristalino e cresce em abundância na região das Uivantes. Adiciona +1d6 de dano de frio a magias."
+    },
+    {
+      "name": "Musgo púrpura",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Encontrado em florestas fechadas, esse fungo cintilante possui propriedades que fornecem +2 na CD de magias de ilusão."
+    },
+    {
+      "name": "Noz saltadora",
+      "price": "T$ 90",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Uma semente encantada com uma fagulha de magia de teletransporte. Após lançar a magia, você pode se teletransportar para qualquer espaço desocupado em 4,5m."
+    },
+    {
+      "name": "Ossos de monstro",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Pequenas falanges de criaturas monstruosas, tratadas com óleos alquímicos. Fornece +2 na CD de magias de necromancia."
+    },
+    {
+      "name": "Pedaço de língua",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Glândulas que podem ser usadas como um catalisador que fornece +1 na CD dos testes de Fortitude para resistir a suas magias."
+    },
+    {
+      "name": "Pedra de sombras",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Este fragmento de escuridão sólida reduz em –1 PM o custo de magias de trevas."
+    },
+    {
+      "name": "Pena de anjo",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Um presente sagrado, estas penas são concedidas apenas aos mais devotados… ou compradas nos templos das principais religiões de Arton. Os alvos de uma magia divina lançada com uma pena de anjo recuperam 1d8 PV (além dos efeitos da magia)."
+    },
+    {
+      "name": "Pó de cristal",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Uma pitada de pó de um mineral cristalino puro, como quartzo ou topázio. Diminui o custo de magias de encantamento em –1 PM."
+    },
+    {
+      "name": "Pó de giz",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Calcário esmagado em pó, uma substância comum que, usada como catalisador, diminui o custo de magias de convocação em –1 PM."
+    },
+    {
+      "name": "Presa de Hyninn",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Extraída dos temíveis tigres-de-Hyninn, esta presa concede uma parte da capacidade ilusória dessas criaturas. Você recebe 25% de chance de ignorar ataques e efeitos (incluindo de área) por 1 rodada."
+    },
+    {
+      "name": "Raio cristalizado",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Eletricidade gerada por elementais e outros seres mágicos pode ser solidificada na forma de pequenos cristais. Aumenta os dados de dano de magias de eletricidade em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+    },
+    {
+      "name": "Ramo verdejante",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Esta combinação de ervas potencializa magias de cura, aumentando sua cura em +1 PV por dado."
+    },
+    {
+      "name": "Saco de sal",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Um pequeno saco de couro com sal marinho. Fornece +2 na CD de magias de abjuração."
+    },
+    {
+      "name": "Seixo de âmbar",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Essa “gema” feita de seiva de árvore fossilizada diminui o custo de magias de transmutação em –1 PM."
+    },
+    {
+      "name": "Terra de cemitério",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Um punhado de terra cinzenta, colhida à noite de um cemitério. Adiciona +1d6 de dano de trevas a magias."
+    },
+    {
+      "name": "Vela eclesiástica",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores",
+      "description": "Esta vela sagrada funciona como um foco para suas preces. Usada como catalisador em uma magia divina com duração sustentada, permite que ela não conte no limite de magias que você pode sustentar simultaneamente. Ao contrário de outros catalisadores, a vela é consumida lentamente enquanto a magia é sustentada. Por isso, ela deve ser empunhada por toda a duração da magia.Você só pode ter uma magia sustentada adicional dessa forma por vez."
+    },
+    {
+      "name": "Beladona",
+      "price": "T$ 1.500",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Planta extremamente tóxica que afeta o sistema nervoso da vítima. Ingestão, vítima fica paralisada (lenta) por 3 rodadas. A CD para fabricar e para resistir a este veneno aumenta em +5."
+    },
+    {
+      "name": "Bolor hemorrágico",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Esta pasta marrom reduz a capacidade de cicatrização. Contato, vítima fica sangrando e a CD para remover essa condição aumenta em +5 (fica sangrando)."
+    },
+    {
+      "name": "Bruma sonolenta",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Um gás sonífero. Inalação, vítima fica inconsciente (enjoada por 1 rodada)."
+    },
+    {
+      "name": "Cicuta",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Planta cuja ingestão pode causar náusea, dores e até morte. Ingestão, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+    },
+    {
+      "name": "Esporos de cogumelo",
+      "price": "T$ 75",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Extraído de certos cogumelos e criaturas aparentadas, causa breve mas perigosa paralisia. Inalação, vítima fica paralisada (lenta) por 1 rodada, depois imune a paralisia por este veneno pela cena."
+    },
+    {
+      "name": "Essência de sombra",
+      "price": "T$ 100",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Produzido a partir de compostos alquímicos que canalizam energia de trevas. Contato, vítima fica debilitada (fraca)."
+    },
+    {
+      "name": "Fumaça onírica",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Este gás de cores variadas afeta a mente, fazendo a vítima experimentar ilusões encantadoras. Inalação, vítima fica fascinada por 3 rodadas, apenas uma vez por cena (ofuscada por 1 rodada). Este veneno é resistido com Vontade."
+    },
+    {
+      "name": "Gás moroso",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Este gás azulado inibe as reações, reduzindo as capacidades de defesa. Inalação, vítima fica vulnerável (vulnerável por 1 rodada)."
+    },
+    {
+      "name": "Névoa tóxica",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Este gás verde queima e corrói a pele e os pulmões. Inalação, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+    },
+    {
+      "name": "Peçonha anciã",
+      "price": "T$ 1800",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Veneno poderoso, extraído de serpes anciãs, capaz de afetar até criaturas imunes. Contato, perde 3d12 PV por rodada durante 3 rodadas e ignora imunidade a venenos (perde 3d12 PV)."
+    },
+    {
+      "name": "Peçonha comum",
+      "price": "T$ 15",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Veneno típico, extraído de animais ou plantas tóxicas. Contato, perde 1d12 PV."
+    },
+    {
+      "name": "Peçonha concentrada",
+      "price": "T$ 90",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Dose concentrada da peçonha comum. Contato, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+    },
+    {
+      "name": "Peçonha irritante",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Este veneno leve, produzido por diversas criaturas, tem efeito brando mas que não pode ser resistido. Contato, perde 1d6 PV"
+    },
+    {
+      "name": "Peçonha potente",
+      "price": "T$ 600",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Veneno poderoso, extraído de animais ou plantas perigosos. Contato, perde 2d12 PV por rodada durante 3 rodadas (perde 2d12 PV)."
+    },
+    {
+      "name": "Pó de lich",
+      "price": "T$ 3.000",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Veneno letal, usado para assassinar alvos poderosos. Ingestão, perde 4d12 PV por rodada durante 5 rodadas (perde 4d12 PV). A CD para fabricar e para resistir a este veneno aumenta em +5."
+    },
+    {
+      "name": "Riso de Nimb",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Este gás púrpura faz a vítima rir descontroladamente e agir de forma caótica. Inalação, vítima fica confusa (lenta por 1 rodada)."
+    },
+    {
+      "name": "Seiva necrótica",
+      "price": "T$ 120",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Preparada a partir da seiva de plantas impregnadas de energia negativa, esta substância causa ferimentos que não cicatrizam naturalmente. Contato, perde 2d6 PV por rodada durante 3 rodadas (perde 2d6 PV). Pontos de vida perdidos por seiva necrótica só podem ser recuperados com efeitos mágicos de luz."
+    },
+    {
+      "name": "Veneno batráquio",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos",
+      "description": "Produzida a partir da saliva de sapos gigantes, esta gosma machuca e enjoa. Contato, perde 1d12 PV e fica enjoado por 1 rodada (perde 1d6 PV)."
+    },
+    {
+      "name": "Captador de luz",
+      "price": "T$ 450",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Um conjunto de lentes e cristais adaptado à engenhoca, capaz de não apenas captar a luz mundana do ambiente, mas também a energia positiva presente nela. Toda cura de luz fornecida pela engenhoca aumenta em +1 por dado. Funciona apenas com engenhocas com efeitos de cura de luz."
+    },
+    {
+      "name": "Comutador",
+      "price": "T$ 300",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Uma bobina de metal místico, capaz de captar e potencializar a energia do ambiente. Diminui o custo total dos aprimoramentos da engenhoca em –1 PM."
+    },
+    {
+      "name": "Conversor-alimentador",
+      "price": "T$ 300",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Este frasco de vidro é ligado a tubos de metal e estranhos mecanismos em forma de antena. Comporta três doses de essência de mana (ou outros preparados alquímicos que forneçam PM). Quando ativa a engenhoca, você pode gastar um preparado alquímico que forneça PM e usar os PM fornecidos para pagar seu custo de aprimoramentos e para sustentá-la (caso se aplique)."
+    },
+    {
+      "name": "Engenho de automação",
+      "price": "T$ 600",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Este aparato envolve dezenas de engrenagens e pistões que funcionam sob a instrução de cartões perfurados, agindo por si só segundo um padrão programado. Acoplado a uma engenhoca que simula uma magia com duração sustentada, permite que ela não conte no limite de magias que você pode sustentar simultaneamente. Você só pode ter uma engenhoca sustentada adicional dessa forma por vez. Pré-requisito: conversor-alimentador."
+    },
+    {
+      "name": "Espera para melhorias",
+      "price": "T$ 150",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Este aparato funciona como um adaptador que permite instalar melhorias de outros itens na engenhoca. Fazer isso segue as mesmas regras e custos para aplicar melhorias em itens convencionais. De forma geral, se uma melhoria afeta uma característica da magia simulada pela engenhoca, ela pode ser aplicada (uma engenhoca que simula Armadura Arcana poderia receber melhorias de armaduras, por exemplo). Para materiais especiais, o custo da melhoria é baseado no tipo de efeito que ela vai gerar (arma, armadura ou esotérico - se mais de um for aplicável, você deve escolher apenas uma). Uma engenhoca pode receber mais de uma espera, e cada uma permite instalar uma melhoria (mas efeitos iguais não se acumulam, como normal). A critério do mestre, melhorias que não se apliquem naturalmente a engenhocas ainda podem ser aplicadas."
+    },
+    {
+      "name": "Estabilizador",
+      "price": "T$ 900",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Uma gaiola de arame fino que envolve uma engenhoca. Aumenta a CD para resistir ao efeito da engenhoca em +2."
+    },
+    {
+      "name": "Estimulador de sobrecarga",
+      "price": "T$ 750",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Um mecanismo de aparência agressiva, com engrenagens barulhentas que giram de forma independente. Aumenta o dano provocado pela engenhoca em +1 dado. Funciona apenas em engenhocas que causam dano."
+    },
+    {
+      "name": "Gatilho de corda",
+      "price": "T$ 1.500",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Um mecanismo simples, com algumas engrenagens e uma chave. Este aparato só pode ser instalado em engenhocas que simulem magias com execução de ação padrão, e permite que você ative a engenhoca com uma ação de movimento. Contudo, uma vez que a engenhoca seja ativada, você só poderá ativá-la novamente após dar corda no gatilho, o que exige uma ação completa."
+    },
+    {
+      "name": "Giroscópio",
+      "price": "T$ 450",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Este sistema de contrapesos, amortecedores e roldanas é instalado ao redor da engenhoca, deixando-a sempre estável. Você não aplica sua penalidade de armadura por armadura nos testes de ativação da engenhoca (mas aplica penalidades de armadura de outras fontes)."
+    },
+    {
+      "name": "Ligação de convergência",
+      "price": "T$ 300",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Este aparato deve ser acoplado a duas engenhocas (nem mais, nem menos), transformando ambas em uma. As duas engenhocas contam como uma só para efeitos do limite de engenhocas que você pode manter ao mesmo tempo. Contudo, uma vez que uma delas seja ativada, a outra não pode ser ativada na mesma cena. Nas cenas seguintes, é possível ativar a outra engenhoca, mas se o efeito da anterior ainda estiver ativo (como por durar 1 dia), ele é dissipado."
+    },
+    {
+      "name": "Remontagem de portabilidade",
+      "price": "T$ 300",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Este aparato é na verdade uma modificação total da engenhoca: uma série de molas, hastes e fios que permite que a engenhoca seja “desmontada” e unida a um item de vestuário. A engenhoca não ocupa nenhum espaço e, enquanto o item estiver vestido, conta como se também estivesse vestida (sem contar no limite de itens vestidos). Contudo, ela modifica drasticamente o item de vestuário. Qualquer um que o veja pode notar que há uma engenhoca mesclada ao item. Você só pode ter uma engenhoca vestida desta forma por vez."
+    },
+    {
+      "name": "Sequenciador de ativação",
+      "price": "T$ 600",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Este mecanismo complexo, cheio de partes móveis, alavancas e engrenagens, é acoplado simultaneamente a três engenhocas. Uma vez por cena, você pode gastar uma ação completa para ativar o sequenciador. No início de cada um dos seus próximos turnos, uma das engenhocas acopladas ao sequenciador é ativada como uma ação livre, em uma ordem definida ao acoplá-las ao aparato. Não é possível diminuir a ação necessária para ativar o sequenciador. Você faz os testes de Ofício (engenhoqueiro) normalmente para cada engenhoca. Se algum dos testes falhar, além de essa engenhoca não ser ativada, a sequência de ativação termina (as próximas não serão mais ativadas como ação livre)."
+    },
+    {
+      "name": "Sistema de refrigeração",
+      "price": "T$ 900",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Um conjunto de ventoinhas que fazem ar fresco circular entre os componentes da engenhoca e tubos cheios d’água, que dissipam calor por sua correnteza interna. Uma vez por dia, você pode gastar uma ação completa e 1 PM para acionar as ventoinhas e resfriar a engenhoca. Fazer isso reduz a CD de ativação da engenhoca em –5."
+    },
+    {
+      "name": "Supressor de segurança",
+      "price": "T$ 300",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Este sistema de mecanismos de contingência é instalado dentro da engenhoca e interrompe a operação do item em caso de mau funcionamento. Uma vez por cena, a engenhoca não enguiça com uma falha no teste de ativação (ela não ativa seu efeito, mas a CD para o próximo teste não aumenta e ela continua funcionando sem precisar ser consertada)."
+    },
+    {
+      "name": "Transformador místico",
+      "price": "T$ 600",
+      "spaces": "*",
+      "category": "Aparatos",
+      "description": "Um conjunto de cristais ligados a mecanismos complexos, capaz de captar a energia mágica inerente a certos objetos e convertê-la para que possa ser usada em engenhocas. Permite acoplar um item esotérico à engenhoca, que fornece seus benefícios à magia simulada por ela (sem necessidade de ser empunhado). Acoplar ou remover o esotérico exige 1 hora de trabalho."
+    },
+    {
+      "name": "Abraço da noite",
+      "price": "T$ 3",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Dizem que este doce gelado e aveludado como a noite foi criado por clérigos anões para homenagear sua mãe Ayrelynn (Tenebra). Até o fim do dia, você pode usar o poder Carícia Sombria uma vez. Se já o possui, pode usá-lo uma vez causando 4d6 pontos de dano de trevas (em vez de 2d6). Pela graça da Mãe Noite, mortos-vivos podem receber o benefício deste prato especial. Tenebra."
+    },
+    {
+      "name": "Algravia",
+      "price": "T$ 3",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Bebida alcoólica adocicada feita da seiva de feras-cactos. Você recebe +1 em perícias baseadas em Carisma, cumulativo com outros itens. Múltiplas doses são cumulativas entre si, mas intoxicantes; para cada dose além da primeira no mesmo dia, você deve fazer um teste de Fortitude (CD 15 + 5 para cada dose anterior). Em caso de falha, você fica enjoado e perde todos os bônus de alimentação até o fim do dia."
+    },
+    {
+      "name": "Assado de entranhas",
+      "price": "T$ 2",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Este assado tem uma aparência pouco agradável, mas desperta os instintos mais primais. Feito com técnicas simples dos ermos, pode ser fabricado também com Sobrevivência. Até o fim do dia, você pode invocar esses instintos para receber +1 nas rolagens de dano com armas corpo a corpo por uma cena. Megalokk."
+    },
+    {
+      "name": "Baga celeste cozida",
+      "price": "T$ 15",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Encontradas originalmente nas encostas invertidas de Vectora, estas bagas se espalharam por toda Arton. Preparadas adequadamente, fornecem qualidades místicas de flutuação. Todo dano de queda que você sofre é reduzido em −1d6."
+    },
+    {
+      "name": "Banquete de canceronte",
+      "price": "T$ 36",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Um canceronte adulto é suficiente para produzir um pequeno banquete. Você recebe 1d4+1 dados de auxílio. Sempre que realizar um teste de perícia, você pode gastar 1d4 e adicionar o resultado como bônus no teste. Se o banquete for preparado por um personagem com o poder Mestre Cuca, os dados de auxílio se tornam d6. Este prato requer carne fresca de canceronte, sendo assim raramente encontrado longe de grandes cidades costeiras."
+    },
+    {
+      "name": "Batata valkariana",
+      "price": "T$ 2",
+      "spaces": "0,5",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Batatas cortadas em tiras e mergulhadas em óleo fervente. Gordurentas e pouco nutritivas, são o tipo de prato que só é servido numa metrópole como Valkaria. Apesar disso, são gostosas e deixam qualquer um empolgado. Você recebe +1d6 em um teste a sua escolha realizado até o fim do dia. Para não esquecer, deixe 1d6 em cima da sua ficha. De preferência, amarelo."
+    },
+    {
+      "name": "Bênção dos mares",
+      "price": "T$ 4",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Este festival de ostras se tornou uma lenda entre as gentes do mar. Dizem que, em momentos de grande aflição, o próprio deus envia estes presentes para restaurar a força de quem depende do mar. Até o fim do dia, você pode invocar o poder do Deus dos Mares para adquirir deslocamento de natação, igual ao seu deslocamento, por uma cena (se já possuir esse deslocamento, em vez disso ele aumenta em +3m). Oceano."
+    },
+    {
+      "name": "Bolinho de jade",
+      "price": "T$ 4",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Este prosaico bolinho de ervas é como a honra pregada por Lin-Wu: simples, direto e verdadeiro. Até o fim do dia, você pode usar o poder Kiai Divino uma vez. Se já o possui, pode usá-lo uma vez sem pagar seu custo em PM. Lin-Wu."
+    },
+    {
+      "name": "Bombas de saber",
+      "price": "T$ 4",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "O estudo é a maior paixão dos devotos de Tanna-Toh. Este doce assado recheado com creme lhes dá a energia para estudar noite adentro. Uma vez até o fim do dia, quando vai fazer um teste de perícia, você pode receber os benefícios de ser treinado nessa perícia para esse teste. Tanna-Toh."
+    },
+    {
+      "name": "Caldo de Lena",
+      "price": "T$ 3",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Esta sobremesa a base de milho é perfeita para celebrar a fertilidade do campo. Uma comida tão doce é ideal para acalentar aventureiros cansados após um dia difícil. Quando recebe cura mágica de luz, você recupera +2 PV. Lena."
+    },
+    {
+      "name": "Coc-au-triz",
+      "price": "T$ 54",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Ovos de cocatriz são ingredientes mágicos poderosos, e esta guloseima reflete esse poder; é um ninho de fios de ovos assados e gratinados. Ao consumir, escolha uma habilidade com custo em PM. Seu custo diminui em –1 PM."
+    },
+    {
+      "name": "Coragem de sangue",
+      "price": "T$ 4",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Açúcar para energia, especiarias com propriedades fortificantes e vinho para coragem são misturados em uma receita de gosto forte e pungente, servida em chamas, que desperta o instinto de luta. Uma vez até o fim do dia, quando faz a ação agredir, você pode executar um ataque extra. Arsenal."
+    },
+    {
+      "name": "Cozido de pimenta",
+      "price": "T$ 10",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Um prato forte, capaz de trazer lágrimas aos olhos do mais resistente dos comensais. Fornece +1 em Fortitude (cumulativo com bônus de outros itens)."
+    },
+    {
+      "name": "Cozido de Serpe",
+      "price": "T$ 12",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Quando cozida por várias horas em uma sopa específica, a carne da serpe fica livre de seu veneno natural. Diferente de outros alimentos, preparar este cozido é um teste estendido de Ofício (cozinheiro) com CD 20, que requer 3 sucessos antes de 3 falhas. Se preparado com sucesso, fornece+1 em todos os testes de perícia, cumulativo com outros itens. Se falhar, os ingredientes são consumidos e você é envenenado (perde 1d12 pontos de vida por rodada durante 3 rodadas; Fort CD 20 reduz para 1 rodada)."
+    },
+    {
+      "name": "Deleite mágico",
+      "price": "T$ 18",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Em Arton, a magia pode ser comum, mas não deixa de ser especial. Ao consumir este folhado místico, escolha uma magia de 1º círculo. Até o fim do dia, você pode lançá-la uma única vez, sem aprimoramentos, gastando 2 PM (atributo-chave Sabedoria). Wynna."
+    },
+    {
+      "name": "Frescor de Nimb",
+      "price": "T$ 1",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Mesmo os paladares mais refinados têm dificuldade em descrever o frescor de Nimb. Ao ingerir este prato, escolha um deus aleatoriamente. Você recebe o benefício do prato desse deus (se for Nimb, role novamente duas vezes, repetindo isso sempre que rolar o Deus do Caos). Nimb."
+    },
+    {
+      "name": "Gorad quente",
+      "price": "T$ 18",
+      "spaces": "0,5",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Gorad e leite, servidos quentes. Não tem erro. O gorad ativa o cérebro, fornecendo +2 PM temporários."
+    },
+    {
+      "name": "Gorlogg ensopado",
+      "price": "T$ 6",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Criado nas cozinhas de Yuvalin por Rizzelena, chef élfica de grande talento, este é um ensopado altamente nutritivo. Em sua próxima noite de sono, você aumenta a sua recuperação de PV e PM em +1 por nível."
+    },
+    {
+      "name": "Joia do deserto",
+      "price": "T$ 5",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Este doce a base de tâmaras mostra o amor do povo de Azgher por seu patrono. Uma vez até o fim do dia, você pode fazer uma arma corpo a corpo de corte que esteja empunhando se cobrir de chamas. Ela causa +1d6 pontos de dano de fogo (ou +2d6 contra mortos-vivos). As chamas duram até você acertar três ataques ou até o fim da cena (o que acontecer primeiro). Azgher."
+    },
+    {
+      "name": "Justos de Khalmyr",
+      "price": "T$ 2",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Assim como a justiça, este biscoitinho foi criado para chegar a todos. Até o fim do dia, quando fizer um teste de perícia, você pode gastar o efeito deste prato para escolher 10 nesse teste (em vez de usar o valor rolado no d20). Khalmyr."
+    },
+    {
+      "name": "Justos virtuosos",
+      "price": "T$ 6",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Este biscoito, propositalmente semelhante à receita de Khalmyr, guarda uma surpresa na forma de um recheio azedo, capaz de estragar qualquer apetite. Uma vez nesse dia, quando um inimigo em alcance curto usa uma habilidade, você pode invocar o poder deste doce para ser afetado por essa habilidade como se fosse um aliado desse inimigo (se aplicável). Sszzaas."
+    },
+    {
+      "name": "Macarrão de Yuvalin",
+      "price": "T$ 6",
+      "spaces": "0,5",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Yuvalin é uma cidade mineradora em Zakharov, na fronteira com as Montanhas Uivantes. Seus habitantes criaram este prato reforçado (macarrão, bacon e creme de leite!) para encarar suas árduas jornadas de trabalho nas minas. Delicioso, o prato se espalhou por outras cidades e reinos. Você recebe +5 PV temporários."
+    },
+    {
+      "name": "Manjar da paz",
+      "price": "T$ 7",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Esta delícia, compartilhada com alegria pelos devotos de Marah, é degustada em toda Arton. Uma vez nesse dia, quando uma criatura em alcance curto fizer um ataque, você pode fazer com que ela role dois dados e use o pior resultado. Marah."
+    },
+    {
+      "name": "Manjar de sombras",
+      "price": "T$ 20",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "A origem da receita original deste prato se perdeu, mas sua essência se manteve inalterada. Consiste em um manjar com ingredientes cultivados em terras próximas de cemitérios, que protege o corpo contra energias sombrias. Você ignora os próximos 10 pontos de dano de trevas que sofrer."
+    },
+    {
+      "name": "Omelete Monstruosa",
+      "price": "T$ 3",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Dizem que este prato foi inventado por aventureiros presos em uma caverna cheia de ovos. Desde então, tornou-se popular entre aqueles de baixa seletividade alimentar, ou muita coragem. É feita com ovos de qualquer praga monstruosa, mas variações mais refinadas usam ovos de corcel de Kally e outras feras dracônicas menores. Você recebe +2 em rolagens de dano e –2 em testes de perícias baseadas em Sabedoria, cumulativo com outros itens. Se feita com ovos de dragão, muda para +5 e –5. E garante que você será caçado por uma mamãe dragoa furiosa…"
+    },
+    {
+      "name": "Ouro de dragão",
+      "price": "T$ 6",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Este creme doce é considerado uma iguaria reservada aos maiores sacerdotes de Kallyadranoch. Uma vez até o fim do dia, você pode evocar a força de Kallyadranoch para receber +1 em testes de ataque por uma cena. Kallyadranoch."
+    },
+    {
+      "name": "Ovos de raposa",
+      "price": "T$ 3",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "O tempero do Deus dos Ladrões garante que estes ovos recheados tenham sempre um sabor diferente e inesperado. Uma vez nesse dia, você pode rolar novamente um teste de Enganação ou Ladinagem recém-feito. Hyninn."
+    },
+    {
+      "name": "Pão de Thwor",
+      "price": "T$ 1",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "O pão, um alimento tão simples quanto importante, simboliza a tenacidade e resistência duyshidakk. Uma vez até o fim do dia, quando faz um teste de Fortitude ou de perícia baseada em Força, você pode rolá-lo novamente. Thwor."
+    },
+    {
+      "name": "Prato do aventureiro",
+      "price": "T$ 1",
+      "spaces": "0,5",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Um cozido de galinha com legumes, esta é uma refeição simples, mas nutritiva. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de vida em +1 por nível."
+    },
+    {
+      "name": "Presente da terra",
+      "price": "T$ 3",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Esta granola especial usa ingredientes acessíveis, encontrados em qualquer ambiente natural; você pode usar Sobrevivência no lugar de Ofício (cozinheiro) para fabricar este prato. Uma vez até o fim do dia, você pode rolar novamente um teste de Adestramento ou Sobrevivência recém- -feito. Allihanna."
+    },
+    {
+      "name": "Ração de viagem (por dia)",
+      "price": "T$ 0,5",
+      "spaces": "0,5",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Própria para viagens, uma porção desta ração alimenta uma pessoa por um dia. É feita de alimentos conservados, como carne defumada, frutas secas, pão, queijo e biscoitos. Se mantida seca dura bastante, mas quando molhada se estraga em 24 horas."
+    },
+    {
+      "name": "Refeição comum",
+      "price": "T$ 0,3",
+      "spaces": "0,5",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Uma refeição típica inclui pão, queijo, cozido de carne ou galinha com legumes e uma caneca de bebida, geralmente cidra, vinho ou cerveja."
+    },
+    {
+      "name": "Renascer gentil",
+      "price": "T$ 30",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Esta pastilha refrescante e ardida, tradicionalmente distribuída por devotos a pessoas em dificuldade, é carregada de esperanças. A primeira vez até o fim do dia em que seus PV forem reduzidos a 0 ou menos por dano, em vez disso eles são reduzidos a 1. Thyatis."
+    },
+    {
+      "name": "Sashimi de Kraken",
+      "price": "T$ 60",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Esta iguaria exótica foi criada pelos maiores chefs de Tamu-ra. Você recebe +2 em Diplomacia, cumulativo com outros itens, e 5 PM temporários. Dificilmente encontrada em cidades longe do mar."
+    },
+    {
+      "name": "Sopa de peixe",
+      "price": "T$ 1",
+      "spaces": "0,5",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Um cozido de peixe com verduras. É um prato humilde, mas garante um descanso relaxante. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de mana em +1 por nível."
+    },
+    {
+      "name": "Suflê rubro",
+      "price": "T$ 3",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Quase um alimento ritualístico, este prato oferece um vislumbre do raciocínio alienígena e incompreensível dos lefeu. No início de qualquer cena de ação, role 1d6. Com um resultado ímpar, você fica fascinado na primeira rodada, perdido em devaneios sobre a futilidade da vida. Com um resultado par, entretanto, você enxerga falhas na Criação que podem ser exploradas a seu favor. Você recebe +5 em um teste de perícia a sua escolha feito até o fim de seu próximo turno. Aharadak."
+    },
+    {
+      "name": "Tesouro de Valkaria",
+      "price": "T$ 2",
+      "spaces": "—",
+      "category": "Alimentação - Pratos Especiais",
+      "description": "Este prato, que mistura grãos com carnes menos nobres e temperos fortes, é popular entre viajantes, sendo frequentemente preparado em acampamentos à beira das estradas. Uma vez nesse dia, você recebe +5 em um teste de resistência contra efeitos de movimento. Valkaria."
+    },
+    {
+      "name": "Baba de troll",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Uma bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude."
+    },
+    {
+      "name": "Barba queimada",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Forte e amarga, esta cerveja anã fortalece o corpo e o espírito. Fornece redução de dano 2. CD 20."
+    },
+    {
+      "name": "Cerveja água-de-sangue",
+      "price": "T$ 20",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "De sabor amargo e aparência avermelhada, esta cerveja aumenta a concentração e determinação. Fornece +2 em Vontade. CD 15."
+    },
+    {
+      "name": "Cerveja barbas de Heredrimm",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Uma bebida forte de espuma amarela e sabor adstringente, esta cerveja tradicional fornece +1d6 em um teste a sua escolha até o fim do dia. CD 20."
+    },
+    {
+      "name": "Cerveja Beluhga no caneco",
+      "price": "T$ 36",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Esta bebida opaca e esbranquiçada produz uma espuma azul e carrega um leve sabor mentolado. Fornece redução de fogo 5. CD 20."
+    },
+    {
+      "name": "Cerveja deheoni",
+      "price": "T$ 15",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "A bebida mais comum nas tavernas do Reinado. Fornece +1 em testes de resistência. CD 15."
+    },
+    {
+      "name": "Cerveja do escavador",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Apesar do nome simples, esta é uma bebida muito prestigiosa em Doherimm, e raramente é encontrada na superfície. Fornece +1 em Força, mas reduz o deslocamento em –3m. CD 20."
+    },
+    {
+      "name": "Cerveja rangedente",
+      "price": "T$ 20",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Viscosa e de textura gosmenta, esta cerveja prepara as tripas para sofrimentos ainda maiores. Fornece +2 em Fortitude. CD 15."
+    },
+    {
+      "name": "Destilado limpa-ventas",
+      "price": "T$ 36",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Uma bebida amarela e opaca, com um inesperado sabor picante. Fornece redução de frio 5. CD 20."
+    },
+    {
+      "name": "Destilado tuku’tu",
+      "price": "T$ 20",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Quente e amargo, este destilado inflama as veias e acelera o coração. Fornece +2 em Reflexos. CD 15."
+    },
+    {
+      "name": "Dilínio",
+      "price": "T$ 600",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Destilado de Mortenstenn, antigo reino de Lamnor, feito com um cereal que só cresce no continente sul. A receita se perdeu após as invasões duyshidakk e poucos barris chegaram ao Reinado, o que explica seu altíssimo preço. Seu limite de gasto de PM aumenta em +1. CD 20. Não é possível fabricar este item."
+    },
+    {
+      "name": "Grogue negro",
+      "price": "T$ 15",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Rum misturado com especiarias. Seu nome não vem de sua coloração (a bebida tem um tom dourado claro), mas de sua origem - a receita foi criada por piratas do Conclave, que atuam no Mar Negro. Quando você usa Audácia, o bônus fornecido pelo poder aumenta em +1. CD 15."
+    },
+    {
+      "name": "Grogue rubro",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Uma variação do grogue negro, com especiarias picantes que fazem a bebida adquirir uma coloração avermelhada - e quem a bebe, certa inclinação para a violência. Você pode usar Audácia para testes de ataque. CD 20."
+    },
+    {
+      "name": "Hidromel uivante",
+      "price": "T$ 21",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Fabricada nas montanhas geladas, esta bebida aquece e incita. Fornece +2 em rolagens de dano corpo a corpo. CD 20."
+    },
+    {
+      "name": "Licor bafo de elfa",
+      "price": "T$ 20",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Leve, suave e adocicado, este licor parece nem ser alcoólico, até que algumas doses “inofensivas” sejam consumidas. Fornece +2 em Misticismo. CD 15."
+    },
+    {
+      "name": "Licor feérico",
+      "price": "T$ 450",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "De aparência enevoada, esta bebida tem gosto adocicado, difícil de descrever. Dizem que é feito na Pondsmânia e trazido para o resto do Reinado com muita dificuldade. Alguns duvidam; dizem que isso é invenção dos taverneiros para cobrar mais caro! Mas, depois de experimentar uma dose, não duvidam mais. Escolha uma habilidade. O custo para ativar essa habilidade diminui em –1 PM. CD 25."
+    },
+    {
+      "name": "Sidra ahleniense",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícias originalmente baseadas em Carisma. CD 15."
+    },
+    {
+      "name": "Vinho Pruss",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "Batizado em homenagem ao antigo Rei-Imperador Thormy - dizem que era o favorito do monarca. Fornece 3 PM temporários. CD 15."
+    },
+    {
+      "name": "Vinho élfico",
+      "price": "T$ 90",
+      "spaces": "0,5",
+      "category": "Alimentação - Bebidas",
+      "description": "De sabor complexo, aguça a mente, fornecendo +1 na CD para resistir a suas habilidades. CD 20."
+    },
+    {
+      "name": "Alforje",
+      "price": "T$ 30",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Sacos de couro feitos para serem presos em uma sela. Permitem que um parceiro montaria carregue até 10 espaços de item para você."
+    },
+    {
+      "name": "Armadura de montaria leve",
+      "price": "T$ 600",
+      "spaces": "2",
+      "category": "Animais",
+      "description": "Esta armadura permite que a montaria se exponha mais e, consequentemente, auxilie seu cavaleiro com mais eficiência. Deve ser vestida pela montaria e aumenta um bônus numérico fornecido por ela em +1 (se for fixo) ou em um passo (se for um bônus rolado)."
+    },
+    {
+      "name": "Armadura de montaria pesada",
+      "price": "T$ 3.000",
+      "spaces": "5",
+      "category": "Animais",
+      "description": "Como a armadura de montaria leve, mas aumenta o bônus em +2 ou em dois passos. Contudo, diminui o deslocamento da montaria em –3m. Montarias voadoras não podem usar armaduras pesadas."
+    },
+    {
+      "name": "Arreios namalkahnianos",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Animais",
+      "description": "Feitos de couro com nós e fivelas que permitem ajustes precisos, estes arreios permitem que um animal de tração puxe um veículo da forma mais confortável e eficiente possível. Contam como um item vestido do animal e aumentam o deslocamento de um veículo de tração animal em +3m."
+    },
+    {
+      "name": "Bulette",
+      "price": "T$ 500",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Temperamental e feroz, esta fera pode ser adquirida de mercadores na Grande Savana, no Deserto da Perdição ou em Doherimm - em outros lugares, atinge o dobro do preço. Pode ser usado como um parceiro montaria."
+    },
+    {
+      "name": "Cão de caça",
+      "price": "T$ 150",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Este cachorro valente e leal pode ser usado como parceiro perseguidor por personagens treinados em Adestramento ou montaria por personagens Pequenos e Minúsculos."
+    },
+    {
+      "name": "Capivara",
+      "price": "T$ 60",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Simpática, amistosa e dotada de longos e afiados dentes, a capivara é muito apreciada por ginetes Pequenos como hynne e goblins. Pode ser usado como um parceiro montaria por personagens Pequenos e Minúsculos."
+    },
+    {
+      "name": "Caparazão",
+      "price": "T$ 75",
+      "spaces": "1",
+      "category": "Animais",
+      "description": "Uma espécie de “roupa” para montarias, o caparazão é uma cobertura de tecido finamente decorado que adorna e protege o corpo do animal. Uma montaria vestindo um caparazão fornece +1 em Diplomacia e Intimidação (além de seus benefícios usuais)."
+    },
+    {
+      "name": "Corcel do deserto",
+      "price": "T$ 150",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Tipo de cavalo insetoide encontrado na Grande Savana e no Deserto da Perdição. Pode ser usado como um parceiro montaria."
+    },
+    {
+      "name": "Cavalo",
+      "price": "T$ 75",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria (veja a página 262). Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Cavalos de guerra dispensam esse teste."
+    },
+    {
+      "name": "Cavalo de guerra",
+      "price": "T$ 400",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria (veja a página 262). Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Cavalos de guerra dispensam esse teste."
+    },
+    {
+      "name": "Dromedário",
+      "price": "T$ 75",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Disponível em regiões áridas ou montanhosas, pode ser um parceiro montaria."
+    },
+    {
+      "name": "Elefante",
+      "price": "T$ 1500",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Grande demais para ambientes urbanos, é empregado como animal de trabalho em áreas abertas, como fazendas e áreas de mineração. Pode ser usado como um parceiro montaria."
+    },
+    {
+      "name": "Estribos",
+      "price": "T$ 60",
+      "spaces": "1",
+      "category": "Animais",
+      "description": "Estes apoios para os pés fazem parte do equipamento básico de um ginete. Parecem simples, mas representam uma enorme inovação na tecnologia artoniana, possibilitando várias táticas de cavalaria que não eram viáveis anteriormente. Deve ser vestido pela montaria. Quando você faz uma investida montada, causa +1d8 pontos de dano."
+    },
+    {
+      "name": "Hiena",
+      "price": "T$ 220",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Embora sejam mais comuns entre gnolls, hienas podem ocasionalmente ser domesticadas por outros povos. Uma hiena pode ser usada como um parceiro especial (veja p. 119) por personagens treinados em Adestramento, ou montaria por personagens Pequenos e Minúsculos."
+    },
+    {
+      "name": "Leão",
+      "price": "T$ 800",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Considerado símbolo de nobreza e força, o majestoso leão pode ser treinado para aceitar um cavaleiro, sendo usado como um parceiro montaria."
+    },
+    {
+      "name": "Ornamento",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Animais",
+      "description": "Muito usado em desfiles, justas e outras ocasiões em que uma montaria precisa se mostrar garbosa. Uma vez por cena, se você estiver montado e for treinado em Cavalgar, pode se exibir com sua montaria para receber +1d4 em um teste de perícia baseada em Carisma."
+    },
+    {
+      "name": "Pônei",
+      "price": "T$ 5",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "A montaria mais comum entre raças Pequenas. Pode ser usado como parceiro montaria (veja a página 262). Pôneis sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Pôneis de guerra dispensam esse teste."
+    },
+    {
+      "name": "Pônei de guerra",
+      "price": "T$ 30",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "A montaria mais comum entre raças Pequenas. Pode ser usado como parceiro montaria (veja a página 262). Pôneis sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Pôneis de guerra dispensam esse teste."
+    },
+    {
+      "name": "Rinoceronte",
+      "price": "T$ 600",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Eram animais de gado dos anões quando estes ainda viviam na superfície; hoje são selvagens e perigosos, de difícil domesticação. Podem ser usados como parceiros montaria, mas raramente são encontrados à venda."
+    },
+    {
+      "name": "Trobo",
+      "price": "T$ 60",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos. Não têm asas. Possuem poucas penas, que servem apenas como ornamento. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração, mas também podem ser usados como montaria (veja a página 262)."
+    },
+    {
+      "name": "Urso Pardo",
+      "price": "T$ 300",
+      "spaces": "—",
+      "category": "Animais",
+      "description": "Este robusto predador pode ser encontrado em várias regiões de Arton. Ainda que incomum, pode ser empregado como um parceiro montaria."
+    },
+    {
+      "name": "Balão goblin",
+      "price": "T$ 200",
+      "spaces": "—",
+      "category": "Veículos",
+      "description": "Feito de imensas bolsas de couro e outros tecidos remendados, com uma gôndola parecida com um grande cesto, o balão goblin é um engenho tecnológico sem igual em Arton. Um balão tem tamanho Enorme, deslocamento voo 12m, Defesa 5 (+ Des do baloeiro), 100 PV e pode carregar até 8 criaturas Médias ou 160 espaços. Ao contrário do que possa parecer, quedas de balões raramente são fatais. Quando o balão perde mais da metade de seus PV, começa a perder ar e flutua lentamente na direção do solo. Cada ocupante sofre 4d6 pontos de dano de impacto (Ref CD 15 reduz à metade). Um balão só cai de forma perigosa caso perca todos os seus PV. Neste caso, os ocupantes sofrem dano normal pela queda, de acordo com a altura. Remendar um balão em pleno voo exige uma ação completa e um teste de Ofício (artesão) contra CD 15. Se você passar no teste, recupera 1d8 PV do balão."
+    },
+    {
+      "name": "Barcaça",
+      "price": "T$ 3.000",
+      "spaces": "—",
+      "category": "Veículos",
+      "description": "Este pequeno navio tem um único mastro, de vela quadrangular, e alguns remos para suplementar a força da vela. Pode navegar em rios e mar aberto. Além do piloto, requer 10 tripulantes para auxiliar na operação da vela. Uma barcaça tem tamanho Enorme, deslocamento de natação 6m, Defesa 10 (+ Des do piloto), 120 PV, RD 5 e pode carregar até 15 criaturas Médias ou 300 espaços."
+    },
+    {
+      "name": "Biga de guerra",
+      "price": "T$ 250",
+      "spaces": "—",
+      "category": "Veículos",
+      "description": "Algumas nações amazonas, além de montar em cavalos diretamente, equipam suas guerreiras com este veículo. Uma biga de guerra é como uma pequena carroça de duas rodas blindada, mas ainda assim leve e ágil, puxada por dois cavalos rápidos. O piloto fica de pé, com uma mão nas rédeas e a outra livre para empunhar armas. Se estiver conduzindo uma biga, você pode fazer investidas como se estivesse montado. Além disso, os tripulantes não sofrem penalidades em testes de ataque por atacar com armas de arremesso em uma biga em movimento. Uma biga de guerra tem tamanho Grande, deslocamento 12m, Defesa 12 (+ Des do piloto), 75 PV, RD 5, pode carregar até 2 criaturas Médias ou 40 espaços e fornece cobertura leve a quem estiver nela."
+    },
+    {
+      "name": "Carroça",
+      "price": "T$ 150",
+      "spaces": "—",
+      "category": "Veículos",
+      "description": "Veículo de duas ou quatro rodas, aberto, normalmente usado para transportar cargas pesadas. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais. Uma carroça tem tamanho Grande, deslocamento 9m, Defesa 8 (+ Des do condutor), 50 PV e pode carregar até 4 criaturas Médias ou 80 espaços."
+    },
+    {
+      "name": "Carruagem",
+      "price": "T$ 500",
+      "spaces": "—",
+      "category": "Veículos",
+      "description": "Veículo de quatro rodas, capaz de transportar até quatro pessoas em uma cabine fechada, mais dois condutores do lado de fora. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais. Tem as mesmas estatísticas de uma carroça, mas fornece cobertura leve a seus passageiros."
+    },
+    {
+      "name": "Canoa",
+      "price": "T$ 70",
+      "spaces": "—",
+      "category": "Veículos",
+      "description": "Construída a partir de um único tronco de árvore, é a mais simples das embarcações. Tem as mesmas estatísticas de uma carroça, mas com deslocamento de natação."
+    },
+    {
+      "name": "Dirigível goblin",
+      "price": "T$ 1.200",
+      "spaces": "—",
+      "category": "Veículos",
+      "description": "Uma versão maior e mais robusta do balão goblin (Tormenta20, p. 163), e proporcionalmente mais perigoso, este veículo é formado por vários conjuntos de bolsas de ar quente (ou gás mais leve que o ar) amarradas a uma gôndola alongada, semelhante ao casco de um navio. O formato da gôndola e a disposição das cordas dos balões torna mais fácil equipar o veículo com armas como balestras e, por que não, um eventual canhão! Um dirigível tem tamanho Enorme, deslocamento de voo 12m, Defesa 5 (+ Des do piloto), 180 PV e pode carregar até 16 criaturas Médias ou 320 espaços. Segue as mesmas regras de queda e reparos do balão goblin."
+    },
+    {
+      "name": "Jangada",
+      "price": "T$ 60",
+      "spaces": "—",
+      "category": "Veículos",
+      "description": "Um barco típico de pescadores, é essencialmente uma plataforma flutuante, com um mastro simples e um leme. Além do piloto, requer um tripulante para auxiliar na operação da vela. Tem tamanho Grande, deslocamento de natação 9m, Defesa 6 (+ Des do piloto), 50 PV, RD 5 e pode carregar até 4 criaturas Médias ou 80 espaços."
+    },
+    {
+      "name": "Veleiro",
+      "price": "T$ 10.000",
+      "spaces": "—",
+      "category": "Veículos",
+      "description": "Com três mastros, é o típico navio de viagem, muito popular entre mercadores."
+    }
+  ]
+}

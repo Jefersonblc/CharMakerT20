@@ -59,6 +59,8 @@ export function PersonagemProvider({ children }) {
     spells4: [],
     spells5: [],
 
+    inventario: [],
+
     pericias: skills.reduce((map, skill) => (map[skill.id] = { ...skill, treined: false }, map), {}),
 
     treinedSkills: [], 

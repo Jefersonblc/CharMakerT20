@@ -1,0 +1,284 @@
+{
+  "name": "Armaduras & Escudos",
+  "items": [
+    {
+      "name": "Armadura acolchoada",
+      "price": "T$ 5",
+      "defenseBonus": "+1",
+      "armorPenalty": "0",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "Uma túnica almofadada feita em linho ou lã. É a armadura mais leve, mas protege todo o corpo, fornecendo +2 em Fortitude."
+    },
+    {
+      "name": "Armadura sensual",
+      "price": "T$ 55",
+      "defenseBonus": "+1",
+      "armorPenalty": "0",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "As histórias de heróis estão repletas de guerreiros que vestem armaduras pouco práticas — feitas para revelar quase tudo do corpo do usuário, ressaltando seus músculos e curvas, rendendo imagens provocantes para capas de livros e iluminuras em pergaminhos. Nunca foram pensadas para uso na vida real... Mas alguém, em algum momento, achou que isso seria boa ideia. Uma armadura sensual é feita de pedaços (minúsculos) de cota de malha, (pouquíssimas) escamas ou tiras (extremamente finas) de metal. A armadura sensual não oferece muita proteção, mas permite usar o poder Atraente. Se você já tiver esse poder, em vez disso o bônus fornecido por ele aumenta para +5. Note que, em muitos lugares de Arton, uma armadura sensual não é um traje apropriado para bailes, reuniões diplomáticas ou mesmo para andar na rua! O usuário pode ser barrado desses lugares ou o bônus da armadura pode ser transformado em penalidade, a critério do mestre. As únicas ocasiões em que esses bônus nunca são anulados são combates."
+    },
+    {
+      "name": "Armadura de couro",
+      "price": "T$ 20",
+      "defenseBonus": "+2",
+      "armorPenalty": "0",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "O peitoral desta armadura é feito de couro curtido em óleo fervente, para ficar mais rígido, enquanto as demais partes são feitas de couro flexível."
+    },
+    {
+      "name": "Armadura de folhas",
+      "price": "T$ 75",
+      "defenseBonus": "+2",
+      "armorPenalty": "0",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "Esta armadura é um traje de tecido leve sobre o qual são costuradas várias camadas de folhas especialmente preparadas com óleos naturais. É uma armadura leve que fornece pouca defesa, mas permite que o usuário se mantenha conectado com as forças da natureza. Se for treinado em Sobrevivência, você recebe +2 PM com esta armadura (somente após 1 dia de uso), cumulativo com outros efeitos de itens."
+    },
+    {
+      "name": "Couro batido",
+      "price": "T$ 35",
+      "defenseBonus": "+3",
+      "armorPenalty": "-1",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "Versão mais pesada da armadura de couro, reforçada com rebites de metal."
+    },
+    {
+      "name": "Armadura de ossos",
+      "price": "T$ 120",
+      "defenseBonus": "+3",
+      "armorPenalty": "-2",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "Os nezumi e outros povos são conhecidos por produzir estas armaduras sinistras. Combinando um aspecto assustador e energias negativas de ossadas, esta armadura fornece +1 em Intimidação e na CD de seus efeitos de medo (cumulativo com a melhoria macabra)."
+    },
+    {
+      "name": "Armadura de engenhoqueiro goblin",
+      "price": "T$ 85",
+      "defenseBonus": "+3",
+      "armorPenalty": "-2 a -10",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "Esta armadura, digamos, “peculiar” foi originalmente desenvolvida por engenhoqueiros goblins para guardar todos os equipamentos, peças, partes semidestruídas e tralhas em geral que são necessários para seu ofício. Uma armadura de engenhoqueiro goblin recobre o corpo inteiro e é feita de pedaços desencontrados de couro, rebites e até cota de malha. Mas essa base logo fica enterrada sob camadas sucessivas de objetos, pois a armadura possui incontáveis ganchos, bolsos, tiras, prendedores e outros lugares para guardar ou pendurar itens. Você pode levar até 2 espaços em itens guardados na armadura, em vez de em sua carga normal. Além disso, pode levar até mais 8 espaços dessa forma (para um total de 10), mas se fizer isso, sua penalidade de armadura aumenta em –1 para cada espaço extra (indo até –10). Por ser feita especialmente para engenhoqueiros, esta armadura não aplica sua penalidade em testes para ativar engenhocas. Por outro lado, por sua natureza enjambrada, ela não pode ter sua penalidade reduzida por quaisquer efeitos (como a melhoria ajustada) e causa –5 em testes de Furtividade."
+    },
+    {
+      "name": "Cota de moedas",
+      "price": "T$ 350",
+      "defenseBonus": "+4",
+      "armorPenalty": "-3",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "O cúmulo da ostentação, esta armadura se assemelha a uma brunea, com um diferencial — em vez de discos metálicos, a malha é formada por tibares entrelaçados! Você recebe +2 em Diplomacia (cumulativo com melhorias da armadura). O mestre pode mudar o bônus para uma penalidade de –2 contra pessoas que desprezam ostentação."
+    },
+    {
+      "name": "Gibão de peles",
+      "price": "T$ 25",
+      "defenseBonus": "+4",
+      "armorPenalty": "-3",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "Usada principalmente por bárbaros e selvagens, esta armadura é formada por várias camadas de peles e couro de animais."
+    },
+    {
+      "name": "Veste de teia de aranha",
+      "price": "T$  3.000",
+      "defenseBonus": "+4",
+      "armorPenalty": "0",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "Feita com teia de aranha gigante, esta veste é cinza-escura, maleável e silenciosa, mas também forte como aço. Fornece +5 em Furtividade, mas não pode receber a melhoria material especial."
+    },
+    {
+      "name": "Colete fora da lei",
+      "price": "T$ 750",
+      "defenseBonus": "+5",
+      "armorPenalty": "-5",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "Diz-se que este colete metálico único foi desenvolvido por uma quadrilha de Smokestone — um bando com muita criatividade e pouco caráter. A forma arredondada da armadura e as ranhuras em sua superfície redirecionam projéteis, tornando-a ideal para proteger o usuário contra balas e flechas. Muito útil quando todos ao seu redor levam pistolas na cintura! Contra armas de disparo, o bônus na Defesa de um colete fora da lei aumenta em +2."
+    },
+    {
+      "name": "Couraça",
+      "price": "T$ 500",
+      "defenseBonus": "+5",
+      "armorPenalty": "-4",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves",
+      "description": "A mais robusta das armaduras leves, formada por uma placa metálica que protege o peito e as costas, presa sobre um casaco de couro."
+    },
+    {
+      "name": "Brunea",
+      "price": "T$ 50",
+      "defenseBonus": "+5",
+      "armorPenalty": "-2",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Colete de couro coberto com plaquetas de metal sobrepostas, como escamas de um peixe. Por ser barata de produzir, é a armadura mais utilizada no Reinado por soldados de infantaria e guardas de castelo."
+    },
+    {
+      "name": "Brigantina",
+      "price": "T$ 75",
+      "defenseBonus": "+6",
+      "armorPenalty": "0",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Também chamada de “brigandina”, esta armadura é uma opção para combatentes que não podem comprar armaduras de placas. À primeira vista, a brigantina só tem vantagens — feita de uma vestimenta de couro com pequenas placas metálicas rebitadas, é mais flexível que armaduras metálicas comuns, ainda fornecendo a proteção do aço. Contudo, a brigantina tem um defeito: embora as múltiplas pequenas placas protejam bem contra armas de corte e impacto, é fácil para uma arma de perfuração penetrar entre elas. Contra armas de perfuração, o bônus na Defesa de uma brigantina diminui em –2."
+    },
+    {
+      "name": "Cota de malha",
+      "price": "T$ 150",
+      "defenseBonus": "+6",
+      "armorPenalty": "-2",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Longa veste de anéis metálicos interligados, formando uma malha flexível e resistente, que vai até os joelhos."
+    },
+    {
+      "name": "Armadura de chumbo",
+      "price": "T$ 750",
+      "defenseBonus": "+7",
+      "armorPenalty": "-5",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Esta armadura extremamente pesada e desajeitada faz o usuário parecer mais uma estátua do que um cavaleiro... No entanto, é a preferida de alguns infelizes que já sofreram nas mãos de arcanistas. Uma armadura de chumbo é mais pesada e incômoda do que uma armadura completa, sem oferecer a mesma proteção. No entanto, fornece redução de dano 2/mundano e resistência a magia +2, cumulativo com outros efeitos de itens."
+    },
+    {
+      "name": "Loriga segmentada",
+      "price": "T$ 250",
+      "defenseBonus": "+7",
+      "armorPenalty": "-3",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Composta por tiras horizontais de metal, esta armadura pesada é muito utilizada por legionários do Império de Tauron."
+    },
+    {
+      "name": "Armadura de quitina",
+      "price": "T$ 350",
+      "defenseBonus": "+7",
+      "armorPenalty": "-3",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Feita com carapaças selecionadas de grandes insetos, esta armadura dos povos-trovão é mais leve que suas contrapartes metálicas. Embora seja uma armadura pesada, não reduz o deslocamento do usuário."
+    },
+    {
+      "name": "Escafandro Kliren",
+      "price": "T$ 1.200",
+      "defenseBonus": "+8",
+      "armorPenalty": "-6",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "O escafandro kliren é uma armadura própria para a sobrevivência no éter divino. A armadura cobre todo o corpo do usuário, protegendo-o do frio e da descompressão, além de armazenar uma reserva de ar respirável. Um escafandro fornece redução de frio 5 e permite respirar por até 1 hora em ambientes inóspitos como debaixo d'água, no vácuo e em nuvens de gás ou fumaça. Após este período, você deve passar pelo menos 10 minutos em um ambiente com ar respirável para recarregar a reserva de ar da armadura."
+    },
+    {
+      "name": "Meia armadura",
+      "price": "T$ 600",
+      "defenseBonus": "+8",
+      "armorPenalty": "-4",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Uma cota de malha reforçada com placas de metal."
+    },
+    {
+      "name": "Armadura de justa",
+      "price": "T$ 1.200",
+      "defenseBonus": "+9",
+      "armorPenalty": "-5",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Esta meia armadura é feita especialmente para ser usada por cavaleiros em justas. Assim, é toda feita de placas de metal, bastante adornada, e tem aparência aristocrática e tradicional. Seu grande diferencial, contudo, é a proteção extra no lado do peito do usuário que provavelmente será atingido pela lança do oponente — o lado em que ele próprio não empunha sua lança. A armadura de justa fornece +5 em testes para resistir a ser derrubado enquanto montado (cumulativo com outros efeitos de itens) e, contra armas de perfuração, seu bônus na Defesa aumenta em +2. Contudo, devido a seu peso e estrutura, sua penalidade de armadura aumenta em 2 se você não estiver montado."
+    },
+    {
+      "name": "Armadura completa",
+      "price": "T$ 3.000",
+      "defenseBonus": "+10",
+      "armorPenalty": "-5",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "A mais forte e pesada das armaduras, formada por placas de metal forjadas e encaixadas de modo a cobrir o corpo inteiro. Inclui uma túnica acolchoada para ser usada sob as placas. Correias e fivelas distribuem o peso da armadura pelo corpo inteiro. Esta armadura precisa ser feita sob medida para cada usuário; um ferreiro cobra T$ 200 para adaptar uma armadura completa a um novo usuário."
+    },
+    {
+      "name": "Armadura de hussardo alado",
+      "price": "T$ 4.500",
+      "defenseBonus": "+10",
+      "armorPenalty": "-6",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Alguns dos reinos mais avançados (e menos tradicionalistas) de Arton começaram a equipar seus cavaleiros com estas armaduras vistosas e impressionantes. Uma armadura de hussardo alado é uma armadura completa com um adicional: duas hastes longas nas costas, cobertas de penas, que parecem asas! Quando você avança a galope, as “asas” zunem ao vento, criando um som desconcertante e amedrontador. Quando faz uma investida montada, você pode fazer um teste de Intimidação para assustar o alvo de sua investida. Esse efeito só funciona uma vez por cena com cada oponente."
+    },
+    {
+      "name": "Armadura de pedra",
+      "price": "T$ 5.500",
+      "defenseBonus": "+12",
+      "armorPenalty": "-5",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas",
+      "description": "Esta armadura completa foi originalmente projetada por facções tradicionalistas da Guilda dos Armeiros de Doherimm, apenas em tamanho anão. Recentemente, anões rebeldes e interessados em lucro começaram a fabricar versões utilizáveis pelas demais raças artonianas. Além de sua defesa elevada, uma armadura de pedra fornece redução de dano 2 (cumulativo com outros efeitos de itens). Contudo, toda essa proteção tem um custo: seu deslocamento é reduzido pela metade por essa armadura pesada, em vez de em 3m. A armadura de pedra não pode receber a melhoria material especial."
+    },
+    {
+      "name": "Broquel",
+      "price": "T$ 25",
+      "defenseBonus": "—",
+      "armorPenalty": "-1",
+      "spaces": "0,5",
+      "proficiency": "Escudos",
+      "description": "Este escudo parece pequeno demais para ter qualquer uso, protegendo apenas a mão e o pulso (o que impede o uso dessa mão). Contudo, ele não é como outros escudos: em vez de atuar como uma barreira fixa entre o usuário e seus inimigos, ajuda a bloquear os ataques contra ele. Você não recebe o bônus na Defesa por um broquel, como normal. Em vez disso, uma vez por rodada, quando é atingido por um ataque, você pode fazer um teste de ataque corpo a corpo. Para cada 10 pontos do resultado desse teste, você reduz o dano sofrido em 2 pontos. Um broquel pode ser usado para atacar como um escudo leve."
+    },
+    {
+      "name": "Escudo leve",
+      "price": "T$ 5",
+      "defenseBonus": "+1",
+      "armorPenalty": "-1",
+      "spaces": "1",
+      "proficiency": "Escudos",
+      "description": "Tipicamente feito de madeira, este escudo é amarrado no antebraço, deixando a mão livre. Você pode carregar um objeto na mão que empunha o escudo, mas não manusear uma arma."
+    },
+    {
+      "name": "Escudo de couro",
+      "price": "T$ 3",
+      "defenseBonus": "+1",
+      "armorPenalty": "-1",
+      "spaces": "1",
+      "proficiency": "Escudos",
+      "description": "Por sua leveza, este escudo é popular entre velocis e ubaneri. É feito com uma armação de madeira esticando uma membrana de couro (ou outro material flexível) e amarrado ao braço, impedindo o uso dessa mão. Contra ataques à distância, o bônus na Defesa do escudo aumenta em +2. Entretanto, ele é muito leve para ser usado como arma."
+    },
+    {
+      "name": "Escudo de vime",
+      "price": "T$ 15",
+      "defenseBonus": "+2",
+      "armorPenalty": "-2",
+      "spaces": "2",
+      "proficiency": "Escudos",
+      "description": "Este escudo é grande e desajeitado, mas extremamente leve devido a seu material. Parece não proteger muito, pois existem pequenas “falhas” entre as fibras de vime. À primeira vista, apenas um louco usaria este tipo de proteção — mas, justamente por ser leve, volumoso e com uma trama aberta, pode ser movido com facilidade para confundir os inimigos. Não é preso ao braço, mas precisa ser empunhado com as duas mãos, impedindo que você empunhe uma arma ou qualquer outro item (um parceiro capaz de empunhar escudos pode segurar o escudo para você, mas não poderá fornecer seus benefícios enquanto faz isso) e é muito desajeitado para ser empunhado montado ou usado para atacar. Além de seus bônus na Defesa, o escudo de vime fornece camuflagem leve. Além disso, em seu turno, se estiver usando o escudo, você pode escolher um aliado adjacente. Se fizer isso, fornece seu bônus na Defesa e camuflagem a ele. Contudo, caso você ou o aliado sofram um acerto crítico, o escudo é destruído."
+    },
+    {
+      "name": "Escudo pesado",
+      "price": "T$ 15",
+      "defenseBonus": "+2",
+      "armorPenalty": "-2",
+      "spaces": "2",
+      "proficiency": "Escudos",
+      "description": "Normalmente feito de aço, este escudo é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão."
+    },
+    {
+      "name": "Escudo torre",
+      "price": "T$ 45",
+      "defenseBonus": "+2",
+      "armorPenalty": "-4",
+      "spaces": "2",
+      "proficiency": "Escudos",
+      "description": "Este escudo grande e retangular é feito de madeira e reforçado com aço e couro. É preso ao antebraço como um escudo pesado mas, devido a seu tamanho, não pode ser usado para atacar, ou por um personagem montado. Você pode gastar uma ação de movimento para tirar o escudo e fixá-lo chão, transformando-o em uma barreira que pode fornecer cobertura leve (conforme o normal para cobertura; veja Tormenta20, p. 239). Recolocar o escudo, desafixando-o do chão, também é uma ação de movimento."
+    },
+    {
+      "name": "Sagna",
+      "price": "T$ 20",
+      "defenseBonus": "+2",
+      "armorPenalty": "-3",
+      "spaces": "2",
+      "proficiency": "Escudos",
+      "description": "Desenvolvido por devotos de Oceano e muito comum em regiões praianas, este grande escudo de madeira também pode ser usado para deslizar pelas ondas. Enquanto você o usa dessa forma, a penalidade de armadura deste escudo e de sua armadura para natação não são aplicadas. Além disso, quando passa em um teste para natação, você avança seu deslocamento normal (em vez de metade); se você já tiver deslocamento de natação, em vez disso ele aumenta em +3m. Um sagna pode ser usado para atacar como um escudo pesado."
+    }
+  ]
+}
