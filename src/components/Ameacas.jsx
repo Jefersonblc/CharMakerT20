@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import Select from 'react-select';
+import { useState, useEffect, useRef } from 'react';
+import Select, { components } from 'react-select';
 import ameacasArton from '../assets/data/ameaças_de_arton_t20.json';
 import ameacasBase from '../assets/data/ameacas_livro_base_t20.json';
 import JSZip from 'jszip';
@@ -10,12 +10,33 @@ import Modal from './Modal';
 import AmeacaContent from './AmeacaContent';
 import AllAmeacasContent from './AllAmeacasContent';
 
+const OptionWithCheckbox = (props) => (
+    <components.Option {...props}>
+        <input type="checkbox" checked={props.isSelected} readOnly className="me-2" />
+        {props.children}
+    </components.Option>
+);
+
+
+const CountSelectedContainer = ({children, ...props}) => (
+    <components.ValueContainer {...props}>
+        { 
+            Array.isArray(children[0]) && children[0]?.length > 1 ? 
+            <>
+                <strong>Selecionados: {children[0].length}</strong> 
+                {children[1]}
+            </>
+            : children 
+        }
+    </components.ValueContainer>
+);
+
 function Ameacas() {
     const [ameacas, setAmeacas] = useState([]);
-    const [filtroCategoria, setFiltroCategoria] = useState('');
-    const [filtroTipo, setFiltroTipo] = useState('');
-    const [filtroTamanho, setFiltroTamanho] = useState('');
-    const [filtroND, setFiltroND] = useState('');
+    const [filtroCategoria, setFiltroCategoria] = useState([]);
+    const [filtroTipo, setFiltroTipo] = useState([]);
+    const [filtroTamanho, setFiltroTamanho] = useState([]);
+    const [filtroND, setFiltroND] = useState([]);
     const [selecionadas, setSelecionadas] = useState([]);
     const [modalAmeacaId, setModalAmeacaId] = useState(null);
     const [printingAmeaca, setPrintingAmeaca] = useState(null);
@@ -96,14 +117,22 @@ function Ameacas() {
 
     // Filtra ameaças
     const ameacasFiltradas = ameacas.filter(a =>
-        (!filtroCategoria || a.categoria === filtroCategoria) &&
-        (!filtroTipo || a.tipo === filtroTipo) &&
-        (!filtroTamanho || a.tamanho === filtroTamanho) &&
-        (!filtroND || String(a.nd) === String(filtroND))
+        (filtroCategoria.length === 0 || filtroCategoria.some(f => f.value === a.categoria)) &&
+        (filtroTipo.length === 0 || filtroTipo.some(f => f.value === a.tipo)) &&
+        (filtroTamanho.length === 0 || filtroTamanho.some(f => f.value === a.tamanho)) &&
+        (filtroND.length === 0 || filtroND.some(f => String(f.value) === String(a.nd)))
     ).sort((a, b) => a.nome.localeCompare(b.nome));
 
     // Opções para Select
     const options = ameacasFiltradas.map(a => ({ value: a.nome, label: a.nome, data: a }));
+
+    function handleSelecionar(selectedOptions) {
+        setSelecionadas(selectedOptions ? selectedOptions.map(o => o.data) : []);
+    }
+
+    function removeAmeaca(id) {
+        setSelecionadas(prev => prev.filter(ameaca => ameaca.id !== id));
+    }
 
     function getPericiasOutros(periciaAmeaca) {
         const splitPericia = periciaAmeaca.split(' ');
@@ -291,31 +320,59 @@ function Ameacas() {
             <div className="row mb-3">
                 <div className="col-md-3">
                     <label className="form-label">Categoria</label>
-                    <select className="form-select" value={filtroCategoria} onChange={e => setFiltroCategoria(e.target.value)}>
-                        <option value="">Todos</option>
-                        {categorias.map(tipo => <option key={tipo} value={tipo}>{tipo}</option>)}
-                    </select>
+                    <Select
+                        isMulti
+                        options={categorias.map(c => ({ value: c, label: c }))}
+                        value={filtroCategoria}
+                        onChange={setFiltroCategoria}
+                        placeholder="Todas"
+                        classNamePrefix="react-select"
+                        closeMenuOnSelect={false}
+                        hideSelectedOptions={false}
+                        components={{ Option: OptionWithCheckbox, ValueContainer: CountSelectedContainer }}
+                    />
                 </div>
                 <div className="col-md-3">
                     <label className="form-label">Tipo</label>
-                    <select className="form-select" value={filtroTipo} onChange={e => setFiltroTipo(e.target.value)}>
-                        <option value="">Todos</option>
-                        {tipos.map(tam => <option key={tam} value={tam}>{tam}</option>)}
-                    </select>
+                    <Select
+                        isMulti
+                        options={tipos.map(t => ({ value: t, label: t }))}
+                        value={filtroTipo}
+                        onChange={setFiltroTipo}
+                        placeholder="Todas"
+                        classNamePrefix="react-select"
+                        closeMenuOnSelect={false}
+                        hideSelectedOptions={false}
+                        components={{ Option: OptionWithCheckbox, ValueContainer: CountSelectedContainer }}
+                    />
                 </div>
                 <div className="col-md-3">
                     <label className="form-label">Tamanho</label>
-                    <select className="form-select" value={filtroTamanho} onChange={e => setFiltroTamanho(e.target.value)}>
-                        <option value="">Todos</option>
-                        {tamanhos.map(tam => <option key={tam} value={tam}>{tam}</option>)}
-                    </select>
+                    <Select
+                        isMulti
+                        options={tamanhos.map(t => ({ value: t, label: t }))}
+                        value={filtroTamanho}
+                        onChange={setFiltroTamanho}
+                        placeholder="Todas"
+                        classNamePrefix="react-select"
+                        closeMenuOnSelect={false}
+                        hideSelectedOptions={false}
+                        components={{ Option: OptionWithCheckbox, ValueContainer: CountSelectedContainer }}
+                    />
                 </div>
                 <div className="col-md-3">
                     <label className="form-label">ND</label>
-                    <select className="form-select" value={filtroND} onChange={e => setFiltroND(e.target.value)}>
-                        <option value="">Todos</option>
-                        {nds.map(nd => <option key={nd} value={nd}>{nd}</option>)}
-                    </select>
+                    <Select
+                        isMulti
+                        options={nds.map(n => ({ value: n, label: n }))}
+                        value={filtroND}
+                        onChange={setFiltroND}
+                        placeholder="Todas"
+                        classNamePrefix="react-select"
+                        closeMenuOnSelect={false}
+                        hideSelectedOptions={false}
+                        components={{ Option: OptionWithCheckbox, ValueContainer: CountSelectedContainer }}
+                    />
                 </div>
             </div>
             
@@ -326,6 +383,9 @@ function Ameacas() {
                 onChange={handleSelecionar}
                 placeholder="Selecione ameaças..."
                 classNamePrefix="react-select"
+                closeMenuOnSelect={false}
+                hideSelectedOptions={false}
+                components={{ Option: OptionWithCheckbox }}
             />
             
             {selecionadas.length > 0 && 
