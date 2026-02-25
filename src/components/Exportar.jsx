@@ -347,10 +347,10 @@ function Exportar() {
 
       <div className="d-flex gap-2 mt-2">
         <button className="btn btn-secondary" onClick={handleSaveTolocal} disabled={storage.selected === ''}>
-          <i class="fa-solid fa-floppy-disk"></i> Salvar
+          <i className="fa-solid fa-floppy-disk"></i> Salvar
         </button>
         <button className="btn btn-secondary" onClick={handleLoadFromlocal} disabled={!storage.saves.find(save => save.nome === storage.selected)}>
-          <i class="fa-solid fa-arrow-rotate-right"></i> Carregar
+          <i className="fa-solid fa-arrow-rotate-right"></i> Carregar
         </button>
         <button className="btn btn-secondary" onClick={handleDeleteFromlocal} disabled={!storage.saves.find(save => save.nome === storage.selected)}>
           <i className="fa-solid fa-trash"></i> Deletar
