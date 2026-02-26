@@ -124,7 +124,7 @@ function Ameacas() {
     ).sort((a, b) => a.nome.localeCompare(b.nome));
 
     // Opções para Select
-    const options = ameacasFiltradas.map(a => ({ value: a.nome, label: a.nome, data: a }));
+    const options = ameacasFiltradas.map(a => ({ value: a.nome, label: `${a.nome} • ND ${a.nd}`, data: a }));
 
     function handleSelecionar(selectedOptions) {
         setSelecionadas(selectedOptions ? selectedOptions.map(o => o.data) : []);
