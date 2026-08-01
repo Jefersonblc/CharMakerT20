@@ -55,7 +55,7 @@ function Personagem() {
     const updated = {};
 
     Object.entries(attributes).forEach(([key, attr]) => {
-      updated[key] = (attr.mod || 0) + (attr.points || 0);
+      updated[key] = (attr.mod || 0) + (attr.points || 0) + (attr.extra || 0);
     });
 
     setPersonagem(prev => ({ ...prev, ...updated }));
@@ -152,8 +152,6 @@ function Personagem() {
 
   function handleChangeAttribute(attr, e) {
     const value = parseInt(e.target.value) || 0;
-    const cost = getPointbuyCost(value);
-    const diference = value - attributes[attr].points;
 
     if (value < -2 || value > 5) return
 
@@ -164,6 +162,15 @@ function Personagem() {
     }));
 
     calculatePointbuy();
+  }
+
+  function handleChangeAttributeExtra(attr, e) {
+    const value = parseInt(e.target.value) || 0;
+
+    setAttributes(prev => ({
+      ...prev,
+      [attr]: { ...prev[attr], extra: value }
+    }));
   }
 
   function handleAttrCheckboxChange(attr, e) {
@@ -482,13 +489,17 @@ function Personagem() {
                     <label className="form-label form-label-sm">Mod</label>
                     <input type="number" name={attr + "_point"} className="form-control" value={attributes[attr].points} onChange={e => handleChangeAttribute(attr, e)} />
                   </div>
+                  <div>
+                    <label className="form-label form-label-sm">Extra</label>
+                    <input type="number" name={attr + "_extra"} className="form-control" value={attributes[attr].extra ?? 0} onChange={e => handleChangeAttributeExtra(attr, e)} />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         ))}
 
-        <div className="col-md-2">
+        <div className="col-md-1">
           <label className="form-label fs-4 fw-bold">Pontos</label>
           <select name="pointbuy_rule" className="form-select" value={pointbuy.limit} onChange={handlePointbuyChange}>
             <option value="5">5 Pontos</option>
