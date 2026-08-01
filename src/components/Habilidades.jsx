@@ -13,6 +13,9 @@ function Habilidades() {
   const [powers, setPowers] = useState([]);
   const [races, setRaces] = useState([]);
   const [classes, setClasses] = useState([]);
+  const [isSorting, setIsSorting] = useState(false);
+  const [draggedAbilityId, setDraggedAbilityId] = useState(null);
+  const [dragOverTarget, setDragOverTarget] = useState(null);
 
   useEffect(() => {
     setPowers(powersData.powers || powersData);
@@ -103,16 +106,114 @@ function Habilidades() {
     }));
   }
 
+  function reorderAbilities(draggedId, targetId, position = 'after') {
+    if (!draggedId || !targetId || draggedId === targetId) {
+      return;
+    }
+
+    setPersonagem(prev => {
+      const nextAbilities = [...prev.abilities];
+      const fromIndex = nextAbilities.findIndex(ability => ability.id === draggedId);
+      const toIndex = nextAbilities.findIndex(ability => ability.id === targetId);
+
+      if (fromIndex === -1 || toIndex === -1) {
+        return prev;
+      }
+
+      const [movedAbility] = nextAbilities.splice(fromIndex, 1);
+      const adjustedToIndex = toIndex > fromIndex ? toIndex - 1 : toIndex;
+      const insertIndex = position === 'before' ? adjustedToIndex : adjustedToIndex + 1;
+
+      nextAbilities.splice(Math.max(0, Math.min(insertIndex, nextAbilities.length)), 0, movedAbility);
+
+      return {
+        ...prev,
+        abilities: nextAbilities,
+      };
+    });
+  }
+
   return (
     <div className="form-section">
-      <button onClick={addAbility} className="btn btn-secondary mt-2">
-        <i className="fas fa-plus"></i> Add Habilidade / Poder
-      </button>
+      <div className="d-flex flex-wrap gap-2 mt-2">
+        <button onClick={addAbility} className="btn btn-secondary">
+          <i className="fas fa-plus"></i> Add Habilidade / Poder
+        </button>
+        <button
+          onClick={() => setIsSorting(prev => !prev)}
+          className={`btn ${isSorting ? 'btn-primary' : 'btn-outline-secondary'}`}
+        >
+          <i className={`fas ${isSorting ? 'fa-times' : 'fa-arrows-up-down-left-right'}`}></i>{' '}
+          {isSorting ? 'Finalizar Ordenação' : 'Ordenar'}
+        </button>
+      </div>
+      {isSorting && (
+        <div className="text-muted small mt-2">
+          Arraste os cards para alterar a ordem dos poderes.
+        </div>
+      )}
       <div className="dynamic-list mt-3">
         {personagem.abilities.map(ability => (
-          <div className="card ability-block mb-2 shadow-sm p-2 rounded" key={ability.id}>
-            <div className="d-flex align-items-center gap-2">
-              <CreatableSelect
+          <div
+            className="mb-2"
+            key={ability.id}
+            onDragOver={event => {
+              if (isSorting) {
+                event.preventDefault();
+                const cardElement = event.currentTarget.querySelector('.ability-sortable-card');
+                const rect = cardElement?.getBoundingClientRect();
+
+                if (!rect) {
+                  return;
+                }
+
+                const cursorOffset = event.clientY - rect.top;
+                let position = null;
+
+                if (cursorOffset <= 4) {
+                  position = 'before';
+                } else if (cursorOffset >= rect.height - 4) {
+                  position = 'after';
+                }
+
+                setDragOverTarget(prev => {
+                  if (prev?.id === ability.id && prev?.position === position) {
+                    return prev;
+                  }
+
+                  return position ? { id: ability.id, position } : null;
+                });
+              }
+            }}
+            onDragLeave={() => {
+              if (isSorting && dragOverTarget?.id === ability.id) {
+                setDragOverTarget(null);
+              }
+            }}
+            onDrop={() => {
+              if (isSorting) {
+                reorderAbilities(draggedAbilityId, ability.id, dragOverTarget?.position || 'after');
+                setDraggedAbilityId(null);
+                setDragOverTarget(null);
+              }
+            }}
+          >
+            
+            {dragOverTarget?.id === ability.id && dragOverTarget?.position === 'before' && (
+              <div className="ability-drop-marker ability-drop-marker-before" />
+            )}
+            <div
+              className={`card ability-block shadow-sm p-2 rounded ${isSorting ? 'border border-primary ability-sortable-card' : ''}`}
+              draggable={isSorting}
+              onDragStart={() => setDraggedAbilityId(ability.id)}
+              onDragEnd={() => {
+                setDraggedAbilityId(null);
+                setDragOverTarget(null);
+              }}
+            >
+              <div className="d-flex align-items-center gap-2">
+                {isSorting && <i className="fas fa-grip-vertical text-muted"></i>}
+                <CreatableSelect
                 options={powersOptions.filter(p => ability.type !== '' ? p.type === ability.type : true)}
                 value={ability.name ? { value: ability.name, label: ability.name } : null}
                 onChange={e => handleAbilityChange(ability.id, e?.value || '')}
@@ -132,16 +233,20 @@ function Habilidades() {
                 className="w-25"
                 classNamePrefix="react-select"
               />
-              <button className="btn btn-outline-danger mr-2" onClick={() => removeAbility(ability.id)}>
-                <i className="fas fa-trash"></i>
-              </button>
-              <button className="btn btn-outline-secondary mr-2" onClick={() => openAbility(ability.id)}>
-                <i className={`fa-solid ${ability.open ? 'fa-caret-up' : 'fa-caret-down'}`}></i>
-              </button>
+                <button className="btn btn-outline-danger mr-2" onClick={() => removeAbility(ability.id)}>
+                  <i className="fas fa-trash"></i>
+                </button>
+                <button className="btn btn-outline-secondary mr-2" onClick={() => openAbility(ability.id)}>
+                  <i className={`fa-solid ${ability.open ? 'fa-caret-up' : 'fa-caret-down'}`}></i>
+                </button>
+              </div>
+              <div className="mt-2" hidden={!ability.open}>
+                <textarea id={`ability-description-${ability.id}`}  className="form-control fst-italic" placeholder="Descrição" rows="3" value={ability.description} onChange={e => handleChange(ability.id, 'description', e.target.value)} />
+              </div>
             </div>
-            <div className="mt-2" hidden={!ability.open}>
-              <textarea id={`ability-description-${ability.id}`}  className="form-control fst-italic" placeholder="Descrição" rows="3" value={ability.description} onChange={e => handleChange(ability.id, 'description', e.target.value)} />
-            </div>
+            {dragOverTarget?.id === ability.id && dragOverTarget?.position === 'after' && (
+              <div className="ability-drop-marker ability-drop-marker-after" />
+            )}
           </div>
         ))}
       </div>

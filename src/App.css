@@ -23,6 +23,25 @@ body {
   margin-top: 1em;
 }
 
+.ability-sortable-card {
+  cursor: grab;
+}
+
+.ability-drop-marker {
+  height: 30px;
+  background: rgba(13, 110, 253, 0.08);
+  border: 2px dashed var(--t20-red);
+  border-radius: 0.675rem;
+}
+
+.ability-drop-marker-before {
+  margin-bottom: 0.5rem;
+}
+
+.ability-drop-marker-after {
+  margin-top: 0.5rem;
+}
+
 .form-section {
   background: white;
   border-left: 5px solid var(--t20-red);
