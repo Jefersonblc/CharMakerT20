@@ -4,6 +4,27 @@ import { usePersonagem } from '../context/PersonagemContext';
 import { modificadorDaRolagem, formatarModificador } from '../assets/data/attributesTable.js';
 import FichaContent from './FichaContent';
 
+// Rola 4d6, descarta o menor e soma os outros três
+function rolar4d6() {
+  const dados = Array.from({ length: 4 }, () => Math.floor(Math.random() * 6) + 1);
+  return { dados, total: dados.reduce((soma, dado) => soma + dado, 0) - Math.min(...dados) };
+}
+
+// Índice do menor resultado (empate: o primeiro)
+function indiceDoMenor(resultados) {
+  return resultados.reduce((menor, r, i) => (r.total < resultados[menor].total ? i : menor), 0);
+}
+
+// Soma dos modificadores dos resultados rolados
+function somaModificadores(resultados) {
+  return resultados.reduce((soma, r) => soma + modificadorDaRolagem(r.total), 0);
+}
+
+// Re-role o menor resultado, mantendo id e distribuição
+function rerolarMenorResultado(resultados) {
+  return resultados.map((r, i) => i === indiceDoMenor(resultados) ? { ...r, ...rolar4d6() } : r);
+}
+
 function Exportar() {
   const {
     personagem, setPersonagem,
@@ -331,22 +352,39 @@ function Exportar() {
 
   // Modo Rolagem de Dados: 4d6, descarta o menor e soma os outros três. Repete 6 vezes.
   function rolarAtributos() {
-    const resultados = Array.from({ length: 6 }, () => {
-      const dados = Array.from({ length: 4 }, () => Math.floor(Math.random() * 6) + 1);
-      const descartado = Math.min(...dados);
-      return {
-        id: crypto.randomUUID(),
-        dados,
-        total: dados.reduce((soma, dado) => soma + dado, 0) - descartado
-      };
-    });
+    let resultados = Array.from({ length: 6 }, () => ({ id: crypto.randomUUID(), ...rolar4d6() }));
+
+    // Regra do livro: caso os atributos não somem pelo menos 6, role novamente o
+    // menor valor. Repita até somarem 6 ou mais (cheque de segurança contra loop infinito).
+    if (config.rolagemAutomatica) {
+      for (let i = 0; i < 100 && somaModificadores(resultados) < 6; i++) {
+        resultados = rerolarMenorResultado(resultados);
+      }
+    }
+
     setRolagem({ resultados });
+  }
+
+  // Passo a passo: re-rola o menor valor, só enquanto a soma dos modificadores for menor que 6
+  function rerolarMenor() {
+    setRolagem(prev => {
+      if (!prev.resultados.length || somaModificadores(prev.resultados) >= 6) return prev;
+      return { ...prev, resultados: rerolarMenorResultado(prev.resultados) };
+    });
+  }
+
+  function handleRolagemAutomaticaChange(e) {
+    setConfig({ ...config, rolagemAutomatica: e.target.checked });
   }
 
   function handlePointbuyChange(e) {
     const value = parseInt(e.target.value) || 0;
     setPointbuy({ ...pointbuy, limit: value, available: value - pointbuy.spent });
   }
+
+  // Regra do livro: caso os atributos não somem pelo menos 6, role novamente o menor valor
+  const somaMods = somaModificadores(rolagem.resultados);
+  const menorIdx = indiceDoMenor(rolagem.resultados);
 
   return (
     <div className="form-section">
@@ -370,19 +408,51 @@ function Exportar() {
 
       {config.modoDistribuicao === 'rolagem' ? (
         <div className="col-md-4">
-          <button type="button" className="btn btn-secondary w-100" onClick={rolarAtributos} title="4d6, descarte o menor e some os outros três. Repete 6 vezes.">
-            <i className="fa-solid fa-dice"></i> {rolagem.resultados.length ? 'Rerolar' : 'Rolar'}
-          </button>
+          <div className="d-flex flex-wrap gap-2">
+            <button type="button" className="btn btn-secondary flex-grow-1" onClick={rolarAtributos}
+              title={`4d6, descarte o menor e some os outros três. Repete 6 vezes.${config.rolagemAutomatica ? ' Se a soma dos modificadores ficar abaixo de 6, re-rola automaticamente o menor valor.' : ''}`}>
+              <i className="fa-solid fa-dice"></i> {rolagem.resultados.length ? 'Rerolar' : 'Rolar'}
+            </button>
+
+            {!config.rolagemAutomatica && (
+              <button type="button" className="btn btn-secondary" onClick={rerolarMenor}
+                disabled={!rolagem.resultados.length || somaMods >= 6}
+                title={rolagem.resultados.length
+                  ? (somaMods >= 6
+                    ? 'A soma dos modificadores já é 6 ou mais.'
+                    : 'Caso seus atributos não somem pelo menos 6, role novamente o menor valor. Repita esse processo até seus atributos somarem 6 ou mais.')
+                  : 'Role os dados primeiro.'}>
+                <i className="fa-solid fa-rotate-left"></i> Rerolar menor
+              </button>
+            )}
+          </div>
+
+          <div className="form-check small mt-1">
+            <input className="form-check-input" type="checkbox" id="rolagemAutomatica"
+              checked={!!config.rolagemAutomatica} onChange={handleRolagemAutomaticaChange}
+              title="Ao rolar, caso seus atributos não somem pelo menos 6, re-rola automaticamente o menor valor até somarem 6 ou mais." />
+            <label className="form-check-label" htmlFor="rolagemAutomatica"
+              title="Ao rolar, caso seus atributos não somem pelo menos 6, re-rola automaticamente o menor valor até somarem 6 ou mais.">
+              Rolagem automática ≥6
+            </label>
+          </div>
+
           {rolagem.resultados.length > 0 && (
-            <div className="d-flex small mt-1 mb-0">
-              {rolagem.resultados.map(r => (
+            <div className="d-flex small mt-2 mb-0">
+              {rolagem.resultados.map((r, idx) => (
                 <div key={r.id} className="me-1" title={`Dados: ${r.dados.join(', ')} = ${r.total} (descarte: ${Math.min(...r.dados)})`}>
-                  <span className="d-inline-flex border border-2 border-secondary rounded fs-5 p-2" style={{ width: '2.6rem', height: '2.6rem', alignItems: 'center', justifyContent: 'center' }}>
+                  <span
+                    className={`d-inline-flex border border-2 rounded fs-5 p-2 ${somaMods < 6 && idx === menorIdx ? 'border-danger' : 'border-secondary'}`}
+                    style={{ width: '2.6rem', height: '2.6rem', alignItems: 'center', justifyContent: 'center' }}
+                  >
                     {formatarModificador(modificadorDaRolagem(r.total))}
                   </span>
                 </div>
               ))}
-              <span className="ms-2 text-muted align-self-center">( Total: {rolagem.resultados.reduce((soma, r) => soma + modificadorDaRolagem(r.total), 0)} )</span>
+              <span className={`ms-2 align-self-center fw-bold ${somaMods < 6 ? 'text-danger' : 'text-success'}`}
+                title="Soma dos modificadores dos seis resultados — o livro pede pelo menos 6.">
+                ( Total: {formatarModificador(somaMods)} )
+              </span>
             </div>
           )}
         </div>

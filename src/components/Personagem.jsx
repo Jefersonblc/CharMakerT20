@@ -67,23 +67,6 @@ function Personagem() {
     }));
   }
 
-  // Aplica a distribuição da rolagem: o "Mod" de cada atributo vem do dado que recebeu
-  useEffect(() => {
-    if (config.modoDistribuicao !== 'rolagem' || !rolagem.resultados.length) return;
-
-    setAttributes(prev => {
-      const points = {};
-      Object.keys(prev).forEach(attr => { points[attr] = 0; });
-      rolagem.resultados.forEach(r => {
-        if (r.atributo) points[r.atributo] = modificadorDaRolagem(r.total);
-      });
-
-      const atualizados = {};
-      Object.keys(prev).forEach(attr => atualizados[attr] = { ...prev[attr], points: points[attr] });
-      return atualizados;
-    });
-  }, [rolagem, config.modoDistribuicao, setAttributes]);
-
   function calculatePointbuy() {
     const totalSpent = Object.values(attributes).reduce((sum, attr) => sum + getPointbuyCost(attr.points), 0);
     const totalAvailable = pointbuy.limit - totalSpent;

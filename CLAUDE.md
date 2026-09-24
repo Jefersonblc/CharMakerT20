@@ -46,10 +46,11 @@ Não há testes automatizados.
 
 ### Distribuição de atributos
 
-Modo escolhido na aba Configurações (`config.modoDistribuicao`): `'pontos'` (padrão — point buy com limite 5/10/15) ou `'rolagem'` (4d6 descartando o menor, 6 vezes).
+Modo escolhido na aba Configurações (`config.modoDistribuicao`): `'pontos'` (padrão — point buy com limite 5/10/15) ou `'rolagem'` (4d6 descartando o menor, 6 vezes). Rolar os dados e ver os resultados acontece na aba Configurações (`Exportar.jsx`); a distribuição dos dados nos atributos fica na aba Personagem.
 
-- No modo `'rolagem'`, o campo "Mod" de cada atributo vira um select dos dados rolados (`rolagem.resultados`, cada um `{ id, dados, total, atributo }`); o modificador aplicado vem da conversão `total → mod` de `attributesTable.js` e é gravado em `attributes[attr].points` (mesmo campo do modo pontos).
-- `attributesTable.js` é a fonte única da tabela de custos/faixas (`pointbuyTable`) e das funções `modificadorDaRolagem`/`formatarModificador`.
+- No modo `'rolagem'`, o campo "Mod" de cada atributo (aba Personagem) vira um select dos dados rolados (`rolagem.resultados`, cada um `{ id, dados, total, atributo }`). O modificador vem da conversão `total → mod` de `attributesTable.js` e é gravado em `attributes[attr].points` (mesmo campo do modo pontos). A derivação (dado distribuído → `points`) é um `useEffect` no `PersonagemContext`, para valer com qualquer aba aberta.
+- Regra "soma ≥ 6" do livro: enquanto a soma dos seis modificadores for menor que 6, o botão **"Rerolar menor"** (`Exportar.jsx`) re-rola o menor resultado, um passo por clique; com o checkbox **"Rolagem automática ≥6"** (`config.rolagemAutomatica`), o botão "Rolar" repete isso automaticamente até a soma chegar a 6 ou mais.
+- `attributesTable.js` é a fonte única da tabela de custos/faixas (`pointbuyTable`) e das funções `modificadorDaRolagem`/`formatarModificador`; os helpers de rolagem (`rolar4d6`, `indiceDoMenor`, `somaModificadores`, `rerolarMenorResultado`) ficam no topo de `Exportar.jsx`.
 
 ### Exportação (`Exportar.jsx`)
 

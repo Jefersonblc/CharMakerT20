@@ -1,5 +1,6 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 import skills from '../assets/data/skills.js';
+import { modificadorDaRolagem } from '../assets/data/attributesTable.js';
 
 const PersonagemContext = createContext();
 
@@ -87,11 +88,30 @@ export function PersonagemProvider({ children }) {
     altered: false,
     autosave: false,
     modoDistribuicao: 'pontos', // 'pontos' (point buy) ou 'rolagem' (4d6 descartando o menor)
+    rolagemAutomatica: false, // re-rola o menor valor até a soma dar 6 ou mais
   });
 
   // Resultados da rolagem de dados dos atributos (modo 'rolagem'):
   // { resultados: [{ id, dados: [d1, d2, d3, d4], total, atributo }] }
   const [rolagem, setRolagem] = useState({ resultados: [] });
+
+  // No modo Rolagem de Dados, o modificador de cada atributo (o "Mod"/points) vem do
+  // dado distribuído. Fica no provider para valer mesmo com a aba Personagem fechada.
+  useEffect(() => {
+    if (config.modoDistribuicao !== 'rolagem' || !rolagem.resultados.length) return;
+
+    setAttributes(prev => {
+      const points = {};
+      Object.keys(prev).forEach(attr => { points[attr] = 0; });
+      rolagem.resultados.forEach(r => {
+        if (r.atributo) points[r.atributo] = modificadorDaRolagem(r.total);
+      });
+
+      const atualizados = {};
+      Object.keys(prev).forEach(attr => atualizados[attr] = { ...prev[attr], points: points[attr] });
+      return atualizados;
+    });
+  }, [rolagem, config.modoDistribuicao, setAttributes]);
 
   return (
     <PersonagemContext.Provider value={{
