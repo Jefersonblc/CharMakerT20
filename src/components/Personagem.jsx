@@ -5,15 +5,19 @@ import racesData from '../assets/data/races.json';
 import originsData from '../assets/data/origins.json';
 import classesData from '../assets/data/classes.js';
 import deitiesData from '../assets/data/deities.js';
+import { pointbuyTable, modificadorDaRolagem, formatarModificador } from '../assets/data/attributesTable.js';
 import { OptionOriginTooltip } from './OptionOriginTooltip';
 import Modal from './Modal';
+import { Tooltip } from "react-tooltip";
 
 function Personagem() {
   const {
     personagem, setPersonagem,
     attributes, setAttributes,
     anyAttribute, setAnyAttribute,
-    pointbuy, setPointbuy
+    pointbuy, setPointbuy,
+    config,
+    rolagem, setRolagem
   } = usePersonagem();
 
   const [races, setRaces] = useState([]);
@@ -30,17 +34,6 @@ function Personagem() {
     setClasses(classesData.classes || classesData);
     setDeities(deitiesData.deities || deitiesData);
   }, []);
-
-  const pointbuyTable = [
-    { habilidade: -2, custo: -1, rolagem: "7 ou menos", min: null, max: 7 },
-    { habilidade: -1, custo: -1, rolagem: "8-9", min: 8, max: 9 },
-    { habilidade: 0, custo: 0, rolagem: "10-11", min: 10, max: 11 },
-    { habilidade: 1, custo: 1, rolagem: "12-13", min: 12, max: 13 },
-    { habilidade: 2, custo: 2, rolagem: "14-15", min: 14, max: 15 },
-    { habilidade: 3, custo: 4, rolagem: "16-17", min: 16, max: 17 },
-    { habilidade: 4, custo: 7, rolagem: "18-19", min: 18, max: 19 },
-    { habilidade: 5, custo: 10, rolagem: "20 ou mais", min: 20, max: null }
-  ];
 
   const opcoesTamanho = [
     { value: '5', label: 'Minúsculo' },
@@ -61,6 +54,35 @@ function Personagem() {
     setPersonagem(prev => ({ ...prev, ...updated }));
   }, [attributes]);
 
+  // Distribui um resultado rolado para um atributo. Se o dado pertencia a outro
+  // atributo, ele é movido (o antigo dono fica livre para receber outro dado).
+  function handleDadoChange(attr, e) {
+    const resultadoId = e.target.value;
+    setRolagem(prev => ({
+      ...prev,
+      resultados: prev.resultados.map(r =>
+        r.id === resultadoId ? { ...r, atributo: attr }
+          : (r.atributo === attr ? { ...r, atributo: null } : r)
+      )
+    }));
+  }
+
+  // Aplica a distribuição da rolagem: o "Mod" de cada atributo vem do dado que recebeu
+  useEffect(() => {
+    if (config.modoDistribuicao !== 'rolagem' || !rolagem.resultados.length) return;
+
+    setAttributes(prev => {
+      const points = {};
+      Object.keys(prev).forEach(attr => { points[attr] = 0; });
+      rolagem.resultados.forEach(r => {
+        if (r.atributo) points[r.atributo] = modificadorDaRolagem(r.total);
+      });
+
+      const atualizados = {};
+      Object.keys(prev).forEach(attr => atualizados[attr] = { ...prev[attr], points: points[attr] });
+      return atualizados;
+    });
+  }, [rolagem, config.modoDistribuicao, setAttributes]);
 
   function calculatePointbuy() {
     const totalSpent = Object.values(attributes).reduce((sum, attr) => sum + getPointbuyCost(attr.points), 0);
@@ -192,10 +214,7 @@ function Personagem() {
     });
   }
 
-  function handlePointbuyChange(e) {
-    const value = parseInt(e.target.value) || 0;
-    setPointbuy({ ...pointbuy, limit: value, available: value - pointbuy.spent });
-  }
+
 
   // Handler para mudança de raça
   function onRaceChange(option) {
@@ -460,6 +479,54 @@ function Personagem() {
         </div>
       </div>
 
+      <div className="row mb-1">
+        {config.modoDistribuicao === 'rolagem' ? (
+          <div className="col">
+            {rolagem.resultados.length > 0 && (
+              <div className="d-inline-flex align-items-center mt-1 mb-1">
+                <span className="fs-5 fw-bold me-3">Dados: </span>
+                {rolagem.resultados.map(r => (
+                  <div key={r.id} className="me-2">
+
+                    <span className="dice-mod fs-5 p-2 position-relative" data-tooltip-id={`tooltip-${r.id}`} >
+                      {formatarModificador(modificadorDaRolagem(r.total))}
+                      {r.atributo && 
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-check">
+                          <i className="fa-solid fa-check fa-sm"></i>
+                        </span>
+                      }
+                    </span>
+
+                    <Tooltip id={`tooltip-${r.id}`} className="rounded color-black">
+                      <div className="text-sm text-center">
+                        <p className="mb-0">Dados: {r.dados.toSorted((a, b) => b - a).slice(0, 3).join(', ')}, <s>{Math.min(...r.dados)}</s> = <b>{r.total}</b></p>
+                        {r.atributo && (<strong>{r.atributo.toUpperCase()}</strong>)}
+                      </div>
+                    </Tooltip>
+                  </div>
+                  
+                ))}
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="col">
+            <div className="d-flex align-items-center my-1 px-2">
+              <span className="fs-5 fw-bold me-2">Pontos:</span>
+              <span className="border border-2 border-secondary rounded fs-5 w-25 px-3 py-1 position-relative" title="Pontos restantes para distribuir entre os atributos.">
+                {pointbuy.available}
+                {pointbuy.available < 0 && (
+                  <span className="position-absolute top-50 end-0 translate-middle" title="Pontos negativos">
+                    <i className="fa-solid fa-triangle-exclamation fa-beat-fade fa-lg" style={{ color: '#bd1414' }}></i>
+                  </span>
+                )}
+              </span>
+            </div>
+          </div>
+        )}
+      </div>
+
+
       {/* Atributos */}
       <div className="row pb-2 g-2">
         {Object.keys(attributes).map(attr => (
@@ -469,53 +536,63 @@ function Personagem() {
                 <strong className="text-uppercase">{attributes[attr].name.toUpperCase()}</strong>
               </div>
               <div className="card-body p-2">
+                {/* Total Atributos */}
                 <strong className="card-text fs-1">{personagem[attr]}</strong>
+
+                {/* Modificador */}
                 <div className="d-flex justify-content-between gap-1">
-                  <div>
-                    <label className="form-label form-label-sm">Racial</label>
-                    <div className="position-relative">
-                      <input name={attr + "_race"} className="form-control" value={attributes[attr].mod} disabled />
-                      <div className="position-absolute top-50 end-0 translate-middle-y pe-1" hidden={!attributes[attr].any || attributes[attr].except} >
-                        <input type="checkbox" className="btn-check" id={`btn-check-${attr}`}
-                          onChange={e => handleAttrCheckboxChange(attr, e)}
-                          checked={attributes[attr].mod === 1} />
-                        <label className="btn btn-select btn-sm border-0" htmlFor={`btn-check-${attr}`} hidden={attributes[attr].mod !== 1 && anyAttribute.selected >= anyAttribute.avaliable}>
-                          <i className="fa-solid fa-circle-up"></i>
-                        </label>
-                      </div>
-                    </div>
+                  <div className="w-50">
+                    <label className="form-label form-label-sm">{config.modoDistribuicao === 'rolagem' ? 'Dado' : 'Mod'}</label>
+                    {config.modoDistribuicao === 'rolagem' ? (
+                      <select
+                        className="form-select"
+                        value={rolagem.resultados.find(r => r.atributo === attr)?.id || ''}
+                        onChange={e => handleDadoChange(attr, e)}
+                        disabled={!rolagem.resultados.length}
+                        title={rolagem.resultados.length ? 'Distribua um dos resultados rolados' : 'Role os dados (painel Rolagem)'}
+                      >
+                        <option value="">—</option>
+                        {rolagem.resultados.map(r => (
+                          <option key={r.id} value={r.id}>
+                            {formatarModificador(modificadorDaRolagem(r.total))} {r.atributo && r.atributo !== attr ? ` • ${r.atributo.toUpperCase()}` : ''}
+                          </option>
+                        ))}
+                      </select>
+                    ) : (
+                      <input type="number" name={attr + "_point"} className="form-control" value={attributes[attr].points} onChange={e => handleChangeAttribute(attr, e)} />
+                    )}
                   </div>
-                  <div>
-                    <label className="form-label form-label-sm">Mod</label>
-                    <input type="number" name={attr + "_point"} className="form-control" value={attributes[attr].points} onChange={e => handleChangeAttribute(attr, e)} />
-                  </div>
-                  <div>
+                  
+                  {/* Extra */}
+                  <div className="w-50"> 
                     <label className="form-label form-label-sm">Extra</label>
                     <input type="number" name={attr + "_extra"} className="form-control" value={attributes[attr].extra ?? 0} onChange={e => handleChangeAttributeExtra(attr, e)} />
                   </div>
                 </div>
+                
+                {/* Modificador Racial */}
+                <div className="mt-1">
+                  <div className="position-relative">
+                    <input name={attr + "_race"} className="form-control text-center" value={attributes[attr].mod} disabled />
+                    <label className="form-label form-label-sm position-absolute top-50 start-0 translate-middle-y ms-3">Racial</label>
+                    <div className="position-absolute top-50 end-0 translate-middle-y pe-1" hidden={!attributes[attr].any || attributes[attr].except} >
+                      <input type="checkbox" className="btn-check" id={`btn-check-${attr}`}
+                        onChange={e => handleAttrCheckboxChange(attr, e)}
+                        checked={attributes[attr].mod === 1} />
+                      <label className="btn btn-select btn-sm border-0" htmlFor={`btn-check-${attr}`} hidden={attributes[attr].mod !== 1 && anyAttribute.selected >= anyAttribute.avaliable}>
+                        <i className="fa-solid fa-circle-up"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
         ))}
-
-        <div className="col-md-1">
-          <label className="form-label fs-4 fw-bold">Pontos</label>
-          <select name="pointbuy_rule" className="form-select" value={pointbuy.limit} onChange={handlePointbuyChange}>
-            <option value="5">5 Pontos</option>
-            <option value="10">10 Pontos</option>
-            <option value="15">15 Pontos</option>
-          </select>
-          <div className="position-relative">
-            <input name="pointbuy_count" className="form-control form-control-lg mt-1 fs-3" value={pointbuy.available} disabled />
-            {pointbuy.available < 0 && (
-              <span className="position-absolute top-50 end-0 translate-middle-y me-2" title="Pontos negativos">
-                <i className="fa-solid fa-triangle-exclamation fa-beat-fade fa-xl" style={{ color: '#bd1414' }}></i>
-              </span>
-            )}
-          </div>
-        </div>
       </div>
+
+      
 
       {/* PM / PV */}
 

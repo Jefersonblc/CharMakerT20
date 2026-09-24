@@ -81,12 +81,17 @@ export function PersonagemProvider({ children }) {
   const [anyAttribute, setAnyAttribute] = useState({ avaliable: 0, selected: 0 });
 
   const [pointbuy, setPointbuy] = useState({ limit: 10, spent: 0, available: 10 });
-  const [config, setConfig] = useState({ 
+  const [config, setConfig] = useState({
     playername: '',
     stored: false,
     altered: false,
-    autosave: false 
+    autosave: false,
+    modoDistribuicao: 'pontos', // 'pontos' (point buy) ou 'rolagem' (4d6 descartando o menor)
   });
+
+  // Resultados da rolagem de dados dos atributos (modo 'rolagem'):
+  // { resultados: [{ id, dados: [d1, d2, d3, d4], total, atributo }] }
+  const [rolagem, setRolagem] = useState({ resultados: [] });
 
   return (
     <PersonagemContext.Provider value={{
@@ -94,7 +99,8 @@ export function PersonagemProvider({ children }) {
       attributes, setAttributes,
       anyAttribute, setAnyAttribute,
       pointbuy, setPointbuy,
-      config, setConfig
+      config, setConfig,
+      rolagem, setRolagem
     }}>
       {children}
     </PersonagemContext.Provider>

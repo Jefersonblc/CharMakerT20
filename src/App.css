@@ -340,3 +340,19 @@ pre {
   border-style: none;
   border-width: 0;
 }
+
+.badge-check {
+    padding: 0.35em 0.45em;
+    font-size: x-small;
+    background-color: var(--t20-red);
+}
+
+.dice-mod {
+  display: inline-flex; 
+  width: 2.6rem; 
+  height: 2.6rem; 
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--t20-red);
+  border-radius: 0.375rem;
+}

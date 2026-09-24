@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import html2pdf from 'html2pdf.js';
 import { usePersonagem } from '../context/PersonagemContext';
+import { modificadorDaRolagem, formatarModificador } from '../assets/data/attributesTable.js';
 import FichaContent from './FichaContent';
 
 function Exportar() {
@@ -9,6 +10,7 @@ function Exportar() {
     attributes, setAttributes,
     anyAttribute, setAnyAttribute,
     pointbuy, setPointbuy,
+    rolagem, setRolagem,
     config, setConfig
   } = usePersonagem();
 
@@ -70,6 +72,7 @@ function Exportar() {
       attributes: attributes,
       anyAttribute: anyAttribute,
       pointbuy: pointbuy,
+      rolagem: rolagem,
     }
 
     if (saves.find(s => s.nome === personagemSave.nome)) {
@@ -129,6 +132,8 @@ function Exportar() {
     setAttributes(data.attributes);
     setAnyAttribute(data.anyAttribute);
     setPointbuy(data.pointbuy);
+    // Saves antigos não têm rolagem — restaura vazia nesses casos
+    setRolagem(data.rolagem || { resultados: [] });
   }
 
   function handleDeleteFromlocal() {
@@ -154,6 +159,7 @@ function Exportar() {
       attributes: attributes,
       anyAttribute: anyAttribute,
       pointbuy: pointbuy,
+      rolagem: rolagem,
     };
 
     const json = JSON.stringify(backupData, null, 2);
@@ -323,8 +329,74 @@ function Exportar() {
     URL.revokeObjectURL(url);
   }
 
+  // Modo Rolagem de Dados: 4d6, descarta o menor e soma os outros três. Repete 6 vezes.
+  function rolarAtributos() {
+    const resultados = Array.from({ length: 6 }, () => {
+      const dados = Array.from({ length: 4 }, () => Math.floor(Math.random() * 6) + 1);
+      const descartado = Math.min(...dados);
+      return {
+        id: crypto.randomUUID(),
+        dados,
+        total: dados.reduce((soma, dado) => soma + dado, 0) - descartado
+      };
+    });
+    setRolagem({ resultados });
+  }
+
+  function handlePointbuyChange(e) {
+    const value = parseInt(e.target.value) || 0;
+    setPointbuy({ ...pointbuy, limit: value, available: value - pointbuy.spent });
+  }
+
   return (
     <div className="form-section">
+      <h2 className='mt-2'>Distribuição de Atributos</h2>
+
+      <div className="mb-2">
+        <div className="form-check form-check-inline">
+          <input className="form-check-input" type="radio" name="modoDistribuicao" id="modoDistribuicaoPontos"
+            checked={config.modoDistribuicao !== 'rolagem'}
+            onChange={() => setConfig({ ...config, modoDistribuicao: 'pontos' })} />
+          <label className="form-check-label fw-bold" htmlFor="modoDistribuicaoPontos">Pontos</label>
+        </div>
+
+        <div className="form-check form-check-inline">
+          <input className="form-check-input" type="radio" name="modoDistribuicao" id="modoDistribuicaoRolagem"
+            checked={config.modoDistribuicao === 'rolagem'}
+            onChange={() => setConfig({ ...config, modoDistribuicao: 'rolagem' })} />
+          <label className="form-check-label fw-bold" htmlFor="modoDistribuicaoRolagem">Rolagem de Dados</label>
+        </div>
+      </div>
+
+      {config.modoDistribuicao === 'rolagem' ? (
+        <div className="col-md-4">
+          <button type="button" className="btn btn-secondary w-100" onClick={rolarAtributos} title="4d6, descarte o menor e some os outros três. Repete 6 vezes.">
+            <i className="fa-solid fa-dice"></i> {rolagem.resultados.length ? 'Rerolar' : 'Rolar'}
+          </button>
+          {rolagem.resultados.length > 0 && (
+            <div className="d-flex small mt-1 mb-0">
+              {rolagem.resultados.map(r => (
+                <div key={r.id} className="me-1" title={`Dados: ${r.dados.join(', ')} = ${r.total} (descarte: ${Math.min(...r.dados)})`}>
+                  <span className="d-inline-flex border border-2 border-secondary rounded fs-5 p-2" style={{ width: '2.6rem', height: '2.6rem', alignItems: 'center', justifyContent: 'center' }}>
+                    {formatarModificador(modificadorDaRolagem(r.total))}
+                  </span>
+                </div>
+              ))}
+              <span className="ms-2 text-muted align-self-center">( Total: {rolagem.resultados.reduce((soma, r) => soma + modificadorDaRolagem(r.total), 0)} )</span>
+            </div>
+          )}
+        </div>
+      ) : (
+        <div className="col-md-4">
+          <select name="pointbuy_rule" className="form-select" value={pointbuy.limit} onChange={handlePointbuyChange}>
+            <option value="5">5 Pontos</option>
+            <option value="10">10 Pontos</option>
+            <option value="15">15 Pontos</option>
+          </select>
+        </div>
+      )}
+
+      <hr />
       <h2 className='mt-2'>Salvar/Carregar</h2>
 
       {(config.playername || personagem.playername) &&
