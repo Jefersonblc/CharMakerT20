@@ -462,41 +462,48 @@ function Personagem() {
         </div>
       </div>
 
-      <div className="row mb-1">
+      <div className="row mb-2 g-2">
         {config.modoDistribuicao === 'rolagem' ? (
-          <div className="col">
-            {rolagem.resultados.length > 0 && (
-              <div className="d-inline-flex align-items-center mt-1 mb-1">
-                <span className="fs-5 fw-bold me-3">Dados: </span>
-                {rolagem.resultados.map(r => (
-                  <div key={r.id} className="me-2">
-
-                    <span className="dice-mod fs-5 p-2 position-relative" data-tooltip-id={`tooltip-${r.id}`} >
-                      {formatarModificador(modificadorDaRolagem(r.total))}
-                      {r.atributo && 
-                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-check">
-                          <i className="fa-solid fa-check fa-sm"></i>
-                        </span>
-                      }
-                    </span>
-
-                    <Tooltip id={`tooltip-${r.id}`} className="rounded color-black">
-                      <div className="text-sm text-center">
-                        <p className="mb-0">Dados: {r.dados.toSorted((a, b) => b - a).slice(0, 3).join(', ')}, <s>{Math.min(...r.dados)}</s> = <b>{r.total}</b></p>
-                        {r.atributo && (<strong>{r.atributo.toUpperCase()}</strong>)}
-                      </div>
-                    </Tooltip>
-                  </div>
+          <>
+            <div className="col-md-1 col-sm-12 d-flex align-items-center">
+              <span className="fs-5 fw-bold">Dados: </span>
+            </div>
+            <div className="col-md col-sm-12">
+              {rolagem.resultados.length > 0 ? (
+                <div className="d-inline-flex align-items-center mt-1 mb-1">
                   
-                ))}
-              </div>
-            )}
-          </div>
+                  {rolagem.resultados.map(r => (
+                    <div key={r.id} className="me-2">
+
+                      <span className="dice-mod fs-5 p-2 position-relative" data-tooltip-id={`tooltip-${r.id}`} >
+                        {formatarModificador(modificadorDaRolagem(r.total))}
+                        {r.atributo && 
+                          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-check">
+                            <i className="fa-solid fa-check fa-sm"></i>
+                          </span>
+                        }
+                      </span>
+
+                      <Tooltip id={`tooltip-${r.id}`} className="rounded color-black">
+                        <div className="text-sm text-center">
+                          <p className="mb-0">Dados: {r.dados.toSorted((a, b) => b - a).slice(0, 3).join(', ')}, <s>{Math.min(...r.dados)}</s> = <b>{r.total}</b></p>
+                          {r.atributo && (<strong>{r.atributo.toUpperCase()}</strong>)}
+                        </div>
+                      </Tooltip>
+                    </div>
+                    
+                  ))}
+                </div>
+              ) : (
+                <span className="fs-6">Role os atributos em <u className="fw-bold">'Configurações'</u></span>
+              )}
+            </div>
+          </>
         ) : (
-          <div className="col">
-            <div className="d-flex align-items-center my-1 px-2">
+          <div className="col-md-3 col-sm-12">
+            <div className="d-flex align-items-center my-1">
               <span className="fs-5 fw-bold me-2">Pontos:</span>
-              <span className="border border-2 border-secondary rounded fs-5 w-25 px-3 py-1 position-relative" title="Pontos restantes para distribuir entre os atributos.">
+              <span className="border border-2 border-secondary rounded fs-5 w-100 px-3 py-1 position-relative" title="Pontos restantes para distribuir entre os atributos.">
                 {pointbuy.available}
                 {pointbuy.available < 0 && (
                   <span className="position-absolute top-50 end-0 translate-middle" title="Pontos negativos">
